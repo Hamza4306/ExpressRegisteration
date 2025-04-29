@@ -1,30 +1,24 @@
 <style>
-    /* Ensure rectangular logos scale nicely */
     .navbar-brand img {
         max-height: 50px;
         width: auto;
     }
 
-    /* Show dropdown on hover for desktop viewports */
     @media (min-width: 992px) {
         .navbar .dropdown:hover>.dropdown-menu {
             display: block;
             margin-top: 0;
         }
 
-        /* Prevent click toggling on desktop */
         .navbar .dropdown>a[data-bs-toggle="dropdown"] {
             pointer-events: none;
         }
     }
-
-    /* Mobile offcanvas menu tweaks */
     @media (max-width: 991.98px) {
         .offcanvas-body .navbar-nav .nav-item {
             border-bottom: 1px solid #e9ecef;
         }
 
-        /* remove the last border if you like */
         .offcanvas-body .navbar-nav .nav-item:last-child {
             border-bottom: none;
         }
@@ -32,21 +26,16 @@
         .offcanvas-body .navbar-nav .nav-link,
         .offcanvas-body .navbar-nav .dropdown-toggle {
             font-size: 1.15rem;
-            /* a bit bigger */
             padding: 0.75rem 1rem;
-            /* more tappable area */
         }
     }
 
-
-    /* Flag icon styling */
     .flag-icon {
         width: 20px;
         height: auto;
         margin-right: 8px;
     }
 
-    /* "Neu" badge styling */
     .badge-new {
         font-size: 0.6rem;
         background-color: #EA4BC8;
@@ -57,7 +46,6 @@
 </style>
 
 <style>
-    /* Modal styling */
     #languageModal .modal-content {
         border: none;
         border-radius: .75rem;
@@ -79,13 +67,11 @@
         margin-bottom: 1.5rem;
     }
 
-    /* Make the dropdown full-width & nicely rounded */
     #languageModal .dropdown-toggle {
         min-height: 3rem;
         border-radius: .375rem;
     }
 
-    /* Footer Continue button styling */
     #languageModal .modal-footer {
         border: none;
         justify-content: center;
@@ -99,26 +85,20 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
     <div class="container">
-        <!-- Brand -->
         <a class="navbar-brand" href="{{ url_for('core.index') }}">
-            <!-- Rectangular logo will scale using CSS -->
             <img src="/static/assets/img/logo.jpg" alt="Logo">
         </a>
 
-        <!-- Toggler for offcanvas on mobile -->
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav"
             aria-controls="offcanvasNav">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Desktop nav -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <!-- Checkliste -->
                 <li class="nav-item"><a class="nav-link" href="{{ url_for('core.checklist') }}"
                         data-i18n="checklist-nav">Checkliste</a></li>
 
-                <!-- Direct links with data-i18n -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="locationsDropdown" data-bs-toggle="dropdown"
                         aria-expanded="false" data-i18n="locations-nav">Annahmestellen</a>
