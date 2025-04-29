@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block title %}Fahrzeug Abmeldung – Schnell & Einfach | KFZ-Zulassungsstelle{% endblock %}
+
+{% block page_css %}
+<link rel="stylesheet" href="/static/assets/style/services/deregister.min.css">
+{% endblock %}
+
+{% block content %}
+
+<div class="primary-section">
+    <div class="content-wrapper">
+        <div class="content">
+            <h1 data-i18n="deregister.title">Abmeldung</h1>
+            <p data-i18n="deregister.description">
+                Sie können Ihr Fahrzeug bei uns problemlos abmelden. Wir erledigen alle Formalitäten, sodass Sie sich
+                nicht um den Papierkram kümmern müssen. Füllen Sie einfach das Auftragsformular aus, und wir übernehmen
+                den Rest für Sie.
+            </p>
+            <a href="#kontakt" class="btn-blue" data-i18n="deregister.button">Kontakt</a>
+            <img class="person-deco" src="/static/assets/img/purple-person.svg"
+                alt="Dekorative Person, die einen Knopf festhält">
+        </div>
+        <div class="img-wrapper">
+            <lottie-player src="/static/assets/lottifiles/car-side-circles.json" background="transparent" class="animation"
+                speed="0.5" style="width: 400px; height: 4%;" loop autoplay></lottie-player>
+        </div>
+    </div>
+</div>
+
+<div class="why-section">
+    <div class="content-wrapper">
+        <h2 data-i18n="deregister.why.title">Wann benötige ich es?</h2>
+        <div class="items">
+            <div class="item">
+                <h3 data-i18n="deregister.why.reason1.title">Fahrzeug außer Betrieb setzen</h3>
+                <p data-i18n="deregister.why.reason1.text">Sie müssen die Zulassungsbescheinigung Teil I und die
+                    Kennzeichen bei der Zulassungsstelle vorlegen, um Ihr Fahrzeug abzumelden.</p>
+            </div>
+            <div class="item">
+                <h3 data-i18n="deregister.why.reason2.title">Entsorgung oder Verkauf</h3>
+                <p data-i18n="deregister.why.reason2.text">Nach der Abmeldung können Sie das Fahrzeug entsorgen oder es
+                    an einen neuen Besitzer übergeben. Der Käufer benötigt Ihre Abmeldebescheinigung.</p>
+            </div>
+            <div class="item">
+                <h3 data-i18n="deregister.why.reason3.title">KFZ-Versicherung und Steuer</h3>
+                <p data-i18n="deregister.why.reason3.text">Nach der Abmeldung informiert die Zulassungsstelle
+                    automatisch Ihre Versicherung und das Finanzamt, sodass die KFZ-Steuer und die Versicherungsbeiträge
+                    eingestellt werden.</p>
+            </div>
+        </div>
+    </div>
+    <a href="#kontakt" class="btn-primary" data-i18n="deregister.why.button">Anfragen</a>
+    <img class="car-deco" src="/static/assets/img/car-deco.png" alt="Dekoratives Auto">
+</div>
+
+{% include 'checklist-section.html' %}
+
+<div class="contact-cta-section">
+    <div class="content-wrapper">
+        <h3 data-i18n="contact_cta.title">Du hast ein anderes Anliegen?</h3>
+        <p data-i18n="contact_cta.text">
+            Haben Sie Fragen oder benötigen Sie Unterstützung bei der Zulassung Ihres Fahrzeugs? Unser freundliches und
+            kompetentes Team steht Ihnen gerne zur Verfügung!
+        </p>
+        <a href="/#kontakt" class="btn-primary" data-i18n="contact_cta.button">Kontakt</a>
+    </div>
+</div>
+
+{% include 'reviews-section.html' %}
+
+{% include 'contact-section.html' %}
+
+{% endblock %}

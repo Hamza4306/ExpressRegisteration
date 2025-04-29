@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}KFZ-Steuer Rechner – Berechnen Sie Ihre KFZ-Steuer Online{% endblock %}
+
+{% block page_css %}
+<link rel="stylesheet" href="/static/assets/style/tax.min.css">
+{% endblock %}
+
+{% block content %}
+
+<div class="tax-section">
+    <h1 data-i18n="tax.title">KFZ-Steuer Rechner</h1>
+    <p data-i18n="tax.description">
+        Hier können Sie Ihre erwartete KFZ-Steuer berechnen. Dieser Service wird vom
+        <a href="https://www.bundesfinanzministerium.de/Web/DE/Home/home.html" target="_blank">Bundesministerium der
+            Finanzen</a>
+        bereitgestellt. Alternativ können Sie diesen Service
+        <a href="https://www.bundesfinanzministerium.de/Web/DE/Service/Apps_Rechner/KfzRechner/KfzRechner.html"
+            target="_blank">hier</a>
+        auf der Website des BMF nutzen.
+    </p>
+    <iframe
+        src="https://www.bundesfinanzministerium.de/Web/DE/Service/Apps_Rechner/KfzRechner/embed/kfzsteuerrechner.html"
+        title="Kfz-Steuer-Rechner des Bundesministeriums der Finanzen"></iframe>
+</div>
+
+<div class="contact-cta-section">
+    <div class="content-wrapper">
+        <h3 data-i18n="contact_cta.title">Du hast ein anderes Anliegen?</h3>
+        <p data-i18n="contact_cta.text">
+            Haben Sie Fragen oder benötigen Sie Unterstützung bei der Zulassung Ihres Fahrzeugs? Unser freundliches und
+            kompetentes Team steht Ihnen gerne zur Verfügung!
+        </p>
+        <a href="/#kontakt" class="btn-primary" data-i18n="contact_cta.button">Kontakt</a>
+    </div>
+</div>
+
+{% include 'contact-section.html' %}
+
+{% endblock %}

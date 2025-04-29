@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+
+{% block title %}KFZ Annahmestellen – Bequem Fahrzeug anmelden | Express Zulassung{% endblock %}
+
+{% block page_css %}
+<link rel="stylesheet" href="/static/assets/style/locations/overview.min.css">
+{% endblock %}
+
+{% block content %}
+
+<div class="primary-section">
+    <!-- <img class="mobile-bg" src="/static/assets/img/locations-overview-bg.png" alt="Bild von Annahmestelle in der Nähe"> -->
+    <div class="content-wrapper">
+        <!-- <div class="img-row">
+                <div class="img-wrapper">
+                    <img src="/static/assets/img/location_01.jpg" alt="KFZ Zulassungsstelle in der Nähe">
+                </div>
+                <div class="img-wrapper middle">
+                    <img src="/static/assets/img/temporary.jpg" alt="Zuverlässige KFZ Zulassungsstelle">
+                </div>
+                <div class="img-wrapper">
+                    <img src="/static/assets/img/location_02.jpg" alt="KFZ Zulassungsstelle in der Umgebung">
+                </div>
+            </div> -->
+        <div class="content-split">
+            <div class="text">
+                <img class="deco-car" src="/static/assets/img/deco-car.png" alt="Dekoratives Auto">
+                <h1>KFZ Annahmestellen</h1>
+                <p data-i18n="locations.overview.hero.description">Suche hier deinen Standort aus, sodass du ganz bequem
+                    Dein Anliegen in deiner Nähe erledigen kannst.</p>
+                <h4 data-i18n="locations.overview.hero.how">Wie läuft das ab?</h4>
+                <p data-i18n="locations.overview.hero.how_description">Wir machen die KFZ-Zulassung einfacher denn je!
+                    Mit unserem neuen Service können Sie Ihre Fahrzeugunterlagen ganz bequem bei einem Kiosk,
+                    Schreibwarenladen oder ähnlichem Geschäft in Ihrer Nähe abgeben.</p>
+                <h4 data-i18n="locations.overview.hero.steps_title">So funktioniert es:</h4>
+                <ol>
+                    <li><b data-i18n="locations.overview.hero.steps.0.title">Unterlagen abgeben:</b> <span
+                            data-i18n="locations.overview.hero.steps.0.text.0">Bringen Sie Ihre Fahrzeugunterlagen zu
+                            einer unserer zahlreichen Annahmestellen in Ihrer Nähe.</span><br />
+                        <span class="or" data-i18n="locations.overview.hero.steps.0.text.1">oder</span><br />
+                        <span data-i18n="locations.overview.hero.steps.0.text.2">Abholung durch uns: Unser Fahrer holt
+                            die Unterlagen ab und bringt sie zu unserem Servicecenter.</span>
+                    </li>
+                    <li><b data-i18n="locations.overview.hero.steps.1.title">Bearbeitung:</b> <span
+                            data-i18n="locations.overview.hero.steps.1.text">Wir bearbeiten Ihre KFZ-Zulassung schnell
+                            und zuverlässig.</span></li>
+                    <li><b data-i18n="locations.overview.hero.steps.2.title">Abholung:</b> <span
+                            data-i18n="locations.overview.hero.steps.2.text">Bereits am nächsten Tag können Sie die
+                            zugelassenen Schilder und Papiere wieder an der gleichen Stelle abholen, an der Sie sie
+                            abgegeben haben.</span></li>
+                </ol>
+                <p class="annotation" data-i18n="locations.overview.hero.note">Kein lästiges Warten und keine langen
+                    Wege mehr – einfach, schnell und bequem!</p>
+            </div>
+            <div class="map">
+                <img src="/static/assets/img/map.jpg" alt="Karte mit vielen Standorten in Deutschland">
+                <div class="dropdown">
+                    <button class="btn-blue dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" data-i18n="locations.overview.hero.dropdown">
+                        Deine Stadt auswählen
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{ url_for('locations.kronau') }}">Kronau</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('locations.oestringen') }}">Östringen</a></li>
+                        <li><a class="dropdown-item"
+                                href="{{ url_for('locations.oberhausen') }}">Oberhausen-Rheinhausen</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('locations.schwetzingen') }}">Schwetzingen</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="deco" src="/static/assets/img/deco-circle_locations.jpg" alt="Dekorativer Kreis">
+</div>
+
+<div class="central-section">
+    <h2 data-i18n="locations.overview.central.title">Unsere Zentrale</h2>
+    <div class="content-split">
+        <div class="map-wrapper">
+            <div id="centralMap"></div>
+        </div>
+        <div class="text-wrapper">
+            <div>
+                <h3>Kfz Zulassungs Express</h3>
+                <p>Am Alten Güterbahnhof 24,<br /> 76646 Bruchsal</p>
+                <a class="link" href="tel:+49 7251 9295628">+49 7251 9295628</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contact-cta-section">
+    <div class="content-wrapper">
+        <h3 data-i18n="contact_cta.title">Du hast ein anderes Anliegen?</h3>
+        <p data-i18n="contact_cta.text">
+            Haben Sie Fragen oder benötigen Sie Unterstützung bei der Zulassung Ihres Fahrzeugs? Unser freundliches und
+            kompetentes Team steht Ihnen gerne zur Verfügung!
+        </p>
+        <a href="/#kontakt" class="btn-primary" data-i18n="contact_cta.button">Kontakt</a>
+    </div>
+</div>
+
+{% include 'checklist-section.html' %}
+
+{% include 'reviews-section.html' %}
+
+{% include 'contact-section.html' %}
+
+<script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
+<script>
+    var MarkerAnnotation = mapkit.MarkerAnnotation,
+        clickAnnotation;
+    var work = new mapkit.Coordinate(49.12283268928136, 8.586423491625453);
+
+    mapkit.init({
+        authorizationCallback: function (done) {
+            // Directly pass the token you have
+            const token = "eyJraWQiOiJLNlVVOVBaOEY2IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiI3TkdMS0hQQjdZIiwiaWF0IjoxNzI4MTQzODE1LCJvcmlnaW4iOiIqLmtmenp1bGFzc3VuZ3NleHByZXNzLmRlIn0.ty4lP_zG5Hz-1t45Xhp4IQOzs54OE2DqCeXLWxoEZSXiSeSZzNixszk7DJdTKh1vNRZsPl1z5fMugNJtsh2WNQ";
+            done(token);
+        }
+    });
+    var map = new mapkit.Map("centralMap");
+    //map.colorScheme = mapkit.Map.ColorSchemes.Dark;
+
+    // Setting properties after creation:
+    var workAnnotation = new MarkerAnnotation(work);
+    workAnnotation.color = "#003657";
+    workAnnotation.title = "KFZ Zulassungs Express";
+    workAnnotation.subtitle = "Zentrale";
+    workAnnotation.selected = "true";
+    workAnnotation.glyphText = "🚘";
+
+    // Add and show both annotations on the map
+    map.showItems([workAnnotation]);
+</script>
+{% endblock %}

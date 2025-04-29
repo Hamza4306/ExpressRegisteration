@@ -1,0 +1,712 @@
+{
+  "checklist-nav": "Checklist",
+  "locations-nav": "Collection Points",
+  "documents-nav": "Documents & Forms",
+  "export-nav": "Customs & Export License Plates",
+  "temporary-nav": "Short-term & 6-Day License Plates",
+  "register-nav": "Vehicle Registration",
+  "deregister-nav": "Vehicle Deregistration",
+  "contact": "Contact",
+  "primary": {
+    "title_highlight": "Express Registration",
+    "title_line2": "Save time & nerves!",
+    "title_line3": "Fast & Easy",
+    "feature1": "Nationwide",
+    "feature2": "No Waiting Times",
+    "feature3": "Fast Processes",
+    "feature4": "Offices Near You",
+    "feature5": "On-site Solution",
+    "call": "Call",
+    "whatsapp": "WhatsApp"
+  },
+  "video": {
+    "title": "Explainer Video",
+    "button": "Watch on YouTube"
+  },
+  "service": {
+    "heading": "Our Service",
+    "registration": {
+      "title": "Registration",
+      "cta": "To Registration"
+    },
+    "deregistration": {
+      "title": "Deregistration",
+      "cta": "To Deregistration"
+    },
+    "export": {
+      "title": "Customs/Export Plates",
+      "cta": "To Order"
+    },
+    "temporary": {
+      "title": "Temporary / 6-Day Plates",
+      "cta": "To Application"
+    },
+    "advice": {
+      "title": "Service & Consultation",
+      "point4": "Fast & Competent Help",
+      "cta": "CONTACT NOW"
+    },
+    "contact": {
+      "cta": "Contact"
+    },
+    "common": {
+      "point1": "No appointment needed, available anytime",
+      "point2": "Possible nationwide",
+      "point3": "Also for commercial customers"
+    }
+  },
+  "cta": {
+    "title": "We register your car for you",
+    "items": [
+      "With us, car registration becomes easy, simple, and time-saving.",
+      "You hand us your documents, and we take care of everything at the registration office. You'll get your plates quickly, including your preferred license plate.",
+      "For a small fee, we’ll even pick up your registration documents and deliver them back once your car is registered."
+    ],
+    "whatsapp": "WhatsApp"
+  },
+  "contact_cta": {
+    "title": "Do you have another request?",
+    "text": "Do you have questions or need help with your vehicle registration? Our friendly and competent team is happy to assist you!",
+    "button": "Contact"
+  },
+  "contact_section": {
+    "title": "Contact Us",
+    "description": "We are happy to help you with any concerns at our offices.",
+    "success": "Your request has been successfully submitted!",
+    "firstname": "First Name *",
+    "lastname": "Last Name *",
+    "email": "Email Address *",
+    "subject": "Subject *",
+    "message": "Message *",
+    "error": "An unexpected error occurred. Please try again later.",
+    "send": "Send",
+    "notice_text": "By submitting the request, you confirm the",
+    "privacy": "Privacy Policy"
+  },
+  "reviews": {
+    "title": "Customer Opinions",
+    "review1": "Super friendly and perfect handling! I’d give 6 stars if I could...",
+    "review2": "Very friendly and at a really good price. If you need a plate at the district office, definitely go here.",
+    "review3": "Effortless export license plate registration! Kfz Zulassungs Express processed my application the same day without needing an appointment. Professional staff made the process stress-free. Highly recommended!"
+  },
+  "footer": {
+    "callText": "Contact us today and let’s make sure your vehicle registrations, exports, customs, and short-term license plates are handled quickly and smoothly.",
+    "callBtn": "Call",
+    "usefulLinks": "Useful Links",
+    "documents": "Documents & Forms",
+    "locations": "Drop-off Points",
+    "export": "Export & Customs Plates",
+    "temporary": "Temporary & 6-Day Plates",
+    "tax": "Calculate Vehicle Tax",
+    "checklist": "Checklist",
+    "register": "Vehicle Registration",
+    "deregister": "Vehicle Deregistration",
+    "partner": "Partner",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint"
+  },
+  "checklist": {
+    "title": "Checklist for All Documents",
+    "description": "Save time and hassle with vehicle registration! Here you will find all necessary documents for registering, transferring, and deregistering a vehicle in our clear checklist. With our express service, we handle your registration quickly and easily.",
+    "section": {
+      "registration": {
+        "title": "Vehicle Registration",
+        "strong": "Required documents for vehicle registration:",
+        "vollmacht": "Authorization for registration",
+        "form": "Application form for vehicle registration",
+        "scheinbrief": "Registration certificate part I & II",
+        "hu": "Valid vehicle inspection report (if available)",
+        "sepa": "You need a SEPA mandate for vehicle tax. You can calculate the tax here.",
+        "idcopy": "ID copy / For foreigners, additionally a passport copy"
+      },
+      "relocation": {
+        "title": "Change of Address",
+        "strong": "Required documents for address change:",
+        "sameDistrict": "Within the same district:",
+        "schein": "Registration certificate part I",
+        "id": "ID copy",
+        "otherDistrict": "Outside the district:",
+        "scheinBrief": "Registration certificate part I & II",
+        "idCopy": "Copy of ID",
+        "vollmacht": "Authorization and SEPA mandate",
+        "evb": "eVB number",
+        "form": "Application form for address change"
+      },
+      "ownerChange": {
+        "title": "Change of Owner",
+        "strong": "Required documents for ownership change:",
+        "vollmacht": "Authorization",
+        "scheinbrief": "Registration certificate part I & II",
+        "newHolderId": "New owner's ID copy"
+      },
+      "shortTerm": {
+        "title": "Short-Term / Transfer / One-Day Plates",
+        "strong": "Required documents for temporary plates:",
+        "idCopy": "ID copy (front and back)",
+        "scheinCopy": "Vehicle registration copy (front and back)",
+        "vollmacht": "Authorization form",
+        "send": "➔ You can send us these documents via WhatsApp or email."
+      },
+      "techChange": {
+        "title": "Technical Modification",
+        "strong": "Required documents for technical changes:",
+        "scheinbrief": "Registration certificate part I & II",
+        "report": "Inspection report"
+      },
+      "theft": {
+        "title": "Plate Theft / Loss",
+        "strong": "Required documents in case of theft or loss:",
+        "report": "Police report",
+        "scheinbrief": "Registration certificate part I & II",
+        "plate": "If available: one of the license plates",
+        "idCopy": "ID copy",
+        "vollmacht": "Authorization"
+      },
+      "loss": {
+        "title": "Lost Registration Certificate",
+        "strong": "Required documents in case of loss:",
+        "brief": "Registration certificate part II",
+        "idCopy": "ID copy",
+        "eides": "Statutory declaration"
+      },
+      "deregistration": {
+        "title": "Deregister / Decommission Vehicle",
+        "strong": "Required documents for deregistration:",
+        "schein": "Registration certificate part I",
+        "plates": "License plates"
+      }
+    }
+  },
+  "contact_cta2": {
+    "heading": "Do you have another request regarding vehicle registration?",
+    "description": "Need help registering your vehicle? Our experienced team is happy to assist you with all questions about vehicle registration, change of address, or deregistration. Contact us today!",
+    "button": "Get in touch now"
+  },
+  "documents": {
+    "title": "Forms & Documents",
+    "description": "Here you will find all the necessary documents for your request",
+    "vollmacht": {
+      "title": "Authorization",
+      "description": "Authorization for submission to the registration office"
+    },
+    "eides_brief": {
+      "title": "Statutory Declaration for Registration Certificate Part II",
+      "description": "Required declaration in case of loss of Registration Certificate Part II"
+    },
+    "eides_schein": {
+      "title": "Statutory Declaration for Registration Certificate Part I",
+      "description": "Required declaration in case of loss of Registration Certificate Part I"
+    },
+    "eides_kennzeichen": {
+      "title": "Statutory Declaration for Lost License Plates",
+      "description": "Required declaration in case of lost license plates"
+    },
+    "auftrag": {
+      "title": "Application Form",
+      "description": "Required form to provide all necessary information for quick and correct processing"
+    },
+    "download": "Download",
+    "contactBtn": "Contact"
+  },
+  "partner": {
+    "title": "Our Partners",
+    "description": "We partner with numerous workshops, dealerships, and other service providers to offer you smooth service for every request."
+  },
+  "tax": {
+    "title": "Vehicle Tax Calculator",
+    "description": "Here you can calculate your expected vehicle tax. This service is provided by the Federal Ministry of Finance. Alternatively, you can use this service directly on the BMF website here."
+  },
+  "data-privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Lightning Dynamics UG (limited liability) is committed to protecting your privacy and uses technologies that provide you with powerful and secure online experiences. This privacy statement applies to the website kfzzulassungsexpress.de and governs the collection and use of your personal data. By using the website kfzzulassungsexpress.de, you consent to the data practices described in this statement.",
+    "sections": [
+      {
+        "heading": "Collection of Your Personal Data",
+        "paragraphs": [
+          "Lightning Dynamics UG (limited liability) collects personal data such as your email address, name, address, payment methods, or phone number. It also stores demographic information that is not uniquely attributable to you, such as ZIP code, age, gender, preferences, interests, hobbies, and favorites. Some information about your computer hardware and software is automatically collected by Lightning Dynamics UG (limited liability). This includes your IP address, browser type, domain name, access times, and referring website addresses. This information is used to maintain service quality and to generate general statistics about the use of the kfzzulassungsexpress.de website.",
+          "Please keep in mind that personal information you disclose in public areas, such as forums, may be misused by others.",
+          "Note: Lightning Dynamics UG (limited liability) does not read your private online communications. We encourage you to review the privacy policies of any websites you link to from kfzzulassungsexpress.de so that you understand how those websites collect, use, and share your information. Lightning Dynamics UG (limited liability) is not responsible for the privacy practices of sites outside of kfzzulassungsexpress.de."
+        ]
+      },
+      {
+        "heading": "Use of Your Personal Data",
+        "paragraphs": [
+          "Lightning Dynamics UG (limited liability) uses your personal data to operate the kfzzulassungsexpress.de website and to deliver the services you request. We may also use your data to inform you about other products or services offered by Lightning Dynamics UG (limited liability). Occasionally, we may contact you for market research purposes to gather your opinions on current services or potential new offerings. Lightning Dynamics UG (limited liability) does not sell, rent, or lease its customer lists to third parties. We may contact you on behalf of external business partners about offerings that may be of interest to you, but your data (e.g., email, name, address, phone number) will not be transferred to them.",
+          "Additionally, Lightning Dynamics UG (limited liability) may share data with trusted partners to help perform statistical analysis. All such third parties are prohibited from using your personal information except to provide these services and are required to maintain the confidentiality of your data.",
+          "We do not collect or disclose sensitive personal data such as origin, religion, or political opinions. To determine which services are most popular, we track which sections of the website our customers visit. This data is used to deliver customized content to users who show interest in a specific topic."
+        ]
+      },
+      {
+        "heading": "Disclosure of Personal Data",
+        "paragraphs": [
+          "In the case of a legal order, Lightning Dynamics UG (limited liability) will disclose your personal data to law enforcement without notifying you. We also reserve the right to use your data in legal disputes if necessary."
+        ]
+      },
+      {
+        "heading": "Use of Cookies",
+        "paragraphs": [
+          "We use cookies to make your browsing experience easier. A cookie is a text file that is placed on your hard drive by a web server. Cookies cannot be used to run programs or deliver viruses. They are uniquely assigned to you and can only be read by a web server in the domain that issued the cookie. One of the main purposes of cookies is to save you time. A cookie tells the web server that you have returned to a specific page. For example, if you register with Lightning Dynamics UG (limited liability), a cookie helps us recall your specific information on subsequent visits, simplifying the process of recording your personal information, such as billing or shipping addresses.",
+          "When you return to kfzzulassungsexpress.de, the information you previously provided can be retrieved to personalize your experience. You have the ability to accept or decline cookies. Most web browsers accept cookies automatically, but you can usually modify your browser setting to decline cookies if you prefer. However, disabling cookies may limit your ability to fully experience the interactive features of our services."
+        ]
+      },
+      {
+        "heading": "Security of Your Personal Data",
+        "paragraphs": [
+          "We secure your personal data from unauthorized access, use, or disclosure. Your personal data is stored on computer servers in a controlled, secure environment protected from unauthorized access or disclosure. When sensitive personal information (such as a credit card number) is transmitted to other websites, it is protected using encryption, such as the Secure Socket Layer (SSL) protocol."
+        ]
+      },
+      {
+        "heading": "Changes to This Statement",
+        "paragraphs": [
+          "Lightning Dynamics UG (limited liability) reserves the right to update this Privacy Policy to reflect company and customer feedback as well as legal and societal changes. We will notify you of significant changes on our website or via email. These changes will take effect unless you file a written objection during the change process."
+        ]
+      },
+      {
+        "heading": "Contact Information",
+        "paragraphs": [
+          "Lightning Dynamics UG (limited liability) welcomes your feedback regarding this Privacy Policy. If you have questions or suggestions, please contact info@kfzzulassungsexpress.de. We will respond as quickly as possible. Please refer to our imprint for our address."
+        ]
+      }
+    ]
+  },
+  "imprint": {
+    "title": "Legal Notice",
+    "company_name": "KFZ-Zulassungsexpress",
+    "content": [
+      "Lightning Dynamics UG (limited liability)",
+      "Managing Director: Aleyna Simsek",
+      "Bannweideweg 8,",
+      "76646 Bruchsal",
+      "Entry in the commercial register:",
+      "District Court of Mannheim, HRB 751377",
+      "Email address:",
+      "Phone:",
+      "Alternative dispute resolution in accordance with Article 14 (1) ODR-VO and § 36 VSBG: The European Commission provides a platform for online dispute resolution (OS platform), which you can access at https://ec.europa.eu/consumers/odr/. Lightning Dynamics UG (limited liability) is not obliged to participate in a dispute resolution procedure before a consumer arbitration board.",
+      "Contact by email is intended for general inquiries or statements only. Inquiries or statements relating to electronic commerce, consumer protection, orders, product safety or other matters of possible legal significance should be submitted by post.",
+      "The content of these pages is protected by law. All rights not expressly granted are reserved. Lightning Dynamics UG (limited liability) allows you to use these websites for personal purposes, provided that this use is limited to accessing, downloading, viewing, running, storing and printing. Reproduction, editing, translation, transmission or distribution in whole or in part is prohibited without written consent.",
+      "Press releases and publicly marked documents may be used with source attribution. Additional conditions apply to certain documents.",
+      "Lightning Dynamics UG (limited liability) reserves the right to change pages at any time or to block access to them. Lightning Dynamics UG (limited liability) makes no express or implied warranty for these websites. In particular, Lightning Dynamics UG (limited liability) makes no guarantee that the websites will function error-free and without interruption. This includes but is not limited to warranties regarding legal defects, integrity, merchantability or fitness for a particular purpose in relation to availability, accuracy, reliability or content. Lightning Dynamics UG (limited liability) is not liable for direct, indirect, incidental, or special damages or consequential damages, lost profits, or production outages resulting from the use or inability to use the websites or services contained therein. This also applies if Lightning Dynamics UG (limited liability) has been advised of the possibility of such damages.",
+      "To make access easier for you, Lightning Dynamics UG (limited liability) occasionally provides links to third-party websites. If you use these links, you must read and accept the terms of use of those sites before using them. You also agree that Lightning Dynamics UG (limited liability) has no control over the content of such pages and assumes no responsibility for material created or published on those sites. In addition, a link to such a site does not mean that Lightning Dynamics UG (limited liability) recommends the site or the products or services presented on it."
+    ]
+  },
+  "deregister": {
+    "title": "Deregistration",
+    "description": "You can easily deregister your vehicle with us. We handle all the paperwork so you don’t have to worry. Simply fill out the order form and we’ll take care of the rest for you.",
+    "button": "Contact",
+    "why": {
+      "title": "When do I need it?",
+      "reason1": {
+        "title": "Decommission the vehicle",
+        "text": "You must present the registration certificate Part I and the license plates to the registration office to deregister your vehicle."
+      },
+      "reason2": {
+        "title": "Disposal or Sale",
+        "text": "After deregistration, you can dispose of the vehicle or transfer it to a new owner. The buyer will need your deregistration certificate."
+      },
+      "reason3": {
+        "title": "Insurance and Tax",
+        "text": "After deregistration, the registration office automatically notifies your insurer and the tax office, so car tax and insurance contributions are stopped."
+      },
+      "button": "Inquire"
+    }
+  },
+  "register": {
+    "hero": {
+      "heading": "Registration",
+      "text": "You can register your vehicle with us quickly and easily. We take care of all the formalities so you don’t have to worry. Just fill out the order form and we’ll handle the rest!",
+      "button": "Contact"
+    },
+    "why": {
+      "heading": "When do I need it?",
+      "reasons": [
+        {
+          "title": "New registration",
+          "text": "If you want to register a new vehicle to use it on the road for the first time."
+        },
+        {
+          "title": "Change of ownership",
+          "text": "When buying a used vehicle to register it in your name."
+        },
+        {
+          "title": "Re-registration",
+          "text": "If a decommissioned vehicle is to be registered again."
+        }
+      ]
+    },
+    "info": {
+      "subheading": "Vehicle registration made easy – your registration service since 2009",
+      "intro": "Welcome to KFZ Zulassungs Express, your experienced partner for fast and easy vehicle registration – nationwide! For over 15 years, we’ve stood for efficiency and reliability. If you want to register your vehicle without an appointment or waiting time, we’re the right choice. Our service is available nationwide – no matter where you are, we’ll take care of it!",
+      "highlight": "Vehicle registration without an appointment – this is how it works",
+      "body": "Registering your vehicle has never been so convenient! Our dedicated team handles all formalities for cars, trucks, motorcycles, trailers, RVs, and more. No need for time-consuming trips to government offices – we’ll take care of everything for you, nationwide."
+    },
+    "benefits": {
+      "heading": "Why KFZ Zulassungs Express?",
+      "points": [
+        "1. Registration without appointment: No need to schedule an appointment at the registration office.",
+        "2. No waiting time: We process your request quickly and efficiently.",
+        "3. Nationwide service: No matter which federal state you're in, our registration service is available.",
+        "4. Experience since 2009: Rely on our expertise and over 15 years of experience.",
+        "5. Registration of all vehicle types: From cars to commercial vehicles to motorcycles – we handle everything!"
+      ]
+    },
+    "steps": {
+      "heading": "How it works",
+      "list": [
+        "1. Contact us: Easily by phone or online.",
+        "2. Submit documents: We’ll advise you on what is needed.",
+        "3. Full service: We handle the entire process with the authorities.",
+        "4. Vehicle registered: Fast, easy, and without any waiting!"
+      ]
+    },
+    "cta": "With KFZ Zulassungs Express, you save valuable time and nerves. Trust our proven service and enjoy the peace of mind that your registration will be handled professionally and promptly – nationwide and hassle-free. Contact us today and let us register your vehicle – simple, fast, and stress-free!",
+    "button": "Inquire now"
+  },
+  "export": {
+    "hero": {
+      "heading": "Customs & Export Plates",
+      "text": "KFZ Zulassungs Express offers fast and reliable support in applying for customs and export license plates.",
+      "button": "Contact"
+    },
+    "why": {
+      "heading": "When do I need it?",
+      "reasons": [
+        {
+          "title": "Vehicle Export",
+          "text": "If you want to permanently sell or take a vehicle abroad, customs and export plates are required."
+        },
+        {
+          "title": "Transfers Abroad",
+          "text": "For temporarily relocating a vehicle to another country, e.g., for an extended stay abroad."
+        },
+        {
+          "title": "Cross-Border Vehicle Trade",
+          "text": "For dealers selling and transporting vehicles internationally, these plates are essential."
+        }
+      ]
+    },
+    "info": {
+      "heading": "Customs Plates / Export Plates: Everything You Need to Know",
+      "intro": "Export plates, also known as customs plates, are the perfect solution for vehicle owners who want to export a vehicle abroad or drive temporarily in a foreign country. In this article, we explain how to apply for customs plates, what requirements are needed, and what benefits they offer.",
+      "sub1": {
+        "title": "What are customs plates (export plates)?",
+        "text": "Customs plates are special license plates issued for vehicles that are temporarily or permanently moved to another country. These plates allow you to drive a vehicle abroad without having to permanently register or deregister it in Germany beforehand. Customs plates are the ideal solution for vehicle exports or trips abroad."
+      },
+      "sub2": {
+        "title": "Advantages of customs plates (export plates)",
+        "points": [
+          "Temporary use for export: If you want to export a vehicle abroad, customs plates allow you to use the vehicle for a specific time without full re-registration.",
+          "International use: With customs plates, you can also drive outside of Germany without needing permanent re-registration.",
+          "Validity: The customs plates are valid for a fixed period depending on how long the export or foreign use is planned.",
+          "Insurance coverage: Vehicles with customs plates are usually insured, so you are covered while driving abroad."
+        ]
+      },
+      "sub3": {
+        "title": "Requirements for applying for customs plates",
+        "subtitle": "Certain documents and conditions must be met to apply for customs plates. These include:",
+        "points": [
+          "Original vehicle documents: You must present the original vehicle documents (registration certificate parts I and II).",
+          "Valid general inspection (TÜV): The vehicle must have a valid general inspection (TÜV)."
+        ]
+      },
+      "sub4": {
+        "title": "Procedure for applying for customs plates",
+        "subtitle": "There are two different scenarios for applying for customs plates:",
+        "scenario1": "1. Customer with foreign residence present on site: If the vehicle owner has a foreign residence but is present in Germany, the vehicle can be presented directly at the registration office with the appropriate vehicle documents and valid TÜV. We take care of the entire registration process and issue the customs plates quickly.",
+        "scenario2": "2. Customer with foreign residence not present: For customers with foreign residence who cannot be present, we offer a special solution: you do not need to present the vehicle yourself at the registration office. Instead, the vehicle can be presented by us or an authorized representative as long as the vehicle documents and valid TÜV are available. We also take care of the entire registration and issue the customs plates in this case."
+      },
+      "feature": {
+        "title": "Our special service: Customs plates without the vehicle owner's presence",
+        "text": "Compared to other registration services, we offer the advantage that you do not have to appear in person to obtain customs plates – even if you live abroad. The only requirement is that the vehicle is presented at the registration office and all necessary documents are available. We handle the rest and ensure everything goes smoothly."
+      },
+      "service": {
+        "title": "Why our service for customs plates?",
+        "points": [
+          "Convenience: We handle all the bureaucracy for you, so you don't have to worry about the registration process.",
+          "Speed: We ensure that you receive your customs plates quickly, so you don’t lose time.",
+          "Flexibility: Whether you are on site or not, we offer tailored solutions for your needs.",
+          "Reliability: Our service is professional and dependable, ensuring everything is done correctly and without delays."
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions about Customs Plates (Export Plates)",
+        "q1": {
+          "question": "1. How long are customs plates valid?",
+          "answer": "Customs plates are generally valid for a period of 15 days up to one year, depending on your needs."
+        },
+        "q2": {
+          "question": "2. Do I need insurance for my vehicle with customs plates?",
+          "answer": "Yes, you need insurance to drive with customs plates. We are happy to help you get the right insurance."
+        },
+        "q3": {
+          "question": "3. Can I get customs plates for any vehicle?",
+          "answer": "Yes, any vehicle that meets the required conditions (original documents and valid TÜV) can receive customs plates."
+        }
+      },
+      "conclusion": {
+        "title": "Conclusion: Your Partner for Customs Plates and Export Plates",
+        "text": "Whether you're exporting a vehicle or temporarily driving abroad, customs plates are the ideal solution. We offer fast, hassle-free service – even if you’re not physically present. Contact us today to learn more about our services and to apply for your customs plates."
+      },
+      "final_cta": "Take advantage of customs plates and secure yourself a simple, fast, and flexible service for your vehicle registration!"
+    },
+    "button": "Request"
+  },
+  "temporary": {
+    "hero": {
+      "heading": "Temporary & 6-Day License Plates",
+      "text": "KFZ Registration Express offers fast and reliable service for obtaining temporary and 6-day license plates.",
+      "button": "Contact"
+    },
+    "why": {
+      "heading": "When do I need it?",
+      "reasons": [
+        {
+          "title": "Test Drives",
+          "text": "If you want to test a vehicle before purchasing it, temporary and 6-day license plates are ideal."
+        },
+        {
+          "title": "Vehicle Transfers",
+          "text": "When transporting a vehicle from one location to another, such as during a move or after a sale."
+        },
+        {
+          "title": "Workshop Visits",
+          "text": "When a deregistered vehicle needs to be brought to a workshop for repairs or inspections."
+        }
+      ]
+    },
+    "info": {
+      "heading": "Temporary Plates, Transfer Plates, 6-Day Plates (formerly 5-Day Plates) – Fast, Simple, Convenient",
+      "intro": "If you want to transfer, test drive, or temporarily register a vehicle, temporary plates are the perfect solution. Also known as transfer plates, day plates, or previously as 5-day plates, they allow you to move vehicles legally and with insurance.",
+      "details": "With our registration service, applying for temporary or transfer plates is especially easy: You only need a few documents, which you can conveniently send to us via WhatsApp or email. Since 01.01.2024, our temporary plates are valid for 6 days – a major benefit over the traditional 5-day plate.",
+      "sub1": {
+        "title": "What is a temporary license plate?",
+        "subtitle": "A temporary license plate, often referred to as a transfer plate, day plate, or 5-day plate, is a temporary registration valid for a limited time. It is ideal for:",
+        "texts": [
+          "Transferring vehicles within Germany or abroad.",
+          "Test driving before final registration.",
+          "Short-term trips for vehicle inspection (HU) or repair, even without valid TÜV."
+        ],
+        "note": "Our temporary plate is easily recognizable by its yellow border stripe, which displays the expiration date."
+      },
+      "sub2": {
+        "title": "Benefits of our Temporary License Plate Service",
+        "subtitle": "Our goal is to make applying for a temporary or transfer license plate as easy as possible. With us, you benefit from the following advantages:",
+        "texts": [
+          "Minimal effort: You only need a few documents:",
+          "Copy of your ID (front and back).",
+          "Copy of your vehicle registration certificate (front and back).",
+          "A completed authorization form, which you can easily download from our website.",
+          "Fast processing: Send us all documents via WhatsApp or email, and we take care of the rest.",
+          "Same-day service: In most cases, we issue your temporary or day license plate on the same day.",
+          "6-day validity: Compared to the traditional 5-day plate, ours is valid for an extra day.",
+          "Vehicles without TÜV: Even without valid TÜV, you may drive to a TÜV station or garage using a temporary plate."
+        ]
+      },
+      "sub3": {
+        "subtitle": "Applying for a temporary or transfer license plate has never been easier:",
+        "texts": [
+          "Prepare documents: Make sure you have the following documents ready in digital form:",
+          "Copy of your ID (front and back).",
+          "Copy of your vehicle registration (front and back).",
+          "A completed authorization form (available for download on our website).",
+          "Submission: Send us these documents conveniently via WhatsApp or email.",
+          "Review and processing: We handle the entire process with the registration office.",
+          "Delivery or pickup: Your temporary or day license plate will be ready for pickup or shipped upon request."
+        ]
+      },
+      "sub4": {
+        "title": "Why Choose Our Service?",
+        "points": [
+          "Maximum flexibility: Whether you need temporary, transfer, day, or 6-day plates – we’ll handle it quickly and reliably.",
+          "Convenience: Skip the hassle of government offices – just send your documents via WhatsApp or email.",
+          "Special solutions: We also provide temporary plates without TÜV, as long as legal requirements are met.",
+          "Time saving: Thanks to our optimized process, you’ll often receive your plates the same day."
+        ]
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions (FAQ)",
+      "q1": {
+        "question": "How long is a temporary plate valid?",
+        "answer": "Since 01.01.2024, our temporary plate is valid for 6 days – one day longer than the traditional 5-day plate."
+      },
+      "q2": {
+        "question": "Can I use a temporary plate without TÜV?",
+        "answer": "Yes, temporary plates allow driving to a workshop or TÜV station for inspection."
+      },
+      "q3": {
+        "question": "How fast can I get a temporary plate?",
+        "answer": "In most cases, we issue your plate the same day we receive all documents."
+      },
+      "q4": {
+        "question": "Can I use temporary plates for trips abroad?",
+        "answer": "Yes, temporary plates are ideal for cross-border transport if all vehicle documents are complete."
+      }
+    },
+    "cta": {
+      "title": "Apply for Your Temporary Plate Now!",
+      "text": "Contact us today to apply for your temporary, transfer, or day plate – fast, simple, and reliable. Send us your documents via WhatsApp or email, or visit us in person. Our all-in-one service ensures smooth processing and maximum satisfaction!"
+    },
+    "button": "Request Now"
+  },
+  "service-checklist": {
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Here you will find information about the required documents for your request.",
+      "items": [
+        {
+          "title": "Vehicle Registration",
+          "documentsTitle": "Required Documents:",
+          "documents": [
+            "Registration Certificate Part I and II",
+            "Valid inspection certificate (HU/TÜV)",
+            [
+              "You need a",
+              "SEPA direct debit mandate for the vehicle tax",
+              "Here",
+              "you can calculate the vehicle tax."
+            ],
+            "ID card or passport"
+          ]
+        },
+        {
+          "title": "Change of Address",
+          "documentsTitle": "Required Documents:",
+          "documents": [
+            "Registration Certificate Part I",
+            "ID card with new address",
+            "Application form for change of address"
+          ]
+        },
+        {
+          "title": "Change of Ownership",
+          "documentsTitle": "Required Documents:",
+          "documents": [
+            "Registration Certificate Part I and II",
+            "Purchase contract or transfer declaration",
+            "New owner's ID card",
+            "In case of loss:",
+            "Statutory declaration for lost registration certificate"
+          ]
+        },
+        {
+          "title": "Seasonal / Export Plates / Classic Cars",
+          "documentsTitle": "Required Documents:",
+          "documents": [
+            "Registration Certificate Part I and II",
+            "Valid inspection certificate (HU/TÜV)",
+            "Proof of classic car classification (if applicable)",
+            [
+              "You need a",
+              "SEPA direct debit mandate",
+              "for the vehicle tax for seasonal and customs license plates.",
+              "Here",
+              "you can calculate the vehicle tax."
+            ]
+          ]
+        },
+        {
+          "title": "Address Update",
+          "documentsTitle": "Required Documents:",
+          "documents": [
+            "Registration Certificate Part I",
+            "ID card with new address",
+            "Application form",
+            "for the address update"
+          ]
+        },
+        {
+          "title": "Technical Modifications",
+          "documentsTitle": "Required Documents:",
+          "documents": [
+            "Inspection report from TÜV or other recognized organization",
+            "Registration Certificate Part I",
+            "Application form",
+            "for technical modification"
+          ]
+        },
+        {
+          "title": "Theft / Loss",
+          "documentsTitle": "Required Documents:",
+          "documents": [
+            "Police report (in case of theft)",
+            "Affidavit for vehicle registration certificate loss",
+            "and/or",
+            "Affidavit for license plate loss",
+            "ID card/passport"
+          ]
+        },
+        {
+          "title": "Decommissioning",
+          "documentsTitle": "Required Documents:",
+          "documents": [
+            "Registration Certificate Part I",
+            "License plates",
+            "Application form",
+            "for decommissioning"
+          ]
+        }
+      ]
+    }
+  },
+  "locations": {
+    "kronau": {
+      "hero": {
+        "title": "Express Vehicle Registration in Kronau",
+        "location_name": "Kiosk Dings Toys\nStationery",
+        "address": "Kirrlacherstr. 26,\n76709 Kronau",
+        "phone": "+49 7253 50088",
+        "email": "E-mail",
+        "checklist": "Checklist",
+        "whatsapp": "WhatsApp"
+      },
+      "mobile": {
+        "title": "Express Vehicle Registration in"
+      },
+      "steps": {
+        "title": "Procedure",
+        "items": [
+          "Bring all necessary documents for your request (e.g. registration, deregistration) along with the appropriate",
+          "order form.",
+          "Visit one of our acceptance points and hand over the documents.",
+          "We take care of the formalities and inform you as soon as the process is completed."
+        ],
+        "button": "WhatsApp"
+      }
+    },
+    "overview": {
+      "hero": {
+        "title": "Vehicle Registration Drop-Off Points",
+        "description": "Select your location to handle your request easily and conveniently nearby.",
+        "how": "How does it work?",
+        "how_description": "We make vehicle registration easier than ever! With our new service, you can drop off your vehicle documents at a kiosk, stationery store, or similar nearby shop.",
+        "steps_title": "Here’s how it works:",
+        "steps": [
+          {
+            "title": "Submit documents:",
+            "text": [
+              "Bring your vehicle documents to one of our many drop-off points near you.",
+              "or",
+              "Pickup by us: Our driver will collect the documents and deliver them to our service center."
+            ]
+          },
+          {
+            "title": "Processing:",
+            "text": "We process your vehicle registration quickly and reliably."
+          },
+          {
+            "title": "Collection:",
+            "text": "As early as the next day, you can collect your registered plates and papers from the same location where you dropped them off."
+          }
+        ],
+        "note": "No more long waits or journeys – it's simple, fast, and convenient!",
+        "dropdown": "Select your city"
+      },
+      "central": {
+        "title": "Our Headquarters",
+        "name": "Kfz Zulassungs Express",
+        "address": "Am Alten Güterbahnhof 24,\n76646 Bruchsal",
+        "phone": "+49 7251 9295628"
+      }
+    }
+  }
+}

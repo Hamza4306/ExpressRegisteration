@@ -1,0 +1,256 @@
+.primary-section {
+  max-width: 1410px;
+  margin: 0 auto;
+}
+.primary-section .content-wrapper {
+  padding: 160px 40px 80px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.primary-section .content-wrapper .content {
+  flex: 3;
+  position: relative;
+}
+.primary-section .content-wrapper .content h1 {
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1;
+  color: #203277;
+}
+.primary-section .content-wrapper .content p {
+  margin-top: 12px;
+  font-family: "Bai Jamjuree";
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 400;
+}
+.primary-section .content-wrapper .content .btn-blue {
+  margin-top: 22px;
+}
+.primary-section .content-wrapper .content .person-deco {
+  position: absolute;
+  top: 89%;
+  left: -67px;
+  width: 84px;
+}
+.primary-section .content-wrapper .img-wrapper {
+  flex: 2;
+}
+.primary-section .content-wrapper .img-wrapper img {
+  width: 100%;
+}
+
+.why-section {
+  background-color: #203277;
+  color: #fff;
+  position: relative;
+  padding-bottom: 60px;
+}
+.why-section .content-wrapper {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 60px 30px 40px;
+}
+.why-section .content-wrapper h2 {
+  color: #FEEC01;
+  font-family: "Mulish";
+  font-size: 30px;
+  font-weight: 700;
+}
+.why-section .content-wrapper .items {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+  padding: 0 30px;
+}
+.why-section .content-wrapper .items .item {
+  flex: 1;
+}
+.why-section .content-wrapper .items .item h3 {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 22px;
+}
+.why-section .content-wrapper .items .item p {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.why-section .btn-primary {
+  margin: 0 auto 0;
+}
+.why-section .car-deco {
+  position: absolute;
+  right: -15px;
+  width: 260px;
+  bottom: -30px;
+}
+
+.checklist-section {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 60px 30px;
+  position: relative;
+}
+.checklist-section h2 {
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.1;
+  color: #203277;
+}
+.checklist-section p {
+  line-height: 1.3;
+}
+.checklist-section .mobile-deco {
+  display: none;
+}
+.checklist-section .accordion {
+  margin-top: 30px;
+}
+.checklist-section .accordion .accordion-item {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.checklist-section .accordion .accordion-item a {
+  color: #000;
+}
+.checklist-section .accordion .accordion-item .accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: #000;
+}
+
+.contact-cta-section {
+  margin-top: 20px;
+  width: 100%;
+  padding: 60px 0;
+  background-color: #203277;
+}
+.contact-cta-section .content-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 30px;
+  color: #fff;
+}
+.contact-cta-section .content-wrapper h3 {
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.contact-cta-section .content-wrapper p {
+  text-align: center;
+  font-size: 18px;
+}
+.contact-cta-section .content-wrapper .btn-primary {
+  margin: 25px auto 0;
+}
+
+.reviews-section {
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+.contact-section {
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 1070px) {
+  .primary-section .content-wrapper {
+    gap: 40px;
+  }
+  .primary-section .content-wrapper .img-wrapper {
+    flex: 0 0 360px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .why-section {
+    padding-bottom: 70px;
+  }
+  .why-section .content-wrapper .items {
+    padding-left: 0;
+    padding-right: 0;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .why-section .car-deco {
+    width: 240px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contact-cta-section .content-wrapper h3 {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .primary-section .content-wrapper {
+    padding-top: 85px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+    gap: 60px;
+    flex-direction: column-reverse;
+  }
+  .primary-section .content-wrapper .content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .primary-section .content-wrapper .content h1 {
+    font-size: 42px;
+  }
+  .primary-section .content-wrapper .content .person-deco {
+    position: absolute;
+    top: 89%;
+    left: -26px;
+    width: 84px;
+    z-index: 1;
+    pointer-events: none;
+  }
+  .primary-section .content-wrapper .img-wrapper {
+    flex: auto;
+    width: 100%;
+  }
+  .primary-section .content-wrapper .img-wrapper img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 647px) {
+  .why-section {
+    padding-bottom: 100px;
+  }
+  .why-section .content-wrapper h2 {
+    font-size: 28px;
+  }
+  .why-section .car-deco {
+    width: 200px;
+    bottom: -20px;
+  }
+  .checklist-section h2 {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .primary-section .content-wrapper .content h1 {
+    font-size: 33px;
+    line-height: 1.1;
+  }
+  .primary-section .content-wrapper .content p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 437px) {
+  .why-section {
+    padding-bottom: 120px;
+  }
+  .why-section .content-wrapper {
+    padding-bottom: 30px;
+  }
+  .why-section .car-deco {
+    width: 200px;
+    bottom: -20px;
+  }
+}/*# sourceMappingURL=temporary.css.map */

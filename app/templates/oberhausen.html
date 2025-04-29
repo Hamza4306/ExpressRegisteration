@@ -1,0 +1,132 @@
+{% extends 'location-base.html' %}
+
+{% block title %}Express KFZ-Zulassung in Oberhausen-Rheinhausen – Schnell & Zuverlässig{% endblock %}
+
+{% block content %}
+
+<div class="primary-section">
+    <div class="content-wrapper">
+        <h1>Express KFZ-Zulassung in Oberhausen-Rheinhausen</h1>
+        <div class="content-split">
+            <div class="map-wrapper">
+                <div id="map"></div>
+            </div>
+            <div class="text-wrapper">
+                <div>
+                    <h2>Reformhaus Leibold</h2>
+                    <p>Marienstr 12,<br /> 68794 Oberhausen-Rheinhausen</p>
+                    <a class="link" href="tel:+49 7254 7799765">+49 7254 7799765</a>
+                </div>
+                <div class="btn-wrapper">
+                    <a href="mailto:info@kfzzulassungsexpress.de" class="btn-blue">E-mail</a>
+                    <a href="#checklist" class="btn-outline" data-i18n="locations.kronau.hero.checklist">Checkliste</a>
+                    <a href="https://wa.me/4915778789899" class="btn-outline" target="_blank">WhatsApp</a>
+                </div>
+            </div>
+            <lottie-player src="/static/assets/lottifiles/purple-car-top.json" background="transparent"
+                class="deco-animation" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+        </div>
+    </div>
+    <img class="deco" src="/static/assets/img/deco-circle_locations.jpg" alt="Dekorativer Kreis">
+</div>
+
+<div class="primary-section-mobile">
+    <div class="content-wrapper">
+        <div class="content">
+            <h1>Express KFZ-Zulassung in <span class="primary-text">Oberhausen-Rheinhausen</span></h1>
+            <div class="text">
+                <h2>Reformhaus Leibold</h2>
+                <p>Marienstr 12,<br /> 68794 Oberhausen-Rheinhausen</p>
+                <a class="link" href="tel:+49 7254 7799765">+49 7254 7799765</a>
+            </div>
+        </div>
+    </div>
+    <img class="deco" src="/static/assets/img/home-primary-bg.png" alt="Dekoratives Auto mit Menschen">
+</div>
+
+<div class="steps-section">
+    <div class="content-wrapper">
+        <h2 data-i18n="locations.kronau.steps.title">Vorgehensweise</h2>
+        <div class="items">
+            <div class="item">
+                <div class="animation-wrapper">
+                    <lottie-player src="/static/assets/lottifiles/purple-car-checklist.json" background="transparent"
+                        class="animation" speed="1" style="width: 150px; height: 150px;" loop autoplay></lottie-player>
+                </div>
+                <p>
+                    <span data-i18n="locations.kronau.steps.items.0">Bringen Sie alle notwendigen Dokumente für Ihr
+                        Anliegen (z. B. Zulassung, Abmeldung) und das entsprechende</span> <a
+                        href="/static/assets/pdf/auftragsformular.pdf" target="_blank"
+                        data-i18n="locations.kronau.steps.items.1">Auftragsformular mit.</a>
+                </p>
+            </div>
+
+            <div class="item">
+                <div class="animation-wrapper">
+                    <lottie-player src="/static/assets/lottifiles/file-with-clip.json" background="transparent"
+                        class="animation" speed="1" style="width: 150px; height: 150px;" loop autoplay></lottie-player>
+                </div>
+                <p data-i18n="locations.kronau.steps.items.2">
+                    Besuchen Sie eine unserer Annahmestellen und übergeben Sie die Unterlagen.
+                </p>
+            </div>
+
+            <div class="item">
+                <div class="animation-wrapper">
+                    <lottie-player src="/static/assets/lottifiles/purple-house.json" background="transparent"
+                        class="animation" speed="1" style="width: 200px; height: 150px; margin-top: 5px" loop
+                        autoplay></lottie-player>
+                </div>
+                <p data-i18n="locations.kronau.steps.items.3">
+                    Wir kümmern uns um die Formalitäten und informieren Sie, sobald der Vorgang abgeschlossen ist.
+                </p>
+            </div>
+        </div>
+        <a href="https://wa.me/4915778789899" target="_blank" class="btn-primary">WhatsApp</a>
+    </div>
+</div>
+
+<div class="contact-cta-section">
+    <div class="content-wrapper">
+        <h3 data-i18n="contact_cta.title">Du hast ein anderes Anliegen?</h3>
+        <p data-i18n="contact_cta.text">
+            Haben Sie Fragen oder benötigen Sie Unterstützung bei der Zulassung Ihres Fahrzeugs? Unser freundliches und
+            kompetentes Team steht Ihnen gerne zur Verfügung!
+        </p>
+        <a href="/#kontakt" class="btn-primary" data-i18n="contact_cta.button">Kontakt</a>
+    </div>
+</div>
+
+{% include 'checklist-section.html' %}
+
+{% include 'reviews-section.html' %}
+
+<script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
+<script>
+    var MarkerAnnotation = mapkit.MarkerAnnotation,
+        clickAnnotation;
+    var work = new mapkit.Coordinate(49.25973120225969, 8.484429924404951);
+
+    mapkit.init({
+        authorizationCallback: function (done) {
+            // Directly pass the token you have
+            const token = "eyJraWQiOiJLNlVVOVBaOEY2IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiI3TkdMS0hQQjdZIiwiaWF0IjoxNzI4MTQzODE1LCJvcmlnaW4iOiIqLmtmenp1bGFzc3VuZ3NleHByZXNzLmRlIn0.ty4lP_zG5Hz-1t45Xhp4IQOzs54OE2DqCeXLWxoEZSXiSeSZzNixszk7DJdTKh1vNRZsPl1z5fMugNJtsh2WNQ";
+            done(token);
+        }
+    });
+    var map = new mapkit.Map("map");
+    //map.colorScheme = mapkit.Map.ColorSchemes.Dark;
+
+    // Setting properties after creation:
+    var workAnnotation = new MarkerAnnotation(work);
+    workAnnotation.color = "#003657";
+    workAnnotation.title = "Express Zulassung";
+    workAnnotation.subtitle = "Oberhausen-Rheinhausen";
+    workAnnotation.selected = "true";
+    workAnnotation.glyphText = "🚘";
+
+    // Add and show both annotations on the map
+    map.showItems([workAnnotation]);
+</script>
+
+{% endblock %}

@@ -1,0 +1,345 @@
+.primary-section {
+    max-width: 1300px;
+    margin: 0 auto;
+
+    .content-wrapper {
+        padding: 160px 40px 80px;
+        display: flex;
+        gap: 60px;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        .content {
+            flex: auto;
+            position: relative;
+            max-width: 600px;;
+
+            h1 {
+                font-family: "Bai Jamjuree";
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 1;
+                color: #203277;
+            }
+
+            p {
+                margin-top: 12px;
+                font-family: "Bai Jamjuree";
+                font-size: 20px;
+                line-height: 1.3;
+                font-weight: 400;
+            }
+
+            .btn-blue {
+                margin-top: 22px;
+            }
+
+            .person-deco {
+                position: absolute;
+                top: 89%;
+                left: -67px;
+                width: 84px;
+            }
+        }
+
+        .img-wrapper {
+            flex: 0 0 400px;
+
+            .animation {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.why-section {
+    background-color: #203277;
+    color: #fff;
+    position: relative;
+    padding-bottom: 60px;
+
+    .content-wrapper {
+        max-width: 1250px;
+        margin: 0 auto;
+        padding: 60px 30px 40px;
+
+        h2 {
+            color: #FEEC01;
+            font-family: "Mulish";
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .items {
+            display: flex;
+            gap: 50px;
+            margin-top: 20px;
+            padding: 0 30px;
+
+            .item {
+                flex: 1;
+
+                h3 {
+                    font-family: "Bai Jamjuree";
+                    font-weight: 600;
+                    font-size: 22px;
+                }
+
+                p {
+                    font-weight: 300;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .btn-primary {
+        margin: 0 auto 0;
+    }
+
+    .car-deco {
+        position: absolute;
+        right: -15px;
+        width: 260px;
+        bottom: -30px;
+    }
+}
+
+.checklist-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 60px 30px;
+    position: relative;
+
+    h2 {
+        font-family: "Bai Jamjuree";
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 1.1;
+        color: #203277;
+    }
+
+    p {
+        line-height: 1.3;
+    }
+
+    .mobile-deco {
+        display: none;
+    }
+
+    .accordion {
+        margin-top: 30px;
+
+        .accordion-item {
+            border-top: none;
+            border-right: none;
+            border-left: none;
+
+            a {
+                color: #000;
+            }
+
+            .accordion-button:not(.collapsed) {
+                background-color: transparent;
+                color: #000;
+            } 
+        }
+    }
+}
+
+.contact-cta-section {
+    margin-top: 20px;
+    width: 100%;
+    padding: 60px 0;
+    background-color: #203277;
+
+    .content-wrapper {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 30px;
+        color: #fff;
+
+        h3 {
+            text-align: center;
+            font-family: "Bai Jamjuree";
+            font-weight: 600;
+            font-size: 40px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .btn-primary {
+            margin: 25px auto 0;
+        }
+    }
+}
+
+.reviews-section {
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+.contact-section {
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 1070px) {
+    .primary-section .content-wrapper {
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 921px) {
+    .primary-section {
+        .content-wrapper {
+            .img-wrapper {
+                flex: 0 0 300px;
+
+                .animation {
+                    width: 300px !important;
+                    height: 300px !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .why-section {
+        padding-bottom: 70px;
+
+        .content-wrapper {
+            .items {
+                padding-left: 0;
+                padding-right: 0;
+                gap: 20px;
+                flex-direction: column;
+            }
+        }
+
+        .car-deco {
+            width: 240px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contact-cta-section {
+        .content-wrapper {
+            h3 {
+                font-size: 32px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .primary-section {
+        .content-wrapper {
+            padding-top: 150px;
+            gap: 30px;
+            padding-bottom: 40px;
+            flex-direction: column;
+
+            .content {
+
+                h1 {
+                    font-size: 42px;
+                }
+
+                .person-deco {
+                    position: absolute;
+                    top: 90%;
+                    left: -65px;
+                    width: 84px;
+                    z-index: 1;
+                    pointer-events: none;
+                }
+            }
+
+            .img-wrapper {
+                flex: auto;
+                width: 100%;
+
+                .animation {
+                    margin: 0 auto;
+                    width: 350px !important;
+                    height: 350px !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 647px) {
+    .why-section {
+        padding-bottom: 100px;
+
+        .content-wrapper {
+            h2 {
+                font-size: 28px;
+            }
+        }
+
+        .car-deco {
+            width: 200px;
+            bottom: -20px;
+        }
+    }
+
+    .checklist-section {
+        h2 {
+            font-size: 32px;
+        }
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .primary-section {
+        .content-wrapper {
+
+            .content {
+
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 437px) {
+    .why-section {
+        padding-bottom: 120px;
+
+        .content-wrapper {
+            padding-bottom: 30px;
+        }
+
+        .car-deco {
+            width: 200px;
+            bottom: -20px;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .primary-section {
+        .content-wrapper {
+            .img-wrapper {
+
+                .animation {
+                    width: 300px !important;
+                    height: 300px !important;
+                }
+            }
+        }
+    }
+}

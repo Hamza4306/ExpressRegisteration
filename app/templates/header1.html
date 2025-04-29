@@ -1,0 +1,39 @@
+<div class="header">
+    <div class="navbar">
+        <a href="{{ url_for('core.index') }}" class="logo-wrapper">
+            <img src="/static/assets/img/logo.jpg" alt="Express Zulassungsstelle  Logo">
+        </a>
+
+        <div class="nav-links">
+            <a href="{{ url_for('core.checklist') }}">Checkliste</a>
+            <a href="{{ url_for('locations.overview') }}">Annahmestellen</a>
+            <a href="{{ url_for('core.documents') }}">Dokumente & Formulare</a>
+            <a href="{{ url_for('services.export') }}">Zoll & Export Kennzeichen</a>
+            <a href="{{ url_for('services.temporary') }}">Kurzzeit & 6-Tages Kennzeichen</a>
+            <a href="/#kontakt">Kontakt</a>
+        </div>
+
+        <div class="menu" id="menu" onclick="menuClicked()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"> </div>
+        </div>
+    </div>
+</div>
+
+<div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="offcanvas"
+    aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas-body">
+        <div class="canvas-btns">
+            <a href="{{ url_for('core.checklist') }}" class="btn close">Checkliste</a>
+            <a href="{{ url_for('locations.overview') }}" class="btn close">Annahmestellen</a>
+            <a href="{{ url_for('core.documents') }}" class="btn close">Dokumente & Formulare</a>
+            <a href="{{ url_for('services.export') }}" class="btn close">Zoll & Export Kennzeichen</a>
+            <a href="{{ url_for('services.temporary') }}" class="btn close">Kurzzeit & 6-Tages
+                Kennzeichen</a>
+            <a href="{{ url_for('services.register') }}" class="btn close">Fahrzeug Anmeldung</a>
+            <a href="{{ url_for('services.deregister') }}" class="btn close">Fahrzeug Abmeldung</a>
+            <a href="/#kontakt" class="btn close">Kontakt</a>
+        </div>
+    </div>
+</div>

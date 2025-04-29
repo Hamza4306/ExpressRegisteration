@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+
+{% block title %}Fahrzeug Anmeldung – Schnell & Einfach | Express KFZ-Zulassung{% endblock %}
+
+{% block page_css %}
+<link rel="stylesheet" href="/static/assets/style/services/register.min.css">
+{% endblock %}
+
+{% block content %}
+
+<div class="primary-section">
+    <div class="content-wrapper">
+        <div class="content">
+            <h1 data-i18n="register.hero.heading">Anmeldung</h1>
+            <p data-i18n="register.hero.text">Sie können bei uns Ihr Fahrzeug schnell und unkompliziert abmelden. Wir
+                kümmern uns um alle Formalitäten, damit Sie sich nicht darum sorgen müssen. Einfach das Auftragsformular
+                ausfüllen und den Rest erledigen wir für Sie!</p>
+            <a href="#kontakt" class="btn-blue" data-i18n="register.hero.button">Kontakt</a>
+            <img class="person-deco" src="/static/assets/img/purple-person.svg"
+                alt="Dekorative Person, die einen Knopf festhält">
+        </div>
+        <div class="img-wrapper">
+            <lottie-player src="/static/assets/lottifiles/car-front-keys-start.json" background="transparent"
+                class="animation" speed="0.75" style="width: 400px; height: 400px;" loop autoplay></lottie-player>
+        </div>
+    </div>
+</div>
+
+<div class="why-section">
+    <div class="content-wrapper">
+        <h2 data-i18n="register.why.heading">Wann benötige ich es?</h2>
+        <div class="items">
+            <div class="item">
+                <h3 data-i18n="register.why.reasons.0.title">Neuzulassung</h3>
+                <p data-i18n="register.why.reasons.0.text">Wenn Sie ein neues Fahrzeug anmelden möchten, um es erstmals
+                    auf der Straße zu nutzen.</p>
+            </div>
+            <div class="item">
+                <h3 data-i18n="register.why.reasons.1.title">Umschreibung</h3>
+                <p data-i18n="register.why.reasons.1.text">Beim Kauf eines gebrauchten Fahrzeugs, um es auf Ihren Namen
+                    zuzulassen.</p>
+            </div>
+            <div class="item">
+                <h3 data-i18n="register.why.reasons.2.title">Wiederzulassung</h3>
+                <p data-i18n="register.why.reasons.2.text">Wenn ein stillgelegtes Fahrzeug erneut zugelassen werden
+                    soll.</p>
+            </div>
+        </div>
+        <br><br><br>
+        <h2 data-i18n="register.info.subheading">KFZ-Zulassung leicht gemacht – Ihr Zulassungsdienst seit 2009</h2>
+        <span data-i18n="register.info.intro">Willkommen bei KFZ Zulassungs Express, Ihrem erfahrenen Partner für dies
+            chnelle und unkomplizierte Fahrzeugzulassung – bundesweit! Seit über 15 Jahren stehen wir für Effizienz und
+            Zuverlässigkeit. Wenn Sie Ihr Fahrzeug anmelden möchten, ohne Termin und ohne Wartezeit, sind wir die
+            richtige Wahl. Unser Service ist nicht nur regional, sondern deutschlandweit verfügbar – egal, wo Sie sich
+            befinden, wir übernehmen für Sie!</span>
+        <br>
+        <b data-i18n="register.info.highlight">KFZ-Zulassung ohne Termin – So einfach geht’s</b>
+        <br>
+        <span data-i18n="register.info.body">Die Anmeldung Ihres Fahrzeugs war noch nie so bequem! Unser engagiertes
+            Team kümmert sich um sämtliche Formalitäten, ob für Pkw, Lkw, Motorrad, Anhänger, Wohnmobile oder andere
+            Fahrzeuge. Sie müssen sich nicht mit zeitraubenden Behördengängen beschäftigen – wir übernehmen alles für
+            Sie, und das bundesweit.</span>
+        <br><br>
+        <h3 data-i18n="register.benefits.heading">Warum KFZ Zulassungs Express?</h3>
+        <span>
+            <span data-i18n="register.benefits.points.0">1. Anmeldung ohne Termin: Keine mühsame Terminvereinbarung mit
+                der Zulassungsstelle nötig.</span><br>
+            <span data-i18n="register.benefits.points.1">2. Keine Wartezeiten: Wir bearbeiten Ihre Anliegen schnell und
+                effizient.</span><br>
+            <span data-i18n="register.benefits.points.2">3. Bundesweiter Service: Egal, in welchem Bundesland Sie sich
+                befinden, unser Zulassungsdienst steht Ihnen zur Verfügung.</span><br>
+            <span data-i18n="register.benefits.points.3">4. Erfahrung seit 2009: Vertrauen Sie auf unsere Kompetenz und
+                über 15 Jahre Expertise.</span><br>
+            <span data-i18n="register.benefits.points.4">5. Zulassung aller Fahrzeugtypen: Von Pkw über Nutzfahrzeuge
+                bis hin zu Zweirädern – wir erledigen alles!</span>
+        </span>
+        <br><br>
+        <b data-i18n="register.steps.heading">So funktioniert’s</b><br>
+        <span>
+            <span data-i18n="register.steps.list.0">1. Kontaktieren Sie uns: Einfach telefonisch oder online.</span><br>
+            <span data-i18n="register.steps.list.1">2. Dokumente einreichen: Wir beraten Sie, welche Unterlagen benötigt
+                werden.</span><br>
+            <span data-i18n="register.steps.list.2">3. Rundum-Service: Wir kümmern uns um die komplette Abwicklung mit
+                den Behörden.</span><br>
+            <span data-i18n="register.steps.list.3">4. Fahrzeug zugelassen: Schnell, unkompliziert und ohne
+                Wartezeit!</span>
+        </span>
+        <br><br>
+        <span data-i18n="register.cta1">
+            Mit KFZ Zulassungs Express sparen Sie wertvolle Zeit und Nerven. Setzen Sie auf unseren bewährten Service
+            und genießen Sie die Sicherheit, dass Ihre KFZ-Zulassung professionell und schnell erledigt wird –
+            bundesweit und ohne Kompromisse. Kontaktieren Sie uns noch heute und lassen Sie uns Ihr Fahrzeug anmelden –
+            einfach, schnell und ohne Stress!
+        </span>
+        <br><br>
+        <span data-i18n="register.cta2">
+            Mit KFZ Zulassungs Express sparen Sie wertvolle Zeit und Nerven. Setzen Sie auf unseren bewährten Service
+            und genießen Sie die Sicherheit, dass Ihre KFZ-Zulassung professionell und schnell erledigt wird –
+            bundesweit und ohne Kompromisse. Kontaktieren Sie uns noch heute und lassen Sie uns Ihr Fahrzeug anmelden –
+            einfach, schnell und ohne Stress!
+        </span>
+    </div>
+    <a href="#kontakt" class="btn-primary" data-i18n="register.button">Anfragen</a>
+    <img class="car-deco" src="/static/assets/img/car-deco.png" alt="Dekoratives Auto">
+</div>
+
+{% include 'checklist-section.html' %}
+
+<div class="contact-cta-section">
+    <div class="content-wrapper">
+        <h3 data-i18n="contact_cta.title">Du hast ein anderes Anliegen?</h3>
+        <p data-i18n="contact_cta.text">
+            Haben Sie Fragen oder benötigen Sie Unterstützung bei der Zulassung Ihres Fahrzeugs? Unser freundliches und
+            kompetentes Team steht Ihnen gerne zur Verfügung!
+        </p>
+        <a href="/#kontakt" class="btn-primary" data-i18n="contact_cta.button">Kontakt</a>
+    </div>
+</div>
+
+{% include 'reviews-section.html' %}
+
+{% include 'contact-section.html' %}
+
+{% endblock %}

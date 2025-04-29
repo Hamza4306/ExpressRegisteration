@@ -1,0 +1,137 @@
+.partner-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 150px 30px 70px;
+    position: relative;
+
+    h1 {
+        font-family: "Bai Jamjuree";
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 1;
+        color: #203277;
+    }
+
+    p {
+        line-height: 1.3;
+
+        a {
+            font-weight: 500;
+            color: #000;
+        }
+    }
+
+    .mobile-deco {
+        display: none;
+    }
+
+    .grid {
+        margin-top: 20px;
+        display: grid;
+        align-items: center;
+        gap: 50px;
+        grid-template-columns: calc(20% - 40px) calc(20% - 40px) calc(20% - 40px) calc(20% - 40px) calc(20% - 40px);
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img, svg {
+                width: 100%;
+                max-height: 50px;
+            }
+        }
+    }
+}
+
+.contact-cta-section {
+    margin-top: 20px;
+    width: 100%;
+    padding: 60px 0;
+    background-color: #203277;
+
+    .content-wrapper {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 30px;
+        color: #fff;
+
+        h3 {
+            text-align: center;
+            font-family: "Bai Jamjuree";
+            font-weight: 600;
+            font-size: 40px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .btn-primary {
+            margin: 25px auto 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .partner-section .grid {
+        gap: 50px;
+        grid-template-columns: calc(25% - 37.5px) calc(25% - 37.5px) calc(25% - 37.5px) calc(25% - 37.5px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .partner-section .grid {
+        gap: 40px;
+        grid-template-columns: calc(33.33% - 26.67px) calc(33.33% - 26.67px) calc(33.33% - 26.67px);
+    }
+}
+
+@media screen and (max-width: 616px) {
+    .partner-section .grid {
+        gap: 40px;
+        grid-template-columns: calc(50% - 20px) calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .partner-section {
+        h1 {
+            font-size: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contact-cta-section {
+        .content-wrapper {
+            h3 {
+                font-size: 34px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .partner-section {
+        padding-top: 210px;
+        padding-bottom: 50px;
+
+        h1 {
+            font-size: 38px;
+        }
+        
+        .mobile-deco {
+            display: block;
+            position: absolute;
+            width: 260px;
+            top: 35px;
+            right: -10px;
+            z-index: -1;
+        }
+    }
+}

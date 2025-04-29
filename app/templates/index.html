@@ -1,0 +1,329 @@
+{% extends 'base.html' %}
+
+{% block title %}Express KFZ-Zulassung – Schnell und einfach Auto anmelden | Ohne Termin{% endblock %}
+
+{% block page_css %}
+<link rel="stylesheet" href="/static/assets/style/main.min.css?v=2">
+{% endblock %}
+
+{% block content %}
+
+<div class="primary-section">
+    <div class="content-wrapper">
+        <div class="content">
+            <h1>
+                <span class="primary-text" data-i18n="primary.title_highlight">Express Zulassung</span><br />
+                <span data-i18n="primary.title_line2">Sparen Sie sich Zeit & Nerven!</span><br />
+                <span data-i18n="primary.title_line3">Schnell & Einfach</span>
+            </h1>
+            <div class="features">
+                <div class="item">
+                    <div class="icon-wrapper">
+                        <img src="/static/assets/img/locations.svg" alt="Symbol, viele Standorte">
+                    </div>
+                    <div class="text-wrapper">
+                        <h3 data-i18n="primary.feature1">Bundesweit</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon-wrapper">
+                        <img src="/static/assets/img/clock.svg" alt="Symbol, Ohne Wartezeit">
+                    </div>
+                    <div class="text-wrapper">
+                        <h3 data-i18n="primary.feature2">Keine Wartezeiten</h3>
+                    </div>
+                </div>
+                <div class="split">
+                    <div class="item">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/fast.svg" alt="Symbol, schnelle Umsetzung">
+                        </div>
+                        <div class="text-wrapper">
+                            <h3 data-i18n="primary.feature3">Schnelle Abläufe</h3>
+                        </div>
+                    </div>
+                    <a class="item" href="{{ url_for('locations.overview') }}">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/house-location.svg" alt="Symbol, Standorte in der Nähe">
+                        </div>
+                        <div class="text-wrapper">
+                            <h3 data-i18n="primary.feature4">Annahmestellen in Ihrer Nähe</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <div class="icon-wrapper">
+                        <img src="/static/assets/img/store-location.svg" alt="Symbol, Lösung vor Ort">
+                    </div>
+                    <div class="text-wrapper">
+                        <h3 data-i18n="primary.feature5">Vorort Lösung</h3>
+                    </div>
+                </div>
+            </div>
+            <a href="tel:+49 1577 8789899" class="btn-primary" data-i18n="primary.call">Anrufen</a>
+            <a href="https://wa.me/4915778789899" target="_blank" class="btn-primary"
+                data-i18n="primary.whatsapp">WhatsApp</a>
+        </div>
+    </div>
+    <img class="deco-mobile-xs" src="/static/assets/img/home-primary-bg_xs_mobile.png"
+        alt="Dekoratives Auto mit Menschen">
+    <img class="deco-mobile" src="/static/assets/img/home-primary-bg.png" alt="Dekoratives Auto mit Menschen">
+    <img class="deco" src="/static/assets/img/home-primary-bg_desktop.png" alt="Dekoratives Auto mit Menschen">
+</div>
+
+<div class="video-section">
+    <h2 data-i18n="video.title">Erklärvideo</h2>
+    <iframe src="https://www.youtube.com/embed/-vzlfO8NdrQ?si=DSssnd5Ffv2BJTwV" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <a href="https://youtu.be/-vzlfO8NdrQ" target="_blank" class="btn-primary" data-i18n="video.button">
+        Auf YouTube aufrufen
+    </a>
+</div>
+
+<div class="service-section-wrapper">
+    <div class="service-section">
+        <h2 data-i18n="service.heading">Unser Service</h2>
+        <div class="grid">
+            <div class="item">
+                <h3 data-i18n="service.registration.title">Anmeldung</h3>
+                <div class="bullet-points">
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.common.point1">Ohne Termin, jederzeit verfügbar</p>
+                        </div>
+                    </div>
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.common.point2">Bundesweit möglich</p>
+                        </div>
+                    </div>
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.common.point3">Auch für gewerbliche Kunden </p>
+                        </div>
+                    </div>
+                </div>
+                <a href="{{ url_for('core.checklist') }}#collapseOne" class="btn-primary" data-i18n="service.registration.cta">Zur
+                    Anmeldung</a>
+                <img class="deco" src="/static/assets/img/stripped-circle-deco.png"
+                    alt="Dekorativer Kreis mit Streifen">
+            </div>
+
+            <div class="item">
+                <h3 data-i18n="service.deregistration.title">Abmeldung</h3>
+                <div class="bullet-points">
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.common.point1">Ohne Termin, jederzeit verfügbar</p>
+                        </div>
+                    </div>
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.common.point2">Bundesweit möglich</p>
+                        </div>
+                    </div>
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.common.point3">Auch für gewerbliche Kunden </p>
+                        </div>
+                    </div>
+                </div>
+                <a href="{{ url_for('core.checklist') }}#collapseEight" class="btn-primary" data-i18n="service.deregistration.cta">Zur
+                    Abmeldung</a>
+            </div>
+
+            <div class="item">
+                <h3 data-i18n="service.export.title">Zoll/Export Kennzeichen</h3>
+                <div class="bullet-points">
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.common.point1">Ohne Termin, jederzeit verfügbar</p>
+                        </div>
+                    </div>
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.common.point2">Bundesweit möglich</p>
+                        </div>
+                    </div>
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.common.point3">Auch für gewerbliche Kunden </p>
+                        </div>
+                    </div>
+                </div>
+                <a href="{{ url_for('core.checklist') }}#collapseFour" class="btn-primary" data-i18n="service.export.cta">Zum
+                    Auftrag</a>
+            </div>
+
+            <div class="item">
+                <h3 data-i18n="service.temporary.title">Kurzzeit / 6-Tages Kennzeichen</h3>
+                <div class="bullet-points">
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.common.point1">Ohne Termin, jederzeit verfügbar</p>
+                        </div>
+                    </div>
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.common.point2">Bundesweit möglich</p>
+                        </div>
+                    </div>
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.common.point3">Auch für gewerbliche Kunden </p>
+                        </div>
+                    </div>
+                </div>
+                <a href="{{ url_for('core.checklist') }}#collapseOne" class="btn-primary" data-i18n="service.temporary.cta">Zum
+                    Antrag</a>
+            </div>
+
+            <div class="item">
+                <h3 data-i18n="service.advice.title">Service & Beratung</h3>
+                <div class="bullet-points">
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.common.point1">Ohne Termin, jederzeit verfügbar</p>
+                        </div>
+                    </div>
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.common.point2">Bundesweit möglich</p>
+                        </div>
+                    </div>
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.common.point3">Auch für gewerbliche Kunden </p>
+                        </div>
+                    </div>
+                    <div class="bullet-point">
+                        <div class="icon-wrapper">
+                            <img src="/static/assets/img/check.svg" alt="Check mit Kreis">
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-i18n="service.advice.point4">Schnelle & kompetente Hilfe</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://wa.me/4915778789899" target="_blank" class="btn-primary"
+                    data-i18n="service.advice.cta">JETZT KONTAKTIEREN</a>
+            </div>
+
+            <div class="contact-item">
+                <a href="/#kontakt" class="btn-primary" data-i18n="service.contact.cta">Kontakt</a>
+                <img class="deco-person" src="/static/assets/img/purple-person.svg" alt="Person, die Kontaktknopf hält">
+                <img class="deco-circle" src="/static/assets/img/stripped-circle-deco.png"
+                    alt="Dekorativer Kreis mit Streifen">
+                <lottie-player src="/static/assets/lottifiles/purple-car-top.json" background="transparent"
+                    class="deco-animation" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cta-section">
+    <div class="content-wrapper">
+        <h2 data-i18n="cta.title">Wir lassen dein Auto für dich zu</h2>
+        <div class="items">
+            <div class="item">
+                <div class="animation-wrapper">
+                    <lottie-player src="/static/assets/lottifiles/purple-car-checklist.json" background="transparent"
+                        class="animation" speed="1" style="width: 150px; height: 150px;" loop autoplay></lottie-player>
+                </div>
+                <p data-i18n="cta.items.0">
+                    Mit uns wird die KFZ-Anmeldung leicht, einfach und zeitsparend.
+                </p>
+            </div>
+
+            <div class="item">
+                <div class="animation-wrapper">
+                    <lottie-player src="/static/assets/lottifiles/file-with-clip.json" background="transparent"
+                        class="animation" speed="1" style="width: 150px; height: 150px;" loop autoplay></lottie-player>
+                </div>
+                <p data-i18n="cta.items.1">
+                    Du gibst bei uns deine Papiere ab, wir erledigen alles bei der Zulassungsstelle für dich. In
+                    kürzester Zeit bekommst du deine Zulassung, inkl. Wunschkennzeichen.
+                </p>
+            </div>
+
+            <div class="item">
+                <div class="animation-wrapper">
+                    <lottie-player src="/static/assets/lottifiles/purple-house.json" background="transparent"
+                        class="animation" speed="1" style="width: 200px; height: 150px; margin-top: 5px" loop
+                        autoplay></lottie-player>
+                </div>
+                <p data-i18n="cta.items.2">
+                    Gegen einen kleinen Aufpreis holen wir die Unterlagen für die KFZ-Zulassung auch bei dir ab und
+                    bringen sie dir wieder zurück, sobald dein Auto zugelassen ist.
+                </p>
+            </div>
+        </div>
+        <a href="https://wa.me/4915778789899" target="_blank" class="btn-primary" data-i18n="cta.whatsapp">WhatsApp</a>
+    </div>
+    <img class="lower-deco" src="/static/assets/img/deco-cta-section.jpg" alt="Dekorative Linie">
+    <img class="deco-car" src="/static/assets/img/deco-car.png" alt="Dekoratives Auto">
+</div>
+
+<div class="contact-cta-section">
+    <div class="content-wrapper">
+        <h3 data-i18n="contact_cta.title">Du hast ein anderes Anliegen?</h3>
+        <p data-i18n="contact_cta.text">
+            Haben Sie Fragen oder benötigen Sie Unterstützung bei der Zulassung Ihres Fahrzeugs? Unser freundliches
+            und kompetentes Team steht Ihnen gerne zur Verfügung!
+        </p>
+        <a href="/#kontakt" class="btn-primary" data-i18n="contact_cta.button">Kontakt</a>
+    </div>
+</div>
+
+{% include 'contact-section.html' %}
+
+{% include 'reviews-section.html' %}
+
+{% endblock %}

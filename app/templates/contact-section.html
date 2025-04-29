@@ -1,0 +1,55 @@
+<div class="contact-section" id="kontakt">
+    <div class="content-wrapper">
+        <div class="content">
+            <h4>KFZ-Zulassungs-Express</h4>
+            <h2 data-i18n="contact_section.title">Kontaktieren</h2>
+            <p class="description" data-i18n="contact_section.description">
+                Für alle Anliegen stehen wir Ihnen gerne in unseren Filialen zur Verfügung.
+            </p>
+            <div id="map"></div>
+        </div>
+        <div id="form">
+            <div v-if="success">
+                <p data-i18n="contact_section.success">Ihre Anfrage wurde erfolgreich abgeschickt!</p>
+            </div>
+            <form @submit="onSubmit" v-if="!success">
+                <div class="form-split">
+                    <div class="form-group">
+                        <label for="firstname" data-i18n="contact_section.firstname">Vorname *</label>
+                        <input type="text" id="firstname" name="firstname" class="form-control" required minlength="3"
+                            v-model="firstname">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname" data-i18n="contact_section.lastname">Nachname *</label>
+                        <input type="text" id="lastname" name="lastname" class="form-control" required minlength="3"
+                            v-model="lastname">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" data-i18n="contact_section.email">E-mail Adresse *</label>
+                    <input type="email" id="email" name="email" email class="form-control" required v-model="email">
+                </div>
+                <div class="form-group">
+                    <label for="subject" data-i18n="contact_section.subject">Thema *</label>
+                    <input type="text" id="subject" name="subject" class="form-control" required v-model="subject">
+                </div>
+                <div class="form-group">
+                    <label for="content" data-i18n="contact_section.message">Nachricht *</label>
+                    <textarea rows="6" id="content" name="content" class="form-control" required
+                        v-model="message"></textarea>
+                </div>
+                <p class="error" v-if="error" data-i18n="contact_section.error">
+                    Es ist ein unerwarterter Fehler aufgetreten. Bitte versuchen Sie es später noch ein mal.
+                </p>
+                <button class="submit-btn" :disabled="submitting" data-i18n="contact_section.send">Senden</button>
+                <p class="notice">
+                    <span data-i18n="contact_section.notice_text">Durch das Absenden der Anfrage
+                        bestätigen</span><br />
+                    <a href="{{ url_for('legal.data_privacy') }}" data-i18n="contact_section.privacy">Datenschutzerklärung</a>.
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>

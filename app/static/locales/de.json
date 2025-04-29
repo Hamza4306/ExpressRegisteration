@@ -1,0 +1,713 @@
+{
+  "checklist-nav": "Checkliste",
+  "locations-nav": "Annahmestellen",
+  "documents-nav": "Dokumente & Formulare",
+  "export-nav": "Zoll & Export Kennzeichen",
+  "temporary-nav": "Kurzzeit & 6-Tages Kennzeichen",
+  "register-nav": "Fahrzeug Anmeldung",
+  "deregister-nav": "Fahrzeug Abmeldung",
+  "contact": "Kontakt",
+  "primary": {
+    "title_highlight": "Express Zulassung",
+    "title_line2": "Sparen Sie sich Zeit & Nerven!",
+    "title_line3": "Schnell & Einfach",
+    "feature1": "Bundesweit",
+    "feature2": "Keine Wartezeiten",
+    "feature3": "Schnelle Abläufe",
+    "feature4": "Annahmestellen in Ihrer Nähe",
+    "feature5": "Vorort Lösung",
+    "call": "Anrufen",
+    "whatsapp": "WhatsApp"
+  },
+  "video": {
+    "title": "Erklärvideo",
+    "button": "Auf YouTube aufrufen"
+  },
+  "service": {
+    "heading": "Unser Service",
+    "registration": {
+      "title": "Anmeldung",
+      "cta": "Zur Anmeldung"
+    },
+    "deregistration": {
+      "title": "Abmeldung",
+      "cta": "Zur Abmeldung"
+    },
+    "export": {
+      "title": "Zoll/Export Kennzeichen",
+      "cta": "Zum Auftrag"
+    },
+    "temporary": {
+      "title": "Kurzzeit / 6-Tages Kennzeichen",
+      "cta": "Zum Antrag"
+    },
+    "advice": {
+      "title": "Service & Beratung",
+      "point4": "Schnelle & kompetente Hilfe",
+      "cta": "JETZT KONTAKTIEREN"
+    },
+    "contact": {
+      "cta": "Kontakt"
+    },
+    "common": {
+      "point1": "Ohne Termin, jederzeit verfügbar",
+      "point2": "Bundesweit möglich",
+      "point3": "Auch für gewerbliche Kunden "
+    }
+  },
+  "cta": {
+    "title": "Wir lassen dein Auto für dich zu",
+    "items": [
+      "Mit uns wird die KFZ-Anmeldung leicht, einfach und zeitsparend.",
+      "Du gibst bei uns deine Papiere ab, wir erledigen alles bei der Zulassungsstelle für dich. In kürzester Zeit bekommst du deine Zulassung, inkl. Wunschkennzeichen.",
+      "Gegen einen kleinen Aufpreis holen wir die Unterlagen für die KFZ-Zulassung auch bei dir ab und bringen sie dir wieder zurück, sobald dein Auto zugelassen ist."
+    ],
+    "whatsapp": "WhatsApp"
+  },
+  "contact_cta": {
+    "title": "Du hast ein anderes Anliegen?",
+    "text": "Haben Sie Fragen oder benötigen Sie Unterstützung bei der Zulassung Ihres Fahrzeugs? Unser freundliches und kompetentes Team steht Ihnen gerne zur Verfügung!",
+    "button": "Kontakt"
+  },
+  "contact_section": {
+    "title": "Kontaktieren",
+    "description": "Für alle Anliegen stehen wir Ihnen gerne in unseren Filialen zur Verfügung.",
+    "success": "Ihre Anfrage wurde erfolgreich abgeschickt!",
+    "firstname": "Vorname *",
+    "lastname": "Nachname *",
+    "email": "E-mail Adresse *",
+    "subject": "Thema *",
+    "message": "Nachricht *",
+    "error": "Es ist ein unerwarterter Fehler aufgetreten. Bitte versuchen Sie es später noch ein mal.",
+    "send": "Senden",
+    "notice_text": "Durch das Absenden der Anfrage bestätigen",
+    "privacy": "Datenschutzerklärung"
+  },
+  "reviews": {
+    "title": "Meinungen unserer Kunden",
+    "review1": "Super freundlich und perfekte Abwicklung! Ich würde 6 Sterne geben wollen...",
+    "review2": "Sehr freundlich und noch zu einem richtig guten Preis. Wenn ein Schild beim Landratsamt gebraucht wird, dann aufjedenfall hier machen lassen",
+    "review3": "Mühelose Exportkennzeichenregistrierung! Kfz Zulassungs Express bearbeitete meinen Antrag noch am selben Tag, eine Terminvereinbarung war nicht erforderlich. Professionelles Personal machte den Prozess stressfrei. Sehr empfehlenswert!"
+  },
+  "footer": {
+    "callText": "Kontaktieren Sie uns noch heute und lassen Sie uns gemeinsam dafür sorgen, dass Ihre Kfz-An- und Abmeldungen, Export und Zollkennzeichen sowie Kurzzeitkennzeichen schnell und reibungslos erledigt werden.",
+    "callBtn": "Anrufen",
+    "usefulLinks": "Nützliche Links",
+    "documents": "Dokumente & Formulare",
+    "locations": "Annahmestellen",
+    "export": "Zoll & Export Kennzeichen",
+    "temporary": "Kurzzeit & 6-Tages Kennzeichen",
+    "tax": "KFZ-Steuer berechnen",
+    "checklist": "Checkliste",
+    "register": "Fahrzeug-Anmeldung",
+    "deregister": "Fahrzeug-Abmeldung",
+    "partner": "Partner",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum"
+  },
+  "checklist": {
+    "title": "Checkliste für alle Unterlagen",
+    "description": "Sparen Sie Zeit und Nerven bei der Fahrzeugzulassung! Hier finden Sie alle wichtigen Unterlagen für KFZ-Anmeldung, Ummeldung und Abmeldung in unserer übersichtlichen Checkliste. Mit unserem Express Service erledigen wir Ihre Zulassung schnell und unkompliziert.",
+    "section": {
+      "registration": {
+        "title": "Fahrzeugzulassung",
+        "strong": "Benötigte Dokumente für die KFZ-Zulassung:",
+        "vollmacht": "Vollmacht für die Zulassung",
+        "form": "Auftragsformular zur Fahrzeuganmeldung",
+        "scheinbrief": "Fahrzeugschein und Fahrzeugbrief",
+        "hu": "Falls vorhanden gültiger HU bericht",
+        "sepa": "Sie brauchen eine SEPA-Einzugsermächtigung für die KFZ-Steuer. Hier können Sie die KFZ-Steuer berechnen.",
+        "idcopy": "Ausweiskopie / Bei ausländischen Staatsbürgern zusätzlich Kopie des Reisepasses"
+      },
+      "relocation": {
+        "title": "Ummeldung bei Umzug",
+        "strong": "Benötigte Dokumente für die KFZ-Ummeldung:",
+        "sameDistrict": "Innerhalb des gleichen Landkreises:",
+        "schein": "Fahrzeugschein",
+        "id": "Ausweiskopie",
+        "otherDistrict": "Außerhalb des Landkreises:",
+        "scheinBrief": "Fahrzeugschein und Fahrzeugbrief",
+        "idCopy": "Kopie des Ausweises",
+        "vollmacht": "Vollmacht und SEPA-Mandat",
+        "evb": "eVB-Nummer",
+        "form": "Auftragsformular für die Ummeldung"
+      },
+      "ownerChange": {
+        "title": "Umschreibung auf neuen Halter",
+        "strong": "Benötigte Dokumente für den Halterwechsel:",
+        "vollmacht": "Vollmacht",
+        "scheinbrief": "Fahrzeugschein und Fahrzeugbrief",
+        "newHolderId": "Ausweiskopie des neuen Halters"
+      },
+      "shortTerm": {
+        "title": "Kurzzeit Kennzeichen / Überführungskennzeichen / Tages Kennzeichen",
+        "strong": "Benötigte Dokumente für temporäre Kennzeichen:",
+        "idCopy": "Ausweis Kopie (Vorder und Rückseite)",
+        "scheinCopy": "Fahrzeugschein Kopie (Vorder und Rückseite)",
+        "vollmacht": "Vollmacht Formular",
+        "send": "➔ Gerne können Sie uns diese Unterlagen per WhatsApp oder E-Mail zusenden."
+      },
+      "techChange": {
+        "title": "Technische Eintragung",
+        "strong": "Benötigte Dokumente für technische Änderungen:",
+        "scheinbrief": "KFZ Schein und KFZ Brief",
+        "report": "Gutachten"
+      },
+      "theft": {
+        "title": "Diebstahl / Verlust von Kennzeichen",
+        "strong": "Benötigte Dokumente bei Diebstahl oder Verlust:",
+        "report": "Polizeilicher Bericht",
+        "scheinbrief": "Fahrzeugschein und Fahrzeugbrief",
+        "plate": "Falls vorhanden: eines der beiden Kennzeichenschilder",
+        "idCopy": "Ausweiskopie",
+        "vollmacht": "Vollmacht"
+      },
+      "loss": {
+        "title": "Verlust KFZ Schein",
+        "strong": "Benötigte Dokumente bei Verlust des Fahrzeugscheins:",
+        "brief": "Fahrzeugbrief (Zulassungsbescheinigung Teil II)",
+        "idCopy": "Ausweis-Kopie",
+        "eides": "Eidesstattliche Versicherung"
+      },
+      "deregistration": {
+        "title": "Außer Betrieb setzen / Fahrzeug abmelden",
+        "strong": "Benötigte Dokumente für die Abmeldung:",
+        "schein": "KFZ Schein",
+        "plates": "KFZ Schilder"
+      }
+    }
+  },
+  "contact_cta2": {
+    "heading": "Sie haben ein anderes Anliegen rund um die KFZ Zulassung?",
+    "description": "Brauchen Sie Hilfe bei der Zulassung Ihres Fahrzeugs? Unser erfahrenes Team unterstützt Sie gerne bei allen Fragen zur KFZ Anmeldung, Ummeldung oder Abmeldung. Kontaktieren Sie uns noch heute!",
+    "button": "Jetzt Kontakt aufnehmen"
+  },
+  "documents": {
+    "title": "Formulare & Dokumente",
+    "description": "Hier findest Du alle nötigen Unterlagen für dein Anliegen",
+    "vollmacht": {
+      "title": "Vollmacht",
+      "description": "Vollmacht zur Vorlage bei der Zulassungsbehörde"
+    },
+    "eides_brief": {
+      "title": "Eidesstattliche Versicherungen KFZ-Brief Verlust",
+      "description": "Eidesstattliche Versicherung bei Verlust von KFZ-Brief ist für Neuausstellung erforderlich"
+    },
+    "eides_schein": {
+      "title": "Eidesstattliche Versicherungen KFZ-Schein Verlust",
+      "description": "Eidesstattliche Versicherung bei Verlust von KFZ-Schein ist für Neuausstellung erforderlich"
+    },
+    "eides_kennzeichen": {
+      "title": "Eidesstattliche Versicherungen Kennzeichen Verlust",
+      "description": "Eidesstattliche Versicherung bei Verlust von Kennzeichen ist für Neuausstellung erforderlich"
+    },
+    "auftrag": {
+      "title": "Auftragsformular",
+      "description": "Ein Auftragsformular ist erforderlich, um alle notwendigen Informationen für die schnelle und korrekte Bearbeitung Ihres Anliegens bereitzustellen"
+    },
+    "download": "Download",
+    "contactBtn": "Kontakt"
+  },
+  "partner": {
+    "title": "Unsere Partner",
+    "description": "Wir sind mit zahlreichen Werkstätten, Autohäusern und sonstigen Dienstleistern verpartnert, um Ihnen bei jedem Anliegen einen reibungslosen Service anzubieten."
+  },
+  "tax": {
+    "title": "KFZ-Steuer Rechner",
+    "description": "Hier können Sie Ihre erwartete KFZ-Steuer berechnen. Dieser Service wird vom Bundesministerium der Finanzen bereitgestellt. Alternativ können Sie diesen Service hier auf der Website des BMF nutzen."
+  },
+  "data-privacy": {
+    "title": "Datenschutzerklärung",
+    "subtitle": "Die Lightning Dynamics UG (haftungsbeschränkt) verpflichtet sich, Ihre Privatsphäre zu schützen und verwendet hierfür Technologien, die Ihnen zugleich leistungsfähige und sichere Online-Nutzung ermöglichen. Diese Erklärung zum Datenschutz gilt für die Website kfzzulassungsexpress.de und regelt die Erhebung und Verwendung Ihrer personenbezogenen Daten. Mit der Nutzung der Website kfzzulassungsexpress.de stimmen Sie den in dieser Erklärung beschriebenen Datenpraktiken zu.",
+    "sections": [
+      {
+        "heading": "Erfassung Ihrer persönlichen Daten",
+        "paragraphs": [
+          "Die Lightning Dynamics UG (haftungsbeschränkt) sammelt personenbezogene Daten wie Ihre E-Mail-Adresse, Ihren Namen, Ihre Anschrift, Ihre Zahlungsmethoden oder Ihre Telefonnummer. Die Lightning Dynamics UG (haftungsbeschränkt) speichert auch demographische Informationen, die Ihnen nicht eindeutig zuzuordnen sind, wie Postleitzahl, Alter, Geschlecht, Vorlieben, Interessen, Hobbys und Favoriten. Einige Informationen über Ihre Computerhardware und -software werden automatisch von der Lightning Dynamics UG (haftungsbeschränkt) gesammelt. Zu diesen Informationen gehören: Ihre IP-Adresse, der Typ Ihres Browsers, Ihr Domain-Name, Zugriffszeiten und referenzierte Website-Adressen. Diese Informationen werden von der Lightning Dynamics UG (haftungsbeschränkt) zur Aufrechterhaltung der Servicequalität und zur Erstellung allgemeiner Statistiken über die Nutzung von der kfzzulassungsexpress.de Website.",
+          "Bitte bedenken Sie, dass persönliche Informationen, die Sie in öffentlich zugänglichen Bereichen, d. h. in öffentlichen Foren usw., zur Verfügung stellen, von anderen Benutzern in unzulässiger Weise verwendet werden können.",
+          "Hinweis: Die Lightning Dynamics UG (haftungsbeschränkt) liest keine Ihrer privaten Online-Kommunikationen. Die Lightning Dynamics UG (haftungsbeschränkt) fordert Sie auf, die Datenschutzerklärung der Webseiten, auf die sie von der kfzzulassungsexpress.de Website verlinken, zur Kenntnis zu nehmen, damit Sie wissen, wie diese Websites Ihre Daten sammeln, verwenden und weitergeben. Die Lightning Dynamics UG (haftungsbeschränkt) ist nicht verantwortlich für die Datenschutzerklärungen auf Websites außerhalb der Website kfzzulassungsexpress.de."
+        ]
+      },
+      {
+        "heading": "Verwendung Ihrer persönlichen Daten",
+        "paragraphs": [
+          "Die Lightning Dynamics UG (haftungsbeschränkt) speichert und verwendet Ihre persönlichen Informationen, um die Website kfzzulassungsexpress.de zu betreiben und die von Ihnen gewünschten Dienstleistungen zu erbringen. Die Lightning Dynamics UG (haftungsbeschränkt) verwendet Ihre persönlichen Informationen auch, um Sie über neue Produkte und Leistungen von der Lightning Dynamics UG (haftungsbeschränkt) zu informieren. Die Lightning Dynamics UG (haftungsbeschränkt) kann Sie auch zwecks Durchführung einer Marktforschung über Ihre Meinung nach Angeboten und neuen möglichen Erweiterungen befragen. Die Lightning Dynamics UG (haftungsbeschränkt) verkauft, vermietet oder verleast ihre Kundeninformationen nicht an Dritte. Die Lightning Dynamics UG (haftungsbeschränkt) kann Sie von Zeit zu Zeit im Namen von externen Geschäftspartnern über bestimmte Angebote informieren, die für Sie von Interesse sein könnten. In diesen Fällen werden Ihre persönlichen Daten wie E-Mail, Name, Adresse oder Telefonnummer nicht an den Dritten weitergegeben.",
+          "Darüber hinaus kann die Lightning Dynamics UG (haftungsbeschränkt) Daten an vertrauenswürdige Partner weitergeben, um statistische Analysen durchzuführen. Allen diesen Dritten ist es untersagt, Ihre personenbezogenen Daten zu verwenden, mit Ausnahme der Erbringung dieser Dienstleistungen für die Lightning Dynamics UG (haftungsbeschränkt). Sie sind verpflichtet, die Vertraulichkeit Ihrer Daten zu wahren.",
+          "Die Lightning Dynamics UG (haftungsbeschränkt) veröffentlicht keine sensiblen persönlichen Daten wie Herkunft, Religion oder politische Einstellung. Um zu ermitteln, welche Dienste von der Lightning Dynamics UG (haftungsbeschränkt) die beliebtesten Dienste sind, verfolgt die Lightning Dynamics UG (haftungsbeschränkt) die Websites und Seiten, die unsere Kunden innerhalb der Website kfzzulassungsexpress.de besuchen. Diese Daten werden verwendet, um maßgeschneiderte Inhalte zu liefern. Dies gilt für diejenigen Kunden, die explizit Interesse an einem bestimmten Angebot bekunden."
+        ]
+      },
+      {
+        "heading": "Weitergabe von personenbezogenen Daten",
+        "paragraphs": [
+          "Im Falle einer gerichtlichen Anordnung gibt die Lightning Dynamics UG (haftungsbeschränkt) Ihre persönlichen Daten an Strafverfolgungsbehörden weitergeben, ohne Sie darüber zu informieren. Die Lightning Dynamics UG (haftungsbeschränkt) behält sich außerdem das Recht vor, Ihre persönlichen Daten für Rechtsstreitigkeiten zu verwenden, wenn sie sich dazu gezwungen sieht."
+        ]
+      },
+      {
+        "heading": "Verwendung von Cookies",
+        "paragraphs": [
+          "Die Lightning Dynamics UG (haftungsbeschränkt) verwendet Cookies, um Ihnen das Surfen zu erleichtern. Ein Cookie ist eine Textdatei, die von einem Webserver auf Ihrer Festplatte abgelegt wird. Cookies können nicht verwendet werden, um Programme auszuführen oder Viren auf Ihren Computer zu übertragen. Cookies werden Ihnen eindeutig zugewiesen und können nur von einem Webserver in der Domäne gelesen werden, die Ihnen das Cookie zugewiesen hat. Einer der Hauptzwecke von Cookies ist die Bereitstellung einer Komfortfunktion, die Ihnen Zeit spart. Der Zweck eines Cookies besteht darin, dem Webserver mitzuteilen, dass Sie zu einer bestimmten Seite zurückgekehrt sind. Wenn Sie sich zum Beispiel bei von der Lightning Dynamics UG (haftungsbeschränkt) registrieren. Ein Online-Cookie hilft von der Lightning Dynamics UG (haftungsbeschränkt), Ihre spezifischen Informationen bei späteren Besuchen wiederzuerkennen. Dies vereinfacht die Erfassung Ihrer persönlichen Daten, wie z.B. Rechnungs- oder Lieferadressen.",
+          "Wenn Sie zu derselben Website von der Lightning Dynamics UG (haftungsbeschränkt) zurückkehren, können die von Ihnen bereitgestellten Informationen wieder abgerufen werden, so dass Sie die Website kfzzulassungsexpress.de nutzen können, die Sie angepasst haben. Sie haben die Möglichkeit, Cookies zu akzeptieren oder abzulehnen. Die meisten Webbrowser akzeptieren Cookies automatisch, aber Sie können die Einstellungen Ihres Browsers in der Regel so ändern, dass er Cookies ablehnt, wenn Sie dies wünschen. Wenn Sie sich dafür entscheiden, Cookies abzulehnen, können Sie möglicherweise nicht alle interaktiven Funktionen von der Lightning Dynamics UG (haftungsbeschränkt) nutzen."
+        ]
+      },
+      {
+        "heading": "Sicherheit Ihrer persönlichen Daten",
+        "paragraphs": [
+          "Die Lightning Dynamics UG (haftungsbeschränkt) schützt Ihre persönlichen Daten vor unerlaubten Zugriff, Verwendung oder Veröffentlichung. Die Lightning Dynamics UG (haftungsbeschränkt) verwahrt hierfür ihre persönlichen Informationen, die Sie auf dem Server speichern, in einer kontrollierten sicheren Umgebung, in der unerlaubter Zugriff und Veröffentlichung verhindert werden. Wenn sicherheitsrelevante personenbezogene Daten wie Kreditkartennummern an andere Websites übertragen werden, werden sie durch Verschlüsselung geschützt, z. B. durch das Secure Socket Layer (SSL)-Protokoll."
+        ]
+      },
+      {
+        "heading": "Änderungen an dieser Erklärung",
+        "paragraphs": [
+          "Die Lightning Dynamics UG (haftungsbeschränkt) behält sich das Recht vor, diese Erklärung bei Bedarf zu aktualisieren, um sie an Kundenfeedback, rechtliche und gesellschaftliche Veränderungen anzupassen. Die Lightning Dynamics UG (haftungsbeschränkt) wird Sie über diese Änderungen auf der Website oder per E-Mail informieren. Diese Änderungen werden gültig, sofern Sie keinen schriftlichen Einspruch bei von der Lightning Dynamics UG (haftungsbeschränkt) eingelegt haben, während der Änderung."
+        ]
+      },
+      {
+        "heading": "Kontaktinformationen",
+        "paragraphs": [
+          "Die Lightning Dynamics UG (haftungsbeschränkt) freut sich über Ihre Kommentare zu dieser Erklärung zum Datenschutz. Wenn Sie Fragen oder Anregungen haben, wenden Sie sich bitte an info@kfzzulassungsexpress.de. Wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen. Adressdaten entnehmen Sie bitte dem Impressum dieser Seite."
+        ]
+      }
+    ]
+  },
+  "imprint": {
+    "title": "Impressum",
+    "company_name": "KFZ-Zulassungsexpress",
+    "content": [
+      "Lightning Dynamics UG (haftungsbeschränkt)",
+      "Geschäftsführer: Aleyna Simsek",
+      "Bannweideweg 8,",
+      "76646 Bruchsal",
+      "Eintrag im Handelsregister:",
+      "Amtsgericht Mannheim, HRB 751377",
+      "E-mail Adresse:",
+      "Telefon:",
+      "Alternative Streitbeilegung gemäß Artikel 14 Absatz 1 ODR-VO und § 36 VSBG: Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS-Plattform) bereit, die Sie unter https://ec.europa.eu/consumers/odr/ erreichen. Die Lightning Dynamics UG (haftungsbeschränkt) ist nicht verpflichtet, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+      "Der Kontakt per E-Mail ist nur für allgemeine Anfragen oder Erklärungen gedacht. Anfragen oder Erklärungen, die sich auf den elektronischen Geschäftsverkehr, den Verbraucherschutz, Bestellungen, Produktsicherheit oder andere Angelegenheiten mit möglicher rechtlicher Bedeutung beziehen, sollten auf dem Postweg übermittelt werden.",
+      "Der Inhalt dieser Seiten ist gesetzlich geschützt. Alle nicht ausdrücklich gewährten Rechte sind vorbehalten. Die Lightning Dynamics UG (haftungsbeschränkt) gestattet Ihnen die persönliche Nutzung dieser Webseiten, soweit diese sich auf das Aufrufen, Herunterladen, Betrachten, Ausführen, Abspeichern und Ausdrucken beschränkt. Eine Vervielfältigung, Bearbeitung, Übersetzung, Übermittlung oder Verbreitung im Ganzen oder in Teilen ist ohne schriftliche Zustimmung untersagt.",
+      "Pressemitteilungen und öffentlich gekennzeichnete Dokumente dürfen unter Angabe der Quelle verwendet werden. Für bestimmte Dokumente gelten zusätzliche Bedingungen.",
+      "Die Lightning Dynamics UG (haftungsbeschränkt) behält sich das Recht vor, Seiten jederzeit zu ändern oder den Zugang zu ihnen zu sperren. Die Lightning Dynamics UG (haftungsbeschränkt) übernimmt keinerlei ausdrückliche oder stillschweigende Gewährleistung für diese Webseiten. Insbesondere übernimmt die Lightning Dynamics UG (haftungsbeschränkt) keine Gewähr dafür, dass die Webseiten fehler- und störungsfrei funktionieren. Dies schließt eine Gewährleistung für Rechtsmängel, Unversehrtheit, Marktfähigkeit oder Eignung für einen bestimmten Zweck im Hinblick auf die Verfügbarkeit, Genauigkeit, Zuverlässigkeit oder den Inhalt der Seiten ein, ist aber nicht darauf beschränkt. Die Lightning Dynamics UG (haftungsbeschränkt) haftet nicht für direkte, indirekte, zufällige oder besondere Schäden oder Folgeschäden, entgangenen Gewinn oder Produktionsausfälle, die sich aus der Nutzung oder der fehlenden Möglichkeit zur Nutzung der Webseiten oder der darin enthaltenen Dienste ergeben. Dies gilt auch dann, wenn die Lightning Dynamics UG (haftungsbeschränkt) auf die Möglichkeit eines solchen Schadens hingewiesen worden ist.",
+      "Um Ihnen den Zugang zu erleichtern, stellt die Lightning Dynamics UG (haftungsbeschränkt) gelegentlich Links zu den Internetseiten Dritter ein. Wenn Sie diese Links nutzen, müssen Sie die Nutzungsbedingungen dieser Seiten lesen und akzeptieren, bevor Sie sie nutzen. Sie akzeptieren auch, dass die Lightning Dynamics UG (haftungsbeschränkt) keine Kontrolle über den Inhalt solcher Seiten hat und keine Verantwortung für das auf solchen Seiten erzeugte oder veröffentlichte Material trägt. Außerdem bedeutet ein Link zu einer solchen Seite nicht, dass die Lightning Dynamics UG (haftungsbeschränkt) die Seite oder die auf ihr dargestellten Produkte oder Dienstleistungen empfiehlt."
+    ]
+  },
+  "deregister": {
+    "title": "Abmeldung",
+    "description": "Sie können Ihr Fahrzeug bei uns problemlos abmelden. Wir erledigen alle Formalitäten, sodass Sie sich nicht um den Papierkram kümmern müssen. Füllen Sie einfach das Auftragsformular aus, und wir übernehmen den Rest für Sie.",
+    "button": "Kontakt",
+    "why": {
+      "title": "Wann benötige ich es?",
+      "reason1": {
+        "title": "Fahrzeug außer Betrieb setzen",
+        "text": "Sie müssen die Zulassungsbescheinigung Teil I und die Kennzeichen bei der Zulassungsstelle vorlegen, um Ihr Fahrzeug abzumelden."
+      },
+      "reason2": {
+        "title": "Entsorgung oder Verkauf",
+        "text": "Nach der Abmeldung können Sie das Fahrzeug entsorgen oder es an einen neuen Besitzer übergeben. Der Käufer benötigt Ihre Abmeldebescheinigung."
+      },
+      "reason3": {
+        "title": "KFZ-Versicherung und Steuer",
+        "text": "Nach der Abmeldung informiert die Zulassungsstelle automatisch Ihre Versicherung und das Finanzamt, sodass die KFZ-Steuer und die Versicherungsbeiträge eingestellt werden."
+      },
+      "button": "Anfragen"
+    }
+  },
+  "register": {
+    "hero": {
+      "heading": "Anmeldung",
+      "text": "Sie können bei uns Ihr Fahrzeug schnell und unkompliziert abmelden. Wir kümmern uns um alle Formalitäten, damit Sie sich nicht darum sorgen müssen. Einfach das Auftragsformular ausfüllen und den Rest erledigen wir für Sie!",
+      "button": "Kontakt"
+    },
+    "why": {
+      "heading": "Wann benötige ich es?",
+      "reasons": [
+        {
+          "title": "Neuzulassung",
+          "text": "Wenn Sie ein neues Fahrzeug anmelden möchten, um es erstmals auf der Straße zu nutzen."
+        },
+        {
+          "title": "Umschreibung",
+          "text": "Beim Kauf eines gebrauchten Fahrzeugs, um es auf Ihren Namen zuzulassen."
+        },
+        {
+          "title": "Wiederzulassung",
+          "text": "Wenn ein stillgelegtes Fahrzeug erneut zugelassen werden soll."
+        }
+      ]
+    },
+    "info": {
+      "subheading": "KFZ-Zulassung leicht gemacht – Ihr Zulassungsdienst seit 2009",
+      "intro": "Willkommen bei KFZ Zulassungs Express, Ihrem erfahrenen Partner für die schnelle und unkomplizierte Fahrzeugzulassung – bundesweit! Seit über 15 Jahren stehen wir für Effizienz und Zuverlässigkeit. Wenn Sie Ihr Fahrzeug anmelden möchten, ohne Termin und ohne Wartezeit, sind wir die richtige Wahl. Unser Service ist nicht nur regional, sondern deutschlandweit verfügbar – egal, wo Sie sich befinden, wir übernehmen für Sie!",
+      "highlight": "KFZ-Zulassung ohne Termin – So einfach geht’s",
+      "body": "Die Anmeldung Ihres Fahrzeugs war noch nie so bequem! Unser engagiertes Team kümmert sich um sämtliche Formalitäten, ob für Pkw, Lkw, Motorrad, Anhänger, Wohnmobile oder andere Fahrzeuge. Sie müssen sich nicht mit zeitraubenden Behördengängen beschäftigen – wir übernehmen alles für Sie, und das bundesweit."
+    },
+    "benefits": {
+      "heading": "Warum KFZ Zulassungs Express?",
+      "points": [
+        "1. Anmeldung ohne Termin: Keine mühsame Terminvereinbarung mit der Zulassungsstelle nötig.",
+        "2. Keine Wartezeiten: Wir bearbeiten Ihre Anliegen schnell und effizient.",
+        "3. Bundesweiter Service: Egal, in welchem Bundesland Sie sich befinden, unser Zulassungsdienst steht Ihnen zur Verfügung.",
+        "4. Erfahrung seit 2009: Vertrauen Sie auf unsere Kompetenz und über 15 Jahre Expertise.",
+        "5. Zulassung aller Fahrzeugtypen: Von Pkw über Nutzfahrzeuge bis hin zu Zweirädern – wir erledigen alles!"
+      ]
+    },
+    "steps": {
+      "heading": "So funktioniert’s",
+      "list": [
+        "1. Kontaktieren Sie uns: Einfach telefonisch oder online.",
+        "2. Dokumente einreichen: Wir beraten Sie, welche Unterlagen benötigt werden.",
+        "3. Rundum-Service: Wir kümmern uns um die komplette Abwicklung mit den Behörden.",
+        "4. Fahrzeug zugelassen: Schnell, unkompliziert und ohne Wartezeit!"
+      ]
+    },
+    "cta1": "Mit KFZ Zulassungs Express sparen Sie wertvolle Zeit und Nerven. Setzen Sie auf unseren bewährten Service und genießen Sie die Sicherheit, dass Ihre KFZ-Zulassung professionell und schnell erledigt wird – bundesweit und ohne Kompromisse.",
+    "cta2": "Kontaktieren Sie uns noch heute und lassen Sie uns Ihr Fahrzeug anmelden – einfach, schnell und ohne Stress!",
+    "button": "Anfragen"
+  },
+  "export": {
+    "hero": {
+      "heading": "Zoll & Export Kennzeichen",
+      "text": "KFZ‑Zulassungs‑Express bietet schnelle und zuverlässige Hilfe bei der Beantragung von Zoll‑ und Exportkennzeichen.",
+      "button": "Kontakt"
+    },
+    "why": {
+      "heading": "Wann benötige ich es?",
+      "reasons": [
+        {
+          "title": "Fahrzeugexport",
+          "text": "Wenn Sie ein Fahrzeug dauerhaft ins Ausland verkaufen oder mitnehmen möchten, sind Zoll- und Export-Kennzeichen notwendig."
+        },
+        {
+          "title": "Überführungen ins Ausland",
+          "text": "Bei der temporären Verlagerung eines Fahrzeugs in ein anderes Land, z.B. bei einem längeren Auslandsaufenthalt."
+        },
+        {
+          "title": "Grenzüberschreitender Fahrzeughandel",
+          "text": "Für Händler, die Fahrzeuge international verkaufen und transportieren, sind diese Kennzeichen essenziell."
+        }
+      ]
+    },
+    "info": {
+      "heading": "Zollkennzeichen / Exportkennzeichen: Alles, was Sie wissen müssen",
+      "intro": "Exportkennzeichen, auch als Zollkennzeichen bekannt, sind die perfekte Lösung für Fahrzeughalter, die ein Fahrzeug ins Ausland exportieren möchten oder vorübergehend ins Ausland fahren wollen. In diesem Artikel erklären wir Ihnen, wie Sie Zollkennzeichen beantragen, welche Voraussetzungen notwendig sind und welche Vorteile Sie durch die Nutzung dieser speziellen Kennzeichen haben.",
+      "sub1": {
+        "title": "Was sind Zollkennzeichen (Exportkennzeichen)?",
+        "text": "Zollkennzeichen sind spezielle Nummernschilder, die für Fahrzeuge ausgegeben werden, die vorübergehend oder dauerhaft in ein anderes Land verbracht werden. Diese Kennzeichen ermöglichen es, ein Fahrzeug im Ausland zu fahren, ohne es zuvor in Deutschland dauerhaft umzumelden oder abzumelden. Besonders für den Export von Fahrzeugen oder Reisen ins Ausland sind Zollkennzeichen die ideale Lösung."
+      },
+      "sub2": {
+        "title": "Vorteile von Zollkennzeichen (Exportkennzeichen)",
+        "points": [
+          "Temporäre Nutzung für den Export: Wenn Sie ein Fahrzeug ins Ausland exportieren möchten, ermöglicht Ihnen ein Zollkennzeichen, das Fahrzeug für eine bestimmte Zeit zu nutzen, ohne eine vollständige Ummeldung vorzunehmen.",
+          "Internationaler Einsatz: Mit Zollkennzeichen können Sie auch außerhalb Deutschlands fahren, ohne sich um eine dauerhafte Ummeldung kümmern zu müssen.",
+          "Gültigkeit: Die Zollkennzeichen sind für eine festgelegte Zeit gültig, je nachdem, wie lange der Export oder der Auslandseinsatz geplant ist.",
+          "Versicherungsschutz: Fahrzeuge mit Zollkennzeichen sind in der Regel versichert, sodass Sie während der Fahrt durch das Ausland abgesichert sind."
+        ]
+      },
+      "sub3": {
+        "title": "Voraussetzungen für die Beantragung von Zollkennzeichen",
+        "subtitle": "Für die Beantragung von Zollkennzeichen müssen bestimmte Dokumente und Anforderungen erfüllt sein. Diese sind:",
+        "points": [
+          "Originale Fahrzeugpapiere: Sie müssen die originalen Fahrzeugpapiere (Fahrzeugbrief und Fahrzeugschein) vorlegen.",
+          "Gültige Hauptuntersuchung (HU): Das Fahrzeug muss eine gültige Hauptuntersuchung (TÜV) haben."
+        ]
+      },
+      "sub4": {
+        "title": "Ablauf der Beantragung von Zollkennzeichen",
+        "subtitle": "Es gibt zwei unterschiedliche Szenarien, wie Zollkennzeichen beantragt werden können:",
+        "scenario1": "1. Kunde mit ausländischem Wohnsitz vor Ort: Wenn der Fahrzeughalter einen ausländischen Wohnsitz hat, aber vor Ort in Deutschland ist, kann das Fahrzeug direkt bei der Zulassungsstelle mit den entsprechenden Fahrzeugpapieren und dem gültigen TÜV vorgeführt werden. Wir kümmern uns um den gesamten Zulassungsprozess und stellen die Zollkennzeichen schnell aus.",
+        "scenario2": "2. Kunde mit ausländischem Wohnsitz, ohne vor Ort zu sein: Für Kunden mit ausländischem Wohnsitz, die nicht vor Ort sein können, bieten wir eine besondere Lösung: Sie müssen das Fahrzeug nicht selbst bei der Zulassungsstelle vorführen. Stattdessen kann das Fahrzeug durch uns oder einen Beauftragten vorgeführt werden, solange die Fahrzeugpapiere und der gültige TÜV vorhanden sind. Auch in diesem Fall kümmern wir uns um die gesamte Zulassung und stellen die Zollkennzeichen aus."
+      },
+      "feature": {
+        "title": "Unsere Besonderheit: Zollkennzeichen ohne Anwesenheit des Fahrzeughalters",
+        "text": "Im Vergleich zu anderen Zulassungsdiensten bieten wir Ihnen den Vorteil, dass Sie nicht vor Ort erscheinen müssen, um Zollkennzeichen zu erhalten – auch wenn Sie im Ausland wohnen. Einzige Voraussetzung ist, dass das Fahrzeug bei der Zulassungsstelle vorgeführt wird und alle nötigen Dokumente vorliegen. Wir kümmern uns um den Rest und stellen sicher, dass alles reibungslos abläuft."
+      },
+      "service": {
+        "title": "Warum unser Service für Zollkennzeichen?",
+        "points": [
+          "Komfort: Wir erledigen die ganze Bürokratie für Sie, sodass Sie sich keine Sorgen um den Zulassungsprozess machen müssen.",
+          "Schnelligkeit: Wir sorgen dafür, dass Sie Ihre Zollkennzeichen schnell erhalten, sodass Sie keine Zeit verlieren.",
+          "Flexibilität: Egal, ob Sie vor Ort sind oder nicht, wir bieten Ihnen maßgeschneiderte Lösungen für Ihren Bedarf.",
+          "Zuverlässigkeit: Unser Service ist professionell und zuverlässig, sodass Sie sich sicher sein können, dass alles ordnungsgemäß und ohne Verzögerungen abläuft."
+        ]
+      },
+      "faq": {
+        "title": "Häufige Fragen zu Zollkennzeichen (Exportkennzeichen)",
+        "q1": {
+          "question": "1. Wie lange sind Zollkennzeichen gültig?",
+          "answer": "Zollkennzeichen sind in der Regel für eine Dauer von 15 Tagen bis zu einem Jahr gültig, abhängig von Ihrem Bedarf."
+        },
+        "q2": {
+          "question": "2. Brauche ich eine Versicherung für mein Fahrzeug mit Zollkennzeichen?",
+          "answer": "Ja, Sie benötigen eine Versicherung, um mit Zollkennzeichen zu fahren. Wir helfen Ihnen gerne dabei, eine passende Versicherung abzuschließen."
+        },
+        "q3": {
+          "question": "3. Kann ich Zollkennzeichen für jedes Fahrzeug erhalten?",
+          "answer": "Ja, jedes Fahrzeug, das die nötigen Voraussetzungen erfüllt (originale Fahrzeugpapiere und gültiger TÜV), kann mit Zollkennzeichen versehen werden."
+        }
+      },
+      "conclusion": {
+        "title": "Fazit: Ihr Partner für Zollkennzeichen und Exportkennzeichen",
+        "text": "Ob Sie ein Fahrzeug exportieren oder vorübergehend ins Ausland fahren möchten, Zollkennzeichen sind die ideale Lösung. Wir bieten Ihnen einen schnellen, unkomplizierten Service – ohne dass Sie unbedingt vor Ort sein müssen. Kontaktieren Sie uns noch heute, um mehr über unsere Dienstleistungen zu erfahren und Ihre Zollkennzeichen zu beantragen."
+      },
+      "final_cta": "Nutzen Sie die Vorteile von Zollkennzeichen und sichern Sie sich einen einfachen, schnellen und flexiblen Service für Ihre Fahrzeugzulassung!"
+    },
+    "button": "Anfragen"
+  },
+  "temporary": {
+    "hero": {
+      "heading": "Kurzzeit & 6-Tages Kennzeichen",
+      "text": "KFZ‑Zulassungs‑Express bietet raschen und verlässlichen Service bei der Beschaffung von Kurzzeit‑ und 6‑Tages‑Kennzeichen.",
+      "button": "Kontakt"
+    },
+    "why": {
+      "heading": "Wann benötige ich es?",
+      "reasons": [
+        {
+          "title": "Probefahrten",
+          "text": "Wenn Sie ein Fahrzeug vor dem Kauf testen möchten, sind Kurzzeit‑ und 6‑Tages‑Kennzeichen ideal."
+        },
+        {
+          "title": "Überführung",
+          "text": "Beim Transport eines Fahrzeugs von einem Ort zum anderen, beispielsweise beim Umzug oder Verkauf."
+        },
+        {
+          "title": "Werkstattbesuche",
+          "text": "Wenn ein abgemeldetes Fahrzeug zur Werkstatt gebracht werden muss, um Reparaturen oder Inspektionen durchzuführen."
+        }
+      ]
+    },
+    "info": {
+      "heading": "Kurzzeitkennzeichen, Überführungskennzeichen, 6-Tages-Kennzeichen (ehemals 5-Tages-Kennzeichen) – Schnell, Einfach und Bequem",
+      "intro": "Wenn Sie ein Fahrzeug überführen, probefahren oder kurzfristig zulassen möchten, ist das Kurzzeitkennzeichen die perfekte Lösung. Dieses Kennzeichen, auch bekannt als Überführungskennzeichen, Tageskennzeichen oder früher als 5-Tages-Kennzeichen, bietet Ihnen eine unkomplizierte Möglichkeit, Fahrzeuge legal und versichert zu bewegen.",
+      "details": "Mit unserem Zulassungsservice ist die Beantragung eines Kurzzeitkennzeichens oder Überführungskennzeichens besonders einfach: Sie benötigen lediglich wenige Dokumente, die Sie bequem per WhatsApp oder E-Mail an uns senden können. Seit dem 01.01.2024 ist unser Kurzzeitkennzeichen zudem exklusiv für 6 Tage gültig – ein entscheidender Vorteil gegenüber dem herkömmlichen 5-Tages-Kennzeichen.",
+      "sub1": {
+        "title": "Was ist ein Kurzzeitkennzeichen?",
+        "subtitle": "Ein Kurzzeitkennzeichen, häufig auch als Überführungskennzeichen, Tageskennzeichen oder 5-Tages-Kennzeichen bezeichnet, ist ein temporäres Kfz-Kennzeichen, das für einen begrenzten Zeitraum genutzt werden kann. Es eignet sich ideal für:",
+        "texts": [
+          "Überführungen von Fahrzeugen, sowohl innerhalb Deutschlands als auch ins Ausland.",
+          "Probefahrten, bevor ein Fahrzeug endgültig zugelassen wird.",
+          "Kurzzeitige Fahrten zur Hauptuntersuchung (HU) oder Reparatur, auch bei Fahrzeugen ohne gültigen TÜV."
+        ],
+        "note": "Unser Kurzzeitkennzeichen ist leicht an seinem gelben Randstreifen zu erkennen, auf dem das Ablaufdatum aufgedruckt ist."
+      },
+      "sub2": {
+        "title": "Vorteile unseres Kurzzeitkennzeichen-Services",
+        "subtitle": "Unser Ziel ist es, Ihnen die Beantragung eines Kurzzeitkennzeichens oder Überführungskennzeichens so einfach wie möglich zu machen. Bei uns profitieren Sie von folgenden Vorteilen:",
+        "texts": [
+          "Minimaler Aufwand: Sie benötigen nur wenige Unterlagen:",
+          "Kopie Ihres Ausweises (Vorder- und Rückseite).",
+          "Kopie des Fahrzeugscheins (Vorder- und Rückseite).",
+          "Eine ausgefüllte Vollmacht, die Sie bequem auf unserer Website herunterladen können.",
+          "Schnelle Abwicklung: Senden Sie uns alle Unterlagen per WhatsApp oder E-Mail, und wir erledigen den Rest.",
+          "Same-Day-Service: In den meisten Fällen stellen wir Ihr Kurzzeitkennzeichen oder Tageskennzeichen noch am selben Tag aus.",
+          "6-Tages-Gültigkeit: Im Vergleich zum klassischen 5-Tages-Kennzeichen erhalten Sie exklusiv bei uns ein Kennzeichen mit einem zusätzlichen Gültigkeitstag.",
+          "Fahrzeuge ohne TÜV: Auch wenn Ihr Fahrzeug keinen TÜV hat, können Sie mit einem Kurzzeitkennzeichen zu einer TÜV-Station oder Werkstatt fahren."
+        ]
+      },
+      "sub3": {
+        "subtitle": "Die Beantragung eines Kurzzeitkennzeichens oder Überführungskennzeichens war noch nie so einfach:",
+        "texts": [
+          "Dokumente vorbereiten: Stellen Sie sicher, dass Sie folgende Unterlagen digital bereithalten:",
+          "Kopie Ihres Ausweises (Vorder- und Rückseite).",
+          "Kopie des Fahrzeugscheins (Vorder- und Rückseite).",
+          "Eine ausgefüllte Vollmacht (zum Download auf unserer Website).",
+          "Einreichung: Senden Sie uns diese Unterlagen ganz bequem per WhatsApp oder E-Mail.",
+          "Prüfung und Bearbeitung: Wir kümmern uns um die komplette Abwicklung bei der Zulassungsstelle.",
+          "Übergabe oder Versand: Ihr Kurzzeitkennzeichen oder Tageskennzeichen ist abholbereit oder wird Ihnen auf Wunsch zugesendet."
+        ]
+      },
+      "sub4": {
+        "title": "Warum unser Service?",
+        "points": [
+          "Maximale Flexibilität: Ob Sie ein Kurzzeitkennzeichen, Überführungskennzeichen, Tageskennzeichen oder ein 6-Tages-Kennzeichen benötigen – wir erledigen es schnell und zuverlässig.",
+          "Komfort: Keine lästigen Behördengänge – senden Sie uns einfach alle Dokumente per WhatsApp oder E-Mail.",
+          "Speziallösungen: Wir ermöglichen auch Kurzzeitkennzeichen ohne TÜV, sofern die gesetzlichen Voraussetzungen erfüllt sind.",
+          "Zeitersparnis: Dank unseres optimierten Prozesses erhalten Sie Ihr Kennzeichen oft noch am selben Tag."
+        ]
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen (FAQ)",
+      "q1": {
+        "question": "Wie lange ist ein Kurzzeitkennzeichen gültig?",
+        "answer": "Unser Kurzzeitkennzeichen ist seit dem 01.01.2024 für 6 Tage gültig – ein Tag länger als das herkömmliche 5-Tages-Kennzeichen."
+      },
+      "q2": {
+        "question": "Kann ich ein Kurzzeitkennzeichen ohne TÜV nutzen?",
+        "answer": "Ja, mit einem Kurzzeitkennzeichen sind Fahrten zur Werkstatt oder zur nächsten TÜV-Station erlaubt."
+      },
+      "q3": {
+        "question": "Wie schnell kann ich ein Kurzzeitkennzeichen erhalten?",
+        "answer": "In den meisten Fällen stellen wir Ihr Kurzzeitkennzeichen oder Überführungskennzeichen noch am selben Tag aus, wenn uns alle Unterlagen vorliegen."
+      },
+      "q4": {
+        "question": "Kann ich das Kurzzeitkennzeichen auch für Fahrten ins Ausland nutzen?",
+        "answer": "Ja, das Kurzzeitkennzeichen ist ideal für Auslandsüberführungen, sofern alle Fahrzeugdokumente vollständig sind."
+      }
+    },
+    "cta": {
+      "title": "Jetzt Ihr Kurzzeitkennzeichen beantragen!",
+      "text": "Kontaktieren Sie uns noch heute, um Ihr Kurzzeitkennzeichen, Überführungskennzeichen oder Tageskennzeichen zu beantragen – schnell, unkompliziert und zuverlässig. Senden Sie uns Ihre Unterlagen per WhatsApp oder E-Mail, oder besuchen Sie uns vor Ort. Unser Rundum-Service garantiert eine einfache Abwicklung und maximale Zufriedenheit!"
+    },
+    "button": "Anfragen"
+  },
+  "service-checklist": {
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Hier erhalten Sie Auskunft über die benötigten Unterlagen für Ihr Anliegen",
+      "items": [
+        {
+          "title": "Fahrzeugzulassung",
+          "documentsTitle": "Benötigte Dokumente:",
+          "documents": [
+            "Zulassungsbescheinigung Teil I und II",
+            "Gültige HU-Bescheinigung",
+            [
+              "Sie brauchen eine",
+              "SEPA-Einzugsermächtigung für die KFZ-Steuer",
+              "Hier",
+              "können Sie die KFZ-Steuer berechnen."
+            ],
+            "Personalausweis/Reisepass"
+          ]
+        },
+        {
+          "title": "Ummeldung bei Umzug",
+          "documentsTitle": "Benötigte Dokumente:",
+          "documents": [
+            "Zulassungsbescheinigung Teil I",
+            "Personalausweis mit neuer Adresse",
+            "Auftragsformular für die Ummeldung"
+          ]
+        },
+        {
+          "title": "Umschreibung auf neuen Halter",
+          "documentsTitle": "Benötigte Dokumente:",
+          "documents": [
+            "Zulassungsbescheinigung Teil I und II",
+            "Kaufvertrag oder Überlassungserklärung",
+            "Personalausweis des neuen Halters",
+            "Bei Verlust:",
+            "Eidesstattliche Versicherungen KFZ-Brief Verlust"
+          ]
+        },
+        {
+          "title": "Saison- / Zollkennzeichen / Oldtimer",
+          "documentsTitle": "Benötigte Dokumente:",
+          "documents": [
+            "Zulassungsbescheinigung Teil I und II",
+            "Gültige HU-Bescheinigung",
+            "Nachweis über die Einstufung als Oldtimer (falls zutreffend)",
+            [
+              "Sie brauchen eine",
+              "SEPA-Einzugsermächtigung",
+              "für die KFZ-Steuer für Saison- und Zollkennzeichen.",
+              "Hier",
+              "können Sie die KFZ-Steuer berechnen."
+            ]
+          ]
+        },
+        {
+          "title": "Adressänderung",
+          "documentsTitle": "Benötigte Dokumente:",
+          "documents": [
+            "Zulassungsbescheinigung Teil I",
+            "Personalausweis mit neuer Adresse",
+            "Auftragsformular",
+            "für die Adressänderung"
+          ]
+        },
+        {
+          "title": "Technische Eintragung",
+          "documentsTitle": "Benötigte Dokumente:",
+          "documents": [
+            "Gutachten des TÜV oder einer anderen anerkannten Prüforganisation",
+            "Zulassungsbescheinigung Teil I",
+            "Auftragsformular",
+            "für die Eintragung der technischen Änderungen"
+          ]
+        },
+        {
+          "title": "Diebstahl / Verlust",
+          "documentsTitle": "Benötigte Dokumente:",
+          "documents": [
+            "Polizeibericht (bei Diebstahl)",
+            "Eidesstattliche Versicherungen KFZ-Brief Verlust",
+            "und/oder",
+            "Eidesstattliche Versicherungen Kennzeichen Verlust",
+            "Personalausweis/Reisepass"
+          ]
+        },
+        {
+          "title": "Außer Betrieb setzen",
+          "documentsTitle": "Benötigte Dokumente:",
+          "documents": [
+            "Zulassungsbescheinigung Teil I",
+            "Kennzeichen",
+            "Auftragsformular",
+            "für die Stilllegung"
+          ]
+        }
+      ]
+    }
+  },
+  "locations": {
+    "kronau": {
+      "hero": {
+        "title": "Express KFZ-Zulassung in Kronau",
+        "location_name": "Kiosk Dings Spielwaren\nSchreibwaren",
+        "address": "Kirrlacherstr. 26,\n76709 Kronau",
+        "phone": "+49 7253 50088",
+        "email": "E-mail",
+        "checklist": "Checkliste",
+        "whatsapp": "WhatsApp"
+      },
+      "mobile": {
+        "title": "Express KFZ-Zulassung in"
+      },
+      "steps": {
+        "title": "Vorgehensweise",
+        "items": [
+          "Bringen Sie alle notwendigen Dokumente für Ihr Anliegen (z. B. Zulassung, Abmeldung) und das entsprechende ",
+          "Auftragsformular mit.",
+          "Besuchen Sie eine unserer Annahmestellen und übergeben Sie die Unterlagen.",
+          "Wir kümmern uns um die Formalitäten und informieren Sie, sobald der Vorgang abgeschlossen ist."
+        ],
+        "button": "WhatsApp"
+      }
+    },
+    "overview": {
+      "hero": {
+        "title": "KFZ Annahmestellen",
+        "description": "Suche hier deinen Standort aus, sodass du ganz bequem Dein Anliegen in deiner Nähe erledigen kannst.",
+        "how": "Wie läuft das ab?",
+        "how_description": "Wir machen die KFZ-Zulassung einfacher denn je! Mit unserem neuen Service können Sie Ihre Fahrzeugunterlagen ganz bequem bei einem Kiosk, Schreibwarenladen oder ähnlichem Geschäft in Ihrer Nähe abgeben.",
+        "steps_title": "So funktioniert es:",
+        "steps": [
+            {
+                "title": "Unterlagen abgeben:",
+                "text": [
+                    "Bringen Sie Ihre Fahrzeugunterlagen zu einer unserer zahlreichen Annahmestellen in Ihrer Nähe.",
+                    "oder",
+                    "Abholung durch uns: Unser Fahrer holt die Unterlagen ab und bringt sie zu unserem Servicecenter."
+                ]
+            },
+            {
+                "title": "Bearbeitung:",
+                "text": "Wir bearbeiten Ihre KFZ-Zulassung schnell und zuverlässig."
+            },
+            {
+                "title": "Abholung:",
+                "text": "Bereits am nächsten Tag können Sie die zugelassenen Schilder und Papiere wieder an der gleichen Stelle abholen, an der Sie sie abgegeben haben."
+            }
+        ],
+        "note": "Kein lästiges Warten und keine langen Wege mehr – einfach, schnell und bequem!",
+        "dropdown": "Deine Stadt auswählen"
+      },
+      "central": {
+        "title": "Unsere Zentrale",
+        "name": "Kfz Zulassungs Express",
+        "address": "Am Alten Güterbahnhof 24,\n76646 Bruchsal",
+        "phone": "+49 7251 9295628"
+      }
+    }
+  }
+}

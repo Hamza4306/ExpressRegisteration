@@ -1,0 +1,710 @@
+{
+  "checklist-nav": "Listă de verificare",
+  "locations-nav": "Puncte de predare",
+  "documents-nav": "Documente & Formulare",
+  "export-nav": "Numere vamale & de export",
+  "temporary-nav": "Numere provizorii & pe 6 zile",
+  "register-nav": "Înmatriculare Vehicul",
+  "deregister-nav": "Radiere Vehicul",
+  "contact": "Contact",
+  "primary": {
+    "title_highlight": "Înmatriculare Express",
+    "title_line2": "Economisiți timp și nervi!",
+    "title_line3": "Rapid & Ușor",
+    "feature1": "La nivel național",
+    "feature2": "Fără timpi de așteptare",
+    "feature3": "Procese rapide",
+    "feature4": "Puncte de preluare aproape",
+    "feature5": "Soluție la fața locului",
+    "call": "Sună",
+    "whatsapp": "WhatsApp"
+  },
+  "video": {
+    "title": "Video explicativ",
+    "button": "Vezi pe YouTube"
+  },
+  "service": {
+    "heading": "Serviciile Noastre",
+    "registration": {
+      "title": "Înmatriculare",
+      "cta": "La Înmatriculare"
+    },
+    "deregistration": {
+      "title": "Radiere",
+      "cta": "La Radiere"
+    },
+    "export": {
+      "title": "Numere de Export/Vamă",
+      "cta": "Către Comandă"
+    },
+    "temporary": {
+      "title": "Numere Temporare / 6-Zile",
+      "cta": "Către Cerere"
+    },
+    "advice": {
+      "title": "Serviciu & Consultanță",
+      "point4": "Ajutor rapid și competent",
+      "cta": "CONTACTEAZĂ ACUM"
+    },
+    "contact": {
+      "cta": "Contact"
+    },
+    "common": {
+      "point1": "Fără programare, disponibil oricând",
+      "point2": "Disponibil la nivel național",
+      "point3": "Și pentru clienți comerciali"
+    }
+  },
+  "cta": {
+    "title": "Îți înmatriculăm mașina pentru tine",
+    "items": [
+      "Cu noi, înmatricularea devine ușoară, simplă și rapidă.",
+      "Ne dai documentele, iar noi ne ocupăm de tot la biroul de înmatriculare. Primești plăcuțele tale rapid, inclusiv numărul preferat.",
+      "Contra unui cost suplimentar, venim să ridicăm documentele și ți le returnăm după înmatriculare."
+    ],
+    "whatsapp": "WhatsApp"
+  },
+  "contact_cta": {
+    "title": "Ai o altă solicitare?",
+    "text": "Aveți întrebări sau aveți nevoie de ajutor pentru înmatricularea vehiculului? Echipa noastră prietenoasă și competentă vă stă la dispoziție!",
+    "button": "Contact"
+  },
+  "contact_section": {
+    "title": "Contactează-ne",
+    "description": "Suntem bucuroși să vă ajutăm cu orice solicitare în filialele noastre.",
+    "success": "Cererea dvs. a fost trimisă cu succes!",
+    "firstname": "Prenume *",
+    "lastname": "Nume *",
+    "email": "Adresă de e-mail *",
+    "subject": "Subiect *",
+    "message": "Mesaj *",
+    "error": "A apărut o eroare neașteptată. Vă rugăm să încercați mai târziu.",
+    "send": "Trimite",
+    "notice_text": "Prin trimiterea cererii confirmați",
+    "privacy": "Politica de confidențialitate"
+  },
+  "reviews": {
+    "title": "Părerile clienților noștri",
+    "review1": "Foarte prietenoși și totul a decurs perfect! Aș da 6 stele dacă aș putea...",
+    "review2": "Foarte amabili și la un preț foarte bun. Dacă ai nevoie de o plăcuță de înmatriculare, mergi cu încredere aici.",
+    "review3": "Înmatriculare de export fără efort! Kfz Zulassungs Express a procesat cererea mea în aceeași zi, fără programare. Personal profesionist, totul a fost fără stres. Foarte recomandat!"
+  },
+  "footer": {
+    "callText": "Contactează-ne astăzi și haide să ne asigurăm că înmatriculările, exporturile și plăcuțele temporare ale vehiculului tău sunt realizate rapid și fără probleme.",
+    "callBtn": "Sună",
+    "usefulLinks": "Linkuri utile",
+    "documents": "Documente & Formulare",
+    "locations": "Puncte de predare",
+    "export": "Plăcuțe de Export & Vamale",
+    "temporary": "Plăcuțe Temporare & 6-Zile",
+    "tax": "Calculează impozitul auto",
+    "checklist": "Listă de verificare",
+    "register": "Înmatriculare vehicul",
+    "deregister": "Radiere vehicul",
+    "partner": "Parteneri",
+    "privacy": "Politica de confidențialitate",
+    "imprint": "Imprint"
+  },
+  "checklist": {
+    "title": "Listă de Verificare pentru Toate Documentele",
+    "description": "Economisiți timp și stres la înmatricularea vehiculului! Găsiți aici toate documentele necesare pentru înmatriculare, schimbare sau radiere, într-o listă clară. Cu serviciul nostru expres, procesul este rapid și simplu.",
+    "section": {
+      "registration": {
+        "title": "Înmatriculare Vehicul",
+        "strong": "Documente necesare pentru înmatriculare:",
+        "vollmacht": "Împuternicire pentru înmatriculare",
+        "form": "Formular de solicitare",
+        "scheinbrief": "Certificat de înmatriculare partea I & II",
+        "hu": "Raport de inspecție tehnică (dacă este disponibil)",
+        "sepa": "Este necesar un mandat SEPA pentru taxa auto. Calculați aici.",
+        "idcopy": "Copie act identitate / Pentru străini, și pașaport"
+      },
+      "relocation": {
+        "title": "Schimbare Adresă",
+        "strong": "Documente necesare pentru schimbarea adresei:",
+        "sameDistrict": "În același județ:",
+        "schein": "Certificat de înmatriculare partea I",
+        "id": "Copie buletin",
+        "otherDistrict": "Alt județ:",
+        "scheinBrief": "Certificat de înmatriculare partea I & II",
+        "idCopy": "Copie buletin",
+        "vollmacht": "Împuternicire și mandat SEPA",
+        "evb": "Număr eVB",
+        "form": "Formular pentru schimbare adresă"
+      },
+      "ownerChange": {
+        "title": "Transfer Proprietar",
+        "strong": "Documente pentru schimbarea proprietarului:",
+        "vollmacht": "Împuternicire",
+        "scheinbrief": "Certificat de înmatriculare partea I & II",
+        "newHolderId": "Copie buletin nou proprietar"
+      },
+      "shortTerm": {
+        "title": "Numere Temporare / Transfer / o Zi",
+        "strong": "Documente pentru numere temporare:",
+        "idCopy": "Copie buletin (față și verso)",
+        "scheinCopy": "Copie certificat auto (față și verso)",
+        "vollmacht": "Formular împuternicire",
+        "send": "➔ Trimiteți documentele pe WhatsApp sau email."
+      },
+      "techChange": {
+        "title": "Modificări Tehnice",
+        "strong": "Documente necesare pentru modificări:",
+        "scheinbrief": "Certificat auto partea I & II",
+        "report": "Raport tehnic"
+      },
+      "theft": {
+        "title": "Furt / Pierdere Plăcuțe",
+        "strong": "Documente necesare în caz de furt/pierdere:",
+        "report": "Raport de poliție",
+        "scheinbrief": "Certificat auto partea I & II",
+        "plate": "Dacă există: una dintre plăcuțe",
+        "idCopy": "Copie buletin",
+        "vollmacht": "Împuternicire"
+      },
+      "loss": {
+        "title": "Pierdere Certificat Auto",
+        "strong": "Documente necesare în caz de pierdere:",
+        "brief": "Certificat auto partea II",
+        "idCopy": "Copie buletin",
+        "eides": "Declarație pe propria răspundere"
+      },
+      "deregistration": {
+        "title": "Radiere / Scoatere din Uz",
+        "strong": "Documente necesare pentru radiere:",
+        "schein": "Certificat partea I",
+        "plates": "Plăcuțele de înmatriculare"
+      }
+    }
+  },
+  "contact_cta2": {
+    "heading": "Aveți o altă solicitare legată de înmatricularea auto?",
+    "description": "Aveți nevoie de ajutor pentru înmatricularea vehiculului? Echipa noastră cu experiență vă ajută cu plăcere în toate întrebările privind înmatricularea, schimbarea adresei sau radierea. Contactați-ne chiar azi!",
+    "button": "Contactați-ne acum"
+  },
+  "documents": {
+    "title": "Formulare și Documente",
+    "description": "Aici găsești toate documentele necesare pentru solicitarea ta",
+    "vollmacht": {
+      "title": "Împuternicire",
+      "description": "Împuternicire pentru prezentare la autoritatea de înmatriculare"
+    },
+    "eides_brief": {
+      "title": "Declarație pe Propria Răspundere - Certificat Partea II",
+      "description": "Declarație necesară în caz de pierdere a certificatului de înmatriculare partea II"
+    },
+    "eides_schein": {
+      "title": "Declarație pe Propria Răspundere - Certificat Partea I",
+      "description": "Declarație necesară în caz de pierdere a certificatului de înmatriculare partea I"
+    },
+    "eides_kennzeichen": {
+      "title": "Declarație Pierdere Plăcuțe",
+      "description": "Declarație necesară în caz de pierdere a plăcuțelor de înmatriculare"
+    },
+    "auftrag": {
+      "title": "Formular de Solicitare",
+      "description": "Formular necesar pentru a oferi toate informațiile necesare pentru procesarea rapidă și corectă"
+    },
+    "download": "Descarcă",
+    "contactBtn": "Contact"
+  },
+  "partner": {
+    "title": "Partenerii Noștri",
+    "description": "Colaborăm cu numeroase ateliere, dealeri auto și alți furnizori de servicii pentru a vă oferi un serviciu fără probleme pentru orice solicitare."
+  },
+  "tax": {
+    "title": "Calculator Taxă Auto",
+    "description": "Aici puteți calcula taxa auto estimată. Acest serviciu este oferit de Ministerul Federal de Finanțe din Germania. Alternativ, puteți folosi acest serviciu direct pe site-ul BMF de aici."
+  },
+  "data-privacy": {
+    "title": "Politica de Confidențialitate",
+    "subtitle": "Lightning Dynamics UG (cu răspundere limitată) se angajează să vă protejeze confidențialitatea și utilizează tehnologii care vă permit o utilizare online performantă și sigură. Această declarație de confidențialitate se aplică site-ului kfzzulassungsexpress.de și reglementează colectarea și utilizarea datelor dumneavoastră personale. Prin utilizarea site-ului kfzzulassungsexpress.de, sunteți de acord cu practicile privind datele descrise în această declarație.",
+    "sections": [
+      {
+        "heading": "Colectarea datelor dvs. personale",
+        "paragraphs": [
+          "Lightning Dynamics UG (cu răspundere limitată) colectează date personale precum adresa dvs. de e-mail, numele, adresa, metodele de plată sau numărul de telefon. De asemenea, stochează informații demografice care nu sunt în mod clar identificabile, cum ar fi codul poștal, vârsta, sexul, preferințele, interesele, hobby-urile și favoritele. Unele informații despre hardware-ul și software-ul computerului dvs. sunt colectate automat de Lightning Dynamics UG (cu răspundere limitată). Acestea includ adresa IP, tipul browserului, numele domeniului, orele de acces și adresele site-urilor web de referință. Aceste informații sunt utilizate pentru a menține calitatea serviciilor și pentru a crea statistici generale privind utilizarea site-ului kfzzulassungsexpress.de.",
+          "Vă rugăm să aveți în vedere că informațiile personale pe care le furnizați în zone publice, cum ar fi forumurile, pot fi utilizate în mod neautorizat de către alți utilizatori.",
+          "Notă: Lightning Dynamics UG (cu răspundere limitată) nu citește comunicațiile dvs. online private. Vă încurajăm să consultați politica de confidențialitate a oricărui site la care ajungeți prin linkuri de pe kfzzulassungsexpress.de, pentru a înțelege modul în care aceste site-uri colectează, utilizează și partajează informațiile dvs. Lightning Dynamics UG (cu răspundere limitată) nu este responsabilă pentru politicile de confidențialitate ale site-urilor externe."
+        ]
+      },
+      {
+        "heading": "Utilizarea datelor dvs. personale",
+        "paragraphs": [
+          "Lightning Dynamics UG (cu răspundere limitată) folosește datele personale pentru a opera site-ul kfzzulassungsexpress.de și pentru a oferi serviciile solicitate de dvs. De asemenea, putem folosi aceste informații pentru a vă informa despre alte produse sau servicii ale companiei. Ocazional, putem să vă contactăm pentru cercetări de piață. Nu vindem, închiriem sau transferăm informațiile personale către terți. În unele cazuri, vă putem informa despre oferte din partea partenerilor noștri, dar fără a le oferi datele dvs. personale.",
+          "În plus, datele pot fi partajate cu parteneri de încredere pentru analize statistice. Aceștia au interdicția de a folosi datele în alte scopuri decât cele agreate și sunt obligați să respecte confidențialitatea acestora.",
+          "Nu colectăm sau dezvăluim informații sensibile precum originea etnică, religia sau opiniile politice. Pentru a personaliza conținutul, analizăm ce secțiuni ale site-ului sunt cele mai accesate de clienți."
+        ]
+      },
+      {
+        "heading": "Divulgarea datelor personale",
+        "paragraphs": [
+          "În cazul unei solicitări legale, Lightning Dynamics UG (cu răspundere limitată) va furniza datele personale autorităților fără notificare prealabilă. De asemenea, ne rezervăm dreptul de a folosi datele dvs. în cazul unor litigii legale."
+        ]
+      },
+      {
+        "heading": "Utilizarea cookie-urilor",
+        "paragraphs": [
+          "Folosim cookie-uri pentru a îmbunătăți experiența dvs. de navigare. Un cookie este un fișier text stocat pe hard disk de către un server web. Cookie-urile nu pot fi utilizate pentru a rula programe sau a transmite viruși. Sunt unice și pot fi citite doar de serverul care le-a emis. Scopul lor este de a economisi timp și de a personaliza experiența dvs. la revenirea pe site.",
+          "La revenirea pe site-ul kfzzulassungsexpress.de, informațiile furnizate anterior pot fi recuperate pentru o experiență personalizată. Puteți alege să acceptați sau să respingeți cookie-urile. Majoritatea browserelor le acceptă automat, dar setările pot fi modificate. Dacă le dezactivați, este posibil ca unele funcții să nu fie disponibile."
+        ]
+      },
+      {
+        "heading": "Securitatea datelor personale",
+        "paragraphs": [
+          "Protejăm datele personale împotriva accesului neautorizat, utilizării sau divulgării. Informațiile sunt stocate pe servere securizate. Datele sensibile, cum ar fi numerele de card, sunt criptate (ex. SSL) în timpul transmiterii."
+        ]
+      },
+      {
+        "heading": "Modificări ale acestei declarații",
+        "paragraphs": [
+          "Ne rezervăm dreptul de a actualiza această Politică de Confidențialitate în funcție de feedbackul clienților sau de modificările legislative. Vă vom informa despre aceste schimbări pe site sau prin e-mail. Dacă nu formulați obiecții scrise, modificările vor deveni valabile."
+        ]
+      },
+      {
+        "heading": "Informații de contact",
+        "paragraphs": [
+          "Apreciem sugestiile și întrebările privind această politică. Ne puteți contacta la info@kfzzulassungsexpress.de. Datele de contact poștale sunt disponibile în secțiunea Impressum."
+        ]
+      }
+    ]
+  },
+  "imprint": {
+    "title": "Impresum",
+    "company_name": "KFZ-Zulassungsexpress",
+    "content": [
+      "Lightning Dynamics UG (cu răspundere limitată)",
+      "Director general: Aleyna Simsek",
+      "Bannweideweg 8,",
+      "76646 Bruchsal",
+      "Înregistrare în registrul comerțului:",
+      "Tribunalul districtual Mannheim, HRB 751377",
+      "Adresă de e-mail:",
+      "Telefon:",
+      "Soluționarea alternativă a litigiilor conform articolului 14 alineatul (1) din ODR-VO și § 36 VSBG: Comisia Europeană oferă o platformă pentru soluționarea online a litigiilor (platforma OS), disponibilă la https://ec.europa.eu/consumers/odr/. Lightning Dynamics UG (cu răspundere limitată) nu este obligată să participe la o procedură de soluționare a litigiilor în fața unui organism de conciliere a consumatorilor.",
+      "Contactul prin e-mail este destinat doar solicitărilor generale sau declarațiilor. Solicitările sau declarațiile referitoare la comerțul electronic, protecția consumatorului, comenzi, siguranța produselor sau alte aspecte cu semnificație juridică trebuie transmise prin poștă.",
+      "Conținutul acestor pagini este protejat prin lege. Toate drepturile care nu sunt acordate în mod expres sunt rezervate. Lightning Dynamics UG (cu răspundere limitată) vă permite utilizarea personală a acestor pagini web, în măsura în care aceasta se limitează la accesare, descărcare, vizualizare, rulare, salvare și imprimare. Reproducerea, modificarea, traducerea, transmiterea sau distribuirea totală sau parțială este interzisă fără acord scris.",
+      "Comunicatele de presă și documentele marcate public pot fi utilizate cu indicarea sursei. Pentru anumite documente se aplică condiții suplimentare.",
+      "Lightning Dynamics UG (cu răspundere limitată) își rezervă dreptul de a modifica paginile în orice moment sau de a restricționa accesul la ele. Lightning Dynamics UG (cu răspundere limitată) nu oferă nicio garanție expresă sau implicită pentru aceste site-uri. În special, nu se oferă garanția că paginile vor funcționa fără erori sau întreruperi. Aceasta include, dar nu se limitează la, garanții privind defectele legale, integritatea, vandabilitatea sau adecvarea pentru un anumit scop, în legătură cu disponibilitatea, acuratețea, fiabilitatea sau conținutul paginilor. Lightning Dynamics UG (cu răspundere limitată) nu este responsabilă pentru daune directe, indirecte, incidentale sau speciale, pierderi de profit sau întreruperi ale producției care rezultă din utilizarea sau imposibilitatea utilizării site-urilor sau serviciilor oferite. Aceasta este valabilă chiar dacă a fost informată cu privire la posibilitatea unor astfel de daune.",
+      "Pentru a vă facilita accesul, Lightning Dynamics UG (cu răspundere limitată) oferă ocazional linkuri către site-uri terțe. Dacă folosiți aceste linkuri, trebuie să citiți și să acceptați termenii și condițiile acelor site-uri înainte de utilizare. De asemenea, acceptați că Lightning Dynamics UG (cu răspundere limitată) nu are control asupra conținutului acelor site-uri și nu își asumă nicio responsabilitate pentru materialele create sau publicate acolo. În plus, un link către un astfel de site nu înseamnă că Lightning Dynamics UG (cu răspundere limitată) recomandă acel site sau produsele ori serviciile prezentate pe el."
+    ]
+  },
+  "deregister": {
+    "title": "Radiere",
+    "description": "Puteți radia vehiculul dumneavoastră fără probleme la noi. Ne ocupăm de toate formalitățile, astfel încât să nu aveți griji legate de acte. Completați pur și simplu formularul de comandă și noi ne ocupăm de restul.",
+    "button": "Contact",
+    "why": {
+      "title": "Când am nevoie de ea?",
+      "reason1": {
+        "title": "Scoaterea vehiculului din circulație",
+        "text": "Trebuie să prezentați certificatul de înmatriculare partea I și plăcuțele la biroul de înmatriculare pentru a radia vehiculul."
+      },
+      "reason2": {
+        "title": "Eliminare sau vânzare",
+        "text": "După radiere, puteți elimina vehiculul sau îl puteți transfera unui nou proprietar. Cumpărătorul va avea nevoie de certificatul de radiere."
+      },
+      "reason3": {
+        "title": "Asigurare și taxe",
+        "text": "După radiere, biroul de înmatriculare va informa automat asiguratorul și administrația fiscală pentru oprirea taxei auto și a contribuțiilor de asigurare."
+      },
+      "button": "Solicită"
+    }
+  },
+  "register": {
+    "hero": {
+      "heading": "Înmatriculare",
+      "text": "Puteți înmatricula vehiculul dvs. rapid și ușor cu noi. Ne ocupăm de toate formalitățile, astfel încât să nu vă faceți griji. Doar completați formularul de comandă și noi ne ocupăm de restul!",
+      "button": "Contact"
+    },
+    "why": {
+      "heading": "Când am nevoie de ea?",
+      "reasons": [
+        {
+          "title": "Înmatriculare nouă",
+          "text": "Dacă doriți să înmatriculați un vehicul nou pentru prima utilizare pe drum."
+        },
+        {
+          "title": "Schimbare de proprietar",
+          "text": "La achiziționarea unui vehicul second-hand pentru a-l înregistra pe numele dvs."
+        },
+        {
+          "title": "Reînmatriculare",
+          "text": "Dacă un vehicul scos din uz trebuie înmatriculat din nou."
+        }
+      ]
+    },
+    "info": {
+      "subheading": "Înmatricularea autovehiculelor simplificată – serviciul dvs. din 2009",
+      "intro": "Bun venit la KFZ Zulassungs Express, partenerul dvs. cu experiență pentru înmatriculări rapide și simple – în toată Germania! De peste 15 ani oferim eficiență și fiabilitate. Dacă doriți să înmatriculați un vehicul fără programare sau timp de așteptare, suntem alegerea potrivită. Serviciul nostru este disponibil în toată țara – indiferent unde vă aflați!",
+      "highlight": "Înmatriculare fără programare – iată cum",
+      "body": "Înmatricularea vehiculului dvs. nu a fost niciodată mai ușoară! Echipa noastră se ocupă de toate formalitățile – pentru autoturisme, camioane, motociclete, rulote și multe altele. Nu mai este nevoie de drumuri obositoare la autorități – ne ocupăm noi, în toată Germania."
+    },
+    "benefits": {
+      "heading": "De ce KFZ Zulassungs Express?",
+      "points": [
+        "1. Înmatriculare fără programare: Fără nevoie de programare la biroul de înmatriculare.",
+        "2. Fără timp de așteptare: Solicitările dvs. sunt procesate rapid și eficient.",
+        "3. Serviciu la nivel național: Indiferent în ce land vă aflați, vă oferim suport.",
+        "4. Experiență din 2009: Aveți încredere în peste 15 ani de expertiză.",
+        "5. Înmatricularea tuturor tipurilor de vehicule: De la autoturisme la vehicule comerciale și motociclete – le gestionăm pe toate!"
+      ]
+    },
+    "steps": {
+      "heading": "Cum funcționează",
+      "list": [
+        "1. Contactați-ne: Telefonic sau online.",
+        "2. Trimiteți documentele: Vă sfătuim ce documente sunt necesare.",
+        "3. Serviciu complet: Ne ocupăm de tot procesul cu autoritățile.",
+        "4. Vehicul înmatriculat: Rapid, simplu și fără așteptare!"
+      ]
+    },
+    "cta": "Cu KFZ Zulassungs Express economisiți timp prețios și evitați stresul. Aveți încredere în serviciile noastre profesioniste și rapide – în toată Germania, fără compromisuri. Contactați-ne azi și lăsați-ne să înmatriculăm vehiculul dvs. – simplu, rapid și fără stres!",
+    "button": "Solicită acum"
+  },
+  "export": {
+    "hero": {
+      "heading": "Plăcuțe de Export și Vamale",
+      "text": "KFZ Zulassungs Express oferă asistență rapidă și de încredere pentru obținerea plăcuțelor de export și vamale.",
+      "button": "Contact"
+    },
+    "why": {
+      "heading": "Când am nevoie de ele?",
+      "reasons": [
+        {
+          "title": "Export vehicul",
+          "text": "Dacă vindeți sau duceți un vehicul în străinătate, aveți nevoie de plăcuțe de export."
+        },
+        {
+          "title": "Transport temporar în străinătate",
+          "text": "Pentru mutarea temporară a unui vehicul în altă țară, de exemplu pentru ședere prelungită."
+        },
+        {
+          "title": "Comerț internațional cu vehicule",
+          "text": "Pentru dealeri care vând și transportă vehicule peste granițe, aceste plăcuțe sunt esențiale."
+        }
+      ]
+    },
+    "info": {
+      "heading": "Totul despre plăcuțele de export / vamale",
+      "intro": "Plăcuțele de export, cunoscute și ca plăcuțe vamale, sunt soluția ideală pentru export sau conducere temporară în străinătate. Aici veți afla cum se solicită, cerințele și beneficiile acestora.",
+      "sub1": {
+        "title": "Ce sunt plăcuțele de export?",
+        "text": "Sunt plăcuțe speciale pentru vehicule care ies temporar sau permanent din Germania. Permit circulația fără reînmatriculare permanentă."
+      },
+      "sub2": {
+        "title": "Avantajele plăcuțelor de export",
+        "points": [
+          "Utilizare temporară: Puteți circula în străinătate fără reînmatriculare completă.",
+          "Utilizare internațională: Circulați legal în afara Germaniei.",
+          "Valabilitate flexibilă: De la 15 zile la 1 an, în funcție de nevoie.",
+          "Asigurare inclusă: De obicei, vehiculul este acoperit."
+        ]
+      },
+      "sub3": {
+        "title": "Cerințe pentru solicitare",
+        "points": [
+          "Acte originale ale vehiculului: Talonul și certificatul de înmatriculare.",
+          "Inspecție tehnică valabilă (TÜV)."
+        ]
+      },
+      "sub4": {
+        "title": "Procesul de solicitare",
+        "scenario1": "1. Proprietar străin prezent în Germania: Vehiculul se prezintă cu documente valabile. Noi ne ocupăm de tot.",
+        "scenario2": "2. Proprietar străin neprezent: Vehiculul poate fi prezentat de noi sau un reprezentant – dacă actele sunt valabile."
+      },
+      "feature": {
+        "title": "Serviciul nostru special: Plăcuțe vamale fără prezența proprietarului",
+        "text": "Comparativ cu alte servicii de înmatriculare, vă oferim avantajul de a nu fi necesară prezența fizică pentru a obține plăcuțele vamale – chiar dacă locuiți în străinătate. Singura condiție este ca vehiculul să fie prezentat la autoritatea de înmatriculare și să existe toate documentele necesare. Noi ne ocupăm de restul și ne asigurăm că totul decurge fără probleme."
+      },
+      "service": {
+        "title": "De ce serviciul nostru pentru plăcuțe vamale?",
+        "points": [
+          "Confort: Ne ocupăm de toată birocrația pentru dumneavoastră, astfel încât să nu vă faceți griji pentru procesul de înmatriculare.",
+          "Rapiditate: Ne asigurăm că primiți rapid plăcuțele vamale, ca să nu pierdeți timp.",
+          "Flexibilitate: Indiferent dacă sunteți prezent fizic sau nu, vă oferim soluții personalizate.",
+          "Fiabilitate: Serviciul nostru este profesionist și de încredere, astfel încât totul să se desfășoare corect și fără întârzieri."
+        ]
+      },
+      "faq": {
+        "title": "Întrebări frecvente despre plăcuțele vamale (de export)",
+        "q1": {
+          "question": "1. Cât timp sunt valabile plăcuțele vamale?",
+          "answer": "Plăcuțele vamale sunt valabile, de regulă, între 15 zile și un an, în funcție de necesitățile dvs."
+        },
+        "q2": {
+          "question": "2. Am nevoie de asigurare pentru vehiculul cu plăcuțe vamale?",
+          "answer": "Da, aveți nevoie de asigurare pentru a circula cu plăcuțe vamale. Vă putem ajuta să găsiți o asigurare potrivită."
+        },
+        "q3": {
+          "question": "3. Pot obține plăcuțe vamale pentru orice vehicul?",
+          "answer": "Da, orice vehicul care îndeplinește condițiile necesare (documente originale și inspecție tehnică valabilă) poate primi plăcuțe vamale."
+        }
+      },
+      "conclusion": {
+        "title": "Concluzie: Partenerul dumneavoastră pentru plăcuțe vamale și de export",
+        "text": "Indiferent dacă exportați un vehicul sau circulați temporar în străinătate, plăcuțele vamale sunt soluția ideală. Vă oferim un serviciu rapid și simplu – chiar și fără prezența dvs. fizică. Contactați-ne astăzi pentru a afla mai multe și pentru a solicita plăcuțele vamale."
+      },
+      "final_cta": "Profitați de avantajele plăcuțelor vamale și bucurați-vă de un serviciu simplu, rapid și flexibil pentru înmatricularea vehiculului!"
+    },
+    "button": "Solicită acum"
+  },
+  "temporary": {
+    "hero": {
+      "heading": "Plăcuțe Temporare & de 6 Zile",
+      "text": "KFZ-Zulassungs-Express oferă servicii rapide și de încredere pentru obținerea plăcuțelor temporare și de 6 zile.",
+      "button": "Contact"
+    },
+    "why": {
+      "heading": "Când am nevoie de ele?",
+      "reasons": [
+        {
+          "title": "Test drive-uri",
+          "text": "Dacă doriți să testați un vehicul înainte de a-l cumpăra, plăcuțele temporare și de 6 zile sunt ideale."
+        },
+        {
+          "title": "Transport de vehicul",
+          "text": "Pentru transportul unui vehicul dintr-o locație în alta, de exemplu în cazul unei mutări sau vânzări."
+        },
+        {
+          "title": "Vizite la service",
+          "text": "Dacă un vehicul radiat trebuie dus la service pentru reparații sau inspecții."
+        }
+      ]
+    },
+    "info": {
+      "heading": "Plăcuțe temporare, plăcuțe de transport, plăcuțe de 6 zile (anterior 5 zile) – Rapid, Simplu, Confortabil",
+      "intro": "Dacă doriți să transportați, testați sau înmatriculați temporar un vehicul, plăcuțele temporare sunt soluția perfectă. Cunoscut și ca plăcuțe de transport, plăcuțe de o zi sau 5 zile, acest tip de plăcuță vă permite să circulați legal și asigurat.",
+      "details": "Cu serviciul nostru de înmatriculare, obținerea unei plăcuțe temporare sau de transport este foarte simplă: Aveți nevoie doar de câteva documente, pe care ni le puteți trimite prin WhatsApp sau e-mail. Din 01.01.2024, plăcuțele noastre sunt valabile exclusiv 6 zile – un avantaj semnificativ față de cele clasice de 5 zile.",
+      "sub1": {
+        "title": "Ce este o plăcuță de înmatriculare temporară?",
+        "subtitle": "O plăcuță temporară, numită adesea plăcuță de transfer, plăcuță zilnică sau plăcuță de 5 zile, este o înmatriculare temporară valabilă pentru o perioadă limitată. Este ideală pentru:",
+        "texts": [
+          "Transferuri de vehicule, atât în Germania cât și în străinătate.",
+          "Testarea unui vehicul înainte de înmatriculare permanentă.",
+          "Deplasări scurte pentru inspecția tehnică (HU) sau reparații, chiar și fără TÜV valid."
+        ],
+        "note": "Plăcuțele noastre temporare sunt ușor de recunoscut datorită marginii galbene care indică data de expirare."
+      },
+      "sub2": {
+        "title": "Avantajele serviciului nostru pentru plăcuțe temporare",
+        "subtitle": "Scopul nostru este să vă oferim o modalitate cât mai simplă de a solicita o plăcuță temporară sau de transfer. Cu noi beneficiați de următoarele avantaje:",
+        "texts": [
+          "Efort minim: Aveți nevoie doar de câteva documente:",
+          "Copie a cărții de identitate (față și verso).",
+          "Copie a certificatului de înmatriculare (față și verso).",
+          "O procură completată, disponibilă pentru descărcare pe site-ul nostru.",
+          "Procesare rapidă: Trimiteți-ne documentele prin WhatsApp sau e-mail și ne ocupăm noi de restul.",
+          "Serviciu în aceeași zi: În cele mai multe cazuri, emitem plăcuțele în aceeași zi.",
+          "Valabilitate de 6 zile: Comparativ cu plăcuța clasică de 5 zile, a noastră este valabilă o zi în plus.",
+          "Vehicule fără ITP: Chiar și fără ITP, puteți merge cu plăcuța temporară la stația de inspecție tehnică sau service."
+        ]
+      },
+      "sub3": {
+        "subtitle": "Solicitarea unei plăcuțe provizorii sau de transfer nu a fost niciodată mai simplă:",
+        "texts": [
+          "Pregătirea documentelor: Asigurați-vă că aveți următoarele documente în format digital:",
+          "Copie a cărții de identitate (față și verso).",
+          "Copie a certificatului de înmatriculare (față și verso).",
+          "O procură completată (disponibilă pentru descărcare de pe site-ul nostru).",
+          "Transmitere: Trimiteți-ne aceste documente prin WhatsApp sau e-mail.",
+          "Verificare și procesare: Ne ocupăm de întreaga procedură la biroul de înmatriculare.",
+          "Livrare sau ridicare: Plăcuța dvs. provizorie sau zilnică este gata de ridicare sau poate fi expediată la cerere."
+        ]
+      },
+      "sub4": {
+        "title": "De ce să alegeți serviciul nostru?",
+        "points": [
+          "Flexibilitate maximă: Indiferent dacă aveți nevoie de plăcuțe temporare, de transport, de o zi sau de 6 zile – le obținem rapid și eficient.",
+          "Confort: Fără vizite la ghișee – doar trimiteți documentele prin WhatsApp sau e-mail.",
+          "Soluții speciale: Oferim plăcuțe chiar și pentru vehicule fără inspecție, dacă sunt îndeplinite condițiile legale.",
+          "Economie de timp: Datorită procesului nostru eficient, primiți plăcuțele de multe ori în aceeași zi."
+        ]
+      }
+    },
+    "faq": {
+      "title": "Întrebări frecvente (FAQ)",
+      "q1": {
+        "question": "Cât timp este valabilă o plăcuță temporară?",
+        "answer": "Plăcuțele noastre sunt valabile 6 zile din 01.01.2024 – o zi mai mult decât cele standard de 5 zile."
+      },
+      "q2": {
+        "question": "Pot folosi o plăcuță temporară fără inspecție tehnică (TÜV)?",
+        "answer": "Da, sunt permise deplasările către service sau stația TÜV cu o astfel de plăcuță."
+      },
+      "q3": {
+        "question": "Cât de repede pot primi o plăcuță temporară?",
+        "answer": "În cele mai multe cazuri, emitem plăcuțele în aceeași zi în care primim documentele complete."
+      },
+      "q4": {
+        "question": "Pot folosi plăcuțele pentru deplasări în străinătate?",
+        "answer": "Da, sunt ideale pentru transferuri internaționale dacă toate documentele sunt în regulă."
+      }
+    },
+    "cta": {
+      "title": "Solicită acum plăcuțele temporare!",
+      "text": "Contactează-ne astăzi pentru a obține plăcuțele temporare, de transport sau de o zi – rapid, simplu și sigur. Trimite-ne documentele prin WhatsApp sau e-mail, sau vizitează-ne personal. Serviciul nostru complet garantează procesare rapidă și satisfacție maximă!"
+    },
+    "button": "Solicită acum"
+  },
+  "service-checklist": {
+    "faq": {
+      "title": "Întrebări frecvente",
+      "description": "Aici găsiți informații despre documentele necesare pentru solicitarea dvs.",
+      "items": [
+        {
+          "title": "Înmatriculare vehicul",
+          "documentsTitle": "Documente necesare:",
+          "documents": [
+            "Certificatul de înmatriculare Partea I și II",
+            "Certificat de inspecție tehnică valabil (ITP)",
+            [
+              "Aveți nevoie de o",
+              "autorizare SEPA pentru debitarea impozitului auto",
+              "Aici",
+              "puteți calcula impozitul auto."
+            ],
+            "Carte de identitate sau pașaport"
+          ]
+        },
+        {
+          "title": "Schimbare de adresă",
+          "documentsTitle": "Documente necesare:",
+          "documents": [
+            "Certificatul de înmatriculare Partea I",
+            "Carte de identitate cu noua adresă",
+            "Formular de cerere pentru schimbarea adresei"
+          ]
+        },
+        {
+          "title": "Transfer de proprietate",
+          "documentsTitle": "Documente necesare:",
+          "documents": [
+            "Certificatul de înmatriculare Partea I și II",
+            "Contract de vânzare sau declarație de predare",
+            "Carte de identitate a noului proprietar",
+            "În caz de pierdere:",
+            "Declarație pe propria răspundere pentru pierderea certificatului"
+          ]
+        },
+        {
+          "title": "Numere sezoniere / Export / Vehicule clasice",
+          "documentsTitle": "Documente necesare:",
+          "documents": [
+            "Certificatul de înmatriculare Partea I și II",
+            "Certificat de inspecție tehnică valabil (ITP)",
+            "Dovada clasificării ca vehicul clasic (dacă este cazul)",
+            [
+              "Aveți nevoie de o",
+              "autorizare de debitare directă SEPA",
+              "pentru impozitul auto pentru plăcuțele de înmatriculare sezoniere și vamale.",
+              "Aici",
+              "puteți calcula impozitul auto."
+            ]
+          ]
+        },
+        {
+          "title": "Actualizare adresă",
+          "documentsTitle": "Documente necesare:",
+          "documents": [
+            "Certificatul de înmatriculare Partea I",
+            "Carte de identitate cu noua adresă",
+            "Formular de comandă",
+            "pentru schimbarea adresei"
+          ]
+        },
+        {
+          "title": "Modificări tehnice",
+          "documentsTitle": "Documente necesare:",
+          "documents": [
+            "Raport de inspecție de la TÜV sau altă organizație recunoscută",
+            "Certificatul de înmatriculare Partea I",
+            "Formular de cerere",
+            "pentru modificări tehnice"
+          ]
+        },
+        {
+          "title": "Furt / Pierdere",
+          "documentsTitle": "Documente necesare:",
+          "documents": [
+            "Raport de poliție (în caz de furt)",
+            "Declarație pe propria răspundere pentru pierderea certificatului de înmatriculare",
+            "și/sau",
+            "Declarație pe propria răspundere pentru pierderea numerelor de înmatriculare",
+            "Carte de identitate/pașaport"
+          ]
+        },
+        {
+          "title": "Radiere",
+          "documentsTitle": "Documente necesare:",
+          "documents": [
+            "Certificatul de înmatriculare Partea I",
+            "Plăcuțele de înmatriculare",
+            "Formular de cerere",
+            "pentru radiere"
+          ]
+        }
+      ]
+    }
+  },
+  "locations": {
+    "kronau": {
+      "hero": {
+        "title": "Înmatriculare auto expres în Kronau",
+        "location_name": "Kiosk Dings Jucării\nPapetărie",
+        "address": "Kirrlacherstr. 26,\n76709 Kronau",
+        "phone": "+49 7253 50088",
+        "email": "E-mail",
+        "checklist": "Listă de verificare",
+        "whatsapp": "WhatsApp"
+      },
+      "mobile": {
+        "title": "Înmatriculare auto expres în"
+      },
+      "steps": {
+        "title": "Procedură",
+        "items": [
+          "Aduceți toate documentele necesare pentru solicitarea dvs. (de ex. înmatriculare, radiere) și formularul de",
+          "comandă corespunzător.",
+          "Vizitați unul dintre punctele noastre de primire și predați documentele.",
+          "Ne ocupăm de formalități și vă informăm imediat ce procesul este finalizat."
+        ],
+        "button": "WhatsApp"
+      }
+    },
+    "overview": {
+      "hero": {
+        "title": "Puncte de predare pentru înmatriculare auto",
+        "description": "Selectează locația ta pentru a rezolva rapid cererea ta în apropiere.",
+        "how": "Cum funcționează?",
+        "how_description": "Facem procesul de înmatriculare auto mai simplu ca niciodată! Cu noul nostru serviciu, poți lăsa documentele vehiculului la un chioșc, librărie sau alt magazin din apropiere.",
+        "steps_title": "Cum funcționează:",
+        "steps": [
+          {
+            "title": "Depunerea documentelor:",
+            "text": [
+              "Aduceți documentele vehiculului la unul dintre numeroasele noastre puncte de predare din apropierea dumneavoastră.",
+              "sau",
+              "Ridicare de către noi: Șoferul nostru va prelua documentele și le va aduce la centrul nostru de servicii."
+            ]
+          },
+          {
+            "title": "Procesare:",
+            "text": "Procesăm înmatricularea vehiculului dumneavoastră rapid și eficient."
+          },
+          {
+            "title": "Ridicare:",
+            "text": "Chiar a doua zi, puteți ridica plăcuțele și documentele înmatriculate de la același loc unde le-ați predat."
+          }
+        ],
+        "note": "Fără cozi lungi sau deplasări – simplu, rapid și convenabil!",
+        "dropdown": "Selectează orașul tău"
+      },
+      "central": {
+        "title": "Sediul nostru central",
+        "name": "Kfz Zulassungs Express",
+        "address": "Am Alten Güterbahnhof 24,\n76646 Bruchsal",
+        "phone": "+49 7251 9295628"
+      }
+    }
+  }
+}

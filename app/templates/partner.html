@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% block title %}Unsere Partner – Werkstätten & Autohäuser | Express KFZ-Zulassung{% endblock %}
+
+{% block page_css %}
+<link rel="stylesheet" href="/static/assets/style/partner.min.css">
+{% endblock %}
+
+{% block content %}
+
+<div class="partner-section">
+    <img class="mobile-deco" src="/static/assets/img/deco-checklist-mobile.jpg" alt="Dekorativer Mensch läuft an PC">
+    <h1 data-i18n="partner.title">Unsere Partner</h1>
+    <p data-i18n="partner.description">Wir sind mit zahlreichen Werkstätten, Autohäusern und sonstigen Dienstleistern
+        verpartnert, um Ihnen bei jedem Anliegen einen reibungslosen Service anzubieten.</p>
+    <div class="grid">
+        <a href="https://www.peugeot.de/tools/haendlersuche.html" target="_blank">
+            <img src="/static/assets/img/partners/autohaus-schlimm.jpg" alt="Peugeot Autohaus Schlimm Logo">
+        </a>
+        <a href="https://www.auto-oestringer.de" target="_blank">
+            <img src="/static/assets/img/partners/ostringer.svg" alt="Autohaus Ostringer Logo">
+        </a>
+        <a href="https://www.autoflex24.de/" target="_blank">
+            <img src="/static/assets/img/partners/autoflex.svg" alt="Autoflex24 Logo">
+        </a>
+        <a href="https://www.f1-automobile.de/" target="_blank">
+            <img style="aspect-ratio: 1; width: auto; margin: 0 auto" src="/static/assets/img/partners/f1.webp"
+                alt="F1 Automobile">
+        </a>
+        <a href="https://www.sv-struck.de/" target="_blank">
+            <img style="aspect-ratio: 1; width: auto; margin: 0 auto" src="/static/assets/img/partners/struck.webp"
+                alt="Struck Sczech Vaterott Logo">
+        </a>
+        <a href="https://www.ford-lauber-bruchsal.de/" target="_blank">
+            <img src="/static/assets/img/partners/lauber.jpg" alt="Struck Sczech Vaterott Logo">
+        </a>
+        <a href="https://autohaus-neureither.de/" target="_blank">
+            <img src="/static/assets/img/partners/neureither.count.png" alt="Autohaus Neureither GmbH Logo">
+        </a>
+        <a href="https://www.carcolor-center.de/" target="_blank">
+            <img src="/static/assets/img/partners/logo_car_color_center.png" alt="Autohaus Neureither GmbH Logo">
+        </a>
+        <a href="https://knoch.go1a.de/" target="_blank">
+            <img style="width: auto; margin: 0 auto" src="/static/assets/img/partners/logo_go1a.gif" alt="1A Autoservice Logo">
+        </a>
+        <a href="https://www.steinmetz-automobile.de/" target="_blank">
+            <img src="/static/assets/img/partners/Steinmetz.jpg" alt="Steinmetz Automobile Logo">
+        </a>
+        <a href="https://staiger-nufa.de/" target="_blank">
+            <img src="/static/assets/img/partners/Logo_Staiger_Nutzfahrzeuge_Hellgrau_Unterzeile.png"
+                alt="Staiger Nutzfahrzeuge Logo">
+        </a>
+    </div>
+</div>
+
+<div class="contact-cta-section">
+    <div class="content-wrapper">
+        <h3 data-i18n="contact_cta.title">Du hast ein anderes Anliegen?</h3>
+        <p data-i18n="contact_cta.text">
+            Haben Sie Fragen oder benötigen Sie Unterstützung bei der Zulassung Ihres Fahrzeugs? Unser freundliches und
+            kompetentes Team steht Ihnen gerne zur Verfügung!
+        </p>
+        <a href="/#kontakt" class="btn-primary" data-i18n="contact_cta.button">Kontakt</a>
+    </div>
+</div>
+
+{% include 'contact-section.html' %}
+
+{% endblock %}

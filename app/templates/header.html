@@ -1,0 +1,311 @@
+<style>
+    /* Ensure rectangular logos scale nicely */
+    .navbar-brand img {
+        max-height: 50px;
+        width: auto;
+    }
+
+    /* Show dropdown on hover for desktop viewports */
+    @media (min-width: 992px) {
+        .navbar .dropdown:hover>.dropdown-menu {
+            display: block;
+            margin-top: 0;
+        }
+
+        /* Prevent click toggling on desktop */
+        .navbar .dropdown>a[data-bs-toggle="dropdown"] {
+            pointer-events: none;
+        }
+    }
+
+    /* Mobile offcanvas menu tweaks */
+    @media (max-width: 991.98px) {
+        .offcanvas-body .navbar-nav .nav-item {
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        /* remove the last border if you like */
+        .offcanvas-body .navbar-nav .nav-item:last-child {
+            border-bottom: none;
+        }
+
+        .offcanvas-body .navbar-nav .nav-link,
+        .offcanvas-body .navbar-nav .dropdown-toggle {
+            font-size: 1.15rem;
+            /* a bit bigger */
+            padding: 0.75rem 1rem;
+            /* more tappable area */
+        }
+    }
+
+
+    /* Flag icon styling */
+    .flag-icon {
+        width: 20px;
+        height: auto;
+        margin-right: 8px;
+    }
+
+    /* "Neu" badge styling */
+    .badge-new {
+        font-size: 0.6rem;
+        background-color: #EA4BC8;
+        color: #fff;
+        vertical-align: middle;
+        margin-left: 6px;
+    }
+</style>
+
+<style>
+    /* Modal styling */
+    #languageModal .modal-content {
+        border: none;
+        border-radius: .75rem;
+        box-shadow: 0 2rem 3rem rgba(0, 0, 0, .2);
+    }
+
+    #languageModal .modal-body {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    #languageModal .modal-body h4 {
+        font-weight: 600;
+        margin-bottom: .5rem;
+    }
+
+    #languageModal .modal-body p {
+        color: #6c757d;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Make the dropdown full-width & nicely rounded */
+    #languageModal .dropdown-toggle {
+        min-height: 3rem;
+        border-radius: .375rem;
+    }
+
+    /* Footer Continue button styling */
+    #languageModal .modal-footer {
+        border: none;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+
+    #languageModal .modal-footer .btn {
+        padding: .5rem 2rem;
+    }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="{{ url_for('core.index') }}">
+            <!-- Rectangular logo will scale using CSS -->
+            <img src="/static/assets/img/logo.jpg" alt="Logo">
+        </a>
+
+        <!-- Toggler for offcanvas on mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav"
+            aria-controls="offcanvasNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Desktop nav -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- Checkliste -->
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('core.checklist') }}"
+                        data-i18n="checklist-nav">Checkliste</a></li>
+
+                <!-- Direct links with data-i18n -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="locationsDropdown" data-bs-toggle="dropdown"
+                        aria-expanded="false" data-i18n="locations-nav">Annahmestellen</a>
+
+                    <ul class="dropdown-menu" aria-labelledby="locationsDropdown">
+                        <li><a class="dropdown-item" href="{{ url_for('locations.kronau') }}">kronau</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('locations.oestringen') }}">oestringen</a></li>
+                        <li><a class="dropdown-item"
+                                href="{{ url_for('locations.oberhausen') }}">oberhausen-rheinhausen</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('locations.schwetzingen') }}">schwetzingen</a>
+                        </li>
+                        <li><a class="dropdown-item" href="{{ url_for('locations.odenheim') }}">odenheim</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('core.documents') }}"
+                        data-i18n="documents-nav">Dokumente & Formulare</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" data-bs-toggle="dropdown"
+                        aria-expanded="false">Services</a>
+
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="{{ url_for('services.register') }}">kfz-anmeldung</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('services.deregister') }}">kfz-abmeldung</a></li>
+                        <li><a class="dropdown-item" data-i18n="export-nav" href="{{ url_for('services.export') }}">Zoll
+                                & Export Kennzeichen</a></li>
+                        <li><a class="dropdown-item" data-i18n="temporary-nav"
+                                href="{{ url_for('services.temporary') }}">Kurzzeit & 6-Tages
+                                Kennzeichen</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="/#kontakt" data-i18n="contact">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <!-- Language Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="langDropdown"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://flagcdn.com/w20/de.png" alt="Deutsch" id="current-flag" class="flag-icon">
+                        <span id="current-lang">Deutsch</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" id="lang-dropdown" aria-labelledby="langDropdown">
+                        <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('de')">
+                                <img src="https://flagcdn.com/w20/de.png" class="flag-icon" alt="Deutsch"> Deutsch
+                            </a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('en')">
+                                <img src="https://flagcdn.com/w20/gb.png" class="flag-icon" alt="English"> English
+                            </a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('ro')">
+                                <img src="https://flagcdn.com/w20/ro.png" class="flag-icon" alt="Română"> Română
+                            </a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('it')">
+                                <img src="https://flagcdn.com/w20/it.png" class="flag-icon" alt="Italiano"> Italiano
+                            </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Offcanvas (Mobile) -->
+        <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNav"
+            aria-labelledby="offcanvasNavLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('core.checklist') }}"
+                            data-i18n="checklist-nav">Checkliste</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="mobileLocationsDropdown"
+                            data-bs-toggle="dropdown" data-i18n="locations-nav" aria-expanded="false">Annahmestellen</a>
+                        <ul class="dropdown-menu" aria-labelledby="mobileLocationsDropdown">
+                            <li><a class="dropdown-item" href="{{ url_for('locations.kronau') }}">kronau</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('locations.oestringen') }}">oestringen</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="{{ url_for('locations.oberhausen') }}">oberhausen-rheinhausen</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('locations.schwetzingen') }}">schwetzingen</a>
+                            </li>
+                            <li><a class="dropdown-item" href="{{ url_for('locations.odenheim') }}">odenheim</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('core.documents') }}" data-i18n="documents-nav">Dokumente
+                            &amp; Formulare</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="mobileServicesDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false" data-i18n="services-nav">Services</a>
+                        <ul class="dropdown-menu" aria-labelledby="mobileServicesDropdown">
+                            <li><a class="dropdown-item" href="{{ url_for('services.register') }}">kfz-anmeldung</a>
+                            </li>
+                            <li><a class="dropdown-item" href="{{ url_for('services.deregister') }}">kfz-abmeldung</a>
+                            </li>
+                            <li><a class="dropdown-item" href="{{ url_for('services.export') }}"
+                                    data-i18n="export-nav">Zoll &amp; Export
+                                    Kennzeichen</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('services.temporary') }}"
+                                    data-i18n="temporary-nav">Kurzzeit &amp; 6-Tages
+                                    Kennzeichen</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#kontakt" data-i18n="contact">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="mobileLangDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://flagcdn.com/w20/de.png" class="flag-icon" id="current-flag1"
+                                alt="Deutsch"> <span id="current-lang1">Deutsch</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="mobileLangDropdown">
+                            <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('de')">
+                                    <img src="https://flagcdn.com/w20/de.png" class="flag-icon" alt="Deutsch"> Deutsch
+                                </a></li>
+                            <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('en')">
+                                    <img src="https://flagcdn.com/w20/gb.png" class="flag-icon" alt="English"> English
+                                </a></li>
+                            <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('ro')">
+                                    <img src="https://flagcdn.com/w20/ro.png" class="flag-icon" alt="Română"> Română
+                                </a></li>
+                            <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('it')">
+                                    <img src="https://flagcdn.com/w20/it.png" class="flag-icon" alt="Italiano"> Italiano
+                                </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Language Select Modal -->
+<div class="modal fade" id="languageModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="languageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h4 id="languageModalLabel">🌐 Select your language</h4>
+                <p>Please choose the language you prefer:</p>
+
+                <div class="dropdown mb-4">
+                    <button class="btn btn-outline-primary dropdown-toggle w-100" type="button" id="modalLangDropdown"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img id="modal-current-flag" src="https://flagcdn.com/w20/de.png" class="flag-icon" alt="Flag">
+                        <span id="modal-current-lang">Deutsch</span>
+                    </button>
+                    <ul class="dropdown-menu w-100" aria-labelledby="modalLangDropdown">
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('de')">
+                                <img src="https://flagcdn.com/w20/de.png" class="flag-icon" alt="Deutsch">
+                                Deutsch
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('en')">
+                                <img src="https://flagcdn.com/w20/gb.png" class="flag-icon" alt="English">
+                                English
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('ro')">
+                                <img src="https://flagcdn.com/w20/ro.png" class="flag-icon" alt="Română">
+                                Română
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('it')">
+                                <img src="https://flagcdn.com/w20/it.png" class="flag-icon" alt="Italiano">
+                                Italiano
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Continue
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+.primary-section {
+  padding: 150px 30px 70px;
+}
+.primary-section .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Bai Jamjuree";
+}
+.primary-section .content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #203277;
+  margin-bottom: 20px;
+}
+.primary-section .content h2 {
+  margin-bottom: 5px;
+}/*# sourceMappingURL=legal.css.map */

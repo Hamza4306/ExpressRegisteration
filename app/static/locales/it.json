@@ -1,0 +1,710 @@
+{
+  "checklist-nav": "Lista di controllo",
+  "locations-nav": "Punti di raccolta",
+  "documents-nav": "Documenti & Moduli",
+  "export-nav": "Targhe doganali & di esportazione",
+  "temporary-nav": "Targhe temporanee & di 6 giorni",
+  "register-nav": "Registrazione Veicolo",
+  "deregister-nav": "Cancellazione Veicolo",
+  "contact": "Contatto",
+  "primary": {
+    "title_highlight": "Registrazione Express",
+    "title_line2": "Risparmia tempo e stress!",
+    "title_line3": "Veloce & Facile",
+    "feature1": "In tutta la nazione",
+    "feature2": "Nessun tempo di attesa",
+    "feature3": "Processi rapidi",
+    "feature4": "Punti di raccolta vicini",
+    "feature5": "Soluzione in loco",
+    "call": "Chiama",
+    "whatsapp": "WhatsApp"
+  },
+  "video": {
+    "title": "Video esplicativo",
+    "button": "Guarda su YouTube"
+  },
+  "service": {
+    "heading": "Il Nostro Servizio",
+    "registration": {
+      "title": "Registrazione",
+      "cta": "Alla Registrazione"
+    },
+    "deregistration": {
+      "title": "Cancellazione",
+      "cta": "Alla Cancellazione"
+    },
+    "export": {
+      "title": "Targhe Export/Doganali",
+      "cta": "All’Ordine"
+    },
+    "temporary": {
+      "title": "Targhe Temporanee / 6 Giorni",
+      "cta": "Alla Domanda"
+    },
+    "advice": {
+      "title": "Servizio & Consulenza",
+      "point4": "Supporto rapido e competente",
+      "cta": "CONTATTA ORA"
+    },
+    "contact": {
+      "cta": "Contatto"
+    },
+    "common": {
+      "point1": "Senza appuntamento, sempre disponibile",
+      "point2": "Disponibile a livello nazionale",
+      "point3": "Anche per clienti aziendali"
+    }
+  },
+  "cta": {
+    "title": "Registriamo la tua auto per te",
+    "items": [
+      "Con noi, l’immatricolazione dell’auto è facile, veloce e senza stress.",
+      "Ci consegni i documenti e ci occupiamo noi di tutto presso l’ufficio immatricolazioni. Riceverai le targhe in breve tempo, anche con numero personalizzato.",
+      "Con un piccolo extra, ritiriamo i documenti da casa tua e te li riportiamo una volta immatricolata l’auto."
+    ],
+    "whatsapp": "WhatsApp"
+  },
+  "contact_cta": {
+    "title": "Hai un'altra richiesta?",
+    "text": "Hai domande o hai bisogno di supporto per l'immatricolazione del tuo veicolo? Il nostro team amichevole e competente è a tua disposizione!",
+    "button": "Contatto"
+  },
+  "contact_section": {
+    "title": "Contattaci",
+    "description": "Siamo felici di assisterti in qualsiasi esigenza presso le nostre filiali.",
+    "success": "La tua richiesta è stata inviata con successo!",
+    "firstname": "Nome *",
+    "lastname": "Cognome *",
+    "email": "Indirizzo email *",
+    "subject": "Oggetto *",
+    "message": "Messaggio *",
+    "error": "Si è verificato un errore imprevisto. Per favore riprova più tardi.",
+    "send": "Invia",
+    "notice_text": "Inviando la richiesta confermi la",
+    "privacy": "Informativa sulla privacy"
+  },
+  "reviews": {
+    "title": "Opinioni dei nostri clienti",
+    "review1": "Super cordiali e gestione perfetta! Darei 6 stelle se potessi...",
+    "review2": "Molto gentili e a un ottimo prezzo. Se hai bisogno di una targa all'ufficio, vieni sicuramente qui.",
+    "review3": "Registrazione della targa di esportazione senza sforzo! Kfz Zulassungs Express ha elaborato la mia richiesta lo stesso giorno, senza bisogno di appuntamento. Personale professionale, processo senza stress. Altamente raccomandato!"
+  },
+  "footer": {
+    "callText": "Contattaci oggi stesso e assicuriamoci che le tue registrazioni auto, esportazioni e targhe temporanee vengano gestite rapidamente e senza problemi.",
+    "callBtn": "Chiama",
+    "usefulLinks": "Link utili",
+    "documents": "Documenti & Moduli",
+    "locations": "Punti di consegna",
+    "export": "Targhe Export & Dogana",
+    "temporary": "Targhe Temporanee & 6 Giorni",
+    "tax": "Calcola tassa auto",
+    "checklist": "Lista di controllo",
+    "register": "Registrazione Veicolo",
+    "deregister": "Cancellazione Veicolo",
+    "partner": "Partner",
+    "privacy": "Informativa sulla privacy",
+    "imprint": "Imprint"
+  },
+  "checklist": {
+    "title": "Checklist per Tutti i Documenti",
+    "description": "Risparmia tempo e stress nell'immatricolazione del veicolo! Qui trovi tutti i documenti necessari per immatricolazione, trasferimento e radiazione. Con il nostro servizio express, tutto sarà rapido e semplice.",
+    "section": {
+      "registration": {
+        "title": "Immatricolazione Veicolo",
+        "strong": "Documenti richiesti per l'immatricolazione:",
+        "vollmacht": "Delega per immatricolazione",
+        "form": "Modulo richiesta immatricolazione",
+        "scheinbrief": "Libretto parte I & II",
+        "hu": "Revisione valida (se disponibile)",
+        "sepa": "Serve un mandato SEPA per la tassa. Calcola qui.",
+        "idcopy": "Copia documento / Per stranieri, anche passaporto"
+      },
+      "relocation": {
+        "title": "Cambio Indirizzo",
+        "strong": "Documenti per cambio indirizzo:",
+        "sameDistrict": "Nello stesso distretto:",
+        "schein": "Libretto parte I",
+        "id": "Copia documento",
+        "otherDistrict": "Fuori dal distretto:",
+        "scheinBrief": "Libretto parte I & II",
+        "idCopy": "Copia documento",
+        "vollmacht": "Delega e mandato SEPA",
+        "evb": "Numero eVB",
+        "form": "Modulo cambio indirizzo"
+      },
+      "ownerChange": {
+        "title": "Cambio Proprietario",
+        "strong": "Documenti per cambio di proprietà:",
+        "vollmacht": "Delega",
+        "scheinbrief": "Libretto parte I & II",
+        "newHolderId": "Documento nuovo proprietario"
+      },
+      "shortTerm": {
+        "title": "Targhe Temporanee / Trasferimento / Giornaliere",
+        "strong": "Documenti per targhe temporanee:",
+        "idCopy": "Copia documento (fronte e retro)",
+        "scheinCopy": "Copia libretto (fronte e retro)",
+        "vollmacht": "Modulo delega",
+        "send": "➔ Invia i documenti via WhatsApp o email."
+      },
+      "techChange": {
+        "title": "Modifica Tecnica",
+        "strong": "Documenti richiesti per modifiche tecniche:",
+        "scheinbrief": "Libretto parte I & II",
+        "report": "Relazione tecnica"
+      },
+      "theft": {
+        "title": "Furto / Smarrimento Targhe",
+        "strong": "Documenti in caso di furto o smarrimento:",
+        "report": "Rapporto di polizia",
+        "scheinbrief": "Libretto parte I & II",
+        "plate": "Se disponibile: una targa",
+        "idCopy": "Copia documento",
+        "vollmacht": "Delega"
+      },
+      "loss": {
+        "title": "Smarrimento Libretto",
+        "strong": "Documenti in caso di smarrimento:",
+        "brief": "Libretto parte II",
+        "idCopy": "Copia documento",
+        "eides": "Dichiarazione giurata"
+      },
+      "deregistration": {
+        "title": "Radiazione / Ritiro dal Servizio",
+        "strong": "Documenti per radiazione:",
+        "schein": "Libretto parte I",
+        "plates": "Targhe"
+      }
+    }
+  },
+  "contact_cta2": {
+    "heading": "Hai un'altra richiesta relativa all'immatricolazione del veicolo?",
+    "description": "Hai bisogno di aiuto con l'immatricolazione del tuo veicolo? Il nostro team esperto è felice di aiutarti con qualsiasi domanda su immatricolazione, cambio di indirizzo o radiazione. Contattaci oggi stesso!",
+    "button": "Contattaci ora"
+  },
+  "documents": {
+    "title": "Moduli e Documenti",
+    "description": "Qui troverai tutti i documenti necessari per la tua richiesta",
+    "vollmacht": {
+      "title": "Delega",
+      "description": "Delega da presentare all'ufficio di immatricolazione"
+    },
+    "eides_brief": {
+      "title": "Dichiarazione Sostitutiva - Libretto Parte II",
+      "description": "Dichiarazione richiesta in caso di smarrimento del libretto Parte II"
+    },
+    "eides_schein": {
+      "title": "Dichiarazione Sostitutiva - Libretto Parte I",
+      "description": "Dichiarazione richiesta in caso di smarrimento del libretto Parte I"
+    },
+    "eides_kennzeichen": {
+      "title": "Dichiarazione Sostitutiva - Targa Persa",
+      "description": "Dichiarazione richiesta in caso di smarrimento della targa"
+    },
+    "auftrag": {
+      "title": "Modulo Richiesta",
+      "description": "Modulo richiesto per fornire tutte le informazioni necessarie per l'elaborazione rapida e corretta"
+    },
+    "download": "Download",
+    "contactBtn": "Contatto"
+  },
+  "partner": {
+    "title": "I Nostri Partner",
+    "description": "Collaboriamo con numerose officine, concessionarie e altri fornitori di servizi per offrirti un servizio senza intoppi per ogni esigenza."
+  },
+  "tax": {
+    "title": "Calcolatore Tassa Auto",
+    "description": "Qui puoi calcolare la tassa auto prevista. Questo servizio è fornito dal Ministero Federale delle Finanze. In alternativa, puoi utilizzare questo servizio direttamente sul sito BMF qui."
+  },
+  "data-privacy": {
+    "title": "Informativa sulla Privacy",
+    "subtitle": "Lightning Dynamics UG (a responsabilità limitata) si impegna a proteggere la tua privacy e utilizza tecnologie che consentono un'esperienza online potente e sicura. Questa informativa sulla privacy si applica al sito kfzzulassungsexpress.de e disciplina la raccolta e l'utilizzo dei tuoi dati personali. Utilizzando il sito kfzzulassungsexpress.de, acconsenti alle pratiche sui dati descritte in questa informativa.",
+    "sections": [
+      {
+        "heading": "Raccolta dei dati personali",
+        "paragraphs": [
+          "Lightning Dynamics UG (a responsabilità limitata) raccoglie dati personali come indirizzo email, nome, indirizzo, metodi di pagamento o numero di telefono. Inoltre, memorizza informazioni demografiche non identificabili, come codice postale, età, sesso, preferenze, interessi, hobby e preferiti. Alcune informazioni sull'hardware e il software del computer vengono raccolte automaticamente, tra cui: indirizzo IP, tipo di browser, nome del dominio, orari di accesso e indirizzi dei siti web di riferimento. Queste informazioni sono utilizzate per mantenere la qualità del servizio e per generare statistiche generali sull'uso del sito kfzzulassungsexpress.de.",
+          "Si prega di notare che le informazioni personali rese pubbliche in aree accessibili, come i forum, possono essere utilizzate in modo improprio da altri utenti.",
+          "Nota: Lightning Dynamics UG (a responsabilità limitata) non legge le comunicazioni private online. Si consiglia di consultare l'informativa sulla privacy dei siti esterni collegati da kfzzulassungsexpress.de per comprendere come raccolgono, usano e condividono i dati. Non siamo responsabili delle informative sulla privacy di siti terzi."
+        ]
+      },
+      {
+        "heading": "Utilizzo dei dati personali",
+        "paragraphs": [
+          "Lightning Dynamics UG (a responsabilità limitata) utilizza i dati personali per gestire il sito kfzzulassungsexpress.de e fornire i servizi richiesti. Inoltre, può utilizzarli per informarvi su nuovi prodotti o servizi. Occasionalmente, potremmo contattarvi per sondaggi o ricerche di mercato. I vostri dati non verranno venduti, affittati o ceduti a terzi. In alcuni casi, potremmo informarvi su offerte di partner esterni, senza condividere i vostri dati personali.",
+          "I dati possono essere condivisi con partner affidabili per analisi statistiche. Questi soggetti sono obbligati a mantenere la riservatezza e non possono utilizzare i dati per altri scopi.",
+          "Non raccogliamo o divulghiamo dati sensibili come origine etnica, religione o opinioni politiche. Per personalizzare i contenuti, monitoriamo le pagine più visitate dai nostri utenti."
+        ]
+      },
+      {
+        "heading": "Divulgazione dei dati personali",
+        "paragraphs": [
+          "In caso di ordine legale, Lightning Dynamics UG (a responsabilità limitata) fornirà i dati personali alle autorità competenti senza notifica. Ci riserviamo inoltre il diritto di utilizzare i dati personali in caso di procedimenti legali."
+        ]
+      },
+      {
+        "heading": "Uso dei cookie",
+        "paragraphs": [
+          "Utilizziamo i cookie per migliorare la navigazione. Un cookie è un file di testo memorizzato sul vostro computer da un server web. I cookie non possono eseguire programmi né trasmettere virus. Sono unici e possono essere letti solo dal server che li ha generati. Il loro scopo è offrire un'esperienza più rapida e personalizzata.",
+          "Quando tornate su kfzzulassungsexpress.de, i dati precedentemente forniti possono essere recuperati per una navigazione più comoda. Potete scegliere se accettare o rifiutare i cookie. La maggior parte dei browser li accetta automaticamente, ma potete modificare le impostazioni. Tuttavia, disattivandoli, alcune funzionalità potrebbero non essere disponibili."
+        ]
+      },
+      {
+        "heading": "Sicurezza dei dati personali",
+        "paragraphs": [
+          "Proteggiamo i vostri dati da accessi non autorizzati, utilizzi o divulgazioni. I dati sono archiviati in ambienti sicuri e controllati. I dati sensibili, come i numeri di carte di credito, sono crittografati (es. protocollo SSL) durante la trasmissione."
+        ]
+      },
+      {
+        "heading": "Modifiche a questa informativa",
+        "paragraphs": [
+          "Ci riserviamo il diritto di aggiornare l'informativa in base a feedback o cambiamenti normativi. Le modifiche saranno comunicate sul sito o via email. Se non presentate obiezioni scritte, tali modifiche entreranno in vigore automaticamente."
+        ]
+      },
+      {
+        "heading": "Informazioni di contatto",
+        "paragraphs": [
+          "Apprezziamo suggerimenti e domande su questa informativa. Potete contattarci via email all'indirizzo info@kfzzulassungsexpress.de. I dati postali sono disponibili nella sezione Impressum del sito."
+        ]
+      }
+    ]
+  },
+  "imprint": {
+    "title": "Impressum",
+    "company_name": "KFZ-Zulassungsexpress",
+    "content": [
+      "Lightning Dynamics UG (a responsabilità limitata)",
+      "Amministratore delegato: Aleyna Simsek",
+      "Bannweideweg 8,",
+      "76646 Bruchsal",
+      "Iscrizione nel registro delle imprese:",
+      "Tribunale di Mannheim, HRB 751377",
+      "Indirizzo email:",
+      "Telefono:",
+      "Risoluzione alternativa delle controversie ai sensi dell'articolo 14 paragrafo 1 del Regolamento ODR e § 36 VSBG: La Commissione Europea mette a disposizione una piattaforma per la risoluzione delle controversie online (piattaforma OS) accessibile all'indirizzo https://ec.europa.eu/consumers/odr/. Lightning Dynamics UG (a responsabilità limitata) non è obbligata a partecipare a una procedura di risoluzione delle controversie davanti a un organismo di conciliazione dei consumatori.",
+      "Il contatto via e-mail è destinato solo a richieste generali o dichiarazioni. Le richieste o dichiarazioni relative al commercio elettronico, alla protezione dei consumatori, agli ordini, alla sicurezza dei prodotti o ad altre questioni di possibile rilevanza legale devono essere inviate per posta.",
+      "Il contenuto di queste pagine è protetto dalla legge. Tutti i diritti non espressamente concessi sono riservati. Lightning Dynamics UG (a responsabilità limitata) consente l'uso personale di questi siti web solo nella misura in cui si limita alla visualizzazione, al download, all'esecuzione, alla memorizzazione e alla stampa. È vietata la riproduzione, modifica, traduzione, trasmissione o distribuzione totale o parziale senza autorizzazione scritta.",
+      "I comunicati stampa e i documenti contrassegnati come pubblici possono essere utilizzati indicando la fonte. Alcuni documenti sono soggetti a condizioni aggiuntive.",
+      "Lightning Dynamics UG (a responsabilità limitata) si riserva il diritto di modificare le pagine in qualsiasi momento o di limitarne l'accesso. Lightning Dynamics UG (a responsabilità limitata) non fornisce alcuna garanzia espressa o implicita su questi siti web. In particolare, non garantisce che i siti funzionino senza errori o interruzioni. Ciò include, ma non si limita a, garanzie relative a vizi giuridici, integrità, commerciabilità o idoneità a uno scopo specifico in relazione alla disponibilità, accuratezza, affidabilità o contenuto delle pagine. Lightning Dynamics UG (a responsabilità limitata) non è responsabile per danni diretti, indiretti, accidentali o speciali, perdite di profitto o interruzioni della produzione derivanti dall'uso o dall'impossibilità di usare i siti o i servizi in essi contenuti. Questo vale anche se è stata informata della possibilità di tali danni.",
+      "Per facilitarvi l'accesso, Lightning Dynamics UG (a responsabilità limitata) fornisce occasionalmente collegamenti a siti di terzi. Se utilizzate questi link, dovete leggere e accettare i termini di utilizzo di quei siti prima di procedere. Accettate inoltre che Lightning Dynamics UG (a responsabilità limitata) non ha alcun controllo sul contenuto di tali siti e non si assume alcuna responsabilità per i materiali creati o pubblicati lì. Inoltre, un collegamento a tali siti non implica che Lightning Dynamics UG (a responsabilità limitata) raccomandi il sito o i prodotti o servizi presentati."
+    ]
+  },
+  "deregister": {
+    "title": "Cancellazione",
+    "description": "Puoi cancellare il tuo veicolo con noi senza problemi. Ci occupiamo di tutte le formalità, così non dovrai preoccuparti della burocrazia. Basta compilare il modulo d’ordine e penseremo a tutto noi.",
+    "button": "Contatto",
+    "why": {
+      "title": "Quando ne ho bisogno?",
+      "reason1": {
+        "title": "Rimozione del veicolo dalla circolazione",
+        "text": "È necessario presentare il certificato di immatricolazione parte I e le targhe presso l’ufficio per cancellare il veicolo."
+      },
+      "reason2": {
+        "title": "Smaltimento o vendita",
+        "text": "Dopo la cancellazione, puoi smaltire il veicolo o trasferirlo a un nuovo proprietario. L'acquirente avrà bisogno del certificato di cancellazione."
+      },
+      "reason3": {
+        "title": "Assicurazione e tasse",
+        "text": "Dopo la cancellazione, l’ufficio avvisa automaticamente l’assicurazione e l’agenzia delle entrate per cessare il pagamento della tassa auto e dei premi assicurativi."
+      },
+      "button": "Richiedi"
+    }
+  },
+  "register": {
+    "hero": {
+      "heading": "Registrazione",
+      "text": "Puoi registrare il tuo veicolo con noi in modo rapido e semplice. Ci occupiamo di tutte le formalità, così non devi preoccuparti. Compila semplicemente il modulo d'ordine e ci penseremo noi!",
+      "button": "Contatto"
+    },
+    "why": {
+      "heading": "Quando ne ho bisogno?",
+      "reasons": [
+        {
+          "title": "Prima immatricolazione",
+          "text": "Se desideri immatricolare un nuovo veicolo per la prima volta."
+        },
+        {
+          "title": "Cambio di proprietà",
+          "text": "Quando acquisti un'auto usata e vuoi registrarla a tuo nome."
+        },
+        {
+          "title": "Reimmatricolazione",
+          "text": "Se un veicolo precedentemente radiato deve essere immatricolato di nuovo."
+        }
+      ]
+    },
+    "info": {
+      "subheading": "Immatricolazione semplificata – il tuo servizio di fiducia dal 2009",
+      "intro": "Benvenuti da KFZ Zulassungs Express, il tuo partner esperto per un'immatricolazione veloce e semplice – in tutta la Germania! Da oltre 15 anni offriamo efficienza e affidabilità. Se vuoi immatricolare il tuo veicolo senza appuntamento e senza attese, siamo la scelta giusta. Il nostro servizio è disponibile in tutta la nazione – ovunque tu sia!",
+      "highlight": "Immatricolazione senza appuntamento – ecco come funziona",
+      "body": "Registrare il tuo veicolo non è mai stato così comodo! Il nostro team si occupa di tutte le pratiche, che si tratti di auto, camion, moto, camper o rimorchi. Niente più code o visite agli uffici – ci occupiamo di tutto noi, in tutta la Germania."
+    },
+    "benefits": {
+      "heading": "Perché KFZ Zulassungs Express?",
+      "points": [
+        "1. Registrazione senza appuntamento: Non serve fissare un appuntamento con la motorizzazione.",
+        "2. Nessuna attesa: Elaboriamo le richieste in modo rapido ed efficiente.",
+        "3. Servizio a livello nazionale: Ovunque ti trovi, siamo disponibili per te.",
+        "4. Esperienza dal 2009: Affidati a oltre 15 anni di competenza.",
+        "5. Registrazione di tutti i tipi di veicoli: Auto, veicoli commerciali, moto – ci pensiamo noi!"
+      ]
+    },
+    "steps": {
+      "heading": "Come funziona",
+      "list": [
+        "1. Contattaci: Telefonicamente o online.",
+        "2. Invia i documenti: Ti indicheremo quali sono necessari.",
+        "3. Servizio completo: Ci occupiamo noi di tutta la burocrazia.",
+        "4. Veicolo registrato: Rapido, semplice e senza attese!"
+      ]
+    },
+    "cta": "Con KFZ Zulassungs Express risparmi tempo e stress. Affidati a un servizio collaudato e professionale, disponibile in tutta la Germania. Contattaci oggi stesso e lascia che registriamo il tuo veicolo – facile, veloce e senza complicazioni!",
+    "button": "Richiedi ora"
+  },
+  "export": {
+    "hero": {
+      "heading": "Targhe Doganali ed Export",
+      "text": "KFZ Zulassungs Express offre supporto rapido e affidabile per ottenere targhe doganali ed export.",
+      "button": "Contatto"
+    },
+    "why": {
+      "heading": "Quando ne ho bisogno?",
+      "reasons": [
+        {
+          "title": "Esportazione del veicolo",
+          "text": "Se vuoi vendere o portare il veicolo all’estero in modo permanente, hai bisogno di targhe export."
+        },
+        {
+          "title": "Trasferimenti temporanei",
+          "text": "Per spostamenti temporanei del veicolo in un altro paese, ad es. per soggiorni lunghi."
+        },
+        {
+          "title": "Commercio veicoli internazionale",
+          "text": "Per concessionari che vendono veicoli oltre confine, queste targhe sono essenziali."
+        }
+      ]
+    },
+    "info": {
+      "heading": "Tutto sulle targhe export / doganali",
+      "intro": "Le targhe export (o doganali) sono ideali per l’esportazione o la guida temporanea all’estero. In questa sezione ti spieghiamo come richiederle, i requisiti e i vantaggi.",
+      "sub1": {
+        "title": "Cosa sono le targhe export?",
+        "text": "Targhe speciali per veicoli usati fuori dalla Germania temporaneamente o definitivamente. Consentono la guida senza immatricolazione permanente."
+      },
+      "sub2": {
+        "title": "Vantaggi delle targhe export",
+        "points": [
+          "Uso temporaneo per l’export.",
+          "Utilizzabili anche fuori dalla Germania.",
+          "Validità flessibile.",
+          "Copertura assicurativa inclusa."
+        ]
+      },
+      "sub3": {
+        "title": "Requisiti",
+        "points": [
+          "Documenti originali del veicolo.",
+          "Controllo tecnico (TÜV) valido."
+        ]
+      },
+      "sub4": {
+        "title": "Procedura di richiesta",
+        "scenario1": "1. Proprietario estero presente: Il veicolo viene presentato in Germania. Noi gestiamo tutto.",
+        "scenario2": "2. Proprietario estero assente: Possiamo presentarci noi o un delegato con i documenti e TÜV valido."
+      },
+      "feature": {
+        "title": "Il nostro punto di forza: Targhe doganali senza presenza del proprietario",
+        "text": "Rispetto ad altri servizi di immatricolazione, offriamo il vantaggio di non dover essere presenti fisicamente per ottenere le targhe doganali – anche se vivete all’estero. L’unico requisito è che il veicolo venga presentato all’ufficio immatricolazioni con tutti i documenti necessari. Pensiamo noi al resto e ci assicuriamo che tutto si svolga senza problemi."
+      },
+      "service": {
+        "title": "Perché scegliere il nostro servizio per targhe doganali?",
+        "points": [
+          "Comodità: Ci occupiamo di tutta la burocrazia per te, così non devi preoccuparti del processo di immatricolazione.",
+          "Velocità: Ci assicuriamo che ricevi le tue targhe doganali rapidamente, senza perdite di tempo.",
+          "Flessibilità: Che tu sia presente o meno, ti offriamo soluzioni su misura per le tue esigenze.",
+          "Affidabilità: Il nostro servizio è professionale e affidabile, così puoi essere certo che tutto sarà gestito correttamente e senza ritardi."
+        ]
+      },
+      "faq": {
+        "title": "Domande frequenti sulle targhe doganali (di esportazione)",
+        "q1": {
+          "question": "1. Quanto durano le targhe doganali?",
+          "answer": "Le targhe doganali sono generalmente valide da 15 giorni fino a un anno, a seconda delle esigenze."
+        },
+        "q2": {
+          "question": "2. È necessaria un’assicurazione per il veicolo con targa doganale?",
+          "answer": "Sì, è necessaria un’assicurazione per circolare con targa doganale. Possiamo aiutarti a trovarne una adeguata."
+        },
+        "q3": {
+          "question": "3. Posso ottenere una targa doganale per qualsiasi veicolo?",
+          "answer": "Sì, qualsiasi veicolo con documenti originali e revisione (TÜV) valida può ottenere una targa doganale."
+        }
+      },
+      "conclusion": {
+        "title": "Conclusione: Il tuo partner per targhe doganali ed export",
+        "text": "Che tu voglia esportare un veicolo o guidare temporaneamente all'estero, le targhe doganali sono la soluzione ideale. Offriamo un servizio rapido e senza complicazioni – anche senza la tua presenza. Contattaci oggi stesso per saperne di più e richiedere le tue targhe."
+      },
+      "final_cta": "Sfrutta i vantaggi delle targhe doganali e ottieni un servizio semplice, veloce e flessibile per l'immatricolazione del tuo veicolo!"
+    },
+    "button": "Richiedi ora"
+  },
+  "temporary": {
+    "hero": {
+      "heading": "Targhe Temporanee & di 6 Giorni",
+      "text": "KFZ-Zulassungs-Express offre un servizio rapido e affidabile per ottenere targhe temporanee e di 6 giorni.",
+      "button": "Contatto"
+    },
+    "why": {
+      "heading": "Quando ne ho bisogno?",
+      "reasons": [
+        {
+          "title": "Test drive",
+          "text": "Se desideri provare un veicolo prima dell'acquisto, le targhe temporanee e di 6 giorni sono l'ideale."
+        },
+        {
+          "title": "Trasporto del veicolo",
+          "text": "Per il trasferimento di un veicolo da un luogo all’altro, ad esempio in caso di trasloco o vendita."
+        },
+        {
+          "title": "Visite in officina",
+          "text": "Se un veicolo non immatricolato deve essere portato in officina per riparazioni o controlli."
+        }
+      ]
+    },
+    "info": {
+      "heading": "Targhe temporanee, di trasferimento, di 6 giorni (ex 5 giorni) – Rapide, Semplici e Comode",
+      "intro": "Se desideri trasferire, testare o immatricolare temporaneamente un veicolo, la targa temporanea è la soluzione perfetta. Nota anche come targa di trasferimento, giornaliera o di 5 giorni, ti consente di circolare legalmente e con assicurazione.",
+      "details": "Con il nostro servizio di immatricolazione, richiedere una targa temporanea o di trasferimento è molto semplice: bastano pochi documenti, che puoi inviarci comodamente via WhatsApp o e-mail. Dal 01.01.2024, la nostra targa temporanea è valida esclusivamente per 6 giorni – un vantaggio significativo rispetto alla classica targa di 5 giorni.",
+      "sub1": {
+        "title": "Cos'è una targa temporanea?",
+        "subtitle": "Una targa temporanea, spesso chiamata targa di trasferimento, targa giornaliera o targa di 5 giorni, è una targa temporanea utilizzabile per un periodo limitato. È ideale per:",
+        "texts": [
+          "Trasferimenti di veicoli sia in Germania che all’estero.",
+          "Prove su strada prima dell'immatricolazione definitiva.",
+          "Brevi spostamenti per la revisione (HU) o riparazioni, anche senza TÜV valido."
+        ],
+        "note": "Le nostre targhe temporanee si riconoscono facilmente grazie alla striscia gialla laterale con la data di scadenza stampata."
+      },
+      "sub2": {
+        "title": "Vantaggi del nostro servizio targhe temporanee",
+        "subtitle": "Il nostro obiettivo è semplificare il più possibile la richiesta di una targa temporanea o di trasferimento. Con noi potete beneficiare dei seguenti vantaggi:",
+        "texts": [
+          "Minimo sforzo: sono necessari solo pochi documenti:",
+          "Copia della carta d'identità (fronte e retro).",
+          "Copia della carta di circolazione (fronte e retro).",
+          "Un modulo di delega compilato, scaricabile dal nostro sito web.",
+          "Elaborazione rapida: inviateci i documenti tramite WhatsApp o e-mail e ci occupiamo noi di tutto.",
+          "Servizio in giornata: nella maggior parte dei casi emettiamo la targa nello stesso giorno.",
+          "Validità di 6 giorni: rispetto alla classica targa di 5 giorni, la nostra dura un giorno in più.",
+          "Veicoli senza revisione: anche senza TÜV valido, potete utilizzare la targa temporanea per recarvi alla revisione o in officina."
+        ]
+      },
+      "sub3": {
+        "subtitle": "Richiedere una targa temporanea o di trasferimento non è mai stato così facile:",
+        "texts": [
+          "Preparazione documenti: Assicuratevi di avere i seguenti documenti in formato digitale:",
+          "Copia del documento d'identità (fronte e retro).",
+          "Copia della carta di circolazione (fronte e retro).",
+          "Un modulo di delega compilato (scaricabile dal nostro sito web).",
+          "Invio: Inviateci questi documenti comodamente via WhatsApp o e-mail.",
+          "Controllo e gestione: Ci occupiamo noi dell’intera procedura presso l’ufficio immatricolazioni.",
+          "Consegna o ritiro: La vostra targa temporanea o giornaliera sarà pronta per il ritiro o spedita su richiesta."
+        ]
+      },
+      "sub4": {
+        "title": "Perché scegliere il nostro servizio?",
+        "points": [
+          "Massima flessibilità: Che ti serva una targa temporanea, di trasferimento, giornaliera o di 6 giorni – te la forniamo in modo rapido e sicuro.",
+          "Comodità: Nessuna fila agli sportelli – basta inviarci i documenti tramite WhatsApp o e-mail.",
+          "Soluzioni speciali: Offriamo targhe anche per veicoli senza TÜV, se sono rispettati i requisiti legali.",
+          "Risparmio di tempo: Grazie al nostro processo ottimizzato, spesso ricevi la targa il giorno stesso."
+        ]
+      }
+    },
+    "faq": {
+      "title": "Domande frequenti (FAQ)",
+      "q1": {
+        "question": "Quanto dura una targa temporanea?",
+        "answer": "Dal 01.01.2024, le nostre targhe sono valide per 6 giorni – un giorno in più rispetto alla targa di 5 giorni."
+      },
+      "q2": {
+        "question": "Posso usare una targa temporanea senza TÜV?",
+        "answer": "Sì, puoi usarla per recarti in officina o alla stazione TÜV anche se il veicolo non è revisionato."
+      },
+      "q3": {
+        "question": "Quanto tempo serve per ottenere la targa?",
+        "answer": "Nella maggior parte dei casi, la emettiamo il giorno stesso se riceviamo tutti i documenti."
+      },
+      "q4": {
+        "question": "Posso usarla per viaggiare all’estero?",
+        "answer": "Sì, le targhe sono perfette per trasferimenti internazionali se i documenti sono completi."
+      }
+    },
+    "cta": {
+      "title": "Richiedi ora la tua targa temporanea!",
+      "text": "Contattaci oggi per richiedere la tua targa temporanea, di trasferimento o giornaliera – in modo veloce, semplice e sicuro. Inviaci i tuoi documenti via WhatsApp o e-mail, oppure vieni a trovarci di persona. Il nostro servizio completo garantisce una gestione semplice e soddisfazione massima!"
+    },
+    "button": "Richiedi ora"
+  },
+  "service-checklist": {
+    "faq": {
+      "title": "Domande frequenti",
+      "description": "Qui troverai informazioni sui documenti necessari per la tua richiesta.",
+      "items": [
+        {
+          "title": "Immatricolazione del veicolo",
+          "documentsTitle": "Documenti richiesti:",
+          "documents": [
+            "Certificato di immatricolazione Parte I e II",
+            "Certificato di revisione valido",
+            [
+              "Hai bisogno di un",
+              "mandato di addebito SEPA per la tassa automobilistica",
+              "Qui",
+              "puoi calcolare la tassa automobilistica."
+            ],
+            "Carta d’identità o passaporto"
+          ]
+        },
+        {
+          "title": "Cambio di residenza",
+          "documentsTitle": "Documenti richiesti:",
+          "documents": [
+            "Certificato di immatricolazione Parte I",
+            "Carta d’identità con il nuovo indirizzo",
+            "Modulo di richiesta per il cambio di residenza"
+          ]
+        },
+        {
+          "title": "Passaggio di proprietà",
+          "documentsTitle": "Documenti richiesti:",
+          "documents": [
+            "Certificato di immatricolazione Parte I e II",
+            "Contratto di vendita o dichiarazione di cessione",
+            "Carta d’identità del nuovo proprietario",
+            "In caso di smarrimento:",
+            "Dichiarazione sostitutiva di atto notorio per la perdita del certificato"
+          ]
+        },
+        {
+          "title": "Targhe stagionali / Export / Auto d’epoca",
+          "documentsTitle": "Documenti richiesti:",
+          "documents": [
+            "Certificato di immatricolazione Parte I e II",
+            "Certificato di revisione valido",
+            "Prova della classificazione come veicolo storico (se applicabile)",
+            [
+              "Hai bisogno di un",
+              "mandato di addebito diretto SEPA",
+              "per la tassa automobilistica per le targhe stagionali e doganali.",
+              "Qui",
+              "puoi calcolare la tassa automobilistica."
+            ]
+          ]
+        },
+        {
+          "title": "Aggiornamento indirizzo",
+          "documentsTitle": "Documenti richiesti:",
+          "documents": [
+            "Certificato di immatricolazione Parte I",
+            "Carta d'identità con il nuovo indirizzo",
+            "Modulo d'ordine",
+            "per il cambio di indirizzo"
+          ]
+        },
+        {
+          "title": "Modifiche tecniche",
+          "documentsTitle": "Documenti richiesti:",
+          "documents": [
+            "Relazione tecnica del TÜV o di un’altra organizzazione riconosciuta",
+            "Certificato di immatricolazione Parte I",
+            "Modulo di richiesta",
+            "per modifiche tecniche"
+          ]
+        },
+        {
+          "title": "Furto / Smarrimento",
+          "documentsTitle": "Documenti richiesti:",
+          "documents": [
+            "Rapporto della polizia (in caso di furto)",
+            "Dichiarazione giurata per la perdita del certificato di immatricolazione",
+            "e/o",
+            "Dichiarazione giurata per la perdita della targa",
+            "Carta d'identità/passaporto"
+          ]
+        },
+        {
+          "title": "Radiazione",
+          "documentsTitle": "Documenti richiesti:",
+          "documents": [
+            "Certificato di immatricolazione Parte I",
+            "Targhe",
+            "Modulo di richiesta",
+            "per la radiazione"
+          ]
+        }
+      ]
+    }
+  },
+  "locations": {
+    "kronau": {
+      "hero": {
+        "title": "Immatricolazione KFZ Express a Kronau",
+        "location_name": "Kiosk Dings Giocattoli\nCartoleria",
+        "address": "Kirrlacherstr. 26,\n76709 Kronau",
+        "phone": "+49 7253 50088",
+        "email": "E-mail",
+        "checklist": "Lista di controllo",
+        "whatsapp": "WhatsApp"
+      },
+      "mobile": {
+        "title": "Immatricolazione KFZ Express a"
+      },
+      "steps": {
+        "title": "Procedura",
+        "items": [
+          "Porta con te tutti i documenti necessari per la tua richiesta (es. immatricolazione, cancellazione) e il relativo",
+          "modulo di incarico.",
+          "Visita uno dei nostri punti di accettazione e consegna i documenti.",
+          "Ci occupiamo delle formalità e ti informeremo non appena la procedura sarà completata."
+        ],
+        "button": "WhatsApp"
+      }
+    },
+    "overview": {
+      "hero": {
+        "title": "Punti di consegna documenti per immatricolazione",
+        "description": "Seleziona la tua città per gestire la tua richiesta comodamente vicino a te.",
+        "how": "Come funziona?",
+        "how_description": "Rendiamo l’immatricolazione più semplice che mai! Con il nostro nuovo servizio, puoi consegnare i documenti del tuo veicolo in un chiosco, cartoleria o altro negozio vicino.",
+        "steps_title": "Ecco come funziona:",
+        "steps": [
+          {
+            "title": "Consegna dei documenti:",
+            "text": [
+              "Porta i documenti del veicolo in uno dei nostri numerosi punti di consegna vicino a te.",
+              "oppure",
+              "Ritiro da parte nostra: il nostro autista ritirerà i documenti e li porterà al nostro centro servizi."
+            ]
+          },
+          {
+            "title": "Elaborazione:",
+            "text": "Elaboriamo l'immatricolazione del tuo veicolo in modo rapido e affidabile."
+          },
+          {
+            "title": "Ritiro:",
+            "text": "Già il giorno successivo puoi ritirare le targhe e i documenti immatricolati dallo stesso luogo in cui li hai consegnati."
+          }
+        ],
+        "note": "Niente più attese lunghe o viaggi inutili – semplice, veloce e comodo!",
+        "dropdown": "Seleziona la tua città"
+      },
+      "central": {
+        "title": "La nostra sede centrale",
+        "name": "Kfz Zulassungs Express",
+        "address": "Am Alten Güterbahnhof 24,\n76646 Bruchsal",
+        "phone": "+49 7251 9295628"
+      }
+    }
+  }
+}

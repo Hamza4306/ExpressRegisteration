@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+
+{% block title %}Dokumente & Formulare für KFZ-Zulassung – Schnell & Einfach{% endblock %}
+
+{% block page_css %}
+<link rel="stylesheet" href="/static/assets/style/documents.min.css">
+{% endblock %}
+
+{% block content %}
+
+<div class="primary-section">
+    <div class="content-wrapper">
+        <div class="content">
+            <img src="/static/assets/img/logo.jpg" alt="Vorort KFZ Zulassung Logo">
+            <h1 data-i18n="documents.title">Formulare & Dokumente</h1>
+            <p data-i18n="documents.description">Hier findest Du alle nötigen Unterlagen für dein Anliegen </p>
+        </div>
+        <div class="img-wrapper">
+            <img src="/static/assets/img/documents.jpg" alt="Dokumente und Formulare bei KFZ-Zulassungsstelle ausfüllen">
+        </div>
+    </div>
+</div>
+
+<div class="service-section-wrapper">
+    <div class="service-section">
+        <div class="grid">
+            <div class="item">
+                <div>
+                    <h2 data-i18n="documents.vollmacht.title">Vollmacht</h2>
+                    <p data-i18n="documents.vollmacht.description">Vollmacht zur Vorlage bei der Zulassungsbehörde</p>
+                </div>
+                <a class="btn-primary" href="/static/assets/pdf/vollmacht-kfzzulassungsexpress-1.pdf" target="_blank"
+                    data-i18n="documents.download">Download</a>
+                <img class="deco" src="/static/assets/img/stripped-circle-deco.png" alt="Dekorativer Kreis mit Streifen">
+            </div>
+
+            <div class="item">
+                <div>
+                    <h2 data-i18n="documents.eides_brief.title">Eidesstattliche Versicherungen KFZ-Brief Verlust</h2>
+                    <p data-i18n="documents.eides_brief.description">Eidesstattliche Versicherung bei Verlust von
+                        KFZ-Brief ist für Neuausstellung erforderlich</p>
+                </div>
+                <a class="btn-primary" href="/static/assets/pdf/122630_Eidesstatt_Brief.pdf" target="_blank"
+                    data-i18n="documents.download">Download</a>
+            </div>
+
+            <div class="item">
+                <div>
+                    <h2 data-i18n="documents.eides_schein.title">Eidesstattliche Versicherungen KFZ-Schein Verlust</h2>
+                    <p data-i18n="documents.eides_schein.description">Eidesstattliche Versicherung bei Verlust von
+                        KFZ-Schein ist für Neuausstellung erforderlich</p>
+                </div>
+                <a class="btn-primary" href="/static/assets/pdf/122634_Eidesstatt_Schein.pdf" target="_blank"
+                    data-i18n="documents.download">Download</a>
+            </div>
+
+            <div class="item">
+                <div>
+                    <h2 data-i18n="documents.eides_kennzeichen.title">Eidesstattliche Versicherungen Kennzeichen Verlust
+                    </h2>
+                    <p data-i18n="documents.eides_kennzeichen.description">Eidesstattliche Versicherung bei Verlust von
+                        Kennzeichen ist für Neuausstellung erforderlich</p>
+                </div>
+                <a class="btn-primary" href="/static/assets/pdf/122649_Eidesstatt_Kennzeichen.pdf" target="_blank"
+                    data-i18n="documents.download">Download</a>
+            </div>
+
+            <div class="item">
+                <div>
+                    <h2 data-i18n="documents.auftrag.title">Auftragsformular</h2>
+                    <p data-i18n="documents.auftrag.description">Ein Auftragsformular ist erforderlich, um alle
+                        notwendigen Informationen für die schnelle und korrekte Bearbeitung Ihres Anliegens
+                        bereitzustellen</p>
+                </div>
+                <a class="btn-primary" href="/static/assets/pdf/auftragsformular.pdf" target="_blank"
+                    data-i18n="documents.download">Download</a>
+            </div>
+
+            <div class="contact-item">
+                <a href="#kontakt" class="btn-primary" data-i18n="documents.contactBtn">Kontakt</a>
+                <img class="deco-person" src="/static/assets/img/purple-person.svg" alt="Person, die Kontaktknopf hält">
+                <img class="deco-circle" src="/static/assets/img/stripped-circle-deco.png"
+                    alt="Dekorativer Kreis mit Streifen">
+                <lottie-player src="/static/assets/lottifiles/purple-car-top.json" background="transparent"
+                    class="deco-animation" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contact-cta-section">
+    <div class="content-wrapper">
+        <h3 data-i18n="contact_cta.title">Du hast ein anderes Anliegen?</h3>
+        <p data-i18n="contact_cta.text">
+            Haben Sie Fragen oder benötigen Sie Unterstützung bei der Zulassung Ihres Fahrzeugs? Unser freundliches und
+            kompetentes Team steht Ihnen gerne zur Verfügung!
+        </p>
+        <a href="/#kontakt" class="btn-primary" data-i18n="contact_cta.button">Kontakt</a>
+    </div>
+</div>
+
+{% include 'reviews-section.html' %}
+
+{% include 'contact-section.html' %}
+
+{% endblock %}
