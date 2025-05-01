@@ -27,15 +27,54 @@
         .offcanvas-body .navbar-nav .dropdown-toggle {
             font-size: 1.15rem;
             padding: 0.75rem 1rem;
+            
         }
     }
 
     .flag-icon {
         width: 20px;
         height: auto;
-        margin-right: 8px;
+        margin-right: 0;
+        border-radius: 3px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     }
-
+    
+    /* Professional styles for language flags in navbar */
+    .lang-flags {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    
+    .lang-flags .nav-link {
+        padding: 0.5rem 0.4rem;
+        margin: 0 2px;
+        opacity: 0.6;
+        transition: all 0.2s ease;
+    }
+    
+    .lang-flags .nav-link:hover {
+        opacity: 0.9;
+        transform: translateY(-1px);
+    }
+    
+    .lang-flags .nav-link.active {
+        opacity: 1;
+        position: relative;
+    }
+    
+    .lang-flags .nav-link.active::after {
+        content: '';
+        position: absolute;
+        bottom: 2px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 5px;
+        height: 5px;
+        background-color: #004488;
+        border-radius: 50%;
+    }
+    
     .badge-new {
         font-size: 0.6rem;
         background-color: #EA4BC8;
@@ -44,44 +83,67 @@
         margin-left: 6px;
     }
 </style>
-
+<!-- CSS styles for the announcement bar -->
 <style>
-    #languageModal .modal-content {
-        border: none;
-        border-radius: .75rem;
-        box-shadow: 0 2rem 3rem rgba(0, 0, 0, .2);
+    .ticker-container {
+        width: 100%;
+        background-color: red; 
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
-
-    #languageModal .modal-body {
-        padding: 2rem;
-        text-align: center;
+    
+    .ticker {
+        display: flex;
+        white-space: nowrap;
+        padding: 8px 0;
+        color: white;
+        font-weight: 500;
+        font-size: 0.9rem;
     }
-
-    #languageModal .modal-body h4 {
-        font-weight: 600;
-        margin-bottom: .5rem;
+    
+    .ticker-content {
+        display: inline-flex;
+        animation: ticker 50s linear infinite;
     }
-
-    #languageModal .modal-body p {
-        color: #6c757d;
-        margin-bottom: 1.5rem;
+    
+    .ticker-item {
+        padding: 0 30px;
     }
-
-    #languageModal .dropdown-toggle {
-        min-height: 3rem;
-        border-radius: .375rem;
+    
+    @keyframes ticker {
+        0% {
+            transform: translateX(0%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
     }
-
-    #languageModal .modal-footer {
-        border: none;
-        justify-content: center;
-        padding-top: 1rem;
+    
+    /* Pause the animation when hovered */
+    .ticker:hover .ticker-content {
+        animation-play-state: paused;
     }
-
-    #languageModal .modal-footer .btn {
-        padding: .5rem 2rem;
+    
+    /* Responsive adjustment */
+    @media (max-width: 767px) {
+        .ticker {
+            padding: 6px 0;
+            font-size: 0.8rem;
+        }
     }
 </style>
+
+<!-- Sliding Announcement Bar -->
+<div class="ticker-container">
+    <div class="ticker">
+        <div class="ticker-content">
+            {% for i in range(4) %}
+            <span class="ticker-item"><i class="fas fa-bullhorn me-2"></i> <strong data-i18n="ticker-strong">Jetzt neu!</strong> <span data-i18n="ticker-content">Carbon Kennzeichen und Rahmenlose Kennzeichen halter bei uns erhältlich</span></span>
+            {% endfor %}
+        </div>
+    </div>
+</div>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
     <div class="container">
@@ -93,26 +155,16 @@
             aria-controls="offcanvasNav">
             <span class="navbar-toggler-icon"></span>
         </button>
+        
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item"><a class="nav-link" href="{{ url_for('core.checklist') }}"
                         data-i18n="checklist-nav">Checkliste</a></li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="locationsDropdown" data-bs-toggle="dropdown"
-                        aria-expanded="false" data-i18n="locations-nav">Annahmestellen</a>
-
-                    <ul class="dropdown-menu" aria-labelledby="locationsDropdown">
-                        <li><a class="dropdown-item" href="{{ url_for('locations.kronau') }}">kronau</a></li>
-                        <li><a class="dropdown-item" href="{{ url_for('locations.oestringen') }}">oestringen</a></li>
-                        <li><a class="dropdown-item"
-                                href="{{ url_for('locations.oberhausen') }}">oberhausen-rheinhausen</a></li>
-                        <li><a class="dropdown-item" href="{{ url_for('locations.schwetzingen') }}">schwetzingen</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('locations.overview') }}" id="locationsLink" data-i18n="locations-nav">Annahmestellen</a>
                         </li>
-                        <li><a class="dropdown-item" href="{{ url_for('locations.odenheim') }}">odenheim</a></li>
-                    </ul>
-                </li>
                 <li class="nav-item"><a class="nav-link" href="{{ url_for('core.documents') }}"
                         data-i18n="documents-nav">Dokumente & Formulare</a>
                 </li>
@@ -134,30 +186,32 @@
                 </li>
             </ul>
 
-            <ul class="navbar-nav mb-2 mb-lg-0">
-                <!-- Language Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="langDropdown"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="https://flagcdn.com/w20/de.png" alt="Deutsch" id="current-flag" class="flag-icon">
-                        <span id="current-lang">Deutsch</span>
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-end" id="lang-dropdown" aria-labelledby="langDropdown">
-                        <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('de')">
-                                <img src="https://flagcdn.com/w20/de.png" class="flag-icon" alt="Deutsch"> Deutsch
-                            </a></li>
-                        <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('en')">
-                                <img src="https://flagcdn.com/w20/gb.png" class="flag-icon" alt="English"> English
-                            </a></li>
-                        <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('ro')">
-                                <img src="https://flagcdn.com/w20/ro.png" class="flag-icon" alt="Română"> Română
-                            </a></li>
-                        <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('it')">
-                                <img src="https://flagcdn.com/w20/it.png" class="flag-icon" alt="Italiano"> Italiano
-                            </a></li>
-                    </ul>
-                </li>
-            </ul>
+
+            <!-- Language Flags in Navbar -->
+            <div class="ms-lg-4 border-start ps-lg-3">
+                <ul class="navbar-nav mb-2 mb-lg-0 lang-flags">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" onclick="selectLang('de')" title="Deutsch">
+                            <img src="https://flagcdn.com/w20/de.png" alt="Deutsch" class="flag-icon">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="selectLang('en')" title="English">
+                            <img src="https://flagcdn.com/w20/gb.png" alt="English" class="flag-icon">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="selectLang('ro')" title="Română">
+                            <img src="https://flagcdn.com/w20/ro.png" alt="Română" class="flag-icon">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="selectLang('it')" title="Italiano">
+                            <img src="https://flagcdn.com/w20/it.png" alt="Italiano" class="flag-icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <!-- Offcanvas (Mobile) -->
@@ -210,26 +264,25 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/#kontakt" data-i18n="contact">Contact</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="mobileLangDropdown"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="https://flagcdn.com/w20/de.png" class="flag-icon" id="current-flag1"
-                                alt="Deutsch"> <span id="current-lang1">Deutsch</span>
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="mobileLangDropdown">
-                            <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('de')">
-                                    <img src="https://flagcdn.com/w20/de.png" class="flag-icon" alt="Deutsch"> Deutsch
-                                </a></li>
-                            <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('en')">
-                                    <img src="https://flagcdn.com/w20/gb.png" class="flag-icon" alt="English"> English
-                                </a></li>
-                            <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('ro')">
-                                    <img src="https://flagcdn.com/w20/ro.png" class="flag-icon" alt="Română"> Română
-                                </a></li>
-                            <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('it')">
-                                    <img src="https://flagcdn.com/w20/it.png" class="flag-icon" alt="Italiano"> Italiano
-                                </a></li>
-                        </ul>
+                    
+                    <!-- Mobile Language Flags -->
+                    <li class="nav-item">
+                       <!-- <hr class="my-3"> -->
+                        <p class="text-muted small ms-3 mb-2">Language / Sprache</p>
+                        <div class="d-flex justify-content-start ms-2">
+                            <a class="nav-link active" href="#" onclick="selectLang('de')" title="Deutsch">
+                                <img src="https://flagcdn.com/w20/de.png" alt="Deutsch" class="flag-icon">
+                            </a>
+                            <a class="nav-link" href="#" onclick="selectLang('en')" title="English">
+                                <img src="https://flagcdn.com/w20/gb.png" alt="English" class="flag-icon">
+                            </a>
+                            <a class="nav-link" href="#" onclick="selectLang('ro')" title="Română">
+                                <img src="https://flagcdn.com/w20/ro.png" alt="Română" class="flag-icon">
+                            </a>
+                            <a class="nav-link" href="#" onclick="selectLang('it')" title="Italiano">
+                                <img src="https://flagcdn.com/w20/it.png" alt="Italiano" class="flag-icon">
+                            </a>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -237,47 +290,32 @@
     </div>
 </nav>
 
-<!-- Language Select Modal -->
+<!-- Language Select Modal (keeping this but it may not be needed anymore) -->
 <div class="modal fade" id="languageModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="languageModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-body">
-                <h4 id="languageModalLabel">🌐 Select your language</h4>
+                <h4 id="languageModalLabel">Select your language</h4>
                 <p>Please choose the language you prefer:</p>
 
-                <div class="dropdown mb-4">
-                    <button class="btn btn-outline-primary dropdown-toggle w-100" type="button" id="modalLangDropdown"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        <img id="modal-current-flag" src="https://flagcdn.com/w20/de.png" class="flag-icon" alt="Flag">
-                        <span id="modal-current-lang">Deutsch</span>
-                    </button>
-                    <ul class="dropdown-menu w-100" aria-labelledby="modalLangDropdown">
-                        <li>
-                            <a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('de')">
-                                <img src="https://flagcdn.com/w20/de.png" class="flag-icon" alt="Deutsch">
-                                Deutsch
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('en')">
-                                <img src="https://flagcdn.com/w20/gb.png" class="flag-icon" alt="English">
-                                English
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('ro')">
-                                <img src="https://flagcdn.com/w20/ro.png" class="flag-icon" alt="Română">
-                                Română
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item d-flex align-items-center" href="#" onclick="selectLang('it')">
-                                <img src="https://flagcdn.com/w20/it.png" class="flag-icon" alt="Italiano">
-                                Italiano
-                            </a>
-                        </li>
-                    </ul>
+                <div class="d-flex justify-content-center gap-4 mb-4">
+                    <a class="nav-link" href="#" onclick="selectLang('de')" title="Deutsch">
+                        <img src="https://flagcdn.com/w40/de.png" alt="Deutsch" style="width: 40px;">
+                        <div class="mt-2">Deutsch</div>
+                    </a>
+                    <a class="nav-link" href="#" onclick="selectLang('en')" title="English">
+                        <img src="https://flagcdn.com/w40/gb.png" alt="English" style="width: 40px;">
+                        <div class="mt-2">English</div>
+                    </a>
+                    <a class="nav-link" href="#" onclick="selectLang('ro')" title="Română">
+                        <img src="https://flagcdn.com/w40/ro.png" alt="Română" style="width: 40px;">
+                        <div class="mt-2">Română</div>
+                    </a>
+                    <a class="nav-link" href="#" onclick="selectLang('it')" title="Italiano">
+                        <img src="https://flagcdn.com/w40/it.png" alt="Italiano" style="width: 40px;">
+                        <div class="mt-2">Italiano</div>
+                    </a>
                 </div>
 
                 <div class="modal-footer">
@@ -289,3 +327,87 @@
         </div>
     </div>
 </div>
+
+<script>
+// Professional language selection function with visual feedback
+function selectLang(lang) {
+    // Update active class on all flag elements
+    document.querySelectorAll('.lang-flags .nav-link').forEach(item => {
+        item.classList.remove('active');
+    });
+    
+    // Find the clicked language flag and add active class
+    document.querySelectorAll(`.lang-flags .nav-link[onclick="selectLang('${lang}')"]`).forEach(item => {
+        item.classList.add('active');
+    });
+    
+    // In mobile view
+    document.querySelectorAll('.offcanvas-body .nav-link[onclick^="selectLang"]').forEach(item => {
+        item.classList.remove('active');
+    });
+    document.querySelectorAll(`.offcanvas-body .nav-link[onclick="selectLang('${lang}')"]`).forEach(item => {
+        item.classList.add('active');
+    });
+    
+    // Visual feedback animation
+    const flagElement = document.querySelector(`.lang-flags .nav-link[onclick="selectLang('${lang}')"] img`);
+    if (flagElement) {
+        flagElement.style.transform = 'scale(1.2)';
+        setTimeout(() => {
+            flagElement.style.transform = '';
+        }, 200);
+    }
+    
+    // Store the selected language in localStorage
+    localStorage.setItem('lang', lang);
+    
+    // Redirect with language parameter
+    const base = window.location.href.split('?')[0];
+    window.location.href = `${base}?lang=${lang}`;
+    
+    // Close the modal if it's open
+    const languageModal = document.getElementById('languageModal');
+    if (languageModal) {
+        const bsModal = bootstrap.Modal.getInstance(languageModal);
+        if (bsModal) {
+            bsModal.hide();
+        }
+    }
+}
+
+// Initialize with animation when page loads
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the current language
+    const urlParams = new URLSearchParams(window.location.search);
+    const langParam = urlParams.get('lang');
+    const storedLang = localStorage.getItem('lang');
+    const currentLang = langParam || storedLang || 'de';
+    
+    // Update active class on all flag elements
+    document.querySelectorAll('.lang-flags .nav-link').forEach(item => {
+        item.classList.remove('active');
+    });
+    
+    // Find and activate the current language flag
+    document.querySelectorAll(`.lang-flags .nav-link[onclick="selectLang('${currentLang}')"]`).forEach(item => {
+        item.classList.add('active');
+    });
+    
+    // In mobile view
+    document.querySelectorAll('.offcanvas-body .nav-link[onclick^="selectLang"]').forEach(item => {
+        item.classList.remove('active');
+    });
+    document.querySelectorAll(`.offcanvas-body .nav-link[onclick="selectLang('${currentLang}')"]`).forEach(item => {
+        item.classList.add('active');
+    });
+    
+    // Apply animation to the current language flag
+    const flagElement = document.querySelector(`.lang-flags .nav-link[onclick="selectLang('${currentLang}')"] img`);
+    if (flagElement) {
+        flagElement.style.transform = 'scale(1.2)';
+        setTimeout(() => {
+            flagElement.style.transform = '';
+        }, 200);
+    }
+});
+</script>
