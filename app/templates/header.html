@@ -139,7 +139,7 @@
     <div class="ticker">
         <div class="ticker-content">
             {% for i in range(4) %}
-            <span class="ticker-item"><i class="fas fa-bullhorn me-2"></i> <strong data-i18n="ticker-strong">Jetzt neu!</strong> <span data-i18n="ticker-content">Carbon Kennzeichen und Rahmenlose Kennzeichen halter bei uns erhältlich</span></span>
+            <span class="ticker-item"><i class="fas fa-bullhorn me-2"></i> <strong data-i18n="ticker-strong">Neu!</strong> <span data-i18n="ticker-content">EXPRESS Auto Anmeldung in 10 Minuten Bundesweit auch an Sonntag - und Feiertagen</span></span>
             {% endfor %}
         </div>
     </div>
@@ -227,20 +227,11 @@
                         <a class="nav-link" href="{{ url_for('core.checklist') }}"
                             data-i18n="checklist-nav">Checkliste</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="mobileLocationsDropdown"
-                            data-bs-toggle="dropdown" data-i18n="locations-nav" aria-expanded="false">Annahmestellen</a>
-                        <ul class="dropdown-menu" aria-labelledby="mobileLocationsDropdown">
-                            <li><a class="dropdown-item" href="{{ url_for('locations.kronau') }}">kronau</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('locations.oestringen') }}">oestringen</a>
-                            </li>
-                            <li><a class="dropdown-item"
-                                    href="{{ url_for('locations.oberhausen') }}">oberhausen-rheinhausen</a></li>
-                            <li><a class="dropdown-item" href="{{ url_for('locations.schwetzingen') }}">schwetzingen</a>
-                            </li>
-                            <li><a class="dropdown-item" href="{{ url_for('locations.odenheim') }}">odenheim</a></li>
-                        </ul>
-                    </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('locations.overview') }}" id="locationsLink" data-i18n="locations-nav">Annahmestellen</a>
+                        </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('core.documents') }}" data-i18n="documents-nav">Dokumente
                             &amp; Formulare</a>

@@ -2,212 +2,258 @@
     <h2 data-i18n="service-checklist.faq.title">Häufig gestellte Fragen</h2>
     <p data-i18n="service-checklist.faq.description">Hier erhalten Sie Auskunft über die benötigten Unterlagen für Ihr
         Anliegen</p>
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" data-i18n="service-checklist.faq.items.0.title" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
-                    aria-controls="collapseOne">
-                    Fahrzeugzulassung
-                </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong data-i18n="service-checklist.faq.items.0.documentsTitle">Benötigte Dokumente:</strong>
-                    <br /><br />
-                    <ul>
-                        <li data-i18n="service-checklist.faq.items.0.documents.0">Zulassungsbescheinigung Teil I und II
-                        </li>
-                        <li data-i18n="service-checklist.faq.items.0.documents.1">Gültige HU-Bescheinigung</li>
-                        <li><span data-i18n="service-checklist.faq.items.0.documents.2.0">Sie brauchen eine</span> <a
-                                href="/static/assets/pdf/lastschriftmandat.pdf" target="_blank"
-                                data-i18n="service-checklist.faq.items.0.documents.2.1">SEPA-Einzugsermächtigung für die
-                                KFZ-Steuer</a>. <a href="{{ url_for('core.tax') }}"
-                                data-i18n="service-checklist.faq.items.0.documents.2.2">Hier</a> <span
-                                data-i18n="service-checklist.faq.items.0.documents.2.3">können Sie die KFZ-Steuer
-                                berechnen.</span></li>
-                        <li data-i18n="service-checklist.faq.items.0.documents.3">Personalausweis/Reisepass</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" data-i18n="service-checklist.faq.items.1.title" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                    aria-controls="collapseTwo">
-                    Ummeldung bei Umzug
-                </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong data-i18n="service-checklist.faq.items.1.documentsTitle">Benötigte
-                        Dokumente:</strong><br /><br />
-                    <ul>
-                        <li data-i18n="service-checklist.faq.items.1.documents.0">Zulassungsbescheinigung Teil I</li>
-                        <li data-i18n="service-checklist.faq.items.1.documents.1">Personalausweis mit neuer Adresse</li>
-                        <li><a data-i18n="service-checklist.faq.items.1.documents.2"
-                                href="/static/assets/pdf/auftragsformular.pdf" target="_blank">Auftragsformular für die
-                                Ummeldung</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" data-i18n="service-checklist.faq.items.2.title" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                    aria-controls="collapseThree">
-                    Umschreibung auf neuen Halter
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong data-i18n="service-checklist.faq.items.2.documentsTitle">Benötigte
-                        Dokumente:</strong><br /><br />
-                    <ul>
-                        <li data-i18n="service-checklist.faq.items.2.documents.0">Zulassungsbescheinigung Teil I und II
-                        </li>
-                        <li data-i18n="service-checklist.faq.items.2.documents.1">Kaufvertrag oder Überlassungserklärung
-                        </li>
-                        <li data-i18n="service-checklist.faq.items.2.documents.2">Personalausweis des neuen Halters</li>
-                        <li><span data-i18n="service-checklist.faq.items.2.documents.3">Bei Verlust:</span> <a
-                                data-i18n="service-checklist.faq.items.2.documents.4"
-                                href="/static/assets/pdf/122630_Eidesstatt_Brief.pdf" target="_blank">Eidesstattliche
-                                Versicherungen KFZ-Brief Verlust</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <div class="accordion" id="accordionExample">
 
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" data-i18n="service-checklist.faq.items.3.title" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-                    aria-controls="collapseFour">
-                    Saison- / Zollkennzeichen / Oldtimer
-                </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong data-i18n="service-checklist.faq.items.3.documentsTitle">Benötigte
-                        Dokumente:</strong><br /><br />
-                    <ul>
-                        <li data-i18n="service-checklist.faq.items.3.documents.0">Zulassungsbescheinigung Teil I und II
-                        </li>
-                        <li data-i18n="service-checklist.faq.items.3.documents.1">Gültige HU-Bescheinigung</li>
-                        <li data-i18n="service-checklist.faq.items.3.documents.2">Nachweis über die Einstufung als
-                            Oldtimer (falls zutreffend)</li>
-                        <li><span data-i18n="service-checklist.faq.items.3.documents.3.0">Sie brauchen eine</span> <a
-                                data-i18n="service-checklist.faq.items.3.documents.3.1"
-                                href="/static/assets/pdf/lastschriftmandat.pdf"
-                                target="_blank">SEPA-Einzugsermächtigung</a> <span
-                                data-i18n="service-checklist.faq.items.3.documents.3.2">für die KFZ-Steuer für Saison-
-                                und Zollkennzeichen.</span> <a data-i18n="service-checklist.faq.items.3.documents.3.3"
-                                href="{{ url_for('core.tax') }}">Hier</a> <span
-                                data-i18n="service-checklist.faq.items.3.documents.3.4">können Sie die KFZ-Steuer
-                                berechnen.</span></li>
-                    </ul>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
+                        data-i18n="checklist.section.registration.title">
+                        Fahrzeugzulassung
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong data-i18n="checklist.section.registration.strong">Benötigte Dokumente für die
+                            KFZ-Zulassung:</strong><br><br>
+                        <ul>
+                            <li><a href="/static/assets/pdf/vollmacht-kfzzulassungsexpress-1.pdf" target="_blank"
+                                    title="Vollmacht für KFZ-Zulassung herunterladen"
+                                    data-i18n="checklist.section.registration.vollmacht">Vollmacht für die Zulassung</a>
+                            </li>
+                            <li><a href="/static/assets/pdf/auftragsformular.pdf" target="_blank"
+                                    title="Auftragsformular für KFZ-Zulassung herunterladen"
+                                    data-i18n="checklist.section.registration.form">Auftragsformular zur
+                                    Fahrzeuganmeldung</a></li>
+                            <li data-i18n="checklist.section.registration.scheinbrief">Fahrzeugschein und Fahrzeugbrief</li>
+                            <li data-i18n="checklist.section.registration.hu">Falls vorhanden gültiger HU bericht</li>
+                            <li data-i18n="checklist.section.registration.sepa">Sie brauchen eine <a
+                                    href="/static/assets/pdf/lastschriftmandat.pdf" target="_blank"
+                                    title="SEPA-Lastschriftmandat für KFZ-Steuer">SEPA-Einzugsermächtigung für die
+                                    KFZ-Steuer</a>. <a href="{{ url_for('core.tax') }}" title="KFZ-Steuer berechnen">Hier</a> können Sie
+                                die KFZ-Steuer berechnen.</li>
+                            <li data-i18n="checklist.section.registration.idcopy">Ausweiskopie / Bei ausländischen
+                                Staatsbürgern zusätzlich Kopie des Reisepasses</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" data-i18n="service-checklist.faq.items.4.title" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
-                    aria-controls="collapseFive">
-                    Adressänderung
-                </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong data-i18n="service-checklist.faq.items.4.documentsTitle">Benötigte
-                        Dokumente:</strong><br /><br />
-                    <ul>
-                        <li data-i18n="service-checklist.faq.items.4.documents.0">Zulassungsbescheinigung Teil I</li>
-                        <li data-i18n="service-checklist.faq.items.4.documents.1">Personalausweis mit neuer Adresse</li>
-                        <li><a href="/static/assets/pdf/auftragsformular.pdf" target="_blank"
-                                data-i18n="service-checklist.faq.items.4.documents.2">Auftragsformular</a> <span
-                                data-i18n="service-checklist.faq.items.4.documents.3">für die Adressänderung</span></li>
-                    </ul>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                        data-i18n="checklist.section.relocation.title">
+                        Ummeldung bei Umzug
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong data-i18n="checklist.section.relocation.strong">Benötigte Dokumente für die
+                            KFZ-Ummeldung:</strong><br><br>
+                        <ul>
+                            <p><b data-i18n="checklist.section.relocation.sameDistrict">Innerhalb des gleichen
+                                    Landkreises:</b></p>
+                            <li data-i18n="checklist.section.relocation.schein">Fahrzeugschein</li>
+                            <li data-i18n="checklist.section.relocation.id">Ausweiskopie</li>
+                            <p><b data-i18n="checklist.section.relocation.otherDistrict">Außerhalb des Landkreises:</b></p>
+                            <li data-i18n="checklist.section.relocation.scheinBrief">Fahrzeugschein und Fahrzeugbrief</li>
+                            <li data-i18n="checklist.section.relocation.idCopy">Kopie des Ausweises</li>
+                            <li><a href="/static/assets/pdf/vollmacht-kfzzulassungsexpress-1.pdf" target="_blank"
+                                    title="Vollmacht für KFZ-Ummeldung"
+                                    data-i18n="checklist.section.relocation.vollmacht">Vollmacht und SEPA-Mandat</a></li>
+                            <li data-i18n="checklist.section.relocation.evb">eVB-Nummer</li>
+                            <li><a href="/static/assets/pdf/auftragsformular.pdf" target="_blank"
+                                    title="Auftragsformular für KFZ-Ummeldung"
+                                    data-i18n="checklist.section.relocation.form">Auftragsformular für die Ummeldung</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" data-i18n="service-checklist.faq.items.5.title" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
-                    aria-controls="collapseSix">
-                    Technische Eintragung
-                </button>
-            </h2>
-            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong data-i18n="service-checklist.faq.items.5.documentsTitle">Benötigte
-                        Dokumente:</strong><br /><br />
-                    <ul>
-                        <li data-i18n="service-checklist.faq.items.5.documents.0">Gutachten des TÜV oder einer anderen
-                            anerkannten Prüforganisation</li>
-                        <li data-i18n="service-checklist.faq.items.5.documents.1">Zulassungsbescheinigung Teil I</li>
-                        <li><a href="/static/assets/pdf/auftragsformular.pdf" target="_blank"
-                                data-i18n="service-checklist.faq.items.5.documents.2">Auftragsformular</a> <span
-                                data-i18n="service-checklist.faq.items.5.documents.3">für die Eintragung der technischen
-                                Änderungen</span></li>
-                    </ul>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                        data-i18n="checklist.section.ownerChange.title">
+                        Umschreibung auf neuen Halter
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong data-i18n="checklist.section.ownerChange.strong">Benötigte Dokumente für den
+                            Halterwechsel:</strong><br><br>
+                        <ul>
+                            <li><a href="/static/assets/pdf/vollmacht-kfzzulassungsexpress-1.pdf" target="_blank"
+                                    title="Vollmacht für KFZ-Halterwechsel"
+                                    data-i18n="checklist.section.ownerChange.vollmacht">Vollmacht</a> und Sepa Mandat</li>
+                            <li data-i18n="checklist.section.ownerChange.scheinbrief">Fahrzeugschein und Fahrzeugbrief</li>
+                            <li data-i18n="checklist.section.ownerChange.newHolderId">Ausweiskopie des neuen Halters</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" data-i18n="service-checklist.faq.items.6.title" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false"
-                    aria-controls="collapseSeven">
-                    Diebstahl / Verlust
-                </button>
-            </h2>
-            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong data-i18n="service-checklist.faq.items.6.documentsTitle">Benötigte
-                        Dokumente:</strong><br /><br />
-                    <ul>
-                        <li data-i18n="service-checklist.faq.items.6.documents.0">Polizeibericht (bei Diebstahl)</li>
-                        <li><a href="/static/assets/pdf/122630_Eidesstatt_Brief.pdf" target="_blank"
-                                data-i18n="service-checklist.faq.items.6.documents.1">Eidesstattliche Versicherungen
-                                KFZ-Brief Verlust</a> <span
-                                data-i18n="service-checklist.faq.items.6.documents.2">und/oder</span> <a
-                                href="/static/assets/pdf/122649_Eidesstatt_Kennzeichen.pdf" target="_blank"
-                                data-i18n="service-checklist.faq.items.6.documents.3">Eidesstattliche Versicherungen
-                                Kennzeichen Verlust</a></li>
-                        <li data-i18n="service-checklist.faq.items.6.documents.4">Personalausweis/Reisepass</li>
-                    </ul>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseKurzzeit" aria-expanded="false" aria-controls="collapseKurzzeit"
+                        data-i18n="checklist.section.shortTerm.title">
+                        Kurzzeit Kennzeichen / Überführungskennzeichen / Tages Kennzeichen
+                    </button>
+                </h2>
+                <div id="collapseKurzzeit" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong data-i18n="checklist.section.shortTerm.strong">Benötigte Dokumente für temporäre
+                            Kennzeichen:</strong><br><br>
+                        <ul>
+                            <li data-i18n="checklist.section.shortTerm.idCopy">Ausweis Kopie (Vorder und Rückseite)</li>
+                            <li data-i18n="checklist.section.shortTerm.scheinCopy">Fahrzeugschein Kopie (Vorder und
+                                Rückseite)</li>
+                            <li><a href="/static/assets/pdf/vollmacht-kfzzulassungsexpress-1.pdf" target="_blank"
+                                    title="Vollmacht für Kurzzeit-Kennzeichen"
+                                    data-i18n="checklist.section.shortTerm.vollmacht">Vollmacht Formular</a></li>
+                        </ul>
+                        <p data-i18n="checklist.section.shortTerm.send">➔ Gerne können Sie uns diese Unterlagen per <a
+                                href="https://wa.me/4915778789899" target="_blank" title="WhatsApp Kontakt">WhatsApp</a>
+                            oder <a href="mailto:info@kfzzulassungsexpress.de" title="E-Mail Kontakt">E-Mail</a> zusenden.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" data-i18n="service-checklist.faq.items.7.title" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false"
-                    aria-controls="collapseEight">
-                    Außer Betrieb setzen
-                </button>
-            </h2>
-            <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong data-i18n="service-checklist.faq.items.7.documentsTitle">Benötigte
-                        Dokumente:</strong><br /><br />
-                    <ul>
-                        <li data-i18n="service-checklist.faq.items.7.documents.0">Zulassungsbescheinigung Teil I</li>
-                        <li data-i18n="service-checklist.faq.items.7.documents.1">Kennzeichen</li>
-                        <li><a href="/static/assets/pdf/auftragsformular.pdf" target="_blank"
-                                data-i18n="service-checklist.faq.items.7.documents.2">Auftragsformular</a> <span
-                                data-i18n="service-checklist.faq.items.7.documents.3">für die Stilllegung</span></li>
-                    </ul>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"
+                        data-i18n="checklist.section.techChange.title">
+                        Technische Eintragung
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong data-i18n="checklist.section.techChange.strong">Benötigte Dokumente für technische
+                            Änderungen:</strong><br><br>
+                        <ul>
+                            <li data-i18n="checklist.section.techChange.scheinbrief">KFZ Schein und KFZ Brief</li>
+                            <li data-i18n="checklist.section.techChange.report">Gutachten</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"
+                        data-i18n="checklist.section.theft.title">
+                        Diebstahl / Verlust von Kennzeichen
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong data-i18n="checklist.section.theft.strong">Benötigte Dokumente bei Diebstahl oder
+                            Verlust:</strong><br><br>
+                        <ul>
+                            <li data-i18n="checklist.section.theft.report">Polizeilicher Bericht</li>
+                            <li data-i18n="checklist.section.theft.scheinbrief">Fahrzeugschein und Fahrzeugbrief</li>
+                            <li data-i18n="checklist.section.theft.plate">Falls vorhanden: eines der beiden
+                                Kennzeichenschilder</li>
+                            <li data-i18n="checklist.section.theft.idCopy">Ausweiskopie</li>
+                            <li><a href="/static/assets/pdf/vollmacht-kfzzulassungsexpress-1.pdf" target="_blank"
+                                    title="Vollmacht bei Kennzeichenverlust"
+                                    data-i18n="checklist.section.theft.vollmacht">Vollmacht</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"
+                        data-i18n="checklist.section.loss.title">
+                        Verlust KFZ Schein
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong data-i18n="checklist.section.loss.strong">Benötigte Dokumente bei Verlust des
+                            Fahrzeugscheins:</strong><br><br>
+                        <ul>
+                            <li data-i18n="checklist.section.loss.brief">Fahrzeugbrief (Zulassungsbescheinigung Teil II)
+                            </li>
+                            <li data-i18n="checklist.section.loss.idCopy">Ausweis-Kopie</li>
+                            <li><a href="/static/assets/pdf/122630_Eidesstatt_Brief.pdf" target="_blank"
+                                    title="Eidesstattliche Versicherung für Verlust des KFZ-Scheins"
+                                    data-i18n="checklist.section.loss.eides">Eidesstattliche Versicherung</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"
+                        data-i18n="checklist.section.deregistration.title">
+                        Außer Betrieb setzen / Fahrzeug abmelden
+                    </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong data-i18n="checklist.section.deregistration.strong">Benötigte Dokumente für die
+                            Abmeldung:</strong><br><br>
+                        <ul>
+                            <li data-i18n="checklist.section.deregistration.schein">KFZ Schein</li>
+                            <li data-i18n="checklist.section.deregistration.plates">KFZ Schilder</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Neue Sektion: Saison-Kennzeichen -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSaison" aria-expanded="false" aria-controls="collapseSaison"
+                        data-i18n="checklist.section.season.title">
+                        Saison Kennzeichen
+                    </button>
+                </h2>
+                <div id="collapseSaison" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong data-i18n="checklist.section.season.strong">Benötigte Dokumente für Saison Kennzeichen:</strong><br><br>
+                        <ul>
+                            <li data-i18n="checklist.section.season.schein">Zulassungsbescheinigung Teil 1 (Fahrzeugschein)</li>
+                            <li data-i18n="checklist.section.season.brief">Zulassungsbescheinigung Teil 2 (Fahrzeugbrief)</li>
+                            <li data-i18n="checklist.section.season.evb">eVB für Saison</li>
+                            <li data-i18n="checklist.section.season.idCopy">Ausweiskopie</li>
+                            <li><a href="/static/assets/pdf/vollmacht-kfzzulassungsexpress-1.pdf" target="_blank"
+                                    title="Vollmacht und SEPA für Saison-Kennzeichen"
+                                    data-i18n="checklist.section.season.vollmacht">Vollmacht und SEPA-Mandat</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Neue Sektion: Zoll-Kennzeichen -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseZoll" aria-expanded="false" aria-controls="collapseZoll"
+                        data-i18n="checklist.section.customs.title">
+                        Zollkennzeichen
+                    </button>
+                </h2>
+                <div id="collapseZoll" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong data-i18n="checklist.section.customs.strong">Benötigte Dokumente für Zollkennzeichen:</strong><br><br>
+                        <p><span data-i18n="checklist.section.customs.note">Je nach Fall gibt es unterschiedliche Anforderungen für Zollkennzeichen. Bitte </span><a href="https://wa.me/4915778789899" target="_blank" data-i18n="checklist.section.customs.link" title="WhatsApp Kontakt">kontaktieren Sie uns</a> <span data-i18n="checklist.section.customs.note2">für eine individuelle Beratung zu Ihrem speziellen Fall.</span></p>
+                    </div>
+                </div>
+            </div>
+    
         </div>
-    </div>
 </div>

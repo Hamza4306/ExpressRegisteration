@@ -12,9 +12,8 @@
       <change beforePath="$PROJECT_DIR$/app/static/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/locales/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/static/locales/it.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/locales/it.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/static/locales/ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/locales/ro.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/checklist.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/checklist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/checklist-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/checklist-section.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/overview.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +36,12 @@
     &quot;assignee&quot;: &quot;Hamza4306&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Hamza4306/ExpressRegisteration.git&quot;,
-    &quot;accountId&quot;: &quot;de85913b-e61b-4734-8683-a01bbbd75b7d&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Hamza4306/ExpressRegisteration.git",
+    "accountId": "ac81ff51-7169-4c4c-9d84-8c3ef1670665"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -54,15 +53,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HAMZA/PycharmProjects/ExpressRegisteration&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.run.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/HAMZA/PycharmProjects/ExpressRegisteration"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ExpressRegisteration" />
@@ -90,7 +90,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-ce3d9afa04ac-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.347" />
+        <option value="bundled-python-sdk-a5bc9544c897-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.23654.177" />
       </set>
     </attachedChunks>
   </component>
