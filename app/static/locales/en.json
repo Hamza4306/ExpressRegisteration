@@ -174,6 +174,22 @@
         "strong": "Required documents for deregistration:",
         "schein": "Registration certificate part I",
         "plates": "License plates"
+      },
+      "season": {
+        "title": "Seasonal License Plates",
+        "strong": "Required documents for seasonal plates:",
+        "schein": "Registration Certificate Part I",
+        "brief": "Registration Certificate Part II",
+        "evb": "eVB for seasonal registration",
+        "idCopy": "ID copy",
+        "vollmacht": "Authorization and SEPA mandate"
+      },
+      "customs": {
+        "title": "Customs License Plates",
+        "strong": "Required documents for customs plates:",
+        "note": "Depending on the case, there are different requirements for customs license plates. Please ",
+        "link": "contact us",
+        "note2": "for personalized advice regarding your specific case."
       }
     }
   },
@@ -711,5 +727,4 @@
   },
   "ticker-strong": "New arrival!",
   "ticker-content": "Carbon license plates and frameless plate holders now available."
-
 }

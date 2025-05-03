@@ -173,8 +173,8 @@
                         aria-expanded="false">Services</a>
 
                     <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                        <li><a class="dropdown-item" href="{{ url_for('services.register') }}">kfz-anmeldung</a></li>
-                        <li><a class="dropdown-item" href="{{ url_for('services.deregister') }}">kfz-abmeldung</a></li>
+                        <li><a class="dropdown-item" data-i18n="register-nav" href="{{ url_for('services.register') }}">kfz-anmeldung</a></li>
+                        <li><a class="dropdown-item" data-i18n="deregister-nav" href="{{ url_for('services.deregister') }}">kfz-abmeldung</a></li>
                         <li><a class="dropdown-item" data-i18n="export-nav" href="{{ url_for('services.export') }}">Zoll
                                 & Export Kennzeichen</a></li>
                         <li><a class="dropdown-item" data-i18n="temporary-nav"
@@ -249,9 +249,9 @@
                         <a class="nav-link dropdown-toggle" href="#" id="mobileServicesDropdown"
                             data-bs-toggle="dropdown" aria-expanded="false" data-i18n="services-nav">Services</a>
                         <ul class="dropdown-menu" aria-labelledby="mobileServicesDropdown">
-                            <li><a class="dropdown-item" href="{{ url_for('services.register') }}">kfz-anmeldung</a>
+                            <li><a class="dropdown-item" data-i18n="register-nav" href="{{ url_for('services.register') }}">kfz-anmeldung</a>
                             </li>
-                            <li><a class="dropdown-item" href="{{ url_for('services.deregister') }}">kfz-abmeldung</a>
+                            <li><a class="dropdown-item" data-i18n="deregister-nav" href="{{ url_for('services.deregister') }}">kfz-abmeldung</a>
                             </li>
                             <li><a class="dropdown-item" href="{{ url_for('services.export') }}"
                                     data-i18n="export-nav">Zoll &amp; Export

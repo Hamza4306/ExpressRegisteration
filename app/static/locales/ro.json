@@ -174,6 +174,22 @@
         "strong": "Documente necesare pentru radiere:",
         "schein": "Certificat partea I",
         "plates": "Plăcuțele de înmatriculare"
+      },
+      "season": {
+        "title": "Numere Sezoniere",
+        "strong": "Documente necesare pentru numere sezoniere:",
+        "schein": "Certificat de înmatriculare Partea I",
+        "brief": "Certificat de înmatriculare Partea II",
+        "evb": "eVB pentru înmatriculare sezonieră",
+        "idCopy": "Copie buletin",
+        "vollmacht": "Împuternicire și mandat SEPA"
+      },
+      "customs": {
+        "title": "Numere Vamale",
+        "strong": "Documente necesare pentru numere vamale:",
+        "note": "În funcție de caz, există cerințe diferite pentru numerele vamale. Vă rugăm să ",
+        "link": "ne contactați",
+        "note2": "pentru consultanță personalizată în funcție de situația dvs."
       }
     }
   },
