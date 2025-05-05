@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ee9688c-e792-46fd-aad7-da8d088ae511" name="Changes" comment="Initial Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/ExpressRegisteration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ExpressRegisteration.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5ee9688c-e792-46fd-aad7-da8d088ae511" name="Changes" comment="update: checklist, announcement bar, mobile menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/static/locales/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/locales/de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/locales/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/locales/it.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/locales/it.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/locales/ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/locales/ro.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/checklist-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/checklist-section.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,12 +30,12 @@
     &quot;assignee&quot;: &quot;Hamza4306&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Hamza4306/ExpressRegisteration.git",
-    "accountId": "ac81ff51-7169-4c4c-9d84-8c3ef1670665"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Hamza4306/ExpressRegisteration.git&quot;,
+    &quot;accountId&quot;: &quot;ac81ff51-7169-4c4c-9d84-8c3ef1670665&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -53,16 +47,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "Python.run.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/HAMZA/PycharmProjects/ExpressRegisteration"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HAMZA/PycharmProjects/ExpressRegisteration&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ExpressRegisteration" />
@@ -119,11 +113,20 @@
       <option name="project" value="LOCAL" />
       <updated>1745947179011</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update: checklist, announcement bar, mobile menu">
+      <option name="closed" value="true" />
+      <created>1746279325211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746279325211</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="update: checklist, announcement bar, mobile menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: checklist, announcement bar, mobile menu" />
   </component>
 </project>
