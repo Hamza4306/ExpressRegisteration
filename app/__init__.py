@@ -5,6 +5,7 @@ from flask import Flask, request, redirect, url_for, flash
 def create_app(config_object="app.config"):
     app = Flask(__name__)
     app.url_map.strict_slashes = False
+    app.secret_key = "your-secret-key"
     app.config.from_object(config_object)
 
     from .blueprints.core import core_bp

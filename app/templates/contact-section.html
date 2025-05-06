@@ -6,13 +6,14 @@
             <p class="description" data-i18n="contact_section.description">
                 Für alle Anliegen stehen wir Ihnen gerne in unseren Filialen zur Verfügung.
             </p>
-            <div id="map"></div>
+            <div id="map">
+                <iframe src="https://www.google.com/maps?q=49.12283268928136,8.586423491625453&z=15&output=embed" width="100%"
+                    height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
         </div>
         <div id="form">
-            <div v-if="success">
-                <p data-i18n="contact_section.success">Ihre Anfrage wurde erfolgreich abgeschickt!</p>
-            </div>
-            <form @submit="onSubmit" v-if="!success">
+            <form method="POST" action="{{ url_for('core.contact') }}">
                 <div class="form-split">
                     <div class="form-group">
                         <label for="firstname" data-i18n="contact_section.firstname">Vorname *</label>
@@ -38,9 +39,6 @@
                     <textarea rows="6" id="content" name="content" class="form-control" required
                         v-model="message"></textarea>
                 </div>
-                <p class="error" v-if="error" data-i18n="contact_section.error">
-                    Es ist ein unerwarterter Fehler aufgetreten. Bitte versuchen Sie es später noch ein mal.
-                </p>
                 <button class="submit-btn" :disabled="submitting" data-i18n="contact_section.send">Senden</button>
                 <p class="notice">
                     <span data-i18n="contact_section.notice_text">Durch das Absenden der Anfrage
@@ -51,5 +49,3 @@
         </div>
     </div>
 </div>
-
-<script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
