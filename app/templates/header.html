@@ -82,6 +82,162 @@
         vertical-align: middle;
         margin-left: 6px;
     }
+    
+    /* Enhanced Modal Popup Styling */
+    .modal-content {
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 5px 25px rgba(0,0,0,0.25);
+        overflow: hidden;
+    }
+
+    .modal-dialog-centered {
+        display: flex;
+        align-items: center;
+        min-height: calc(100% - 3.5rem);
+    }
+
+    .modal-header {
+        border-bottom: 1px solid #e9ecef;
+        padding: 1.25rem 1.5rem;
+        background-color: #f8f9fa;
+    }
+
+    .modal-title {
+        font-weight: 600;
+        color: #004488;
+    }
+
+    .modal-body {
+        padding: 1.75rem 1.5rem;
+    }
+
+    .modal-footer {
+        border-top: 1px solid #e9ecef;
+        padding: 1rem 1.5rem;
+        background-color: #f8f9fa;
+    }
+
+    .modal .btn-close:focus {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .modal .btn-secondary {
+        background-color: #6c757d;
+        border-color: #6c757d;
+        transition: all 0.2s ease;
+    }
+
+    .modal .btn-secondary:hover {
+        background-color: #5a6268;
+        border-color: #545b62;
+        transform: translateY(-1px);
+    }
+
+    .modal .btn-primary {
+        background-color: #004488;
+        border-color: #004488;
+        transition: all 0.2s ease;
+    }
+
+    .modal .btn-primary:hover {
+        background-color: #003366;
+        border-color: #003366;
+        transform: translateY(-1px);
+    }
+
+    /* Flag styling inside modals */
+    .modal .flag-icon {
+        width: 40px;
+        height: auto;
+        margin: 0 auto 10px;
+        display: block;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+        transition: all 0.2s ease;
+    }
+
+    .modal .flag-icon:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .modal .nav-link {
+        text-align: center;
+        opacity: 0.75;
+        transition: all 0.2s ease;
+        color: #495057;
+    }
+
+    .modal .nav-link:hover {
+        opacity: 1;
+        color: #004488;
+    }
+
+    /* Fade-in animation */
+    .modal.fade .modal-dialog {
+        transform: translate(0, -30px);
+        transition: transform 0.3s ease-out;
+    }
+
+    .modal.show .modal-dialog {
+        transform: none;
+    }
+
+    /* Language button styling */
+    .modal .language-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: transparent;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        padding: 0.75rem;
+        transition: all 0.2s ease;
+        cursor: pointer;
+    }
+
+    .modal .language-button:hover {
+        background-color: #f8f9fa;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .modal .language-button.active {
+        background-color: #e9f0f8;
+        border-color: #004488;
+        position: relative;
+    }
+
+    .modal .language-button.active::after {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 8px;
+        height: 8px;
+        background-color: #004488;
+        border-radius: 50%;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 767px) {
+        .modal-dialog {
+            margin: 0.5rem;
+        }
+        
+        .modal-header, 
+        .modal-body,
+        .modal-footer {
+            padding: 1rem;
+        }
+        
+        .modal .language-button {
+            padding: 0.5rem;
+        }
+    }
 </style>
 <!-- CSS styles for the announcement bar -->
 <style>
@@ -281,39 +437,34 @@
     </div>
 </nav>
 
-<!-- Language Select Modal (keeping this but it may not be needed anymore) -->
+<!-- Language Select Modal (modified to remove continue button) -->
 <div class="modal fade" id="languageModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="languageModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-body">
-                <h4 id="languageModalLabel">Select your language</h4>
-                <p>Please choose the language you prefer:</p>
+                <h4 id="languageModalLabel" class="text-center mb-3">Select your language</h4>
+                <p class="text-center mb-4">Please choose the language you prefer:</p>
 
-                <div class="d-flex justify-content-center gap-4 mb-4">
-                    <a class="nav-link" href="#" onclick="selectLang('de')" title="Deutsch">
-                        <img src="https://flagcdn.com/w40/de.png" alt="Deutsch" style="width: 40px;">
+                <div class="d-flex justify-content-center gap-4 mb-3">
+                    <div class="language-button" onclick="selectLang('de')" title="Deutsch">
+                        <img src="https://flagcdn.com/w40/de.png" alt="Deutsch" class="flag-icon">
                         <div class="mt-2">Deutsch</div>
-                    </a>
-                    <a class="nav-link" href="#" onclick="selectLang('en')" title="English">
-                        <img src="https://flagcdn.com/w40/gb.png" alt="English" style="width: 40px;">
+                    </div>
+                    <div class="language-button" onclick="selectLang('en')" title="English">
+                        <img src="https://flagcdn.com/w40/gb.png" alt="English" class="flag-icon">
                         <div class="mt-2">English</div>
-                    </a>
-                    <a class="nav-link" href="#" onclick="selectLang('ro')" title="Română">
-                        <img src="https://flagcdn.com/w40/ro.png" alt="Română" style="width: 40px;">
+                    </div>
+                    <div class="language-button" onclick="selectLang('ro')" title="Română">
+                        <img src="https://flagcdn.com/w40/ro.png" alt="Română" class="flag-icon">
                         <div class="mt-2">Română</div>
-                    </a>
-                    <a class="nav-link" href="#" onclick="selectLang('it')" title="Italiano">
-                        <img src="https://flagcdn.com/w40/it.png" alt="Italiano" style="width: 40px;">
+                    </div>
+                    <div class="language-button" onclick="selectLang('it')" title="Italiano">
+                        <img src="https://flagcdn.com/w40/it.png" alt="Italiano" class="flag-icon">
                         <div class="mt-2">Italiano</div>
-                    </a>
+                    </div>
                 </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                        Continue
-                    </button>
-                </div>
+                <!-- Continue button removed  -->
             </div>
         </div>
     </div>
