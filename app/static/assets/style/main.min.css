@@ -96,7 +96,6 @@
     position: absolute;
     bottom: -10px;
     right: 0;
-    min-width: 101%;
     height: auto;
     pointer-events: none;
   }
@@ -470,6 +469,53 @@
       padding: 60px 30px 50px;
     }
   }
+
+  /* Solution to display "Carbon-optik schilder bei uns erhältlich" in multiple lines while keeping icon alignment */
+@media screen and (max-width: 650px) {
+    /* Keep original styles */
+    .primary-section .content-wrapper {
+      padding-top: 60px;
+      padding-bottom: 75px;
+    }
+    
+    .primary-section .content-wrapper .content h1 {
+      font-size: 30px;
+    }
+    
+    .primary-section .content-wrapper .content h1 .primary-text {
+      font-size: 50px;
+    }
+    
+    /* Maintain the item layout but allow text to wrap properly for both items */
+    .primary-section .content-wrapper .content .features a.item,
+    .primary-section .content-wrapper .content .features .item {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start; /* Align to top instead of center */
+      gap: 12px;
+    }
+    
+    /* Style the text part for both "Annahmestellen" and "Carbon-optik" items */
+    .primary-section .content-wrapper .content .features a.item .text-wrapper h3,
+    .primary-section .content-wrapper .content .features .item .text-wrapper h3 {
+      display: block;
+      width: 180px;
+      white-space: normal;
+      line-height: 1.3;
+      word-wrap: break-word;
+    }
+    
+    /* Ensure icon wrapper stays aligned at the top */
+    .primary-section .content-wrapper .content .features .item .icon-wrapper {
+      flex-shrink: 0; /* Prevent icon from shrinking */
+      margin-top: 2px; /* Fine-tune vertical alignment if needed */
+    }
+    
+    /* Keep original license plate styling */
+    .primary-section .deco-mobile, .primary-section .deco-mobile-xs {
+      width: 700px;
+    }
+}
   
 /* Solution to display "Annahmestellen in Ihrer Nähe" in two lines while keeping icon alignment */
 @media screen and (max-width: 650px) {
@@ -665,3 +711,4 @@
       font-size: 30px;
     }
   }
+  

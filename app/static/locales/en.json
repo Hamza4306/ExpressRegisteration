@@ -15,7 +15,7 @@
     "feature2": "No Waiting Times",
     "feature3": "Fast Processes",
     "feature4": "Offices Near You",
-    "feature5": "On-site Solution",
+    "feature5": "Carbon-look license plates available here",
     "call": "Call",
     "whatsapp": "WhatsApp"
   },
@@ -27,7 +27,8 @@
     "heading": "Our Service",
     "registration": {
       "title": "Registration",
-      "cta": "To Registration"
+      "cta": "To Registration",
+      "point5": "With license plates and green emissions sticker"
     },
     "deregistration": {
       "title": "Deregistration",
@@ -35,16 +36,27 @@
     },
     "export": {
       "title": "Customs/Export Plates",
-      "cta": "To Order"
+      "cta": "To Order",
+      "point1": "Also possible with ID copy only",
+      "point2": "Nationwide",
+      "point3": "Express service usually possible on the same day"
+
     },
     "temporary": {
       "title": "Temporary / 6-Day Plates",
-      "cta": "To Application"
+      "cta": "To Application",
+      "point1": "Short-term insurance included",
+      "point2": "With international insurance card",
+      "point3": "Ordering by phone possible"
     },
     "advice": {
       "title": "Service & Consultation",
       "point4": "Fast & Competent Help",
-      "cta": "CONTACT NOW"
+      "cta": "CONTACT NOW",
+      "point1": "24/7 hotline",
+      "point2": "Over 15 years of experience",
+      "point3": "Consultation for special cases"
+
     },
     "contact": {
       "cta": "Contact"
@@ -52,7 +64,7 @@
     "common": {
       "point1": "No appointment needed, available anytime",
       "point2": "Possible nationwide",
-      "point3": "Also for commercial customers"
+      "point3": "Automatic notification to car insurance and customs office"
     }
   },
   "cta": {

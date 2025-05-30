@@ -15,7 +15,7 @@
     "feature2": "Keine Wartezeiten",
     "feature3": "Schnelle Abläufe",
     "feature4": "Annahmestellen in Ihrer Nähe",
-    "feature5": "Vorort Lösung",
+    "feature5": "Carbon-optik schilder bei uns erhältlich",
     "call": "Anrufen",
     "whatsapp": "WhatsApp"
   },
@@ -27,7 +27,8 @@
     "heading": "Unser Service",
     "registration": {
       "title": "Anmeldung",
-      "cta": "Zur Anmeldung"
+      "cta": "Zur Anmeldung",
+      "point5": "Mit Kfz schildern und Grüner Feinstaubplakette"
     },
     "deregistration": {
       "title": "Abmeldung",
@@ -35,16 +36,27 @@
     },
     "export": {
       "title": "Zoll/Export Kennzeichen",
-      "cta": "Zum Auftrag"
+      "cta": "Zum Auftrag",
+      "point1": "Auch nur mit ausweis kopie möglich",
+      "point2": "Bundesweit",
+      "point3": "Express meist am selben tag möglich"
+      
     },
     "temporary": {
       "title": "Kurzzeit / 6-Tages Kennzeichen",
-      "cta": "Zum Antrag"
+      "cta": "Zum Antrag",
+      "point1": "Inklusive Kurzzeit Versicherung",
+      "point2": "Mit internationaler Versicherungskarte",
+      "point3": "Bestellung per telefon möglich"
+      
     },
     "advice": {
       "title": "Service & Beratung",
       "point4": "Schnelle & kompetente Hilfe",
-      "cta": "JETZT KONTAKTIEREN"
+      "cta": "JETZT KONTAKTIEREN",
+      "point1": "24/7 Hotline",
+      "point2": "Über 15 Jahre Erfahrung",
+      "point3": "Beratung für spezielle fälle"
     },
     "contact": {
       "cta": "Kontakt"
@@ -52,7 +64,7 @@
     "common": {
       "point1": "Ohne Termin, jederzeit verfügbar",
       "point2": "Bundesweit möglich",
-      "point3": "Auch für gewerbliche Kunden "
+      "point3": "Automatische meldung an kfz Versicherung und Zollamt"
     }
   },
   "cta": {

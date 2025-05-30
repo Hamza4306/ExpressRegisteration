@@ -288,6 +288,18 @@
             font-size: 0.8rem;
         }
     }
+
+    .hotline-link {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    }
+
+    .hotline-link:hover {
+        text-decoration: underline;
+    }
+    
 </style>
 
 <!-- Sliding Announcement Bar -->
@@ -307,10 +319,17 @@
             <img src="/static/assets/img/logo.jpg" alt="Logo">
         </a>
 
+        <div class="d-lg-none">
+            <a class="nav-link hotline-link d-inline-block" href="tel:+4972519295628" data-i18n="hotline">
+                <i class="fas fa-phone me-1"></i>☏ 24/7 Hotline
+            </a>
+        </div>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav"
             aria-controls="offcanvasNav">
             <span class="navbar-toggler-icon"></span>
         </button>
+        
         
 
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -339,6 +358,11 @@
                     </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="/#kontakt" data-i18n="contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tel:+4972519295628" data-i18n="hotline">
+                        <i class="fas fa-phone me-1"></i>☏ 24/7 Hotline
+                    </a>
                 </li>
             </ul>
 

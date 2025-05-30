@@ -15,7 +15,7 @@
     "feature2": "Fără timpi de așteptare",
     "feature3": "Procese rapide",
     "feature4": "Puncte de preluare aproape",
-    "feature5": "Soluție la fața locului",
+    "feature5": "Targhe con finitura in carbonio disponibili da noi",
     "call": "Sună",
     "whatsapp": "WhatsApp"
   },
@@ -27,7 +27,8 @@
     "heading": "Serviciile Noastre",
     "registration": {
       "title": "Înmatriculare",
-      "cta": "La Înmatriculare"
+      "cta": "La Înmatriculare",
+      "point5": "Cu plăcuțe de înmatriculare și ecuson verde pentru emisii"
     },
     "deregistration": {
       "title": "Radiere",
@@ -35,16 +36,27 @@
     },
     "export": {
       "title": "Numere de Export/Vamă",
-      "cta": "Către Comandă"
+      "cta": "Către Comandă",
+      "point1": "Posibil și doar cu copie de buletin",
+      "point2": "La nivel național",
+      "point3": "Serviciu expres posibil în aceeași zi, de obicei"
+
     },
     "temporary": {
       "title": "Numere Temporare / 6-Zile",
-      "cta": "Către Cerere"
+      "cta": "Către Cerere",
+      "point1": "Asigurare pe termen scurt inclusă",
+      "point2": "Cu card internațional de asigurare",
+      "point3": "Comandă posibilă prin telefon"
     },
     "advice": {
       "title": "Serviciu & Consultanță",
       "point4": "Ajutor rapid și competent",
-      "cta": "CONTACTEAZĂ ACUM"
+      "cta": "CONTACTEAZĂ ACUM",
+      "point1": "Linie telefonică 24/7",
+      "point2": "Peste 15 ani de experiență",
+      "point3": "Consultanță pentru cazuri speciale"
+
     },
     "contact": {
       "cta": "Contact"
@@ -52,7 +64,7 @@
     "common": {
       "point1": "Fără programare, disponibil oricând",
       "point2": "Disponibil la nivel național",
-      "point3": "Și pentru clienți comerciali"
+      "point3": "Notificare automată către asigurarea auto și biroul vamal"
     }
   },
   "cta": {

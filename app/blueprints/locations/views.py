@@ -8,9 +8,9 @@ def overview():
     return render_template('overview.html')
 
 
-@locations_bp.route('/kronau')
-def kronau():
-    return render_template('kronau.html')
+@locations_bp.route('/wiesloch')
+def wiesloch():
+    return render_template('wiesloch.html')
 
 
 @locations_bp.route('/oberhausen-rheinhausen')
@@ -28,6 +28,6 @@ def schwetzingen():
     return render_template('schwetzingen.html')
 
 
-@locations_bp.route('/odenheim')
-def odenheim():
-    return render_template('odenheim.html')
+@locations_bp.route('/sandhausen')
+def sandhausen():
+    return render_template('sandhausen.html')

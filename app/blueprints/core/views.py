@@ -28,6 +28,14 @@ def tax():
 def checklist():
     return render_template('checklist.html')
 
+@core_bp.route('/register')
+def register():
+    return render_template('register.html')
+
+@core_bp.route('/deregister')
+def deregister():
+    return render_template('deregister.html')
+
 
 @core_bp.route('/contact', methods=['POST'])
 def contact():

@@ -15,7 +15,7 @@
     "feature2": "Nessun tempo di attesa",
     "feature3": "Processi rapidi",
     "feature4": "Punti di raccolta vicini",
-    "feature5": "Soluzione in loco",
+    "feature5": "Plăcuțe de înmatriculare cu aspect de carbon disponibile la noi",
     "call": "Chiama",
     "whatsapp": "WhatsApp"
   },
@@ -27,7 +27,8 @@
     "heading": "Il Nostro Servizio",
     "registration": {
       "title": "Registrazione",
-      "cta": "Alla Registrazione"
+      "cta": "Alla Registrazione",
+      "point5": "Con targhe auto e bollino verde ambientale"
     },
     "deregistration": {
       "title": "Cancellazione",
@@ -35,16 +36,27 @@
     },
     "export": {
       "title": "Targhe Export/Doganali",
-      "cta": "All’Ordine"
+      "cta": "All’Ordine",
+      "point1": "Possibile anche solo con copia del documento",
+      "point2": "In tutta la Germania",
+      "point3": "Servizio express spesso disponibile lo stesso giorno"
+
     },
     "temporary": {
       "title": "Targhe Temporanee / 6 Giorni",
-      "cta": "Alla Domanda"
+      "cta": "Alla Domanda",
+      "point1": "Assicurazione a breve termine inclusa",
+      "point2": "Con carta assicurativa internazionale",
+      "point3": "Ordine possibile per telefono"
     },
     "advice": {
       "title": "Servizio & Consulenza",
       "point4": "Supporto rapido e competente",
-      "cta": "CONTATTA ORA"
+      "cta": "CONTATTA ORA",
+      "point1": "Hotline 24/7",
+      "point2": "Oltre 15 anni di esperienza",
+      "point3": "Consulenza per casi speciali"
+
     },
     "contact": {
       "cta": "Contatto"
@@ -52,7 +64,7 @@
     "common": {
       "point1": "Senza appuntamento, sempre disponibile",
       "point2": "Disponibile a livello nazionale",
-      "point3": "Anche per clienti aziendali"
+      "point3": "Notifica automatica all’assicurazione auto e all’ufficio doganale"
     }
   },
   "cta": {
