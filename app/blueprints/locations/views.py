@@ -31,3 +31,7 @@ def schwetzingen():
 @locations_bp.route('/sandhausen')
 def sandhausen():
     return render_template('sandhausen.html')
+
+@locations_bp.route('/Dossenheim')
+def Dossenheim():
+    return render_template('Dossenheim.html')
