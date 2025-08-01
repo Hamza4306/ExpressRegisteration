@@ -240,6 +240,10 @@
     "title": "Unsere Partner",
     "description": "Wir sind mit zahlreichen Werkstätten, Autohäusern und sonstigen Dienstleistern verpartnert, um Ihnen bei jedem Anliegen einen reibungslosen Service anzubieten."
   },
+  "important_notice_bold": "Wichtiger Hinweis:",
+  "important_notice_text": "Wir sind",
+  "important_notice_bold2": "keine Behörde",
+  "important_notice_text2": "und keine offizielle Zulassungsstelle. Als privater Dienstleister übernehmen wir für Sie die Abwicklung bei den zuständigen Behörden - schnell, unkompliziert und professionell.",
   "tax": {
     "title": "KFZ-Steuer Rechner",
     "description": "Hier können Sie Ihre erwartete KFZ-Steuer berechnen. Dieser Service wird vom Bundesministerium der Finanzen bereitgestellt. Alternativ können Sie diesen Service hier auf der Website des BMF nutzen."
@@ -678,29 +682,13 @@
     }
   },
   "locations": {
-    "kronau": {
-      "hero": {
-        "title": "Express KFZ-Zulassung in Kronau",
-        "location_name": "Kiosk Dings Spielwaren\nSchreibwaren",
-        "address": "Kirrlacherstr. 26,\n76709 Kronau",
-        "phone": "+49 7253 50088",
-        "email": "E-mail",
-        "checklist": "Checkliste",
-        "whatsapp": "WhatsApp"
-      },
-      "mobile": {
-        "title": "Express KFZ-Zulassung in"
-      },
-      "steps": {
-        "title": "Vorgehensweise",
-        "items": [
-          "Bringen Sie alle notwendigen Dokumente für Ihr Anliegen (z. B. Zulassung, Abmeldung) und das entsprechende ",
-          "Auftragsformular mit.",
-          "Besuchen Sie eine unserer Annahmestellen und übergeben Sie die Unterlagen.",
-          "Wir kümmern uns um die Formalitäten und informieren Sie, sobald der Vorgang abgeschlossen ist."
-        ],
-        "button": "WhatsApp"
-      }
+    "common": {
+      "checklist": "Checkliste",
+      "steps_title": "Vorgehensweise",
+      "step1": "Bringen Sie alle notwendigen Dokumente für Ihr Anliegen (z. B. Zulassung, Abmeldung) und das entsprechende ",
+      "step1_link": "Auftragsformular mit.",
+      "step2": "Besuchen Sie eine unserer Annahmestellen und übergeben Sie die Unterlagen.",
+      "step3": "Wir kümmern uns um die Formalitäten und informieren Sie, sobald der Vorgang abgeschlossen ist."
     },
     "overview": {
       "hero": {

@@ -1,3 +1,38 @@
+/* Important Notice Section */
+.important-notice-section {
+  background-color: #1F3377;
+  margin-top: 0;
+  position: relative;
+  padding: 30px 0;
+}
+
+.important-notice-section .content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.important-notice-section .notice-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.important-notice-section .text-wrapper p {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+  max-width: 800px;
+}
+
+.important-notice-section .text-wrapper p strong {
+  color: #FEEC01;
+  font-weight: 700;
+}
+
 /* Fix für die ungleichen Button-Breiten in der primary-section - linksbündig */
 .primary-section .content-wrapper .content .btn-primary {
     display: block;  /* Buttons untereinander anzeigen */

@@ -240,6 +240,10 @@
     "title": "Our Partners",
     "description": "We partner with numerous workshops, dealerships, and other service providers to offer you smooth service for every request."
   },
+  "important_notice_bold": "Important Notice:",
+  "important_notice_text": "We are",
+  "important_notice_bold2": "not a government authority",
+  "important_notice_text2": "or official registration office. As a private service provider, we handle the processing with the competent authorities for you - fast, uncomplicated and professional.",
   "tax": {
     "title": "Vehicle Tax Calculator",
     "description": "Here you can calculate your expected vehicle tax. This service is provided by the Federal Ministry of Finance. Alternatively, you can use this service directly on the BMF website here."
@@ -677,29 +681,13 @@
     }
   },
   "locations": {
-    "kronau": {
-      "hero": {
-        "title": "Express Vehicle Registration in Kronau",
-        "location_name": "Kiosk Dings Toys\nStationery",
-        "address": "Kirrlacherstr. 26,\n76709 Kronau",
-        "phone": "+49 7253 50088",
-        "email": "E-mail",
-        "checklist": "Checklist",
-        "whatsapp": "WhatsApp"
-      },
-      "mobile": {
-        "title": "Express Vehicle Registration in"
-      },
-      "steps": {
-        "title": "Procedure",
-        "items": [
-          "Bring all necessary documents for your request (e.g. registration, deregistration) along with the appropriate",
-          "order form.",
-          "Visit one of our acceptance points and hand over the documents.",
-          "We take care of the formalities and inform you as soon as the process is completed."
-        ],
-        "button": "WhatsApp"
-      }
+    "common": {
+      "checklist": "Checklist",
+      "steps_title": "Procedure",
+      "step1": "Bring all necessary documents for your request (e.g. registration, deregistration) and the corresponding ",
+      "step1_link": "order form.",
+      "step2": "Visit one of our collection points and hand over the documents.",
+      "step3": "We take care of the formalities and inform you as soon as the process is completed."
     },
     "overview": {
       "hero": {

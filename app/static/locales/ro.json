@@ -240,6 +240,10 @@
     "title": "Partenerii Noștri",
     "description": "Colaborăm cu numeroase ateliere, dealeri auto și alți furnizori de servicii pentru a vă oferi un serviciu fără probleme pentru orice solicitare."
   },
+  "important_notice_bold": "Aviz important:",
+  "important_notice_text": "Nu suntem",
+  "important_notice_bold2": "o autoritate guvernamentală",
+  "important_notice_text2": "sau un birou oficial de înregistrare. Ca furnizor de servicii private, ne ocupăm de procesarea documentelor la autoritățile competente pentru dumneavoastră - rapid, fără complicații și profesional.",
   "tax": {
     "title": "Calculator Taxă Auto",
     "description": "Aici puteți calcula taxa auto estimată. Acest serviciu este oferit de Ministerul Federal de Finanțe din Germania. Alternativ, puteți folosi acest serviciu direct pe site-ul BMF de aici."
@@ -675,29 +679,13 @@
     }
   },
   "locations": {
-    "kronau": {
-      "hero": {
-        "title": "Înmatriculare auto expres în Kronau",
-        "location_name": "Kiosk Dings Jucării\nPapetărie",
-        "address": "Kirrlacherstr. 26,\n76709 Kronau",
-        "phone": "+49 7253 50088",
-        "email": "E-mail",
-        "checklist": "Listă de verificare",
-        "whatsapp": "WhatsApp"
-      },
-      "mobile": {
-        "title": "Înmatriculare auto expres în"
-      },
-      "steps": {
-        "title": "Procedură",
-        "items": [
-          "Aduceți toate documentele necesare pentru solicitarea dvs. (de ex. înmatriculare, radiere) și formularul de",
-          "comandă corespunzător.",
-          "Vizitați unul dintre punctele noastre de primire și predați documentele.",
-          "Ne ocupăm de formalități și vă informăm imediat ce procesul este finalizat."
-        ],
-        "button": "WhatsApp"
-      }
+    "common": {
+      "checklist": "Lista de verificare",
+      "steps_title": "Procedura",
+      "step1": "Aduceți toate documentele necesare pentru solicitarea dumneavoastră (de ex. înmatriculare, radiere) și corespunzătorul ",
+      "step1_link": "formular de comandă.",
+      "step2": "Vizitați unul dintre punctele noastre de colectare și predați documentele.",
+      "step3": "Noi ne ocupăm de formalități și vă informăm imediat ce procesul este finalizat."
     },
     "overview": {
       "hero": {

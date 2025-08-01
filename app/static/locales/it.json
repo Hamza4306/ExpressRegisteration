@@ -240,6 +240,10 @@
     "title": "I Nostri Partner",
     "description": "Collaboriamo con numerose officine, concessionarie e altri fornitori di servizi per offrirti un servizio senza intoppi per ogni esigenza."
   },
+  "important_notice_bold": "Avviso importante:",
+  "important_notice_text": "Non siamo",
+  "important_notice_bold2": "un'autorità governativa",
+  "important_notice_text2": "o un ufficio di registrazione ufficiale. Come fornitore di servizi privato, gestiamo per voi la pratica presso le autorità competenti - velocemente, senza complicazioni e professionalmente.",
   "tax": {
     "title": "Calcolatore Tassa Auto",
     "description": "Qui puoi calcolare la tassa auto prevista. Questo servizio è fornito dal Ministero Federale delle Finanze. In alternativa, puoi utilizzare questo servizio direttamente sul sito BMF qui."
@@ -675,29 +679,13 @@
     }
   },
   "locations": {
-    "kronau": {
-      "hero": {
-        "title": "Immatricolazione KFZ Express a Kronau",
-        "location_name": "Kiosk Dings Giocattoli\nCartoleria",
-        "address": "Kirrlacherstr. 26,\n76709 Kronau",
-        "phone": "+49 7253 50088",
-        "email": "E-mail",
-        "checklist": "Lista di controllo",
-        "whatsapp": "WhatsApp"
-      },
-      "mobile": {
-        "title": "Immatricolazione KFZ Express a"
-      },
-      "steps": {
-        "title": "Procedura",
-        "items": [
-          "Porta con te tutti i documenti necessari per la tua richiesta (es. immatricolazione, cancellazione) e il relativo",
-          "modulo di incarico.",
-          "Visita uno dei nostri punti di accettazione e consegna i documenti.",
-          "Ci occupiamo delle formalità e ti informeremo non appena la procedura sarà completata."
-        ],
-        "button": "WhatsApp"
-      }
+    "common": {
+      "checklist": "Lista di controllo",
+      "steps_title": "Procedura",
+      "step1": "Portate tutti i documenti necessari per la vostra richiesta (ad es. immatricolazione, cancellazione) e il corrispondente ",
+      "step1_link": "modulo d'ordine.",
+      "step2": "Visitate uno dei nostri punti di raccolta e consegnate i documenti.",
+      "step3": "Ci occupiamo delle formalità e vi informiamo non appena il processo è completato."
     },
     "overview": {
       "hero": {
