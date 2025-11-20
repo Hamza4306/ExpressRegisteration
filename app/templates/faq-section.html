@@ -1,0 +1,173 @@
+<style>
+    .faq-home-section {
+        max-width: 1250px;
+        margin: 60px auto;
+        padding: 60px 30px;
+        position: relative;
+    }
+
+    .faq-home-section h2 {
+        font-family: "Bai Jamjuree";
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.2;
+        color: #203277;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .faq-home-section > p {
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 40px;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .faq-home-section .accordion {
+        margin-top: 30px;
+    }
+
+    .faq-home-section .accordion .accordion-item {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+
+    .faq-home-section .accordion .accordion-item a {
+        color: #000;
+    }
+
+    .faq-home-section .accordion .accordion-item .accordion-button:not(.collapsed) {
+        background-color: transparent;
+        color: #000;
+    }
+
+    .faq-home-section .view-all-btn {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .faq-home-section .view-all-btn .btn-primary {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    @media screen and (max-width: 920px) {
+        .faq-home-section h2 {
+            font-size: 34px;
+        }
+    }
+
+    @media screen and (max-width: 470px) {
+        .faq-home-section {
+            padding: 40px 20px;
+        }
+
+        .faq-home-section h2 {
+            font-size: 28px;
+        }
+    }
+</style>
+
+<div class="faq-home-section" id="faq-home">
+    <h2 data-i18n="faq.title">Häufig gestellte Fragen (FAQ)</h2>
+    <p data-i18n="faq.description">Hier finden Sie Antworten auf die häufigsten Fragen rund um die KFZ-Zulassung, Ummeldung und Abmeldung. Unser Express Service unterstützt Sie bei allen Anliegen schnell und unkompliziert.</p>
+    <div class="accordion" id="accordionFAQHome">
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faqHomeOne" aria-expanded="false" aria-controls="faqHomeOne"
+                    data-i18n="faq.question1.title">
+                    Was braucht man, um ein Auto anzumelden?
+                </button>
+            </h2>
+            <div id="faqHomeOne" class="accordion-collapse collapse" data-bs-parent="#accordionFAQHome">
+                <div class="accordion-body">
+                    <p data-i18n="faq.question1.intro">Für die Anmeldung eines Fahrzeugs benötigen Sie folgende Unterlagen:</p>
+                    <ul>
+                        <li data-i18n="faq.question1.doc1">Fahrzeugschein (Zulassungsbescheinigung Teil I) und Fahrzeugbrief (Zulassungsbescheinigung Teil II)</li>
+                        <li data-i18n="faq.question1.doc2">Gültiger Personalausweis oder Reisepass (bei ausländischen Staatsbürgern zusätzlich Reisepasskopie)</li>
+                        <li data-i18n="faq.question1.doc3">eVB-Nummer (elektronische Versicherungsbestätigung) von Ihrer KFZ-Versicherung</li>
+                        <li data-i18n="faq.question1.doc4">SEPA-Lastschriftmandat für die KFZ-Steuer</li>
+                    </ul>
+                    <p data-i18n="faq.question1.closing">Mit unserem Express Service übernehmen wir den gesamten Prozess für Sie – schnell, einfach und ohne Wartezeiten!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faqHomeTwo" aria-expanded="false" aria-controls="faqHomeTwo"
+                    data-i18n="faq.question2.title">
+                    Wie läuft die Anmeldung eines Autos ab?
+                </button>
+            </h2>
+            <div id="faqHomeTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFAQHome">
+                <div class="accordion-body">
+                    <p data-i18n="faq.question2.intro">Die KFZ-Anmeldung läuft in folgenden Schritten ab:</p>
+                    <ol>
+                        <li><strong data-i18n="faq.question2.step1.title">Unterlagen vorbereiten:</strong> <span data-i18n="faq.question2.step1.text">Sammeln Sie alle erforderlichen Dokumente (Fahrzeugschein, Fahrzeugbrief, Ausweis, eVB-Nummer, SEPA-Mandat)</span></li>
+                        <li><strong data-i18n="faq.question2.step2.title">Versicherung abschließen:</strong> <span data-i18n="faq.question2.step2.text">Kontaktieren Sie Ihre KFZ-Versicherung und erhalten Sie die eVB-Nummer</span></li>
+                        <li><strong data-i18n="faq.question2.step3.title">Zulassungsstelle besuchen:</strong> <span data-i18n="faq.question2.step3.text">Gehen Sie zur zuständigen Zulassungsstelle oder nutzen Sie unseren Express Service</span></li>
+                        <li><strong data-i18n="faq.question2.step4.title">Anmeldung durchführen:</strong> <span data-i18n="faq.question2.step4.text">Die Unterlagen werden geprüft, die KFZ-Steuer wird berechnet und das Fahrzeug wird im System registriert</span></li>
+                        <li><strong data-i18n="faq.question2.step5.title">Kennzeichen erhalten:</strong> <span data-i18n="faq.question2.step5.text">Sie erhalten Ihre Nummernschilder und den neuen Fahrzeugschein</span></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faqHomeThree" aria-expanded="false" aria-controls="faqHomeThree"
+                    data-i18n="faq.question4.title">
+                    Was kostet Auto anmelden mit Nummernschildern?
+                </button>
+            </h2>
+            <div id="faqHomeThree" class="accordion-collapse collapse" data-bs-parent="#accordionFAQHome">
+                <div class="accordion-body">
+                    <p data-i18n="faq.question4.intro">Die Kosten für die KFZ-Anmeldung mit Nummernschildern setzen sich aus mehreren Komponenten zusammen:</p>
+                    <p><strong data-i18n="faq.question4.fees.title">Behördengebühren:</strong></p>
+                    <ul>
+                        <li data-i18n="faq.question4.fees.registration">Zulassung des Fahrzeugs: ca. 26-30 Euro</li>
+                        <li data-i18n="faq.question4.fees.certificate">Ausstellen des Fahrzeugscheins: ca. 11 Euro</li>
+                    </ul>
+                    <p><strong data-i18n="faq.question4.plates.title">Kennzeichen:</strong></p>
+                    <ul>
+                        <li data-i18n="faq.question4.plates.standard">Standard-Nummernschilder: ca. 20-30 Euro (beide Schilder)</li>
+                    </ul>
+                    <p><strong data-i18n="faq.question4.total.title">Gesamt:</strong> <span data-i18n="faq.question4.total.text">Die Anmeldekosten liegen typischerweise zwischen 60-100 Euro, abhängig von den individuellen Anforderungen.</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faqHomeFour" aria-expanded="false" aria-controls="faqHomeFour"
+                    data-i18n="faq.question9.title">
+                    Was brauche ich, um ein Fahrzeug bei der Zulassungsstelle abzumelden?
+                </button>
+            </h2>
+            <div id="faqHomeFour" class="accordion-collapse collapse" data-bs-parent="#accordionFAQHome">
+                <div class="accordion-body">
+                    <p data-i18n="faq.question9.intro">Für die Abmeldung (Außerbetriebsetzung) Ihres Fahrzeugs benötigen Sie:</p>
+                    <p><strong data-i18n="faq.question9.required.title">Erforderliche Unterlagen:</strong></p>
+                    <ul>
+                        <li><strong data-i18n="faq.question9.required.schein.title">Fahrzeugschein:</strong> <span data-i18n="faq.question9.required.schein.text">Zulassungsbescheinigung Teil I</span></li>
+                        <li><strong data-i18n="faq.question9.required.plates.title">Beide Kennzeichen:</strong> <span data-i18n="faq.question9.required.plates.text">Vorderes und hinteres Nummernschild müssen abgegeben werden</span></li>
+                        <li><strong data-i18n="faq.question9.required.id.title">Personalausweis oder Reisepass:</strong> <span data-i18n="faq.question9.required.id.text">Gültiges Ausweisdokument des Fahrzeughalters</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="view-all-btn">
+        <a href="{{ url_for('core.faq') }}" class="btn-primary">Alle FAQ anzeigen</a>
+    </div>
+</div>

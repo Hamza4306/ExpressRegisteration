@@ -319,12 +319,6 @@
             <img src="/static/assets/img/logo.jpg" alt="Logo">
         </a>
 
-        <div class="d-lg-none">
-            <a class="nav-link hotline-link d-inline-block" href="tel:+4972519295628" data-i18n="hotline">
-                <i class="fas fa-phone me-1"></i>☏ 24/7 Hotline
-            </a>
-        </div>
-
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav"
             aria-controls="offcanvasNav">
             <span class="navbar-toggler-icon"></span>
@@ -336,6 +330,8 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item"><a class="nav-link" href="{{ url_for('core.checklist') }}"
                         data-i18n="checklist-nav">Checkliste</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('core.faq') }}"
+                        data-i18n="faq-nav">FAQ</a></li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url_for('locations.overview') }}" id="locationsLink" data-i18n="locations-nav">Annahmestellen</a>
@@ -358,11 +354,6 @@
                     </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="/#kontakt" data-i18n="contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tel:+4972519295628" data-i18n="hotline">
-                        <i class="fas fa-phone me-1"></i>☏ 24/7 Hotline
-                    </a>
                 </li>
             </ul>
 
@@ -407,7 +398,11 @@
                         <a class="nav-link" href="{{ url_for('core.checklist') }}"
                             data-i18n="checklist-nav">Checkliste</a>
                     </li>
-                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('core.faq') }}"
+                            data-i18n="faq-nav">FAQ</a>
+                    </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url_for('locations.overview') }}" id="locationsLink" data-i18n="locations-nav">Annahmestellen</a>
                         </li>

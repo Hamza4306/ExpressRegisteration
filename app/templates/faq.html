@@ -1,0 +1,298 @@
+{% extends 'base.html' %}
+
+{% block title %}FAQ - Häufig gestellte Fragen zur KFZ-Zulassung | Schnelle Antworten{% endblock %}
+
+{% block page_css %}
+<link rel="stylesheet" href="/static/assets/style/checkliste.min.css">
+{% endblock %}
+
+{% block content %}
+
+<div class="checklist-section" id="faqSection">
+    <img class="mobile-deco" src="/static/assets/img/deco-checklist-mobile.jpg" alt="Person bei der KFZ-Zulassung am Computer">
+    <h1 data-i18n="faq.title">Häufig gestellte Fragen (FAQ)</h1>
+    <p data-i18n="faq.description">Hier finden Sie Antworten auf die häufigsten Fragen rund um die KFZ-Zulassung, Ummeldung und Abmeldung. Unser Express Service unterstützt Sie bei allen Anliegen schnell und unkompliziert.</p>
+    <div class="accordion" id="accordionFAQ">
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faqOne" aria-expanded="false" aria-controls="faqOne"
+                    data-i18n="faq.question1.title">
+                    Was braucht man, um ein Auto anzumelden?
+                </button>
+            </h2>
+            <div id="faqOne" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    <p data-i18n="faq.question1.intro">Für die Anmeldung eines Fahrzeugs benötigen Sie folgende Unterlagen:</p>
+                    <ul>
+                        <li data-i18n="faq.question1.doc1">Fahrzeugschein (Zulassungsbescheinigung Teil I) und Fahrzeugbrief (Zulassungsbescheinigung Teil II)</li>
+                        <li data-i18n="faq.question1.doc2">Gültiger Personalausweis oder Reisepass (bei ausländischen Staatsbürgern zusätzlich Reisepasskopie)</li>
+                        <li data-i18n="faq.question1.doc3">eVB-Nummer (elektronische Versicherungsbestätigung) von Ihrer KFZ-Versicherung</li>
+                        <li data-i18n="faq.question1.doc4">SEPA-Lastschriftmandat für die KFZ-Steuer</li>
+                        <li data-i18n="faq.question1.doc5">Bei Bedarf: gültiger HU-Bericht (Hauptuntersuchung)</li>
+                        <li data-i18n="faq.question1.doc6">Falls Sie unseren Service nutzen: Vollmacht und Auftragsformular</li>
+                    </ul>
+                    <p data-i18n="faq.question1.closing">Mit unserem Express Service übernehmen wir den gesamten Prozess für Sie – schnell, einfach und ohne Wartezeiten!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo"
+                    data-i18n="faq.question2.title">
+                    Wie läuft die Anmeldung eines Autos ab?
+                </button>
+            </h2>
+            <div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    <p data-i18n="faq.question2.intro">Die KFZ-Anmeldung läuft in folgenden Schritten ab:</p>
+                    <ol>
+                        <li><strong data-i18n="faq.question2.step1.title">Unterlagen vorbereiten:</strong> <span data-i18n="faq.question2.step1.text">Sammeln Sie alle erforderlichen Dokumente (Fahrzeugschein, Fahrzeugbrief, Ausweis, eVB-Nummer, SEPA-Mandat)</span></li>
+                        <li><strong data-i18n="faq.question2.step2.title">Versicherung abschließen:</strong> <span data-i18n="faq.question2.step2.text">Kontaktieren Sie Ihre KFZ-Versicherung und erhalten Sie die eVB-Nummer</span></li>
+                        <li><strong data-i18n="faq.question2.step3.title">Zulassungsstelle besuchen:</strong> <span data-i18n="faq.question2.step3.text">Gehen Sie zur zuständigen Zulassungsstelle oder nutzen Sie unseren Express Service</span></li>
+                        <li><strong data-i18n="faq.question2.step4.title">Anmeldung durchführen:</strong> <span data-i18n="faq.question2.step4.text">Die Unterlagen werden geprüft, die KFZ-Steuer wird berechnet und das Fahrzeug wird im System registriert</span></li>
+                        <li><strong data-i18n="faq.question2.step5.title">Kennzeichen erhalten:</strong> <span data-i18n="faq.question2.step5.text">Sie erhalten Ihre Nummernschilder und den neuen Fahrzeugschein</span></li>
+                    </ol>
+                    <p><strong data-i18n="faq.question2.closing.bold">Mit unserem Express Service:</strong> <span data-i18n="faq.question2.closing.text">Sie geben uns Ihre Unterlagen, wir erledigen alles für Sie in kürzester Zeit – bundesweit und ohne Termin!</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree"
+                    data-i18n="faq.question3.title">
+                    Was ist der Unterschied zwischen Anmeldung und Ummeldung Kfz?
+                </button>
+            </h2>
+            <div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    <p data-i18n="faq.question3.intro">Der Unterschied zwischen Anmeldung und Ummeldung:</p>
+                    <p><strong data-i18n="faq.question3.registration.title">Anmeldung (Erstzulassung oder Wiederzulassung):</strong></p>
+                    <ul>
+                        <li data-i18n="faq.question3.registration.point1">Wird benötigt, wenn ein Fahrzeug zum ersten Mal zugelassen wird oder außer Betrieb gesetzt war</li>
+                        <li data-i18n="faq.question3.registration.point2">Das Fahrzeug erhält ein komplett neues Kennzeichen und wird neu im System registriert</li>
+                        <li data-i18n="faq.question3.registration.point3">Erforderlich nach Kauf eines stillgelegten Fahrzeugs oder bei Neuwagen</li>
+                    </ul>
+                    <p><strong data-i18n="faq.question3.reregistration.title">Ummeldung:</strong></p>
+                    <ul>
+                        <li data-i18n="faq.question3.reregistration.point1">Wird bei einem Umzug in einen anderen Zulassungsbezirk notwendig (außerhalb des Landkreises)</li>
+                        <li data-i18n="faq.question3.reregistration.point2">Oder bei Halterwechsel (Verkauf/Kauf eines zugelassenen Fahrzeugs)</li>
+                        <li data-i18n="faq.question3.reregistration.point3">Das Fahrzeug wird auf einen neuen Halter oder an eine neue Adresse umgeschrieben</li>
+                        <li data-i18n="faq.question3.reregistration.point4">Bei Umzug innerhalb des gleichen Landkreises ist nur eine Adressänderung erforderlich</li>
+                    </ul>
+                    <p data-i18n="faq.question3.closing">Unser Service unterstützt Sie bei beiden Vorgängen schnell und professionell!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faqFour" aria-expanded="false" aria-controls="faqFour"
+                    data-i18n="faq.question4.title">
+                    Was kostet Auto anmelden mit Nummernschildern?
+                </button>
+            </h2>
+            <div id="faqFour" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    <p data-i18n="faq.question4.intro">Die Kosten für die KFZ-Anmeldung mit Nummernschildern setzen sich aus mehreren Komponenten zusammen:</p>
+                    <p><strong data-i18n="faq.question4.fees.title">Behördengebühren:</strong></p>
+                    <ul>
+                        <li data-i18n="faq.question4.fees.registration">Zulassung des Fahrzeugs: ca. 26-30 Euro</li>
+                        <li data-i18n="faq.question4.fees.certificate">Ausstellen des Fahrzeugscheins: ca. 11 Euro</li>
+                        <li data-i18n="faq.question4.fees.reservation">Kennzeichenreservierung (optional): ca. 2,60-12,80 Euro</li>
+                    </ul>
+                    <p><strong data-i18n="faq.question4.plates.title">Kennzeichen:</strong></p>
+                    <ul>
+                        <li data-i18n="faq.question4.plates.standard">Standard-Nummernschilder: ca. 20-30 Euro (beide Schilder)</li>
+                        <li data-i18n="faq.question4.plates.custom">Wunschkennzeichen: zusätzliche Gebühr ca. 10-13 Euro</li>
+                    </ul>
+                    <p><strong data-i18n="faq.question4.additional.title">Zusätzliche Kosten:</strong></p>
+                    <ul>
+                        <li data-i18n="faq.question4.additional.sticker">Feinstaubplakette: ca. 5-10 Euro</li>
+                        <li data-i18n="faq.question4.additional.insurance">KFZ-Versicherung (variiert je nach Fahrzeug und Versicherungsumfang)</li>
+                    </ul>
+                    <p><strong data-i18n="faq.question4.total.title">Gesamt:</strong> <span data-i18n="faq.question4.total.text">Die Anmeldekosten liegen typischerweise zwischen 60-100 Euro, abhängig von den individuellen Anforderungen.</span></p>
+                    <p data-i18n="faq.question4.closing">Mit unserem Express Service erhalten Sie ein transparentes Komplettpaket inklusive professioneller Abwicklung!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faqFive" aria-expanded="false" aria-controls="faqFive"
+                    data-i18n="faq.question5.title">
+                    Was zuerst Kennzeichen oder Zulassung?
+                </button>
+            </h2>
+            <div id="faqFive" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    <p><strong data-i18n="faq.question5.principle.title">Grundsätzlich:</strong> <span data-i18n="faq.question5.principle.text">Die Zulassung erfolgt zuerst, dann erhalten Sie die Kennzeichen.</span></p>
+                    <p><strong data-i18n="faq.question5.process.title">Der übliche Ablauf:</strong></p>
+                    <ol>
+                        <li data-i18n="faq.question5.process.step1">Sie gehen zur Zulassungsstelle mit allen erforderlichen Unterlagen</li>
+                        <li data-i18n="faq.question5.process.step2">Die Zulassungsstelle prüft Ihre Unterlagen und führt die Zulassung durch</li>
+                        <li data-i18n="faq.question5.process.step3">Nach erfolgreicher Zulassung erhalten Sie die Zulassungsplakette und den Stempel</li>
+                        <li data-i18n="faq.question5.process.step4">Mit diesen Dokumenten können Sie die Kennzeichen prägen lassen (bei uns oder einem Schilderdienst)</li>
+                    </ol>
+                    <p><strong data-i18n="faq.question5.alternative.title">Moderne Alternative:</strong> <span data-i18n="faq.question5.alternative.text">Sie können Kennzeichen vorab bei einem Schilderdienst prägen lassen und diese dann direkt bei der Zulassung stempeln lassen. Dies spart Zeit!</span></p>
+                    <p><strong data-i18n="faq.question5.service.title">Mit unserem Express Service:</strong> <span data-i18n="faq.question5.service.text">Wir kümmern uns um alles – von der Zulassung bis zu den fertigen, gestempelten Kennzeichen. Sie erhalten Ihr fahrbereites Fahrzeug zurück!</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faqSix" aria-expanded="false" aria-controls="faqSix"
+                    data-i18n="faq.question6.title">
+                    Ist es erlaubt, ohne Kennzeichen zur Zulassungsstelle zu fahren?
+                </button>
+            </h2>
+            <div id="faqSix" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    <p><strong data-i18n="faq.question6.answer">Nein, grundsätzlich ist das Fahren ohne Kennzeichen nicht erlaubt und kann mit einem Bußgeld geahndet werden.</strong></p>
+                    <p><strong data-i18n="faq.question6.alternatives.title">Ausnahmen und legale Alternativen:</strong></p>
+                    <ul>
+                        <li><strong data-i18n="faq.question6.alternatives.shortterm.title">Kurzzeitkennzeichen (5-Tages-Kennzeichen):</strong> <span data-i18n="faq.question6.alternatives.shortterm.text">Speziell für Probe- und Überführungsfahrten zur Zulassungsstelle. Gültig für 5 Tage.</span></li>
+                        <li><strong data-i18n="faq.question6.alternatives.export.title">Ausfuhrkennzeichen (Zollkennzeichen):</strong> <span data-i18n="faq.question6.alternatives.export.text">Für die Ausfuhr von Fahrzeugen ins Ausland</span></li>
+                        <li><strong data-i18n="faq.question6.alternatives.red.title">Rote Kennzeichen:</strong> <span data-i18n="faq.question6.alternatives.red.text">Nur für Händler und Werkstätten bei Probe- und Überführungsfahrten</span></li>
+                        <li><strong data-i18n="faq.question6.alternatives.trailer.title">Anhänger/Transport:</strong> <span data-i18n="faq.question6.alternatives.trailer.text">Sie können das Fahrzeug auf einem Anhänger oder mit einem Abschleppwagen zur Zulassungsstelle bringen</span></li>
+                    </ul>
+                    <p><strong data-i18n="faq.question6.recommendation.title">Empfehlung:</strong> <span data-i18n="faq.question6.recommendation.text">Nutzen Sie ein Kurzzeitkennzeichen oder unseren Express Service. Wir holen Ihr Fahrzeug ab und bringen es zugelassen mit allen Kennzeichen zurück – legal und sicher!</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faqSeven" aria-expanded="false" aria-controls="faqSeven"
+                    data-i18n="faq.question7.title">
+                    Welche Papiere brauche ich, um ein Kfz zuzulassen?
+                </button>
+            </h2>
+            <div id="faqSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    <p data-i18n="faq.question7.intro">Für die KFZ-Zulassung benötigen Sie folgende Dokumente:</p>
+                    <p><strong data-i18n="faq.question7.required.title">Pflichtdokumente:</strong></p>
+                    <ul>
+                        <li><strong data-i18n="faq.question7.required.schein.title">Fahrzeugschein:</strong> <span data-i18n="faq.question7.required.schein.text">Zulassungsbescheinigung Teil I (sofern vorhanden)</span></li>
+                        <li><strong data-i18n="faq.question7.required.brief.title">Fahrzeugbrief:</strong> <span data-i18n="faq.question7.required.brief.text">Zulassungsbescheinigung Teil II</span></li>
+                        <li><strong data-i18n="faq.question7.required.id.title">Personalausweis oder Reisepass:</strong> <span data-i18n="faq.question7.required.id.text">Gültiges Ausweisdokument</span></li>
+                        <li><strong data-i18n="faq.question7.required.evb.title">eVB-Nummer:</strong> <span data-i18n="faq.question7.required.evb.text">Elektronische Versicherungsbestätigung Ihrer KFZ-Versicherung</span></li>
+                        <li><strong data-i18n="faq.question7.required.sepa.title">SEPA-Lastschriftmandat:</strong> <span data-i18n="faq.question7.required.sepa.text">Für den Einzug der KFZ-Steuer</span></li>
+                    </ul>
+                    <p><strong data-i18n="faq.question7.additional.title">Zusätzlich bei Bedarf:</strong></p>
+                    <ul>
+                        <li data-i18n="faq.question7.additional.hu">Gültiger HU-Bericht (Hauptuntersuchung), falls vorhanden</li>
+                        <li data-i18n="faq.question7.additional.foreign">Bei ausländischen Staatsbürgern: Reisepasskopie</li>
+                        <li data-i18n="faq.question7.additional.vollmacht">Bei Vertretung durch Dritte: Vollmacht des Fahrzeughalters</li>
+                        <li data-i18n="faq.question7.additional.company">Bei Firmenwagen: Gewerbeanmeldung oder Handelsregisterauszug</li>
+                    </ul>
+                    <p><span data-i18n="faq.question7.closing.text">Eine vollständige Checkliste finden Sie auf unserer </span><a href="{{ url_for('core.checklist') }}" data-i18n="faq.question7.closing.link">Checklisten-Seite</a>. <span data-i18n="faq.question7.closing.service">Unser Express Service hilft Ihnen bei der Zusammenstellung aller Unterlagen!</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faqEight" aria-expanded="false" aria-controls="faqEight"
+                    data-i18n="faq.question8.title">
+                    Kann man Nummernschilder schon vor der Zulassung kaufen?
+                </button>
+            </h2>
+            <div id="faqEight" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    <p><strong data-i18n="faq.question8.answer">Ja, Sie können Nummernschilder vor der Zulassung kaufen und prägen lassen.</strong></p>
+                    <p><strong data-i18n="faq.question8.howto.title">So funktioniert es:</strong></p>
+                    <ul>
+                        <li><strong data-i18n="faq.question8.howto.reserve.title">Kennzeichen reservieren (optional):</strong> <span data-i18n="faq.question8.howto.reserve.text">Bei der Zulassungsstelle oder online können Sie Ihr Wunschkennzeichen reservieren</span></li>
+                        <li><strong data-i18n="faq.question8.howto.stamp.title">Schilder prägen lassen:</strong> <span data-i18n="faq.question8.howto.stamp.text">Mit der Reservierungsbestätigung oder dem gewünschten Kennzeichen können Sie zu einem Schilderdienst gehen und die Nummernschilder prägen lassen</span></li>
+                        <li><strong data-i18n="faq.question8.howto.bring.title">Zur Zulassung mitnehmen:</strong> <span data-i18n="faq.question8.howto.bring.text">Bringen Sie die ungestempelten Kennzeichen zur Zulassungsstelle mit</span></li>
+                        <li><strong data-i18n="faq.question8.howto.seal.title">Stempelung:</strong> <span data-i18n="faq.question8.howto.seal.text">Nach erfolgreicher Zulassung werden die Plaketten auf die Kennzeichen angebracht</span></li>
+                    </ul>
+                    <p><strong data-i18n="faq.question8.advantage.title">Vorteil:</strong> <span data-i18n="faq.question8.advantage.text">Sie sparen Zeit, da Sie nicht nach der Zulassung noch zum Schilderdienst müssen. Die Kennzeichen sind sofort einsatzbereit!</span></p>
+                    <p><strong data-i18n="faq.question8.important.title">Wichtig:</strong> <span data-i18n="faq.question8.important.text">Die Kennzeichen sind erst nach der offiziellen Zulassung und Stempelung gültig. Vorher dürfen Sie nicht damit fahren!</span></p>
+                    <p data-i18n="faq.question8.closing">Unser Express Service bietet komplette Pakete inklusive Kennzeichenprägung und Stempelung – alles aus einer Hand!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faqNine" aria-expanded="false" aria-controls="faqNine"
+                    data-i18n="faq.question9.title">
+                    Was brauche ich, um ein Fahrzeug bei der Zulassungsstelle abzumelden?
+                </button>
+            </h2>
+            <div id="faqNine" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body">
+                    <p data-i18n="faq.question9.intro">Für die Abmeldung (Außerbetriebsetzung) Ihres Fahrzeugs benötigen Sie:</p>
+                    <p><strong data-i18n="faq.question9.required.title">Erforderliche Unterlagen:</strong></p>
+                    <ul>
+                        <li><strong data-i18n="faq.question9.required.schein.title">Fahrzeugschein:</strong> <span data-i18n="faq.question9.required.schein.text">Zulassungsbescheinigung Teil I</span></li>
+                        <li><strong data-i18n="faq.question9.required.plates.title">Beide Kennzeichen:</strong> <span data-i18n="faq.question9.required.plates.text">Vorderes und hinteres Nummernschild müssen abgegeben werden</span></li>
+                        <li><strong data-i18n="faq.question9.required.id.title">Personalausweis oder Reisepass:</strong> <span data-i18n="faq.question9.required.id.text">Gültiges Ausweisdokument des Fahrzeughalters</span></li>
+                        <li><strong data-i18n="faq.question9.required.vollmacht.title">Vollmacht:</strong> <span data-i18n="faq.question9.required.vollmacht.text">Falls Sie die Abmeldung durch eine andere Person durchführen lassen</span></li>
+                    </ul>
+                    <p><strong data-i18n="faq.question9.notes.title">Wichtige Hinweise:</strong></p>
+                    <ul>
+                        <li data-i18n="faq.question9.notes.brief">Der Fahrzeugbrief (Zulassungsbescheinigung Teil II) wird bei der Abmeldung nicht benötigt</li>
+                        <li data-i18n="faq.question9.notes.costs">Die Abmeldung ist kostenfrei oder kostet nur wenige Euro (ca. 5-10 Euro je nach Zulassungsstelle)</li>
+                        <li data-i18n="faq.question9.notes.insurance">Nach der Abmeldung müssen Sie Ihre KFZ-Versicherung informieren</li>
+                        <li data-i18n="faq.question9.notes.traffic">Das Fahrzeug darf nach der Abmeldung nicht mehr im öffentlichen Verkehr bewegt werden</li>
+                    </ul>
+                    <p><strong data-i18n="faq.question9.service.title">Unser Express Service:</strong> <span data-i18n="faq.question9.service.text">Wir übernehmen die komplette Abmeldung für Sie – schnell, unkompliziert und bundesweit. Kontaktieren Sie uns noch heute!</span></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="contact-cta-section">
+    <div class="content-wrapper">
+        <h3 data-i18n="contact_cta2.heading">Sie haben ein anderes Anliegen rund um die KFZ Zulassung?</h3>
+        <p data-i18n="contact_cta2.description">
+            Brauchen Sie Hilfe bei der Zulassung Ihres Fahrzeugs? Unser erfahrenes Team unterstützt Sie gerne bei allen
+            Fragen zur KFZ Anmeldung, Ummeldung oder Abmeldung. Kontaktieren Sie uns noch heute!
+        </p>
+        <a href="#kontakt" class="btn-primary" data-i18n="contact_cta2.button">Jetzt Kontakt aufnehmen</a>
+    </div>
+</div>
+
+{% include 'contact-section.html' %}
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const hash = window.location.hash;
+        if (hash) {
+            const targetCollapse = document.querySelector(hash);
+            if (targetCollapse && targetCollapse.classList.contains('accordion-collapse')) {
+                setTimeout(() => {
+                    const bsCollapse = new bootstrap.Collapse(targetCollapse, {
+                        toggle: true
+                    });
+                    const headerOffset = document.querySelector(".header").offsetHeight;
+                    const elementPosition = targetCollapse.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.scrollY - headerOffset - 60;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: "smooth"
+                    });
+                }, 500);
+            }
+        }
+    });
+</script>
+{% endblock %}

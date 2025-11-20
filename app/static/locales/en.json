@@ -205,6 +205,247 @@
       }
     }
   },
+  "faq-nav": "FAQ",
+  "faq": {
+    "title": "Frequently Asked Questions (FAQ)",
+    "description": "Here you'll find answers to the most common questions about vehicle registration, re-registration, and deregistration. Our Express Service supports you with all inquiries quickly and easily.",
+    "question1": {
+      "title": "What do you need to register a car?",
+      "intro": "To register a vehicle, you need the following documents:",
+      "doc1": "Registration certificate (Zulassungsbescheinigung Teil I) and vehicle title (Zulassungsbescheinigung Teil II)",
+      "doc2": "Valid ID card or passport (for foreign nationals, additionally a passport copy)",
+      "doc3": "eVB number (electronic insurance confirmation) from your car insurance",
+      "doc4": "SEPA direct debit mandate for vehicle tax",
+      "doc5": "If applicable: valid vehicle inspection (HU) report",
+      "doc6": "If you use our service: power of attorney and order form",
+      "closing": "With our Express Service, we take care of the entire process for you – fast, simple, and without waiting times!"
+    },
+    "question2": {
+      "title": "How does car registration work?",
+      "intro": "Vehicle registration follows these steps:",
+      "step1": {
+        "title": "Prepare documents:",
+        "text": "Gather all required documents (registration certificate, vehicle title, ID, eVB number, SEPA mandate)"
+      },
+      "step2": {
+        "title": "Get insurance:",
+        "text": "Contact your car insurance and obtain the eVB number"
+      },
+      "step3": {
+        "title": "Visit registration office:",
+        "text": "Go to the responsible registration office or use our Express Service"
+      },
+      "step4": {
+        "title": "Complete registration:",
+        "text": "Documents are verified, vehicle tax is calculated, and the vehicle is registered in the system"
+      },
+      "step5": {
+        "title": "Receive license plates:",
+        "text": "You get your license plates and the new registration certificate"
+      },
+      "closing": {
+        "bold": "With our Express Service:",
+        "text": "You hand us your documents, and we handle everything for you in the shortest time – nationwide and without an appointment!"
+      }
+    },
+    "question3": {
+      "title": "What's the difference between registration and re-registration?",
+      "intro": "The difference between registration and re-registration:",
+      "registration": {
+        "title": "Registration (first-time or re-registration):",
+        "point1": "Required when a vehicle is registered for the first time or was decommissioned",
+        "point2": "The vehicle receives completely new license plates and is newly registered in the system",
+        "point3": "Necessary after purchasing a decommissioned vehicle or for new cars"
+      },
+      "reregistration": {
+        "title": "Re-registration:",
+        "point1": "Required when moving to a different registration district (outside the county)",
+        "point2": "Or when changing ownership (selling/buying a registered vehicle)",
+        "point3": "The vehicle is transferred to a new owner or new address",
+        "point4": "For moves within the same county, only an address change is required"
+      },
+      "closing": "Our service supports you with both processes quickly and professionally!"
+    },
+    "question4": {
+      "title": "How much does it cost to register a car with license plates?",
+      "intro": "The costs for vehicle registration with license plates consist of several components:",
+      "fees": {
+        "title": "Government fees:",
+        "registration": "Vehicle registration: approx. 26-30 euros",
+        "certificate": "Issuing registration certificate: approx. 11 euros",
+        "reservation": "License plate reservation (optional): approx. 2.60-12.80 euros"
+      },
+      "plates": {
+        "title": "License plates:",
+        "standard": "Standard license plates: approx. 20-30 euros (both plates)",
+        "custom": "Personalized license plates: additional fee approx. 10-13 euros"
+      },
+      "additional": {
+        "title": "Additional costs:",
+        "sticker": "Emissions sticker: approx. 5-10 euros",
+        "insurance": "Car insurance (varies depending on vehicle and coverage)"
+      },
+      "total": {
+        "title": "Total:",
+        "text": "Registration costs typically range between 60-100 euros, depending on individual requirements."
+      },
+      "closing": "With our Express Service, you get a transparent complete package including professional handling!"
+    },
+    "question5": {
+      "title": "What comes first, license plates or registration?",
+      "principle": {
+        "title": "Basically:",
+        "text": "Registration comes first, then you receive the license plates."
+      },
+      "process": {
+        "title": "The usual process:",
+        "step1": "You go to the registration office with all required documents",
+        "step2": "The registration office checks your documents and completes the registration",
+        "step3": "After successful registration, you receive the registration seal and stamp",
+        "step4": "With these documents, you can have the license plates made (at our shop or a license plate service)"
+      },
+      "alternative": {
+        "title": "Modern alternative:",
+        "text": "You can have license plates made in advance at a license plate service and have them stamped directly during registration. This saves time!"
+      },
+      "service": {
+        "title": "With our Express Service:",
+        "text": "We take care of everything – from registration to finished, stamped license plates. You get your road-ready vehicle back!"
+      }
+    },
+    "question6": {
+      "title": "Is it allowed to drive to the registration office without license plates?",
+      "answer": "No, driving without license plates is generally not allowed and can be fined.",
+      "alternatives": {
+        "title": "Exceptions and legal alternatives:",
+        "shortterm": {
+          "title": "Short-term license plates (5-day plates):",
+          "text": "Specifically for test drives and transfers to the registration office. Valid for 5 days."
+        },
+        "export": {
+          "title": "Export license plates (customs plates):",
+          "text": "For exporting vehicles abroad"
+        },
+        "red": {
+          "title": "Red license plates:",
+          "text": "Only for dealers and workshops for test drives and transfers"
+        },
+        "trailer": {
+          "title": "Trailer/transport:",
+          "text": "You can bring the vehicle to the registration office on a trailer or with a tow truck"
+        }
+      },
+      "recommendation": {
+        "title": "Recommendation:",
+        "text": "Use a short-term license plate or our Express Service. We pick up your vehicle and return it registered with all license plates – legal and safe!"
+      }
+    },
+    "question7": {
+      "title": "What documents do I need to register a vehicle?",
+      "intro": "To register a vehicle, you need the following documents:",
+      "required": {
+        "title": "Mandatory documents:",
+        "schein": {
+          "title": "Registration certificate:",
+          "text": "Zulassungsbescheinigung Teil I (if available)"
+        },
+        "brief": {
+          "title": "Vehicle title:",
+          "text": "Zulassungsbescheinigung Teil II"
+        },
+        "id": {
+          "title": "ID card or passport:",
+          "text": "Valid identification document"
+        },
+        "evb": {
+          "title": "eVB number:",
+          "text": "Electronic insurance confirmation from your car insurance"
+        },
+        "sepa": {
+          "title": "SEPA direct debit mandate:",
+          "text": "For vehicle tax collection"
+        }
+      },
+      "additional": {
+        "title": "Additionally, if applicable:",
+        "hu": "Valid vehicle inspection (HU) report, if available",
+        "foreign": "For foreign nationals: passport copy",
+        "vollmacht": "When represented by third parties: power of attorney from the vehicle owner",
+        "company": "For company vehicles: business registration or commercial register extract"
+      },
+      "closing": {
+        "text": "You can find a complete checklist on our ",
+        "link": "checklist page",
+        "service": "Our Express Service helps you compile all documents!"
+      }
+    },
+    "question8": {
+      "title": "Can you buy license plates before registration?",
+      "answer": "Yes, you can purchase and have license plates made before registration.",
+      "howto": {
+        "title": "How it works:",
+        "reserve": {
+          "title": "Reserve license plates (optional):",
+          "text": "At the registration office or online, you can reserve your desired license plate"
+        },
+        "stamp": {
+          "title": "Have plates made:",
+          "text": "With the reservation confirmation or desired license plate number, you can go to a license plate service and have the plates made"
+        },
+        "bring": {
+          "title": "Bring to registration:",
+          "text": "Bring the unstamped license plates to the registration office"
+        },
+        "seal": {
+          "title": "Stamping:",
+          "text": "After successful registration, the seals are applied to the license plates"
+        }
+      },
+      "advantage": {
+        "title": "Advantage:",
+        "text": "You save time because you don't need to go to a license plate service after registration. The license plates are immediately ready to use!"
+      },
+      "important": {
+        "title": "Important:",
+        "text": "The license plates are only valid after official registration and stamping. You may not drive with them beforehand!"
+      },
+      "closing": "Our Express Service offers complete packages including license plate making and stamping – everything from one source!"
+    },
+    "question9": {
+      "title": "What do I need to deregister a vehicle at the registration office?",
+      "intro": "To deregister (decommission) your vehicle, you need:",
+      "required": {
+        "title": "Required documents:",
+        "schein": {
+          "title": "Registration certificate:",
+          "text": "Zulassungsbescheinigung Teil I"
+        },
+        "plates": {
+          "title": "Both license plates:",
+          "text": "Front and rear license plates must be returned"
+        },
+        "id": {
+          "title": "ID card or passport:",
+          "text": "Valid identification document of the vehicle owner"
+        },
+        "vollmacht": {
+          "title": "Power of attorney:",
+          "text": "If you have the deregistration done by another person"
+        }
+      },
+      "notes": {
+        "title": "Important notes:",
+        "brief": "The vehicle title (Zulassungsbescheinigung Teil II) is not required for deregistration",
+        "costs": "Deregistration is free or costs only a few euros (approx. 5-10 euros depending on registration office)",
+        "insurance": "After deregistration, you must inform your car insurance",
+        "traffic": "The vehicle may not be moved in public traffic after deregistration"
+      },
+      "service": {
+        "title": "Our Express Service:",
+        "text": "We handle the complete deregistration for you – fast, easy, and nationwide. Contact us today!"
+      }
+    }
+  },
   "contact_cta2": {
     "heading": "Do you have another request regarding vehicle registration?",
     "description": "Need help registering your vehicle? Our experienced team is happy to assist you with all questions about vehicle registration, change of address, or deregistration. Contact us today!",

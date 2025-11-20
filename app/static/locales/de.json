@@ -1,5 +1,6 @@
 {
   "checklist-nav": "Checkliste",
+  "faq-nav": "FAQ",
   "locations-nav": "Annahmestellen",
   "documents-nav": "Dokumente & Formulare",
   "export-nav": "Zoll & Export Kennzeichen",
@@ -202,6 +203,246 @@
         "note": "Je nach Fall gibt es unterschiedliche Anforderungen für Zollkennzeichen. Bitte ",
         "link": "kontaktieren Sie uns",
         "note2": "für eine individuelle Beratung zu Ihrem speziellen Fall."
+      }
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen (FAQ)",
+    "description": "Hier finden Sie Antworten auf die häufigsten Fragen rund um die KFZ-Zulassung, Ummeldung und Abmeldung. Unser Express Service unterstützt Sie bei allen Anliegen schnell und unkompliziert.",
+    "question1": {
+      "title": "Was braucht man, um ein Auto anzumelden?",
+      "intro": "Für die Anmeldung eines Fahrzeugs benötigen Sie folgende Unterlagen:",
+      "doc1": "Fahrzeugschein (Zulassungsbescheinigung Teil I) und Fahrzeugbrief (Zulassungsbescheinigung Teil II)",
+      "doc2": "Gültiger Personalausweis oder Reisepass (bei ausländischen Staatsbürgern zusätzlich Reisepasskopie)",
+      "doc3": "eVB-Nummer (elektronische Versicherungsbestätigung) von Ihrer KFZ-Versicherung",
+      "doc4": "SEPA-Lastschriftmandat für die KFZ-Steuer",
+      "doc5": "Bei Bedarf: gültiger HU-Bericht (Hauptuntersuchung)",
+      "doc6": "Falls Sie unseren Service nutzen: Vollmacht und Auftragsformular",
+      "closing": "Mit unserem Express Service übernehmen wir den gesamten Prozess für Sie – schnell, einfach und ohne Wartezeiten!"
+    },
+    "question2": {
+      "title": "Wie läuft die Anmeldung eines Autos ab?",
+      "intro": "Die KFZ-Anmeldung läuft in folgenden Schritten ab:",
+      "step1": {
+        "title": "Unterlagen vorbereiten:",
+        "text": "Sammeln Sie alle erforderlichen Dokumente (Fahrzeugschein, Fahrzeugbrief, Ausweis, eVB-Nummer, SEPA-Mandat)"
+      },
+      "step2": {
+        "title": "Versicherung abschließen:",
+        "text": "Kontaktieren Sie Ihre KFZ-Versicherung und erhalten Sie die eVB-Nummer"
+      },
+      "step3": {
+        "title": "Zulassungsstelle besuchen:",
+        "text": "Gehen Sie zur zuständigen Zulassungsstelle oder nutzen Sie unseren Express Service"
+      },
+      "step4": {
+        "title": "Anmeldung durchführen:",
+        "text": "Die Unterlagen werden geprüft, die KFZ-Steuer wird berechnet und das Fahrzeug wird im System registriert"
+      },
+      "step5": {
+        "title": "Kennzeichen erhalten:",
+        "text": "Sie erhalten Ihre Nummernschilder und den neuen Fahrzeugschein"
+      },
+      "closing": {
+        "bold": "Mit unserem Express Service:",
+        "text": "Sie geben uns Ihre Unterlagen, wir erledigen alles für Sie in kürzester Zeit – bundesweit und ohne Termin!"
+      }
+    },
+    "question3": {
+      "title": "Was ist der Unterschied zwischen Anmeldung und Ummeldung Kfz?",
+      "intro": "Der Unterschied zwischen Anmeldung und Ummeldung:",
+      "registration": {
+        "title": "Anmeldung (Erstzulassung oder Wiederzulassung):",
+        "point1": "Wird benötigt, wenn ein Fahrzeug zum ersten Mal zugelassen wird oder außer Betrieb gesetzt war",
+        "point2": "Das Fahrzeug erhält ein komplett neues Kennzeichen und wird neu im System registriert",
+        "point3": "Erforderlich nach Kauf eines stillgelegten Fahrzeugs oder bei Neuwagen"
+      },
+      "reregistration": {
+        "title": "Ummeldung:",
+        "point1": "Wird bei einem Umzug in einen anderen Zulassungsbezirk notwendig (außerhalb des Landkreises)",
+        "point2": "Oder bei Halterwechsel (Verkauf/Kauf eines zugelassenen Fahrzeugs)",
+        "point3": "Das Fahrzeug wird auf einen neuen Halter oder an eine neue Adresse umgeschrieben",
+        "point4": "Bei Umzug innerhalb des gleichen Landkreises ist nur eine Adressänderung erforderlich"
+      },
+      "closing": "Unser Service unterstützt Sie bei beiden Vorgängen schnell und professionell!"
+    },
+    "question4": {
+      "title": "Was kostet Auto anmelden mit Nummernschildern?",
+      "intro": "Die Kosten für die KFZ-Anmeldung mit Nummernschildern setzen sich aus mehreren Komponenten zusammen:",
+      "fees": {
+        "title": "Behördengebühren:",
+        "registration": "Zulassung des Fahrzeugs: ca. 26-30 Euro",
+        "certificate": "Ausstellen des Fahrzeugscheins: ca. 11 Euro",
+        "reservation": "Kennzeichenreservierung (optional): ca. 2,60-12,80 Euro"
+      },
+      "plates": {
+        "title": "Kennzeichen:",
+        "standard": "Standard-Nummernschilder: ca. 20-30 Euro (beide Schilder)",
+        "custom": "Wunschkennzeichen: zusätzliche Gebühr ca. 10-13 Euro"
+      },
+      "additional": {
+        "title": "Zusätzliche Kosten:",
+        "sticker": "Feinstaubplakette: ca. 5-10 Euro",
+        "insurance": "KFZ-Versicherung (variiert je nach Fahrzeug und Versicherungsumfang)"
+      },
+      "total": {
+        "title": "Gesamt:",
+        "text": "Die Anmeldekosten liegen typischerweise zwischen 60-100 Euro, abhängig von den individuellen Anforderungen."
+      },
+      "closing": "Mit unserem Express Service erhalten Sie ein transparentes Komplettpaket inklusive professioneller Abwicklung!"
+    },
+    "question5": {
+      "title": "Was zuerst Kennzeichen oder Zulassung?",
+      "principle": {
+        "title": "Grundsätzlich:",
+        "text": "Die Zulassung erfolgt zuerst, dann erhalten Sie die Kennzeichen."
+      },
+      "process": {
+        "title": "Der übliche Ablauf:",
+        "step1": "Sie gehen zur Zulassungsstelle mit allen erforderlichen Unterlagen",
+        "step2": "Die Zulassungsstelle prüft Ihre Unterlagen und führt die Zulassung durch",
+        "step3": "Nach erfolgreicher Zulassung erhalten Sie die Zulassungsplakette und den Stempel",
+        "step4": "Mit diesen Dokumenten können Sie die Kennzeichen prägen lassen (bei uns oder einem Schilderdienst)"
+      },
+      "alternative": {
+        "title": "Moderne Alternative:",
+        "text": "Sie können Kennzeichen vorab bei einem Schilderdienst prägen lassen und diese dann direkt bei der Zulassung stempeln lassen. Dies spart Zeit!"
+      },
+      "service": {
+        "title": "Mit unserem Express Service:",
+        "text": "Wir kümmern uns um alles – von der Zulassung bis zu den fertigen, gestempelten Kennzeichen. Sie erhalten Ihr fahrbereites Fahrzeug zurück!"
+      }
+    },
+    "question6": {
+      "title": "Ist es erlaubt, ohne Kennzeichen zur Zulassungsstelle zu fahren?",
+      "answer": "Nein, grundsätzlich ist das Fahren ohne Kennzeichen nicht erlaubt und kann mit einem Bußgeld geahndet werden.",
+      "alternatives": {
+        "title": "Ausnahmen und legale Alternativen:",
+        "shortterm": {
+          "title": "Kurzzeitkennzeichen (5-Tages-Kennzeichen):",
+          "text": "Speziell für Probe- und Überführungsfahrten zur Zulassungsstelle. Gültig für 5 Tage."
+        },
+        "export": {
+          "title": "Ausfuhrkennzeichen (Zollkennzeichen):",
+          "text": "Für die Ausfuhr von Fahrzeugen ins Ausland"
+        },
+        "red": {
+          "title": "Rote Kennzeichen:",
+          "text": "Nur für Händler und Werkstätten bei Probe- und Überführungsfahrten"
+        },
+        "trailer": {
+          "title": "Anhänger/Transport:",
+          "text": "Sie können das Fahrzeug auf einem Anhänger oder mit einem Abschleppwagen zur Zulassungsstelle bringen"
+        }
+      },
+      "recommendation": {
+        "title": "Empfehlung:",
+        "text": "Nutzen Sie ein Kurzzeitkennzeichen oder unseren Express Service. Wir holen Ihr Fahrzeug ab und bringen es zugelassen mit allen Kennzeichen zurück – legal und sicher!"
+      }
+    },
+    "question7": {
+      "title": "Welche Papiere brauche ich, um ein Kfz zuzulassen?",
+      "intro": "Für die KFZ-Zulassung benötigen Sie folgende Dokumente:",
+      "required": {
+        "title": "Pflichtdokumente:",
+        "schein": {
+          "title": "Fahrzeugschein:",
+          "text": "Zulassungsbescheinigung Teil I (sofern vorhanden)"
+        },
+        "brief": {
+          "title": "Fahrzeugbrief:",
+          "text": "Zulassungsbescheinigung Teil II"
+        },
+        "id": {
+          "title": "Personalausweis oder Reisepass:",
+          "text": "Gültiges Ausweisdokument"
+        },
+        "evb": {
+          "title": "eVB-Nummer:",
+          "text": "Elektronische Versicherungsbestätigung Ihrer KFZ-Versicherung"
+        },
+        "sepa": {
+          "title": "SEPA-Lastschriftmandat:",
+          "text": "Für den Einzug der KFZ-Steuer"
+        }
+      },
+      "additional": {
+        "title": "Zusätzlich bei Bedarf:",
+        "hu": "Gültiger HU-Bericht (Hauptuntersuchung), falls vorhanden",
+        "foreign": "Bei ausländischen Staatsbürgern: Reisepasskopie",
+        "vollmacht": "Bei Vertretung durch Dritte: Vollmacht des Fahrzeughalters",
+        "company": "Bei Firmenwagen: Gewerbeanmeldung oder Handelsregisterauszug"
+      },
+      "closing": {
+        "text": "Eine vollständige Checkliste finden Sie auf unserer ",
+        "link": "Checklisten-Seite",
+        "service": "Unser Express Service hilft Ihnen bei der Zusammenstellung aller Unterlagen!"
+      }
+    },
+    "question8": {
+      "title": "Kann man Nummernschilder schon vor der Zulassung kaufen?",
+      "answer": "Ja, Sie können Nummernschilder vor der Zulassung kaufen und prägen lassen.",
+      "howto": {
+        "title": "So funktioniert es:",
+        "reserve": {
+          "title": "Kennzeichen reservieren (optional):",
+          "text": "Bei der Zulassungsstelle oder online können Sie Ihr Wunschkennzeichen reservieren"
+        },
+        "stamp": {
+          "title": "Schilder prägen lassen:",
+          "text": "Mit der Reservierungsbestätigung oder dem gewünschten Kennzeichen können Sie zu einem Schilderdienst gehen und die Nummernschilder prägen lassen"
+        },
+        "bring": {
+          "title": "Zur Zulassung mitnehmen:",
+          "text": "Bringen Sie die ungestempelten Kennzeichen zur Zulassungsstelle mit"
+        },
+        "seal": {
+          "title": "Stempelung:",
+          "text": "Nach erfolgreicher Zulassung werden die Plaketten auf die Kennzeichen angebracht"
+        }
+      },
+      "advantage": {
+        "title": "Vorteil:",
+        "text": "Sie sparen Zeit, da Sie nicht nach der Zulassung noch zum Schilderdienst müssen. Die Kennzeichen sind sofort einsatzbereit!"
+      },
+      "important": {
+        "title": "Wichtig:",
+        "text": "Die Kennzeichen sind erst nach der offiziellen Zulassung und Stempelung gültig. Vorher dürfen Sie nicht damit fahren!"
+      },
+      "closing": "Unser Express Service bietet komplette Pakete inklusive Kennzeichenprägung und Stempelung – alles aus einer Hand!"
+    },
+    "question9": {
+      "title": "Was brauche ich, um ein Fahrzeug bei der Zulassungsstelle abzumelden?",
+      "intro": "Für die Abmeldung (Außerbetriebsetzung) Ihres Fahrzeugs benötigen Sie:",
+      "required": {
+        "title": "Erforderliche Unterlagen:",
+        "schein": {
+          "title": "Fahrzeugschein:",
+          "text": "Zulassungsbescheinigung Teil I"
+        },
+        "plates": {
+          "title": "Beide Kennzeichen:",
+          "text": "Vorderes und hinteres Nummernschild müssen abgegeben werden"
+        },
+        "id": {
+          "title": "Personalausweis oder Reisepass:",
+          "text": "Gültiges Ausweisdokument des Fahrzeughalters"
+        },
+        "vollmacht": {
+          "title": "Vollmacht:",
+          "text": "Falls Sie die Abmeldung durch eine andere Person durchführen lassen"
+        }
+      },
+      "notes": {
+        "title": "Wichtige Hinweise:",
+        "brief": "Der Fahrzeugbrief (Zulassungsbescheinigung Teil II) wird bei der Abmeldung nicht benötigt",
+        "costs": "Die Abmeldung ist kostenfrei oder kostet nur wenige Euro (ca. 5-10 Euro je nach Zulassungsstelle)",
+        "insurance": "Nach der Abmeldung müssen Sie Ihre KFZ-Versicherung informieren",
+        "traffic": "Das Fahrzeug darf nach der Abmeldung nicht mehr im öffentlichen Verkehr bewegt werden"
+      },
+      "service": {
+        "title": "Unser Express Service:",
+        "text": "Wir übernehmen die komplette Abmeldung für Sie – schnell, unkompliziert und bundesweit. Kontaktieren Sie uns noch heute!"
       }
     }
   },

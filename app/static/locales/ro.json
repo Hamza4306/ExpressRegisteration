@@ -205,6 +205,247 @@
       }
     }
   },
+  "faq-nav": "Întrebări frecvente",
+  "faq": {
+    "title": "Întrebări Frecvente (FAQ)",
+    "description": "Aici veți găsi răspunsuri la cele mai frecvente întrebări despre înmatricularea, reinmatricularea și radierea vehiculelor. Serviciul nostru Express vă sprijină în toate solicitările rapid și simplu.",
+    "question1": {
+      "title": "Ce este necesar pentru a înmatricula o mașină?",
+      "intro": "Pentru înmatricularea unui vehicul aveți nevoie de următoarele documente:",
+      "doc1": "Certificat de înmatriculare (Zulassungsbescheinigung Teil I) și carte de identitate a vehiculului (Zulassungsbescheinigung Teil II)",
+      "doc2": "Carte de identitate sau pașaport valid (pentru cetățeni străini, suplimentar copie a pașaportului)",
+      "doc3": "Număr eVB (confirmare electronică a asigurării) de la asigurarea auto",
+      "doc4": "Mandat SEPA pentru taxa auto",
+      "doc5": "Dacă este cazul: raport de inspecție tehnică (HU) valabil",
+      "doc6": "Dacă utilizați serviciul nostru: împuternicire și formular de comandă",
+      "closing": "Cu serviciul nostru Express ne ocupăm de întregul proces pentru dvs. – rapid, simplu și fără timp de așteptare!"
+    },
+    "question2": {
+      "title": "Cum funcționează înmatricularea unei mașini?",
+      "intro": "Înmatricularea vehiculului urmează acești pași:",
+      "step1": {
+        "title": "Pregătiți documentele:",
+        "text": "Adunați toate documentele necesare (certificat de înmatriculare, carte vehicul, act identitate, număr eVB, mandat SEPA)"
+      },
+      "step2": {
+        "title": "Obțineți asigurarea:",
+        "text": "Contactați asigurarea auto și obțineți numărul eVB"
+      },
+      "step3": {
+        "title": "Vizitați biroul de înmatriculare:",
+        "text": "Mergeți la biroul de înmatriculare responsabil sau folosiți serviciul nostru Express"
+      },
+      "step4": {
+        "title": "Finalizați înmatricularea:",
+        "text": "Documentele sunt verificate, taxa auto este calculată și vehiculul este înregistrat în sistem"
+      },
+      "step5": {
+        "title": "Primiți plăcuțele:",
+        "text": "Obțineți plăcuțele de înmatriculare și noul certificat de înmatriculare"
+      },
+      "closing": {
+        "bold": "Cu serviciul nostru Express:",
+        "text": "Ne dați documentele și ne ocupăm de tot pentru dvs. în cel mai scurt timp – la nivel național și fără programare!"
+      }
+    },
+    "question3": {
+      "title": "Care este diferența dintre înmatriculare și reinmatriculare?",
+      "intro": "Diferența dintre înmatriculare și reinmatriculare:",
+      "registration": {
+        "title": "Înmatriculare (primă înmatriculare sau reinmatriculare):",
+        "point1": "Necesară când un vehicul este înmatriculat pentru prima dată sau a fost radiat",
+        "point2": "Vehiculul primește plăcuțe complet noi și este înregistrat din nou în sistem",
+        "point3": "Necesară după achiziționarea unui vehicul radiat sau pentru mașini noi"
+      },
+      "reregistration": {
+        "title": "Reinmatriculare:",
+        "point1": "Necesară la mutarea într-un alt district de înmatriculare (în afara județului)",
+        "point2": "Sau la schimbarea proprietarului (vânzare/cumpărare a unui vehicul înmatriculat)",
+        "point3": "Vehiculul este transferat unui nou proprietar sau la o nouă adresă",
+        "point4": "Pentru mutări în același județ, este necesară doar schimbarea adresei"
+      },
+      "closing": "Serviciul nostru vă sprijină la ambele procese rapid și profesional!"
+    },
+    "question4": {
+      "title": "Cât costă să înmatriculezi o mașină cu plăcuțe?",
+      "intro": "Costurile pentru înmatricularea vehiculului cu plăcuțe constau din mai multe componente:",
+      "fees": {
+        "title": "Taxe guvernamentale:",
+        "registration": "Înmatricularea vehiculului: aproximativ 26-30 euro",
+        "certificate": "Eliberarea certificatului de înmatriculare: aproximativ 11 euro",
+        "reservation": "Rezervarea plăcuțelor (opțional): aproximativ 2,60-12,80 euro"
+      },
+      "plates": {
+        "title": "Plăcuțe de înmatriculare:",
+        "standard": "Plăcuțe standard: aproximativ 20-30 euro (ambele plăcuțe)",
+        "custom": "Plăcuțe personalizate: taxă suplimentară aproximativ 10-13 euro"
+      },
+      "additional": {
+        "title": "Costuri suplimentare:",
+        "sticker": "Vinieta de emisii: aproximativ 5-10 euro",
+        "insurance": "Asigurare auto (variază în funcție de vehicul și acoperire)"
+      },
+      "total": {
+        "title": "Total:",
+        "text": "Costurile de înmatriculare variază de obicei între 60-100 euro, în funcție de cerințele individuale."
+      },
+      "closing": "Cu serviciul nostru Express primiți un pachet complet transparent care include gestionarea profesională!"
+    },
+    "question5": {
+      "title": "Ce vine mai întâi, plăcuțele sau înmatricularea?",
+      "principle": {
+        "title": "În principiu:",
+        "text": "Înmatricularea vine prima, apoi primiți plăcuțele."
+      },
+      "process": {
+        "title": "Procesul obișnuit:",
+        "step1": "Mergeți la biroul de înmatriculare cu toate documentele necesare",
+        "step2": "Biroul de înmatriculare verifică documentele și finalizează înmatricularea",
+        "step3": "După înmatricularea reușită, primiți sigiliul și ștampila de înmatriculare",
+        "step4": "Cu aceste documente puteți face plăcuțele (la noi sau la un serviciu de plăcuțe)"
+      },
+      "alternative": {
+        "title": "Alternativa modernă:",
+        "text": "Puteți face plăcuțele în avans la un serviciu de plăcuțe și le puteți ștampila direct la înmatriculare. Acest lucru economisește timp!"
+      },
+      "service": {
+        "title": "Cu serviciul nostru Express:",
+        "text": "Ne ocupăm de tot – de la înmatriculare până la plăcuțele finite și ștampilate. Primiți vehiculul dvs. gata de drum!"
+      }
+    },
+    "question6": {
+      "title": "Este permis să conduci la biroul de înmatriculare fără plăcuțe?",
+      "answer": "Nu, în general conducerea fără plăcuțe nu este permisă și poate fi amendată.",
+      "alternatives": {
+        "title": "Excepții și alternative legale:",
+        "shortterm": {
+          "title": "Plăcuțe temporare (plăcuțe de 5 zile):",
+          "text": "Special pentru test-drive-uri și transferuri la biroul de înmatriculare. Valabile 5 zile."
+        },
+        "export": {
+          "title": "Plăcuțe de export (plăcuțe vamale):",
+          "text": "Pentru exportul vehiculelor în străinătate"
+        },
+        "red": {
+          "title": "Plăcuțe roșii:",
+          "text": "Doar pentru dealeri și ateliere pentru test-drive-uri și transferuri"
+        },
+        "trailer": {
+          "title": "Remorcă/transport:",
+          "text": "Puteți aduce vehiculul la biroul de înmatriculare pe o remorcă sau cu un camion de remorcare"
+        }
+      },
+      "recommendation": {
+        "title": "Recomandare:",
+        "text": "Folosiți o plăcuță temporară sau serviciul nostru Express. Ridicăm vehiculul dvs. și îl returnăm înmatriculat cu toate plăcuțele – legal și sigur!"
+      }
+    },
+    "question7": {
+      "title": "Ce documente am nevoie pentru a înmatricula un vehicul?",
+      "intro": "Pentru înmatricularea unui vehicul aveți nevoie de următoarele documente:",
+      "required": {
+        "title": "Documente obligatorii:",
+        "schein": {
+          "title": "Certificat de înmatriculare:",
+          "text": "Zulassungsbescheinigung Teil I (dacă este disponibil)"
+        },
+        "brief": {
+          "title": "Carte de identitate a vehiculului:",
+          "text": "Zulassungsbescheinigung Teil II"
+        },
+        "id": {
+          "title": "Carte de identitate sau pașaport:",
+          "text": "Document de identificare valid"
+        },
+        "evb": {
+          "title": "Număr eVB:",
+          "text": "Confirmare electronică a asigurării de la asigurarea auto"
+        },
+        "sepa": {
+          "title": "Mandat SEPA:",
+          "text": "Pentru colectarea taxei auto"
+        }
+      },
+      "additional": {
+        "title": "În plus, dacă este cazul:",
+        "hu": "Raport de inspecție tehnică (HU) valabil, dacă este disponibil",
+        "foreign": "Pentru cetățeni străini: copie a pașaportului",
+        "vollmacht": "Când sunteți reprezentat de terți: împuternicire de la proprietarul vehiculului",
+        "company": "Pentru vehicule de companie: înregistrare comercială sau extras din registrul comerțului"
+      },
+      "closing": {
+        "text": "Puteți găsi o listă completă pe pagina noastră de ",
+        "link": "checklist",
+        "service": "Serviciul nostru Express vă ajută să compilați toate documentele!"
+      }
+    },
+    "question8": {
+      "title": "Poți cumpăra plăcuțele înainte de înmatriculare?",
+      "answer": "Da, puteți achiziționa și face plăcuțele înainte de înmatriculare.",
+      "howto": {
+        "title": "Cum funcționează:",
+        "reserve": {
+          "title": "Rezervați plăcuțele (opțional):",
+          "text": "La biroul de înmatriculare sau online, puteți rezerva plăcuța dorită"
+        },
+        "stamp": {
+          "title": "Faceți plăcuțele:",
+          "text": "Cu confirmarea de rezervare sau numărul de plăcuță dorit, puteți merge la un serviciu de plăcuțe și le puteți face"
+        },
+        "bring": {
+          "title": "Aduceți-le la înmatriculare:",
+          "text": "Aduceți plăcuțele neștampilate la biroul de înmatriculare"
+        },
+        "seal": {
+          "title": "Ștampilare:",
+          "text": "După înmatricularea reușită, sigiliile sunt aplicate pe plăcuțe"
+        }
+      },
+      "advantage": {
+        "title": "Avantaj:",
+        "text": "Economisiți timp pentru că nu trebuie să mergeți la serviciul de plăcuțe după înmatriculare. Plăcuțele sunt imediat gata de utilizare!"
+      },
+      "important": {
+        "title": "Important:",
+        "text": "Plăcuțele sunt valabile doar după înmatricularea oficială și ștampilare. Nu puteți conduce cu ele înainte!"
+      },
+      "closing": "Serviciul nostru Express oferă pachete complete care includ confecționarea și ștampilarea plăcuțelor – totul dintr-o singură sursă!"
+    },
+    "question9": {
+      "title": "Ce am nevoie pentru a radia un vehicul la biroul de înmatriculare?",
+      "intro": "Pentru a radia (scoate din uz) vehiculul dvs. aveți nevoie de:",
+      "required": {
+        "title": "Documente necesare:",
+        "schein": {
+          "title": "Certificat de înmatriculare:",
+          "text": "Zulassungsbescheinigung Teil I"
+        },
+        "plates": {
+          "title": "Ambele plăcuțe:",
+          "text": "Plăcuțele din față și din spate trebuie returnate"
+        },
+        "id": {
+          "title": "Carte de identitate sau pașaport:",
+          "text": "Document de identificare valid al proprietarului vehiculului"
+        },
+        "vollmacht": {
+          "title": "Împuternicire:",
+          "text": "Dacă radierea este efectuată de o altă persoană"
+        }
+      },
+      "notes": {
+        "title": "Note importante:",
+        "brief": "Cartea de identitate a vehiculului (Zulassungsbescheinigung Teil II) nu este necesară pentru radiere",
+        "costs": "Radierea este gratuită sau costă doar câțiva euro (aproximativ 5-10 euro în funcție de biroul de înmatriculare)",
+        "insurance": "După radiere trebuie să informați asigurarea auto",
+        "traffic": "Vehiculul nu mai poate fi utilizat în traficul public după radiere"
+      },
+      "service": {
+        "title": "Serviciul nostru Express:",
+        "text": "Ne ocupăm de radierea completă pentru dvs. – rapid, simplu și la nivel național. Contactați-ne astăzi!"
+      }
+    }
+  },
   "contact_cta2": {
     "heading": "Aveți o altă solicitare legată de înmatricularea auto?",
     "description": "Aveți nevoie de ajutor pentru înmatricularea vehiculului? Echipa noastră cu experiență vă ajută cu plăcere în toate întrebările privind înmatricularea, schimbarea adresei sau radierea. Contactați-ne chiar azi!",
