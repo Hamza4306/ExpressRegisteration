@@ -965,5 +965,34 @@
     }
   },
   "ticker-strong": "NUOVO!",
-  "ticker-content": "Registrazione auto EXPRESS in 10 minuti – In tutta la Germania, anche la domenica e nei giorni festivi"
+  "ticker-content": "Registrazione auto EXPRESS in 10 minuti – In tutta la Germania, anche la domenica e nei giorni festivi",
+  "about": {
+    "title": "Servizio di Immatricolazione – Immatricolazione, Trasferimento e Radiazione Veicoli | Regionale e Nazionale",
+    "intro": "Il nostro servizio professionale di immatricolazione auto gestisce tutte le procedure amministrative per le immatricolazioni dei veicoli – velocemente, senza appuntamento e senza stress. Operiamo a livello nazionale e in un raggio di 100 km intorno a Karlsruhe, Mannheim, Heidelberg, Germersheim, Stuttgart e il distretto Reno-Neckar.",
+    "regions": {
+      "intro": "Serviamo clienti privati, concessionarie auto, rivenditori e aziende in città come:",
+      "cities": "Karlsruhe, Mannheim, Heidelberg, Stuttgart, Pforzheim, Heilbronn, Reutlingen, Tübingen, Ludwigsburg, Esslingen, Sinsheim, Mosbach, Rastatt, Baden-Baden, Landau, Neustadt, Speyer, Frankenthal, Worms, Bensheim, Heppenheim, Darmstadt, Kaiserslautern, Schwetzingen, Wiesloch, Walldorf, Bruchsal, Bretten, Ettlingen, Hockenheim, Leimen, Eppelheim, Weinheim, Viernheim, Lampertheim, Biblis, Östringen, Bad Schönborn, Nußloch, Sandhausen, Plankstadt e tutte le località nel distretto Reno-Neckar."
+    },
+    "services": {
+      "title": "Le Nostre Offerte di Servizio",
+      "item1": "Immatricolazione, trasferimento, radiazione veicoli – senza appuntamento",
+      "item2": "Immatricolazione Express / immatricolazione in 24 ore disponibile",
+      "item3": "Targhe temporanee e targhe di trasferimento",
+      "item4": "Targhe di esportazione / targhe export",
+      "item5": "Servizio numero EVB",
+      "item6": "Prenotazione targhe personalizzate",
+      "item7": "Targhe alternate",
+      "item8": "Immatricolazione per flotte aziendali",
+      "item9": "Servizio di ritiro e consegna documenti"
+    },
+    "why": {
+      "title": "Perché Scegliere il Nostro Servizio di Immatricolazione?",
+      "item1": "Risparmia tempo – ci occupiamo di tutto noi",
+      "item2": "Nessun tempo di attesa presso l'ufficio motorizzazione",
+      "item3": "Immatricolazione veicoli possibile a livello nazionale",
+      "item4": "Servizio completo inclusa verifica documenti",
+      "item5": "Adatto anche per rivenditori e grandi clienti"
+    },
+    "closing": "Se desideri immatricolare o radiare un veicolo rapidamente e facilmente, siamo il tuo partner affidabile – regionale e nazionale."
+  }
 }

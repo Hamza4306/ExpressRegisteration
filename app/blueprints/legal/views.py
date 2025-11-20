@@ -11,3 +11,8 @@ def imprint():
 @legal_bp.route('/datenschutz')
 def data_privacy():
     return render_template('data-privacy.html')
+
+
+@legal_bp.route('/ueber-uns')
+def about_us():
+    return render_template('about-us.html')

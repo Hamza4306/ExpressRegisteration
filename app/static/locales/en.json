@@ -967,5 +967,34 @@
     }
   },
   "ticker-strong": "New!",
-  "ticker-content": "EXPRESS car registration in 10 minutes – Nationwide, even on Sundays and public holidays."
+  "ticker-content": "EXPRESS car registration in 10 minutes – Nationwide, even on Sundays and public holidays.",
+  "about": {
+    "title": "Registration Service – Register, Transfer & Deregister Vehicles | Regional & Nationwide",
+    "intro": "Our professional vehicle registration service takes care of all administrative procedures for vehicle registrations – fast, without appointments, and completely stress-free. We operate nationwide as well as within a 100-km radius of Karlsruhe, Mannheim, Heidelberg, Germersheim, Stuttgart, and the Rhine-Neckar district.",
+    "regions": {
+      "intro": "We serve private customers, car dealerships, dealers, and businesses in cities such as:",
+      "cities": "Karlsruhe, Mannheim, Heidelberg, Stuttgart, Pforzheim, Heilbronn, Reutlingen, Tübingen, Ludwigsburg, Esslingen, Sinsheim, Mosbach, Rastatt, Baden-Baden, Landau, Neustadt, Speyer, Frankenthal, Worms, Bensheim, Heppenheim, Darmstadt, Kaiserslautern, Schwetzingen, Wiesloch, Walldorf, Bruchsal, Bretten, Ettlingen, Hockenheim, Leimen, Eppelheim, Weinheim, Viernheim, Lampertheim, Biblis, Östringen, Bad Schönborn, Nußloch, Sandhausen, Plankstadt, and all locations in the Rhine-Neckar district."
+    },
+    "services": {
+      "title": "Our Registration Service Offerings",
+      "item1": "Register, transfer, deregister vehicles – without appointment",
+      "item2": "Express registration / 24h registration available",
+      "item3": "Short-term license plates & transfer plates",
+      "item4": "Export license plates / export plates",
+      "item5": "EVB number service",
+      "item6": "Custom license plate reservation",
+      "item7": "Alternating license plates",
+      "item8": "Registration for company fleets",
+      "item9": "Document pickup and delivery service"
+    },
+    "why": {
+      "title": "Why Choose Our Registration Service?",
+      "item1": "Save time – we handle everything",
+      "item2": "No waiting times at the motor vehicle office",
+      "item3": "Nationwide vehicle registration possible",
+      "item4": "Complete service including document verification",
+      "item5": "Also suitable for dealers & large customers"
+    },
+    "closing": "If you want to register or deregister a vehicle quickly and easily, we are your reliable partner – regional and nationwide."
+  }
 }

@@ -965,5 +965,34 @@
     }
   },
   "ticker-strong": "NOU!",
-  "ticker-content": "Înmatriculare auto EXPRESS în 10 minute – La nivel național, inclusiv duminica și în zilele de sărbătoare."
+  "ticker-content": "Înmatriculare auto EXPRESS în 10 minute – La nivel național, inclusiv duminica și în zilele de sărbătoare.",
+  "about": {
+    "title": "Serviciu de Înmatriculare – Înmatriculare, Transfer și Radiere Vehicule | Regional și Național",
+    "intro": "Serviciul nostru profesional de înmatriculare auto se ocupă de toate procedurile administrative pentru înmatriculări de vehicule – rapid, fără programare și fără stres. Operăm la nivel național, precum și într-o rază de 100 km în jurul Karlsruhe, Mannheim, Heidelberg, Germersheim, Stuttgart și districtul Rhein-Neckar.",
+    "regions": {
+      "intro": "Deservim clienți privați, dealeri auto, comercianți și companii în orașe precum:",
+      "cities": "Karlsruhe, Mannheim, Heidelberg, Stuttgart, Pforzheim, Heilbronn, Reutlingen, Tübingen, Ludwigsburg, Esslingen, Sinsheim, Mosbach, Rastatt, Baden-Baden, Landau, Neustadt, Speyer, Frankenthal, Worms, Bensheim, Heppenheim, Darmstadt, Kaiserslautern, Schwetzingen, Wiesloch, Walldorf, Bruchsal, Bretten, Ettlingen, Hockenheim, Leimen, Eppelheim, Weinheim, Viernheim, Lampertheim, Biblis, Östringen, Bad Schönborn, Nußloch, Sandhausen, Plankstadt și toate locațiile din districtul Rhein-Neckar."
+    },
+    "services": {
+      "title": "Serviciile Noastre de Înmatriculare",
+      "item1": "Înmatriculare, transfer, radiere vehicule – fără programare",
+      "item2": "Înmatriculare Express / înmatriculare în 24 ore disponibilă",
+      "item3": "Plăcuțe temporare și plăcuțe de transfer",
+      "item4": "Plăcuțe de export / plăcuțe de export",
+      "item5": "Serviciu număr EVB",
+      "item6": "Rezervare plăcuțe personalizate",
+      "item7": "Plăcuțe alternante",
+      "item8": "Înmatriculare pentru flote de companie",
+      "item9": "Serviciu de ridicare și livrare documente"
+    },
+    "why": {
+      "title": "De Ce Să Alegeți Serviciul Nostru de Înmatriculare?",
+      "item1": "Economisiți timp – ne ocupăm de tot",
+      "item2": "Fără timpi de așteptare la biroul de înmatriculare auto",
+      "item3": "Înmatriculare vehicul posibilă la nivel național",
+      "item4": "Serviciu complet inclusiv verificarea documentelor",
+      "item5": "Potrivit și pentru dealeri și clienți mari"
+    },
+    "closing": "Dacă doriți să înmatriculați sau să radiați un vehicul rapid și ușor, suntem partenerul dumneavoastră de încredere – regional și național."
+  }
 }

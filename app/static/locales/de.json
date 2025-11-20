@@ -116,7 +116,8 @@
     "deregister": "Fahrzeug-Abmeldung",
     "partner": "Partner",
     "privacy": "Datenschutz",
-    "imprint": "Impressum"
+    "imprint": "Impressum",
+    "about": "Über uns"
   },
   "checklist": {
     "title": "Checkliste für alle Unterlagen",
@@ -968,5 +969,34 @@
     }
   },
   "ticker-strong": "Neu!",
-  "ticker-content": "EXPRESS Auto Anmeldung in 10 Minuten Bundesweit auch an Sonn - und Feiertagen"
+  "ticker-content": "EXPRESS Auto Anmeldung in 10 Minuten Bundesweit auch an Sonn - und Feiertagen",
+  "about": {
+    "title": "Zulassungsdienst – Fahrzeug anmelden, ummelden & abmelden | regional & bundesweit",
+    "intro": "Unser professioneller Kfz-Zulassungsdienst übernimmt für Sie sämtliche Behördengänge rund um Fahrzeugzulassungen – schnell, ohne Termin und absolut stressfrei. Wir arbeiten bundesweit sowie im gesamten 100-km-Umkreis der Regionen Karlsruhe, Mannheim, Heidelberg, Germersheim, Stuttgart und Rhein-Neckar-Kreis.",
+    "regions": {
+      "intro": "Wir betreuen Privatkunden, Autohäuser, Händler und Unternehmen in Städten wie:",
+      "cities": "Karlsruhe, Mannheim, Heidelberg, Stuttgart, Pforzheim, Heilbronn, Reutlingen, Tübingen, Ludwigsburg, Esslingen, Sinsheim, Mosbach, Rastatt, Baden-Baden, Landau, Neustadt, Speyer, Frankenthal, Worms, Bensheim, Heppenheim, Darmstadt, Kaiserslautern, Schwetzingen, Wiesloch, Walldorf, Bruchsal, Bretten, Ettlingen, Hockenheim, Leimen, Eppelheim, Weinheim, Viernheim, Lampertheim, Biblis, Östringen, Bad Schönborn, Nußloch, Sandhausen, Plankstadt und sämtliche Orte im Rhein-Neckar-Kreis."
+    },
+    "services": {
+      "title": "Unsere Zulassungsdienst-Leistungen",
+      "item1": "Auto anmelden, ummelden, abmelden – ohne Termin",
+      "item2": "Express-Zulassung / 24h-Zulassung möglich",
+      "item3": "Kurzzeitkennzeichen & Überführungskennzeichen",
+      "item4": "Ausfuhrkennzeichen / Exportkennzeichen",
+      "item5": "EVB-Nummer Service",
+      "item6": "Wunschkennzeichen-Reservierung",
+      "item7": "Wechselkennzeichen",
+      "item8": "Zulassung für Firmenflotten",
+      "item9": "Abhol- und Bringservice von Unterlagen"
+    },
+    "why": {
+      "title": "Warum unser Zulassungsdienst?",
+      "item1": "Zeit sparen – wir übernehmen alles",
+      "item2": "Keine Wartezeiten beim Straßenverkehrsamt",
+      "item3": "Bundesweite Fahrzeugzulassung möglich",
+      "item4": "Komplettservice inkl. Unterlagenprüfung",
+      "item5": "Auch für Händler & Großkunden geeignet"
+    },
+    "closing": "Wenn Sie ein Fahrzeug schnell und unkompliziert anmelden oder abmelden möchten, sind wir Ihr zuverlässiger Ansprechpartner – regional und bundesweit."
+  }
 }
