@@ -232,8 +232,8 @@
         "text": "Contatta la tua assicurazione auto e ottieni il numero eVB"
       },
       "step3": {
-        "title": "Visita l'ufficio immatricolazioni:",
-        "text": "Recati presso l'ufficio competente o utilizza il nostro servizio Express"
+        "title": "Contatta Kfz Zulassungs express:",
+        "text": "Utilizza il nostro servizio Express"
       },
       "step4": {
         "title": "Completa l'immatricolazione:",
@@ -245,7 +245,7 @@
       },
       "closing": {
         "bold": "Con il nostro servizio Express:",
-        "text": "Ci consegni i documenti e ci occupiamo di tutto per te nel più breve tempo possibile – in tutta Italia e senza appuntamento!"
+        "text": "Ci consegni i documenti e ci occupiamo di tutto per te nel più breve tempo possibile – in tutta Italia e senza appuntamento! In linea di principio: L'immatricolazione avviene per prima, poi si ricevono le targhe."
       }
     },
     "question3": {
@@ -266,31 +266,6 @@
       },
       "closing": "Il nostro servizio ti supporta in entrambi i processi in modo rapido e professionale!"
     },
-    "question4": {
-      "title": "Quanto costa immatricolare un'auto con le targhe?",
-      "intro": "I costi per l'immatricolazione del veicolo con targhe si compongono di diverse voci:",
-      "fees": {
-        "title": "Tasse amministrative:",
-        "registration": "Immatricolazione del veicolo: circa 26-30 euro",
-        "certificate": "Rilascio del certificato di immatricolazione: circa 11 euro",
-        "reservation": "Prenotazione targhe (opzionale): circa 2,60-12,80 euro"
-      },
-      "plates": {
-        "title": "Targhe:",
-        "standard": "Targhe standard: circa 20-30 euro (entrambe le targhe)",
-        "custom": "Targhe personalizzate: costo aggiuntivo circa 10-13 euro"
-      },
-      "additional": {
-        "title": "Costi aggiuntivi:",
-        "sticker": "Bollino anti-inquinamento: circa 5-10 euro",
-        "insurance": "Assicurazione auto (varia in base al veicolo e alla copertura)"
-      },
-      "total": {
-        "title": "Totale:",
-        "text": "I costi di immatricolazione variano tipicamente tra 60-100 euro, a seconda dei requisiti individuali."
-      },
-      "closing": "Con il nostro servizio Express ottieni un pacchetto completo trasparente che include la gestione professionale!"
-    },
     "question5": {
       "title": "Cosa viene prima, le targhe o l'immatricolazione?",
       "principle": {
@@ -299,10 +274,9 @@
       },
       "process": {
         "title": "Il processo abituale:",
-        "step1": "Ti rechi all'ufficio immatricolazioni con tutti i documenti necessari",
-        "step2": "L'ufficio verifica i documenti e completa l'immatricolazione",
-        "step3": "Dopo l'immatricolazione avvenuta con successo, ricevi il sigillo e il timbro di immatricolazione",
-        "step4": "Con questi documenti puoi far stampare le targhe (presso di noi o presso un servizio targhe)"
+        "step1": "Ti rechi da Kfz Zulassungs Express con tutti i documenti necessari",
+        "step2": "Il personale verifica i documenti e completa l'immatricolazione",
+        "step3": "Dopo l'immatricolazione avvenuta con successo, ricevi le targhe Kfz con tutti i documenti necessari."
       },
       "alternative": {
         "title": "Alternativa moderna:",
@@ -423,14 +397,6 @@
         "plates": {
           "title": "Entrambe le targhe:",
           "text": "Le targhe anteriore e posteriore devono essere restituite"
-        },
-        "id": {
-          "title": "Documento d'identità o passaporto:",
-          "text": "Documento d'identificazione valido del proprietario del veicolo"
-        },
-        "vollmacht": {
-          "title": "Procura:",
-          "text": "Se fai effettuare la radiazione da un'altra persona"
         }
       },
       "notes": {

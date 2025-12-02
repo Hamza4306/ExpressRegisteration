@@ -232,8 +232,8 @@
         "text": "Contact your car insurance and obtain the eVB number"
       },
       "step3": {
-        "title": "Visit registration office:",
-        "text": "Go to the responsible registration office or use our Express Service"
+        "title": "Contact Kfz Zulassungs express:",
+        "text": "Use our Express Service"
       },
       "step4": {
         "title": "Complete registration:",
@@ -245,7 +245,7 @@
       },
       "closing": {
         "bold": "With our Express Service:",
-        "text": "You hand us your documents, and we handle everything for you in the shortest time – nationwide and without an appointment!"
+        "text": "You hand us your documents, and we handle everything for you in the shortest time – nationwide and without an appointment! Basically: Registration comes first, then you receive the license plates."
       }
     },
     "question3": {
@@ -266,31 +266,6 @@
       },
       "closing": "Our service supports you with both processes quickly and professionally!"
     },
-    "question4": {
-      "title": "How much does it cost to register a car with license plates?",
-      "intro": "The costs for vehicle registration with license plates consist of several components:",
-      "fees": {
-        "title": "Government fees:",
-        "registration": "Vehicle registration: approx. 26-30 euros",
-        "certificate": "Issuing registration certificate: approx. 11 euros",
-        "reservation": "License plate reservation (optional): approx. 2.60-12.80 euros"
-      },
-      "plates": {
-        "title": "License plates:",
-        "standard": "Standard license plates: approx. 20-30 euros (both plates)",
-        "custom": "Personalized license plates: additional fee approx. 10-13 euros"
-      },
-      "additional": {
-        "title": "Additional costs:",
-        "sticker": "Emissions sticker: approx. 5-10 euros",
-        "insurance": "Car insurance (varies depending on vehicle and coverage)"
-      },
-      "total": {
-        "title": "Total:",
-        "text": "Registration costs typically range between 60-100 euros, depending on individual requirements."
-      },
-      "closing": "With our Express Service, you get a transparent complete package including professional handling!"
-    },
     "question5": {
       "title": "What comes first, license plates or registration?",
       "principle": {
@@ -299,10 +274,9 @@
       },
       "process": {
         "title": "The usual process:",
-        "step1": "You go to the registration office with all required documents",
-        "step2": "The registration office checks your documents and completes the registration",
-        "step3": "After successful registration, you receive the registration seal and stamp",
-        "step4": "With these documents, you can have the license plates made (at our shop or a license plate service)"
+        "step1": "You go to Kfz Zulassungs Express with all required documents",
+        "step2": "The staff checks your documents and completes the registration",
+        "step3": "After successful registration, you receive the Kfz plates with all necessary documents."
       },
       "alternative": {
         "title": "Modern alternative:",
@@ -423,14 +397,6 @@
         "plates": {
           "title": "Both license plates:",
           "text": "Front and rear license plates must be returned"
-        },
-        "id": {
-          "title": "ID card or passport:",
-          "text": "Valid identification document of the vehicle owner"
-        },
-        "vollmacht": {
-          "title": "Power of attorney:",
-          "text": "If you have the deregistration done by another person"
         }
       },
       "notes": {

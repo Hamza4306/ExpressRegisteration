@@ -233,8 +233,8 @@
         "text": "Kontaktieren Sie Ihre KFZ-Versicherung und erhalten Sie die eVB-Nummer"
       },
       "step3": {
-        "title": "Zulassungsstelle besuchen:",
-        "text": "Gehen Sie zur zuständigen Zulassungsstelle oder nutzen Sie unseren Express Service"
+        "title": "Kfz Zulassungs express kontaktieren:",
+        "text": "Nutzen Sie unseren Express Service"
       },
       "step4": {
         "title": "Anmeldung durchführen:",
@@ -246,7 +246,7 @@
       },
       "closing": {
         "bold": "Mit unserem Express Service:",
-        "text": "Sie geben uns Ihre Unterlagen, wir erledigen alles für Sie in kürzester Zeit – bundesweit und ohne Termin!"
+        "text": "Sie geben uns Ihre Unterlagen, wir erledigen alles für Sie in kürzester Zeit – bundesweit und ohne Termin! Grundsätzlich: Die Zulassung erfolgt zuerst, dann erhalten Sie die Kennzeichen."
       }
     },
     "question3": {
@@ -267,31 +267,6 @@
       },
       "closing": "Unser Service unterstützt Sie bei beiden Vorgängen schnell und professionell!"
     },
-    "question4": {
-      "title": "Was kostet Auto anmelden mit Nummernschildern?",
-      "intro": "Die Kosten für die KFZ-Anmeldung mit Nummernschildern setzen sich aus mehreren Komponenten zusammen:",
-      "fees": {
-        "title": "Behördengebühren:",
-        "registration": "Zulassung des Fahrzeugs: ca. 26-30 Euro",
-        "certificate": "Ausstellen des Fahrzeugscheins: ca. 11 Euro",
-        "reservation": "Kennzeichenreservierung (optional): ca. 2,60-12,80 Euro"
-      },
-      "plates": {
-        "title": "Kennzeichen:",
-        "standard": "Standard-Nummernschilder: ca. 20-30 Euro (beide Schilder)",
-        "custom": "Wunschkennzeichen: zusätzliche Gebühr ca. 10-13 Euro"
-      },
-      "additional": {
-        "title": "Zusätzliche Kosten:",
-        "sticker": "Feinstaubplakette: ca. 5-10 Euro",
-        "insurance": "KFZ-Versicherung (variiert je nach Fahrzeug und Versicherungsumfang)"
-      },
-      "total": {
-        "title": "Gesamt:",
-        "text": "Die Anmeldekosten liegen typischerweise zwischen 60-100 Euro, abhängig von den individuellen Anforderungen."
-      },
-      "closing": "Mit unserem Express Service erhalten Sie ein transparentes Komplettpaket inklusive professioneller Abwicklung!"
-    },
     "question5": {
       "title": "Was zuerst Kennzeichen oder Zulassung?",
       "principle": {
@@ -300,10 +275,9 @@
       },
       "process": {
         "title": "Der übliche Ablauf:",
-        "step1": "Sie gehen zur Zulassungsstelle mit allen erforderlichen Unterlagen",
-        "step2": "Die Zulassungsstelle prüft Ihre Unterlagen und führt die Zulassung durch",
-        "step3": "Nach erfolgreicher Zulassung erhalten Sie die Zulassungsplakette und den Stempel",
-        "step4": "Mit diesen Dokumenten können Sie die Kennzeichen prägen lassen (bei uns oder einem Schilderdienst)"
+        "step1": "Sie gehen zur Kfz Zulassungs Expres mit allen erforderlichen Unterlagen",
+        "step2": "Die Mitarbeiter prüfen Ihre Unterlagen und führen die Zulassung durch",
+        "step3": "Nach erfolgreicher Zulassung erhalten Sie die Kfz Schilder mit allen notwendigen Unterlagen."
       },
       "alternative": {
         "title": "Moderne Alternative:",
@@ -424,14 +398,6 @@
         "plates": {
           "title": "Beide Kennzeichen:",
           "text": "Vorderes und hinteres Nummernschild müssen abgegeben werden"
-        },
-        "id": {
-          "title": "Personalausweis oder Reisepass:",
-          "text": "Gültiges Ausweisdokument des Fahrzeughalters"
-        },
-        "vollmacht": {
-          "title": "Vollmacht:",
-          "text": "Falls Sie die Abmeldung durch eine andere Person durchführen lassen"
         }
       },
       "notes": {

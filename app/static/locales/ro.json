@@ -232,8 +232,8 @@
         "text": "Contactați asigurarea auto și obțineți numărul eVB"
       },
       "step3": {
-        "title": "Vizitați biroul de înmatriculare:",
-        "text": "Mergeți la biroul de înmatriculare responsabil sau folosiți serviciul nostru Express"
+        "title": "Contactați Kfz Zulassungs express:",
+        "text": "Folosiți serviciul nostru Express"
       },
       "step4": {
         "title": "Finalizați înmatricularea:",
@@ -245,7 +245,7 @@
       },
       "closing": {
         "bold": "Cu serviciul nostru Express:",
-        "text": "Ne dați documentele și ne ocupăm de tot pentru dvs. în cel mai scurt timp – la nivel național și fără programare!"
+        "text": "Ne dați documentele și ne ocupăm de tot pentru dvs. în cel mai scurt timp – la nivel național și fără programare! În principiu: Înmatricularea vine prima, apoi primiți plăcuțele."
       }
     },
     "question3": {
@@ -266,31 +266,6 @@
       },
       "closing": "Serviciul nostru vă sprijină la ambele procese rapid și profesional!"
     },
-    "question4": {
-      "title": "Cât costă să înmatriculezi o mașină cu plăcuțe?",
-      "intro": "Costurile pentru înmatricularea vehiculului cu plăcuțe constau din mai multe componente:",
-      "fees": {
-        "title": "Taxe guvernamentale:",
-        "registration": "Înmatricularea vehiculului: aproximativ 26-30 euro",
-        "certificate": "Eliberarea certificatului de înmatriculare: aproximativ 11 euro",
-        "reservation": "Rezervarea plăcuțelor (opțional): aproximativ 2,60-12,80 euro"
-      },
-      "plates": {
-        "title": "Plăcuțe de înmatriculare:",
-        "standard": "Plăcuțe standard: aproximativ 20-30 euro (ambele plăcuțe)",
-        "custom": "Plăcuțe personalizate: taxă suplimentară aproximativ 10-13 euro"
-      },
-      "additional": {
-        "title": "Costuri suplimentare:",
-        "sticker": "Vinieta de emisii: aproximativ 5-10 euro",
-        "insurance": "Asigurare auto (variază în funcție de vehicul și acoperire)"
-      },
-      "total": {
-        "title": "Total:",
-        "text": "Costurile de înmatriculare variază de obicei între 60-100 euro, în funcție de cerințele individuale."
-      },
-      "closing": "Cu serviciul nostru Express primiți un pachet complet transparent care include gestionarea profesională!"
-    },
     "question5": {
       "title": "Ce vine mai întâi, plăcuțele sau înmatricularea?",
       "principle": {
@@ -299,10 +274,9 @@
       },
       "process": {
         "title": "Procesul obișnuit:",
-        "step1": "Mergeți la biroul de înmatriculare cu toate documentele necesare",
-        "step2": "Biroul de înmatriculare verifică documentele și finalizează înmatricularea",
-        "step3": "După înmatricularea reușită, primiți sigiliul și ștampila de înmatriculare",
-        "step4": "Cu aceste documente puteți face plăcuțele (la noi sau la un serviciu de plăcuțe)"
+        "step1": "Mergeți la Kfz Zulassungs Express cu toate documentele necesare",
+        "step2": "Personalul verifică documentele și finalizează înmatricularea",
+        "step3": "După înmatricularea reușită, primiți plăcuțele Kfz cu toate documentele necesare."
       },
       "alternative": {
         "title": "Alternativa modernă:",
@@ -423,14 +397,6 @@
         "plates": {
           "title": "Ambele plăcuțe:",
           "text": "Plăcuțele din față și din spate trebuie returnate"
-        },
-        "id": {
-          "title": "Carte de identitate sau pașaport:",
-          "text": "Document de identificare valid al proprietarului vehiculului"
-        },
-        "vollmacht": {
-          "title": "Împuternicire:",
-          "text": "Dacă radierea este efectuată de o altă persoană"
         }
       },
       "notes": {
