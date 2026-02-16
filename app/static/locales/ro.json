@@ -266,27 +266,7 @@
       },
       "closing": "Serviciul nostru vă sprijină la ambele procese rapid și profesional!"
     },
-    "question5": {
-      "title": "Ce vine mai întâi, plăcuțele sau înmatricularea?",
-      "principle": {
-        "title": "În principiu:",
-        "text": "Înmatricularea vine prima, apoi primiți plăcuțele."
-      },
-      "process": {
-        "title": "Procesul obișnuit:",
-        "step1": "Mergeți la Kfz Zulassungs Express cu toate documentele necesare",
-        "step2": "Personalul verifică documentele și finalizează înmatricularea",
-        "step3": "După înmatricularea reușită, primiți plăcuțele Kfz cu toate documentele necesare."
-      },
-      "alternative": {
-        "title": "Alternativa modernă:",
-        "text": "Puteți face plăcuțele în avans la un serviciu de plăcuțe și le puteți ștampila direct la înmatriculare. Acest lucru economisește timp!"
-      },
-      "service": {
-        "title": "Cu serviciul nostru Express:",
-        "text": "Ne ocupăm de tot – de la înmatriculare până la plăcuțele finite și ștampilate. Primiți vehiculul dvs. gata de drum!"
-      }
-    },
+    
     "question6": {
       "title": "Este permis să conduci la biroul de înmatriculare fără plăcuțe?",
       "answer": "Nu, în general conducerea fără plăcuțe nu este permisă și poate fi amendată.",
@@ -311,7 +291,7 @@
       },
       "recommendation": {
         "title": "Recomandare:",
-        "text": "Folosiți o plăcuță temporară sau serviciul nostru Express. Ridicăm vehiculul dvs. și îl returnăm înmatriculat cu toate plăcuțele – legal și sigur!"
+        "text": "Folosește o plăcuță temporară sau Serviciul nostru Express. Ne ocupăm de documentele tale și gestionăm pentru tine înmatricularea cu toate plăcuțele – rapid și fără stres!"
       }
     },
     "question7": {
@@ -402,7 +382,7 @@
       "notes": {
         "title": "Note importante:",
         "brief": "Cartea de identitate a vehiculului (Zulassungsbescheinigung Teil II) nu este necesară pentru radiere",
-        "costs": "Radierea este gratuită sau costă doar câțiva euro (aproximativ 5-10 euro în funcție de biroul de înmatriculare)",
+
         "insurance": "După radiere trebuie să informați asigurarea auto",
         "traffic": "Vehiculul nu mai poate fi utilizat în traficul public după radiere"
       },
@@ -513,8 +493,8 @@
     "company_name": "KFZ-Zulassungsexpress",
     "content": [
       "Lightning Dynamics UG (cu răspundere limitată)",
-      "Director general: Aleyna Simsek",
-      "Bannweideweg 8,",
+      "Director general: Arifemin Simsek",
+      "Am alten Güterbahnhof 24,",
       "76646 Bruchsal",
       "Înregistrare în registrul comerțului:",
       "Tribunalul districtual Mannheim, HRB 751377",

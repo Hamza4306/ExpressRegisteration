@@ -266,27 +266,7 @@
       },
       "closing": "Il nostro servizio ti supporta in entrambi i processi in modo rapido e professionale!"
     },
-    "question5": {
-      "title": "Cosa viene prima, le targhe o l'immatricolazione?",
-      "principle": {
-        "title": "In linea di principio:",
-        "text": "L'immatricolazione avviene per prima, poi si ricevono le targhe."
-      },
-      "process": {
-        "title": "Il processo abituale:",
-        "step1": "Ti rechi da Kfz Zulassungs Express con tutti i documenti necessari",
-        "step2": "Il personale verifica i documenti e completa l'immatricolazione",
-        "step3": "Dopo l'immatricolazione avvenuta con successo, ricevi le targhe Kfz con tutti i documenti necessari."
-      },
-      "alternative": {
-        "title": "Alternativa moderna:",
-        "text": "Puoi far stampare le targhe in anticipo presso un servizio targhe e farle timbrare direttamente durante l'immatricolazione. Questo fa risparmiare tempo!"
-      },
-      "service": {
-        "title": "Con il nostro servizio Express:",
-        "text": "Ci occupiamo di tutto – dall'immatricolazione alle targhe finite e timbrate. Ricevi il tuo veicolo pronto per la strada!"
-      }
-    },
+   
     "question6": {
       "title": "È consentito guidare fino all'ufficio immatricolazioni senza targhe?",
       "answer": "No, guidare senza targhe generalmente non è consentito e può essere multato.",
@@ -311,7 +291,7 @@
       },
       "recommendation": {
         "title": "Raccomandazione:",
-        "text": "Utilizza una targa temporanea o il nostro servizio Express. Ritiriamo il tuo veicolo e lo riportiamo immatricolato con tutte le targhe – legale e sicuro!"
+        "text": "Usa una targa temporanea oppure il nostro Servizio Express. Ci occupiamo dei tuoi documenti e gestiamo per te l’immatricolazione con tutte le targhe – veloce e senza stress!"
       }
     },
     "question7": {
@@ -402,7 +382,7 @@
       "notes": {
         "title": "Note importanti:",
         "brief": "Il libretto di circolazione (Zulassungsbescheinigung Teil II) non è necessario per la radiazione",
-        "costs": "La radiazione è gratuita o costa solo pochi euro (circa 5-10 euro a seconda dell'ufficio)",
+
         "insurance": "Dopo la radiazione devi informare la tua assicurazione auto",
         "traffic": "Il veicolo non può più essere utilizzato nel traffico pubblico dopo la radiazione"
       },
@@ -513,8 +493,8 @@
     "company_name": "KFZ-Zulassungsexpress",
     "content": [
       "Lightning Dynamics UG (a responsabilità limitata)",
-      "Amministratore delegato: Aleyna Simsek",
-      "Bannweideweg 8,",
+      "Amministratore delegato: Arifemin Simsek",
+      "Am alten Güterbahnhof 24,",
       "76646 Bruchsal",
       "Iscrizione nel registro delle imprese:",
       "Tribunale di Mannheim, HRB 751377",

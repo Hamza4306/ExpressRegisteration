@@ -266,27 +266,6 @@
       },
       "closing": "Our service supports you with both processes quickly and professionally!"
     },
-    "question5": {
-      "title": "What comes first, license plates or registration?",
-      "principle": {
-        "title": "Basically:",
-        "text": "Registration comes first, then you receive the license plates."
-      },
-      "process": {
-        "title": "The usual process:",
-        "step1": "You go to Kfz Zulassungs Express with all required documents",
-        "step2": "The staff checks your documents and completes the registration",
-        "step3": "After successful registration, you receive the Kfz plates with all necessary documents."
-      },
-      "alternative": {
-        "title": "Modern alternative:",
-        "text": "You can have license plates made in advance at a license plate service and have them stamped directly during registration. This saves time!"
-      },
-      "service": {
-        "title": "With our Express Service:",
-        "text": "We take care of everything – from registration to finished, stamped license plates. You get your road-ready vehicle back!"
-      }
-    },
     "question6": {
       "title": "Is it allowed to drive to the registration office without license plates?",
       "answer": "No, driving without license plates is generally not allowed and can be fined.",
@@ -311,7 +290,7 @@
       },
       "recommendation": {
         "title": "Recommendation:",
-        "text": "Use a short-term license plate or our Express Service. We pick up your vehicle and return it registered with all license plates – legal and safe!"
+        "text": "Use a short-term license plate or our Express Service. We take care of your documents and handle the registration with all license plates for you – fast and hassle-free!"
       }
     },
     "question7": {
@@ -402,7 +381,7 @@
       "notes": {
         "title": "Important notes:",
         "brief": "The vehicle title (Zulassungsbescheinigung Teil II) is not required for deregistration",
-        "costs": "Deregistration is free or costs only a few euros (approx. 5-10 euros depending on registration office)",
+
         "insurance": "After deregistration, you must inform your car insurance",
         "traffic": "The vehicle may not be moved in public traffic after deregistration"
       },
@@ -513,8 +492,8 @@
     "company_name": "KFZ-Zulassungsexpress",
     "content": [
       "Lightning Dynamics UG (limited liability)",
-      "Managing Director: Aleyna Simsek",
-      "Bannweideweg 8,",
+      "Managing Director: Arifemin Simsek",
+      "Am alten Güterbahnhof 24,",
       "76646 Bruchsal",
       "Entry in the commercial register:",
       "District Court of Mannheim, HRB 751377",
